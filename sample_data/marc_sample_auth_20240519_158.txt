@@ -1,0 +1,3352 @@
+00870cx  a2200265   4500
+001 1325
+003 http://catalogue.bnf.fr/ark:/12148/cb14508222c
+005 20240511073658.0
+010    $a 0000000050614298 $2 VIAF $d 20130801
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14508222c
+035    $a FRBNF145082227
+100    $a 20031121afrey50      ba0
+101    $a fre $t eng
+102    $a FR
+103    $a  19..      ....     
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Bouchony $b Étienne de
+300 0  $a Traducteur d'ouvrages pour la jeunesse
+400    $7 ba0yba0y $8 fre    $9     $a De Bouchony $b Étienne
+801    $a FR $b FR-751131015 $c 20031121
+810    $a Guéris vite, petit dinosaure ! / Jane Yolen ; ill. par Mark Teague ; [trad. de l'anglais par Étienne de Bouchony], 2003
+999    $a FRBNF145082227 $b 14508222
+152    $b NP
+
+01583cx  a2200337   4500
+001 2639
+003 http://catalogue.bnf.fr/ark:/12148/cb13951368v
+005 20240511060319.0
+010    $a 0000000374473567 $2 ISNI $d 20240131
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13951368v
+035    $a FRBNF139513687
+100    $a 19921223afrey50      ba0
+101    $a pol
+102    $a PL
+103    $a  19520426  20240119 
+105    $a i
+106    $a 010
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Podleś $b Ewa $f 1952-2024
+300    $a Artiste lyrique (contralto)
+300    $a Épouse du pianiste Jerzy Marchwinski (1935-2023)
+301    $a Varsovie (Pologne) $b Varsovie (Pologne)
+686    $a 780 $c Musique $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20240208
+810    $a Ewa Podleś, contralto assoluto / Brigitte Cormier, 2014 $a Les 19 mélodies opus 74 [Enregistrement sonore] / Chopin, comp. ; [...] Ewa Podles, MS... [et al.]. Forlane 16795
+810    $a Grove music online - http://www.grovemusic.com (2002-03-01) $a VIAF - http://viaf.org/viaf/51881041 (2016-02-11) $a Wyborcza - https://wyborcza.pl (2024-01-20) $a Bibliothèque nationale, catalogue, Pologne - https://www.bn.org.pl/en (2024-02-08)
+810    $a BnF Service Littératures du monde (polonais), 2024-01-20
+856    $u http://www.podles.pl/ $e 2006-12-15
+856    $u http://www.grovemusic.com $e 2002-03-01 $u http://viaf.org/viaf/51881041 $e 2016-02-11 $u https://wyborcza.pl/ $e 2024-01-20 $u https://www.bn.org.pl/en $e 2024-02-08
+999    $a FRBNF139513687 $b 13951368
+
+00668nx  a2200241   4500
+001 3943
+003 http://catalogue.bnf.fr/ark:/12148/cb12357402g
+005 20240512064518.0
+010    $a 0000000006483569 $2 ISNI $d 20150312
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12357402g
+035    $a FRBNF12357402X
+039    $o OPL $a 009549242
+100    $a 19940103afrey50      ba0
+101    $a fre
+102    $a FR
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Righi $b Dominique
+300 0  $a Documentaliste
+801    $a FR $b FR-751131015 $c 19940103
+810    $a Animer une BCD / Dominique Righi, 1993
+999    $a FRBNF12357402X $b 12357402
+152    $b NP
+
+00805cx  a2200265   4500
+001 5230
+003 http://catalogue.bnf.fr/ark:/12148/cb118955693
+005 20240509062955.0
+010    $a 0000000029998995 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb118955693
+035    $a FRBNF118955691
+039    $o OPL $a 000574778
+100    $a 19770606afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  1944               
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Cattan $b Geneviève $f 1944-....
+300 0  $a Traduit aussi de l'italien en français
+300 0  $a Journaliste
+801    $a FR $b FR-751131015 $c 19890131
+810    $a Tous les enfants peuvent réussir / A. de la Garanderie, G. Cattan, 1988
+999    $a FRBNF118955691 $b 11895569
+152    $b NP
+
+00916cx  a2200313   4500
+001 6527
+003 http://catalogue.bnf.fr/ark:/12148/cb12404025f
+005 20240518074226.0
+010    $a 0000000055113521 $2 VIAF $d 20131024
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12404025f
+035    $a FRBNF124040253
+039    $o OPL $a 010349299
+039    $o OPP $a 14785936 $d 20060724
+100    $a 19940614afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19450209           
+105    $a a $a i $c s $d g
+106    $a 010
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Lenorman $b Gérard $f 1945-....
+300    $a Chanteur de variétés
+301    $a Benouville (Calvados)
+686    $a 780 $c Musique $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20060724
+810    $a Gérard Lenorman / E. Chandet, 1975
+810    $a Quid 1993
+999    $a FRBNF124040253 $b 12404025
+152    $b NP
+
+01081cx  a2200277   4500
+001 7963
+003 http://catalogue.bnf.fr/ark:/12148/cb139623162
+005 20240519020327.0
+010    $a 0000000115978755 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb139623162
+035    $a FRBNF139623169
+100    $a 19940304afrey50      ba0
+102    $a AR
+103    $a  19501115           
+105    $a i $a p
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Garrido $b Gabriel $f 1950-....
+300 0  $a Chef d'orchestre et musicologue. - Fondateur de l'Ensemble Elyma
+510    $5 xxxz $0 Dirige :  $3 13962312 $7 ba0yba0y $8 fre    $9 20  $a Elyma
+801    $a FR $b FR-751131015 $c 20121115
+810    $a Concert classique [Enregistrement sonore] / Juan de Araujo, Domenico Zipoli, Tomas de Torrejón y Velasco, Diego José de Salazar, comp. ; Gabriel Garrido, dir. RFI musique 93MCC05
+810    $a LC authorities - http://authorities.loc.gov (2009-01-20)
+856    $u http://authorities.loc.gov $e 2009-01-20
+999    $a FRBNF139623169 $b 13962316
+
+01430cx  a2200385   4500
+001 9357
+003 http://catalogue.bnf.fr/ark:/12148/cb13091411f
+005 20240516071857.0
+010    $a 0000000115561749 $2 VIAF $d 20130730
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13091411f
+035    $a FRBNF13091411X
+039    $o OPL $a 001580556 $z AMA
+039    $o OPL $a 000676879 $z APP
+039    $o OPP $a 14301451 $d 20090525
+039    $o OPP $a 14857355 $d 20090525
+039    $o OPP $a 16340141 $d 20201107
+100    $a 19761123afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  18940420  19780412 
+105    $a a $a p
+106    $a 010
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Delteil $b Joseph $f 1894-1978
+300    $a Homme de lettres
+301    $a Villar en Val (Aude) $b Grabels (Hérault)
+400    $7 ba0yba0y $8 fre    $9     $a Deltel $b J. $f 1894-1878
+400    $7 ba0yba0y $8 fre    $9     $a Delteil $b Josèp $f 1894-1978
+686    $a 800 $c Histoire et critique littéraires $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20201107
+810    $a La Deltheillerie / Joseph Delteil, 1968 $a Le coeur grec / J. Deltel, 1919 $a Francès d'Assisi / Josèp Delteil ; tornat a l'occitan per Juli Plancada e Joan Larzac, 1978
+810    $a GDEL $a Beaumarchais $a Qui était qui, XXe siècle, 2005
+810    $a BN Cat. gén. 1960-1969 : Delteil (Joseph)
+999    $a FRBNF13091411X $b 13091411
+152    $b NP
+
+00982cx  a2200277   4500
+001 10667
+003 http://catalogue.bnf.fr/ark:/12148/cb142357731
+005 20240513043059.0
+010    $a 0000000055196275 $2 VIAF $d 20130801
+033    $a http://catalogue.bnf.fr/ark:/12148/cb142357731
+035    $a FRBNF142357732
+100    $a 20030310afrey50      ba0
+102    $a AR
+103    $a  19520509           
+105    $a i
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Varela $b Adriana $f 1952-....
+300 0  $a Chanteuse de tango
+301    $a Buenos Aires
+801    $a FR $b FR-751131015 $c 20140827
+810    $a Passion [Enregistrement sonore] / Cristina Branco, Adriana Varela, Nava, chant... [et al.]. World Music Network RGNET  1081 CD
+810    $a El Porvenir - http://www.elporvenir.com.mx/notas.asp?nota_id=215490 (20140827)
+856    $u http://www.elporvenir.com.mx/notas.asp?nota_id=215490 $e 20140827
+999    $a FRBNF142357732 $b 14235773
+
+01273cx  a2200313   4500
+001 12005
+003 http://catalogue.bnf.fr/ark:/12148/cb13900572c
+005 20240514055135.0
+010    $a 0000000120211823 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13900572c
+035    $a FRBNF139005728
+100    $a 19890601afrey50      ba0
+102    $a GB
+103    $a  19450309           
+105    $a i
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Trower $b Robin $f 1945-....
+300 0  $a Chanteur et guitariste de rock
+510    $5 xxxk $0 Membre de :  $3 13905909 $a Procol harum
+510    $5 xxxk $0 Membre de :  $3 13905654 $a The Paramounts $p 1959-1966
+510    $5 xxxk $0 Membre de :  $3 13906197 $a Robin Trower
+686    $a 780 $c Musique $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20101119
+810    $a Bridge of sighs [Enregistrement sonore] / Robin Trower, guit. électr., chant. Chrysalis NL37734
+810    $a Rate your music [Né à Catford] - http://www.rateyourmusic.com (2010-11-17) $a All Music Guide [Né à Londres] - http://www.allmusic.com (2000-04-07)
+856    $u http://www.rateyourmusic.com/ $e 2010-11-17 $u http://www.allmusic.com/ $e 2000-04-07
+999    $a FRBNF139005728 $b 13900572
+
+01218cx  a2200265   4500
+001 13476
+003 http://catalogue.bnf.fr/ark:/12148/cb11892030z
+005 20240518063435.0
+010    $a 0000000121326024 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11892030z
+035    $a FRBNF118920306
+039    $o OPL $a 000482582
+100    $a 19800321afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  1950               
+105    $a a $a p
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Bihr $b Alain $f 1950-....
+300 0  $a Docteur en sociologie. - Il enseigne la philosophie dans un lycée strasbourgeois (en 1991). - Professeur de sociologie, membre du Laboratoire de sociologie et d'anthropologie de l'Université de Franche-Comté (en 2004)
+801    $a FR $b FR-751131015 $c 20091021
+810    $a Du grand soir à l'alternative, le mouvement ouvrier européen / Alain Bihr, 1991 $a Les rapports intergénérationnels en France et au Japon / ouvrage coordonné par Alain Bihr et Naoko Tanasawa, 2004 $a La reproduction du Capital [Images animées] / Maria Koleva, réal. ; Alain Bihr, participant. M. Koleva films, 2009
+999    $a FRBNF118920306 $b 11892030
+152    $b NP
+
+01818cx  a2200409   4500
+001 14814
+003 http://catalogue.bnf.fr/ark:/12148/cb138941033
+005 20240517062556.0
+010    $a 0000000114792908 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb138941033
+035    $a FRBNF138941037
+039    $o OPL $a 011770269 $z AMA
+039    $o OPP $a 14679840 $d 20060502
+039    $o OPP $a 14785114 $d 20060502
+039    $o OPP $a 14679745 $d 20060502
+039    $o OPP $a 14892958 $d 20070117
+039    $o OPP $a 14989354 $d 20070607
+039    $o OPP $a 14989392 $d 20070607
+039    $o OPP $a 16353277 $d 20131129
+039    $o OPP $a 16813035 $d 20170609
+100    $a 19890601afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19120523  19970925 
+105    $a a $a i $a p
+106    $a 010
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Françaix $b Jean $f 1912-1997
+300    $a Compositeur et pianiste
+301    $a Le Mans (Sarthe) $b Paris
+686    $a 780 $c Musique $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20170609
+810    $a La princesse de Clèves [Musique imprimée] : opéra en 4 actes / musique de Jean Françaix ; livret tiré du roman de Madame Lafayette par Jean Françaix et Marc Lanjean, [1994]
+810    $a Commémorations nationales : 2012 / Archives de France, 2011 $a Grove Music Online. In : Oxford Music Online, Oxford, UK : Françaix, Jean René Désiré - http://www.oxfordmusiconline.com/subscriber (2012-02-06) $a Grove 6 $a Monde, 1997-10-02 $a Honegger 1993 $a Qui était qui, XXe s. / Béatrice et Michel Wattel, 2005 $a WW, France 1959-1960 $a Les musiques du cinéma français / Alain Lacombe ; François Porcile, 1995
+856    $u http://www.oxfordmusiconline.com/subscriber/ $e 2012-02-06
+999    $a FRBNF138941037 $b 13894103
+152    $b NP
+
+01272cx  a2200313   4500
+001 16239
+003 http://catalogue.bnf.fr/ark:/12148/cb11902741v
+005 20240518070104.0
+010    $a 0000000453028461 $2 ISNI $d 20161108
+010    $y 0000000108877219 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11902741v
+035    $a FRBNF119027418
+039    $o OPL $a 00076298X
+039    $o OPP $a 15287027 $d 20110526
+100    $a 19790216afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19410101           
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Fierro $b Alfred $f 1941-....
+300 0  $a Archiviste-paléographe et docteur en histoire. - Conservateur en chef honoraire de la Bibliothèque nationale de France et de la Bibliothèque historique de la ville de Paris (en 2005)
+400    $7 ba0yba0y $8 fre    $9     $a Fierro-Domenech $b Alfred $f 1941-....
+400    $7 ba0yba0y $8 fre    $9     $a Domenech $b Alfred Fierro- $f 1941-....
+801    $a FR $b FR-751131015 $c 20110526
+810    $a Bibliographie analytique des biographies collectives imprimées de la France contemporaine : 1789-1985 / A. Fierro, 1986 $a Paris au jour le jour / Alfred Fierro, DL 2005
+999    $a FRBNF119027418 $b 11902741
+152    $b NP
+
+01413cx  a2200301   4500
+001 17696
+003 http://catalogue.bnf.fr/ark:/12148/cb13959235j
+005 20240515043934.0
+010    $a 0000000107203861 $2 ISNI $d 20150313
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13959235j
+035    $a FRBNF139592357
+100    $a 19931029afrey50      ba0
+102    $a GB
+103    $a  1988               
+105    $a i $a a $a p $c s $d g
+106    $a 010
+150    $a y $b v8  
+152    $c 2 $b CO
+210    $7 ba0yba0y $8 fre    $9 20  $a Paradise lost
+300    $a Groupe de rock heavy metal. - À choisi son nom en hommage au poème épique le Paradis perdu de l'auteur John Milton (1562-1647)
+303    $a Halifax (Angleterre)
+307    $a Holmes, Nick, chant $a Mackintosh, Gregor, guitare électrique $a Aedy, Aaron, guitare rhythmique $a Edmondson, Stephen, guitare basse $a Archer, Matthew, percussions, batterie $a Morris, Lee, batterie
+801    $a FR $b FR-751131015 $c 20160307
+810    $a Host [Enregistrement sonore]. EMI 4999472
+810    $a Allmusic.com - http://www.allmusic.com/artist/paradise-lost-p13905 (2012-01-16) $a Discogs - http://www.discogs.com/artist/Paradise+Lost (2012-01-16)
+856    $u http://www.paradiselost.co.uk $e 2005-03-23
+856    $u http://www.allmusic.com/artist/paradise-lost-p13905 $e 2012-01-16 $u http://www.discogs.com/artist/Paradise+Lost $e 2012-01-16
+999    $a FRBNF139592357 $b 13959235
+
+00555cx  a2200193   4500
+001 19126
+003 http://catalogue.bnf.fr/ark:/12148/cb11941099t
+005 20240515042404.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11941099t
+035    $a FRBNF11941099X
+039    $o OPL $a 001644101
+100    $a 19810901afrey50      ba0
+106    $a 200
+152    $b SNG $c 2
+159    $a rameau
+215    $7 ba0yba0y $8 fre    $9     $a Fresnes (Val-de-Marne, France)
+801    $a FR $b FR-751131015 $c 19891212
+810    $a Dict. communes, 1984
+999    $a FRBNF11941099X $b 11941099
+
+02464cx  a2200505   4500
+001 20649
+003 http://catalogue.bnf.fr/ark:/12148/cb126479296
+005 20240518062455.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb126479296
+035    $a FRBNF126479295
+039    $o OPL $a 001597114
+039    $o OPL $a 002428487
+039    $o OPP $a 12003640 $d 20121126
+100    $a 19810414afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Illustrations $x Interprétation
+450    $7 ba0yba0y $8 fre    $9     $a Analyse de l'image
+450    $7 ba0yba0y $8 fre    $9     $a Iconicité
+450    $7 ba0yba0y $8 fre    $9     $a Iconologie
+450    $7 ba0yba0y $8 fre    $9     $a Illustrations, images, etc. $x Interprétation
+450    $7 ba0yba0y $8 fre    $9     $a Images $x Analyse
+450    $7 ba0yba0y $8 fre    $9     $a Images $x Interprétation
+450    $7 ba0yba0y $8 fre    $9     $a Interprétation de l'image
+450    $7 ba0yba0y $8 fre    $9     $a Sémiologie de l'image
+450    $7 ba0yba0y $8 fre    $9     $a Sémiologie visuelle
+450    $7 ba0yba0y $8 fre    $9     $a Sémiotique de l'image
+450    $7 ba0yba0y $8 fre    $9     $a Sémiotique visuelle
+550    $5 z $0 Voir aussi $3 15947207 $7 ba0yba0y $8 fre    $9     $a Éducation à l'image
+550    $5 z $0 Voir aussi $3 11965165 $7 ba0yba0y $8 fre    $9     $a Langage publicitaire
+550    $5 z $0 Voir aussi $3 17702035 $7 ba0yba0y $8 fre    $9     $a Littératie visuelle
+550    $5 z $0 Voir aussi $3 11940675 $7 ba0yba0y $8 fre    $9     $a Sémiotique et art
+550    $5 z $0 Voir aussi $3 12066930 $7 ba0yba0y $8 fre    $9     $a Sémiotique et audiovisuel
+550    $5 z $0 Voir aussi $3 11965199 $7 ba0yba0y $8 fre    $9     $a Sémiotique et cinéma
+550    $5 z $0 Voir aussi $3 12148682 $7 ba0yba0y $8 fre    $9     $a Sémiotique et photographie
+550    $5 h $3 18038836 $7 ba0yba0y $8 fre    $9     $a Culture visuelle
+550    $5 g $3 12048371 $7 ba0yba0y $8 fre    $9     $a Perception des images
+686    $a 401 $2 Note de regroupement par domaine
+686    $a 740 $c Dessin, arts décoratifs, artisanat d'art $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20210920
+822 12 $a Picture interpretation $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85102003 $d 2021-09-20
+822 12 $a Illustrations, images, etc. -- Interprétation $2 RVMLaval $d 2021-09-20
+822 14 $a Iconicity (Linguistics) $2 LCSH $u http://id.loc.gov/authorities/subjects/sh98001390 $d 2021-09-20
+999    $a FRBNF126479295 $b 12647929
+
+01225cx  a2200277   4500
+001 22170
+003 http://catalogue.bnf.fr/ark:/12148/cb12302385g
+005 20240505052714.0
+010    $a 0000000001730452 $2 VIAF $d 20130726
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12302385g
+035    $a FRBNF123023856
+039    $o OPL $a 008840348
+100    $a 19930326afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19510623  200706   
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Nicoloyannis $b Nicolas $f 1951-2007
+300 0  $a Professeur des Universités et directeur du laboratoire ERIC, Équipe de recherche en ingénierie des connaissances de l'Université Lyon II. - Docteur en informatique et analyse des données (Lyon I, 1988)
+801    $a FR $b FR-751131015 $c 20070713
+810    $a Structures prétopologiques et classification automatique : le logiciel DEMON / Nicolas Nicoloyannis, 1988 [thèse] $a Intelligence artificielle et sciences humaines : [colloque, Bron, juin 1991] / [organisé par l'AIDRI] ; textes réunis par Marcel Brissaud, Marc Grange, Nicolas Nicoloyannis, 1991
+810    $a Monde, 2007-06-21
+999    $a FRBNF123023856 $b 12302385
+152    $b NP
+
+00975nx  a2200241   4500
+001 23717
+003 http://catalogue.bnf.fr/ark:/12148/cb12426254g
+005 20240505054219.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12426254g
+035    $a FRBNF124262542
+039    $o OPL $a 01061365X
+100    $a 19941027afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Dispute de Barcelone (1263)
+450    $7 ba0yba0y $8 fre    $9   2 $a Barcelone, Disputation de (1263)
+550    $5 g $3 11965577 $7 ba0yba0y $8 fre    $9     $a Disputations religieuses
+550    $5 g $3 11978845 $7 ba0yba0y $8 fre    $9     $a Christianisme $x Relations -- Judaïsme
+550    $5 g $3 11947627 $7 ba0yba0y $8 fre    $9     $a Judaïsme $x Relations -- Christianisme
+801    $a FR $b FR-751131015 $c 19941027
+822 1  $a Barcelona Disputation, Barcelona, Spain, 1263 $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85011816 $d 2017-02-09
+999    $a FRBNF124262542 $b 12426254
+
+01129cx  a2200349   4500
+001 25014
+003 http://catalogue.bnf.fr/ark:/12148/cb120799387
+005 20240515065324.0
+010    $a 000000012131017X $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb120799387
+035    $a FRBNF120799388
+039    $o OPL $a 004075356
+039    $o OPP $a 10930552 $d 20220201
+039    $o OPP $a 11496813 $d 20220624
+100    $a 19880712afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19220502  20220524 
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Aftalion $b Fred $f 1922-2022
+300 0  $a Ingénieur-chimiste
+301    $a Paris (8e) $b Paris (14e)
+400    $7 ba0yba0y $8 fre    $9     $a Aftalion $b Alfred
+801    $a FR $b FR-751131015 $c 20220624
+810    $a Histoire de la chimie / F. Aftalion, 1988
+810    $a WW, France 1987-1988 $a INSEE, Fichier des décès - https://deces.matchid.io/search (2022-06-24)
+810    $a BN Cat. gén. 1960-1969
+856    $u https://deces.matchid.io/search $e 2022-06-24
+999    $a FRBNF120799388 $b 12079938
+152    $b NP
+
+01600cx  a2200373   4500
+001 26493
+003 http://catalogue.bnf.fr/ark:/12148/cb11908286w
+005 20240505072119.0
+010    $a 000000011042207X $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11908286w
+035    $a FRBNF11908286X
+039    $o OPL $a 000913118
+039    $o OPP $a 10095269 $d 20140603
+039    $o OPP $a 11268000 $d 20140603
+039    $o OPP $a 16790645 $d 20191122
+039    $o OPP $a 16790646 $d 20191128
+100    $a 19770905afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19241022  20191119 
+105    $a a
+106    $a 010
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Isambert-Jamati $b Viviane $f 1924-2019
+300    $a Sociologue. - Professeur à l'Université René Descartes Paris V (en 1990). - Épouse de François-André Isambert (1924-2017). - Prénoms complets : Viviane Hélène Adrienne
+301    $a Paris, 14e arrondissement (France)
+400    $7 ba0yba0y $8 fre    $9     $a Jamati $b Viviane Isambert-
+686    $a 300 $c Sciences sociales $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20191128
+810    $a L'Industrie horlogère dans la région de Besançon / par Viviane Isambert-Jamati, 1955
+810    $a Le dictionnaire universel des créatrices / Béatrice Didier, Antoinette Fouque, Mireille Calle-Gruber, 2013 $a État civil de Paris (France). Tables décennales 1923-1932. Naissances, 14e arr., 22/10/1924 $a Le Monde, 2019-11-22 [avis de décès]
+810    $a BN Cat. gén. suppl.
+999    $a FRBNF11908286X $b 11908286
+152    $b NP
+
+01453cx  a2200301   4500
+001 28173
+003 http://catalogue.bnf.fr/ark:/12148/cb11938968h
+005 20240518043845.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11938968h
+035    $a FRBNF119389680
+039    $o OPL $a 001615683
+100    $a 19810522afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19150910           
+106    $a 210
+152    $b TU $c 2
+159    $a rameau
+230    $7 ba0yba0y $8 fre    $9     $a Le Canard enchaîné $n périodique
+300 1  $a Hebdomadaire satirique illustré, fondé à Paris en 1915 par Jeanne et Maurice Maréchal. Édité par la Société anonyme Les Éditions Maréchal-Le Canard enchaîné
+303    $a 173 rue Saint-Honoré, 75051 Paris Cedex 01. Contact : 01 42 60 31 36. Télécopie : 01 49 27 97 87
+686    $a 020 $c Sciences de l'information $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20130619
+810    $a Grand Larousse universel $a Wikipédia - https://fr.wikipedia.org (2013-06-19)
+810    $a Répertoire de la presse et des publications périodiques françaises. 1977-1978 / Bibliothèque nationale, 1981 $a Une enquête de police sur "Le Canard enchaîné" / C. Plume, X. Pasquini, 1980 $a Le Canard enchaîné - http://lecanardenchaine.fr (2013-06-19)
+856    $u https://fr.wikipedia.org $e 2013-06-19
+856    $u http://lecanardenchaine.fr $e 2013-06-19
+999    $a FRBNF119389680 $b 11938968
+
+01206cx  a2200337   4500
+001 29894
+003 http://catalogue.bnf.fr/ark:/12148/cb119289418
+005 20240516065812.0
+010    $a 0000000121020973 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb119289418
+035    $a FRBNF119289413
+039    $o OPL $a 001592964 $z AMA
+039    $o OPL $a 001477428 $z APP
+039    $o OPP $a 15490473 $d 20130808
+100    $a 19750813afrey50      ba0
+101    $a eng
+102    $a GB
+103    $a  19031028  19660410 
+105    $a a $a i $a p
+106    $a 010
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Waugh $b Evelyn $f 1903-1966
+300    $a Romancier
+301    $a Londres (Royaume-Uni) $b Taunton (Royaume-Uni)
+686    $a 800 $c Histoire et critique littéraires $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20240404
+810    $a Waugh en Abyssinie / Evelyn Waugh ; trad. de l'anglais par Béatrice Vierne, 1989
+810    $a BLNA, 1995-02 : Waugh, Evelyn, 1903-1966 $a Oxford English lit. $a Encycl. Britannica, 15th ed.
+810    $a BN Cat. gén. : Waugh (Evelyn Arthur St. John) $a BN Cat. gén. 1960-1969
+999    $a FRBNF119289413 $b 11928941
+
+00784cx  a2200241   4500
+001 31653
+003 http://catalogue.bnf.fr/ark:/12148/cb119132459
+005 20240507055028.0
+010    $a 0000000081533407 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb119132459
+035    $a FRBNF119132458
+039    $o OPL $a 00104528X
+100    $a 19810601afrey50      ba0
+101    $a fre
+102    $a FR
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Loiseaux $b Gérard
+300 0  $a Docteur en littérature française. - Attaché culturel adjoint à Los Angeles (en 1995)
+801    $a FR $b FR-751131015 $c 19960222
+810    $a La littérature de la défaite et de la collaboration / Gérard Loiseaux, 1995
+999    $a FRBNF119132458 $b 11913245
+152    $b NP
+
+00809cx  a2200253   4500
+001 33407
+003 http://catalogue.bnf.fr/ark:/12148/cb12631190d
+005 20240514043026.0
+010    $a 0000000110351232 $2 VIAF $d 20130729
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12631190d
+035    $a FRBNF12631190X
+039    $o OPL $a 001215721
+100    $a 19751127afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Petitjean $b Roger $f 19..-.... $c éditeur scientifique
+801    $a FR $b FR-751131015 $c 20110126
+810    $a L'homme en proie aux enfants / Albert Thierry ; introduit par Jean Houssaye ; présenté par Roger Petitjean, impr. 2010
+999    $a FRBNF12631190X $b 12631190
+152    $b NP
+
+01081cx  a2200325   4500
+001 35179
+003 http://catalogue.bnf.fr/ark:/12148/cb14009081q
+005 20240507063154.0
+010    $a 0000000084066787 $2 VIAF $d 20130801
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14009081q
+035    $a FRBNF140090818
+039    $o OPL $a 008962779
+039    $o OPP $a 14884801 $d 20071029
+039    $o OPP $a 16811345 $d 20160222
+100    $a 19980219afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19041206  20071022 
+105    $a a $a p
+106    $a 010
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Curie $b Ève $f 1904-2007
+300    $a Journaliste et écrivain, diplomate et pianiste. - Fille de Pierre et Marie Curie. - État-civil : Curie, Ève Denise, épouse Labouisse
+301    $a Paris
+500    $5 z $3 11978989 $7 ba0yba0y $8 fre    $9  0  $a Curie $c famille
+801    $a FR $b FR-751131015 $c 20160222
+810    $a Madame Curie / Ève Curie, 1986
+810    $a WW, France 2003-2004 $a IBN $a Monde, 2007-10-28/29
+999    $a FRBNF140090818 $b 14009081
+152    $b NP
+
+01025cx  a2200301   4500
+001 36783
+003 http://catalogue.bnf.fr/ark:/12148/cb138992178
+005 20240514055107.0
+010    $a 0000000119460750 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb138992178
+035    $a FRBNF138992170
+039    $o OPP $a 14775149 $d 20070223
+100    $a 19890601afrey50      ba0
+102    $a US
+103    $a  19551010           
+105    $a a $a i
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Roth $b David Lee $f 1955-....
+300 0  $a Chanteur de hard-rock
+301    $a Bloomington (Ind.)
+510    $5 xxxk $0 Membre de :  $3 13907276 $7 ba0yba0y $8 fre    $9 20  $a Van Halen $p 1973-1985
+801    $a FR $b FR-751131015 $c 20070223
+810    $a Crazy from the heat [Enregistrement sonore] / David Lee Roth, chant. Warner Bros 9252221
+810    $a allmusic - http://allmusic.com (2007-02-23) $a York
+856    $u http://allmusic.com $e 2007-02-23
+999    $a FRBNF138992170 $b 13899217
+
+01195cx  a2200289   4500
+001 38462
+003 http://catalogue.bnf.fr/ark:/12148/cb14559695z
+005 20240518042249.0
+010    $a 0000000003002846 $2 VIAF $d 20130802
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14559695z
+035    $a FRBNF145596958
+100    $a 20040730afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19700401  ....     
+105    $a g $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Oiry $b Stéphane $f 1970-....
+300 0  $a Dessinateur et coloriste de bandes dessinées. - Illustrateur d'ouvrages pour la jeunesse
+301    $a Nantes
+801    $a FR $b FR-751131015 $c 20060829
+810    $a Grand ménage sur les mots / Gérard Gréverand ; ill. de Stéphane Oiry, 2004 $a Le dedans des choses / scénario, Jean-Luc Cornette; dessin et couleurs, Stéphane Oiry (Les passe-murailles; tome 1), 2005
+810    $a BD paradisio - http://www.bdparadisio.com (2006-08-29) $a Ricochet - http://www.ricochet-jeunes.org (2006-08-29)
+856    $u http://www.bdparadisio.com $e 2006-08-29 $u http://www.ricochet-jeunes.org $e 2006-08-29
+999    $a FRBNF145596958 $b 14559695
+152    $b NP
+
+01156cx  a2200313   4500
+001 40182
+003 http://catalogue.bnf.fr/ark:/12148/cb13942437w
+005 20240507075820.0
+010    $a 0000000083889503 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13942437w
+035    $a FRBNF139424377
+039    $o OPP $a 13791608 $d 20100208
+039    $o OPP $a 13791607 $d 20100208
+100    $a 19910923afrey50      ba0
+101    $a eng
+102    $a US
+103    $a  18780703  19421105 
+105    $a a
+106    $a 010
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Cohan $b George Michael $f 1878-1942
+300    $a Chef d'orchestre et compositeur de chansons
+400    $7 ba0yba0y $8 fre    $9     $a Cohan $b George M. $f 1878-1942
+686    $a 780 $c Musique $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20160926
+810    $a John McCormack in American songs [Enregistrement sonore] / Ray Henderson, Frederick Knight Logan, George Michael Cohan... [et al.], comp. Pearl GEMMCD9971 $a George M. Cohan : the man who owned Broadway / John McCabe, 1980
+810    $a Kinkle
+999    $a FRBNF139424377 $b 13942437
+
+00995cx  a2200301   4500
+001 42127
+003 http://catalogue.bnf.fr/ark:/12148/cb16666677z
+005 20240507023609.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb16666677z
+035    $a FRBNF166666776
+100    $a 20130228afrey50      ba0
+101    $a kor
+102    $a KR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  1  $a Yi $b Eun-jin
+300 0  $a Auteur de livres pour enfants
+400    $7 ba0yba0y $8 fre    $9     $a Li $b Eun-jin
+400    $7 ba0yba0y $8 fre    $9     $a Lee $b Eun-jin
+400    $7 ba0yba0y $8 fre    $9     $a Eun-jin $b Yi
+700    $7 ba0yba0d $8 fre||| $9  0  $a I $b Ūn-Čin
+700    $7 ba0yka0y $8 fre||| $9  0  $a 이 $b 은진
+801    $a FR $b FR-751131015 $c 20130228
+810    $a Le chien / textes de Dreaming Green et Yi Eun-jin ; traduit du coréen par Lim Yeong-hee et Françoise Nagel, impr. 2012
+999    $a FRBNF166666776 $b 16666677
+
+01361cx  a2200265   4500
+001 43880
+003 http://catalogue.bnf.fr/ark:/12148/cb13756985z
+005 20240506070305.0
+010    $a 0000000000991239 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13756985z
+035    $a FRBNF137569858
+039    $o OPL $a 015836453
+100    $a 20011218afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Loux $b Nathalie
+300 0  $a Maître en droit et en sciences politiques, titulaire d'un 3e cycle d'administration des entreprises. - Dirigeante d'une société internationale spécialisée en management. Anime des formations sur les relations publiques et le protocole des collectivités locales pour le Centre national de la fonction publique territoriale (en 2001). - Formée aux États-Unis par le groupe Franklin Covey, le n° 1 de la gestion du temps et des priorités, consultante auprès de chefs d'entreprise (en 2005)
+801    $a FR $b FR-751131015 $c 20050830
+810    $a Le protocole dans les collectivités locales : mode d'emploi, usages et pratiques / Nathalie Loux, 2001 $a Optimiser son temps et ses priorités : conseils pratiques / par Nathalie Loux, cop. 2005
+999    $a FRBNF137569858 $b 13756985
+152    $b NP
+
+00726nx  a2200241   4500
+001 45734
+003 http://catalogue.bnf.fr/ark:/12148/cb13197137x
+005 20240511064113.0
+010    $a 0000000053406726 $2 VIAF $d 20130730
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13197137x
+035    $a FRBNF13197137X
+039    $o OPL $a 013940777
+100    $a 19980715afrey50      ba0
+101    $a fre
+102    $a FR
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Rouèche $b Arnauld
+300 0  $a Illustrateur
+801    $a FR $b FR-751131015 $c 19980715
+810    $a Contes et légendes de l'Europe médiévale / Gilles Massardier ; ill. de Arnauld Rouèche, 1998
+999    $a FRBNF13197137X $b 13197137
+152    $b NP
+
+00812nx  a2200253   4500
+001 47456
+003 http://catalogue.bnf.fr/ark:/12148/cb13524523v
+005 20240514044820.0
+010    $a 0000000001519913 $2 ISNI $d 20150312
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13524523v
+035    $a FRBNF135245238
+039    $o OPL $a 014428317
+100    $a 19990526afrey50      ba0
+101    $a dut
+102    $a NL
+105    $a a
+106    $a 1  
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Meersman $b Min de
+300 0  $a Coordinatrice d'exposition
+400    $7 ba0yba0y $8 fre    $9     $a De Meersman $b Min
+801    $a FR $b FR-751131015 $c 19990526
+810    $a Splendeurs du Maroc : [exposition, Tervuren... 1998-1999] / [catalogue par Ivo Grammet, Min De Meersman], 1998
+999    $a FRBNF135245238 $b 13524523
+
+01216cx  a2200289   4500
+001 49633
+003 http://catalogue.bnf.fr/ark:/12148/cb135326513
+005 20240507023639.0
+010    $a 0000000115915674 $2 VIAF $d 20130730
+033    $a http://catalogue.bnf.fr/ark:/12148/cb135326513
+035    $a FRBNF135326512
+039    $o OPL $a 014647923
+100    $a 19991028afrey50      ba0
+101    $a eng
+102    $a GB
+103    $a  19650220           
+105    $a a
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Hensher $b Philip $f 1965-....
+300 0  $a Romancier. - Professeur d'écriture littéraire et créative, Bath Spa university, GB (en 2016). - Critique littéraire, collaborateur du journal "The Independant" (en 2008)
+801    $a FR $b FR-751131015 $c 20160525
+810    $a La ville derrière le mur / Philip Hensher ; traduit de l'anglais par Hugues de Giorgis, 1999 $a Tales of persuasion / Philip Hensher, 2016
+810    $a British library - http://blpc.bl.uk (2008-06-20) $a Contemporary authors - http://infotrac.galegroup.com (2008-06-20)
+856    $u http://blpc.bl.uk $e 2008-06-20 $u http://infotrac.galegroup.com $e 2008-06-20
+999    $a FRBNF135326512 $b 13532651
+
+01213cx  a2200277   4500
+001 51384
+003 http://catalogue.bnf.fr/ark:/12148/cb13976919x
+005 20240514064216.0
+010    $a 0000000382097178 $2 ISNI $d 20150313
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13976919x
+035    $a FRBNF139769195
+100    $a 19950531afrey50      ba0
+102    $a FR
+103    $a  1967               
+105    $a i $a p
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Ophèle $b Emmanuelle $f 1967-....
+300 0  $a Flûtiste. - Membre de l'Ensemble InterContemporain à partir de 1987
+400    $5 j $7 ba0yba0y $8 fre    $9  0  $a Ophèle-Gaubert $b Emmanuelle $f 1967-....
+510    $3 17014964 $7 ba0yba0y $8 fre    $9 20  $a Le Trio Antara
+801    $a FR $b FR-751131015 $c 20080924
+810    $a Jeu des cinq éléments I. Terre-feu. Méta-terre-eau... [etc.] / Ton-That Tiêt. REM 311232
+810    $a Lijnen [Enregistrement sonore] / Helen Tulve, comp. ; Arianna Savall, chant ; Emmanuelle Ophèle-Gaubert, Mihkel Peäske, fl. ; NNYD ensemble, Stockholm saxophone quartet, Silesian string quartet, ens. instr. ; Olaris Elts, dir. ECM New series 476 6389
+999    $a FRBNF139769195 $b 13976919
+152    $b NP
+
+01081cx  a2200277   4500
+001 53177
+003 http://catalogue.bnf.fr/ark:/12148/cb10321972p
+005 20240518043902.0
+010    $a 0000000063993709 $2 VIAF $d 20130716
+033    $a http://catalogue.bnf.fr/ark:/12148/cb10321972p
+035    $a FRBNF10321972X
+100    $a 19970701afrey50      ba0
+101    $a eng
+102    $a GB
+103    $a  1887      1978     
+105    $a a
+106    $a 010
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Mirrlees $b Hope $f 1887-1978
+300    $a Poète. - Auteur de science-fiction
+801    $a FR $b FR-751131015 $c 20210615
+810    $a Lud in the mist / Hope Mirrlees; introduction by Lin Carter, 1970 $a Lud-en-Brume / Hope Mirrlees ; illustrations de Hugo de Faucompret, DL 2015
+810    $a Internet speculative fiction database - http://www.isfdb.org (2013-04-30) $a LC Authorities - https://lccn.loc.gov/no2001048986 (2021-06-15)
+856    $u http://www.isfdb.org $e 2013-04-30 $u https://lccn.loc.gov/no2001048986 $e 2021-06-15
+999    $a FRBNF10321972X $b 10321972
+
+01713cx  a2200349   4500
+001 54986
+003 http://catalogue.bnf.fr/ark:/12148/cb12718137d
+005 20240514051359.0
+010    $a 0000000109163947 $2 VIAF $d 20130729
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12718137d
+035    $a FRBNF12718137X
+039    $o OPL $a 004036588
+039    $o OPP $a 14059794 $d 20090923
+039    $o OPP $a 11481899 $d 20090923
+039    $o OPP $a 10990010 $d 20090923
+100    $a 19880602afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19180919  19790203 
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Barnier $b Lucien $f 1918-1979
+300 0  $a Journaliste scientifique. Rédacteur en chef de la revue "Futur". - Écrivain. - A utilisé également le pseudonyme : Lucien Néret
+301    $a Paris, 14e arrondissement (France) $b Paris, 9e arrondissement (France)
+801    $a FR $b FR-751131015 $c 20210312
+810    $a À quoi rêvent les savants soviétiques / Lucien Barnier, 1958
+810    $a Dictionnaire de la politique française : vol. IV / Henry de Coston, 1982 $a Dictionnaire de la radio / R. Prot, 1997 $a Dictionnaire des écrivains pour la jeunesse, 1969 [né en 1920] $a État civil de Paris. 14e arrondissement. Naissances, acte n° 7003 du 19 septembre 1918 - http://archives.paris.fr (2020-08-28) $a Le coin des pseudonymes et autres compléments biographiques / par Patrick Ramseyer. In : Rocambole : Bulletin des amis du roman populaire, n° 93-94, hiver 2020-printemps 2021 (p. 296)
+810    $a BN Cat. gén. suppl. $a BN Cat. gén. 1960-1969
+856    $u http://archives.paris.fr $e 2020-08-28
+999    $a FRBNF12718137X $b 12718137
+152    $b NP
+
+01919cx  a2200361   4500
+001 56505
+003 http://catalogue.bnf.fr/ark:/12148/cb11902430c
+005 20240519032333.0
+010    $a 0000000374086292 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11902430c
+035    $a FRBNF119024308
+039    $o OPL $a 000755013 $z APP
+039    $o OPL $a 014394530 $z AMA
+039    $o OPP $a 14891326 $d 20090727
+100    $a 19840315afrey50      ba0
+101    $a fre
+102    $a CH
+103    $a  19270421  20170115 
+105    $a a
+106    $a 010
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Favrod $b Charles-Henri $f 1927-2017
+300    $a Journaliste et écrivain, photographe. - Directeur et conservateur du Musée de l'Élysée, Lausanne, jusqu'en 1996. - Producteur de films
+301    $a Montreux (Suisse)
+686    $a 770 $c Photographie $2 Note de regroupement par domaine
+686    $a 900 $c Histoire et géographie (généralités) $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20170118
+810    $a Pierre Verger : le messager : photographies 1932-1962 / Jean-Loup Pivin, Pascal Martin Saint-Léon ; postf., Charles-Henri Favrod, 1993 $a Le défi du désert ; suivi de Le retour au Yémen / Charles-Henri Favrod, 2004
+810    $a Charles-Henri Favrod : Musée de l'Elysée, Losanna 1985-1995, 1998 $a Internet - http://www.actufiches.ch/content.php?name=Favrod&vorname=Charles-Henri (2004-04-30) $a LivresHebdo - http://www.livreshebdo.fr/article/mort-de-charles-henri-favrod-fondateur-de-musee-de-lelysee (2017-01-18)
+810    $a BN Cat. gén. suppl. et BN Cat. gén. 1960-1969 : Favrod (Charles-Henri)
+856    $u http://www.actufiches.ch/content.php?name=Favrod&vorname=Charles-Henri $e 2004-04-30 $u http://www.livreshebdo.fr/article/mort-de-charles-henri-favrod-fondateur-de-musee-de-lelysee $e 2017-01-18
+999    $a FRBNF119024308 $b 11902430
+
+01507cx  a2200349   4500
+001 58175
+003 http://catalogue.bnf.fr/ark:/12148/cb11948380x
+005 20240517021446.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11948380x
+035    $a FRBNF119483806
+039    $o OPL $a 001741454
+100    $a 19820908afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Art inuit
+450    $7 ba0yba0y $8 fre    $9     $a Inuits $x Art
+550    $5 z $0 Voir aussi $3 12048170 $7 ba0yba0y $8 fre    $9     $a Artistes inuits
+550    $5 z $0 Voir aussi $3 11932136 $7 ba0yba0y $8 fre    $9     $a Inuits
+550    $5 h $3 12475324 $7 ba0yba0y $8 fre    $9     $a Dessin inuit
+550    $5 h $3 15097258 $7 ba0yba0y $8 fre    $9     $a Estampe inuit
+550    $5 h $3 12434255 $7 ba0yba0y $8 fre    $9     $a Masques inuits
+550    $5 h $3 12099055 $7 ba0yba0y $8 fre    $9     $a Sculpture inuit
+550    $5 h $3 12430719 $7 ba0yba0y $8 fre    $9     $a Textiles et tissus inuits
+550    $5 h $3 13174686 $7 ba0yba0y $8 fre    $9     $a Travail du cuir inuit
+686    $a 390 $c Ethnologie, anthropologie, folklore $2 Note de regroupement par domaine
+686    $a 700 $c Arts $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20100819
+822 12 $a Art inuit $2 RVMLaval $d 2010-08-19
+822 1  $a Eskimo art $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85007646 $d 2017-02-09
+822 1  $a Inuit art $2 LCSH $u http://id.loc.gov/authorities/subjects/sh94007417 $d 2017-02-09
+999    $a FRBNF119483806 $b 11948380
+
+01079cx  a2200313   4500
+001 59918
+003 http://catalogue.bnf.fr/ark:/12148/cb12519553n
+005 20240516061127.0
+010    $a 0000000014475227 $2 VIAF $d 20130729
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12519553n
+035    $a FRBNF125195534
+039    $o OPL $a 012626898
+039    $o OPP $a 14062292 $d 20070124
+039    $o OPP $a 14054503 $d 20070124
+100    $a 19960514afrey50      ba0
+101    $a fre $t ger
+102    $a FR
+103    $a  19330905  20030103 
+105    $a a $a p
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Coumet $b Ernest $f 1933-2003
+300 0  $a Membre du séminaire d'histoire du calcul des probabilitées et de la statistique à l'École des hautes études en sciences sociales
+801    $a FR $b FR-751131015 $c 20161206
+810    $a Logique sans peine / ill. de Max Ernst ; trad. et présentation de Jean Gattegno et Ernest Coumet, 1972
+810    $a Monde, 2003-01-10
+810    $a BN Cat. gén. 1960-1969
+999    $a FRBNF125195534 $b 12519553
+152    $b NP
+
+01594cx  a2200337   4500
+001 61770
+003 http://catalogue.bnf.fr/ark:/12148/cb12647534p
+005 20240516071337.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12647534p
+035    $a FRBNF126475343
+039    $o OPL $a 001539456
+100    $a 19810212afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Déchiffrage (musique)
+450    $7 ba0yba0y $8 fre    $9     $a Lecture à vue (musique)
+450    $7 ba0yba0y $8 fre    $9     $a Lecture et exécution de la partition
+450    $7 ba0yba0y $8 fre    $9     $a Musique $x Lecture et déchiffrage
+450    $7 ba0yba0y $8 fre    $9     $a Partitions $x Lecture et déchiffrage
+550    $5 z $0 Voir aussi $3 11965676 $7 ba0yba0y $8 fre    $9     $a Lecture
+550    $5 z $0 Voir aussi $3 11960516 $7 ba0yba0y $8 fre    $9     $a Solfège
+550    $5 h $3 12260019 $7 ba0yba0y $8 fre    $9     $a Solmisation
+550    $5 g $3 11932557 $7 ba0yba0y $8 fre    $9     $a Musique $x Étude et enseignement
+686    $a 780 $c Musique $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20240311
+810    $a Dict. des mots de la musique / J. Siron, 2006 : déchiffrage ; lecture à vue $a Dict. de la musique / M. Vignal, 2006 : déchiffrage
+822 12 $a Score reading and playing $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85118777 $d 2024-03-11
+822 12 $a Sight-reading (Music) $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85122381 $d 2024-03-11
+822 12 $a Partitions--Lecture et déchiffrage $2 RVMLaval $d 2024-03-11
+999    $a FRBNF126475343 $b 12647534
+
+03449cx  a2200565   4500
+001 63751
+003 http://catalogue.bnf.fr/ark:/12148/cb119342391
+005 20240506054358.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb119342391
+035    $a FRBNF119342392
+039    $o OPL $a 00155534X
+100    $a 19810212afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Indiens (de l'Inde)
+330    $a Sous cette vedette, obligatoirement suivie d'une subdivision géographique ou de la subdivision : À l'étranger, directement ou après une subdivision de sujet, on trouve les documents sur les citoyens de l'Inde hors de l'Inde. Les documents sur les citoyens de l'Inde en Inde se trouvent sous des vedettes-matière telles que : Moeurs et coutumes--Inde ; etc.
+330    $a L'adjectif de nationalité correspondant est "indien (de l'Inde)"
+450    $7 ba0yba0y $8 fre    $9     $a Indiens
+450    $7 ba0yba0y $8 fre    $9     $a Indiens de l'Inde
+550    $5 z $0 Voir aussi $3 13749758 $7 ba0yba0y $8 fre    $9     $a Américains d'origine indienne $x de l'Inde
+550    $5 z $0 Voir aussi $3 11965840 $7 ba0yba0y $8 fre    $9     $a Anglo-Indiens
+550    $5 z $0 Voir aussi $3 16709948 $7 ba0yba0y $8 fre    $9     $a Antillais d'origine indienne $x de l'Inde
+550    $5 z $0 Voir aussi $3 13318505 $7 ba0yba0y $8 fre    $9     $a Français d'origine indienne $x de l'Inde
+550    $5 z $0 Voir aussi $3 11934238 $7 ba0yba0y $8 fre    $9     $a Inde
+550    $5 z $0 Voir aussi $3 13775632 $7 ba0yba0y $8 fre    $9     $a Réunionnais d'origine indienne $x de l'Inde
+550    $5 z $0 Voir aussi $3 15900608 $7 ba0yba0y $8 fre    $9     $a Sud-Africains d'origine indienne $x de l'Inde
+550    $5 h $3 18099031 $7 ba0yba0y $8 fre    $9     $a Intellectuels indiens (de l'Inde)
+550    $5 h $3 17722676 $7 ba0yba0y $8 fre    $9     $a Artistes indiens (de l'Inde)
+550    $5 h $3 16198392 $7 ba0yba0y $8 fre    $9     $a Commerçants indiens (de l'Inde)
+550    $5 h $3 12071244 $7 ba0yba0y $8 fre    $9     $a Écrivains indiens (de l'Inde)
+550    $5 h $3 13616362 $7 ba0yba0y $8 fre    $9     $a Enfants indiens (de l'Inde)
+550    $5 h $3 18034849 $7 ba0yba0y $8 fre    $9     $a Étudiants indiens (de l'Inde)
+550    $5 h $3 15553693 $7 ba0yba0y $8 fre    $9     $a Explorateurs indiens (de l'Inde)
+550    $5 h $3 17994367 $7 ba0yba0y $8 fre    $9     $a Goanais
+550    $5 h $3 11973928 $7 ba0yba0y $8 fre    $9     $a Indiennes (de l'Inde)
+550    $5 h $3 15611258 $7 ba0yba0y $8 fre    $9     $a Indiens (de l'Inde) $y À l'étranger
+550    $5 h $3 17064536 $7 ba0yba0y $8 fre    $9     $a Médecins indiens (de l'Inde)
+550    $5 h $3 13548654 $7 ba0yba0y $8 fre    $9     $a Militaires indiens (de l'Inde)
+550    $5 h $3 13623718 $7 ba0yba0y $8 fre    $9     $a Musulmans indiens (de l'Inde)
+550    $5 h $3 13547319 $7 ba0yba0y $8 fre    $9     $a Réfugiés indiens (de l'Inde)
+550    $5 h $3 12118761 $7 ba0yba0y $8 fre    $9     $a Travailleurs étrangers indiens (de l'Inde)
+550    $5 h $3 16203013 $7 ba0yba0y $8 fre    $9     $a Voyageurs indiens (de l'Inde)
+550    $5 g $3 13319127 $7 ba0yba0y $8 fre    $9     $a Ethnologie $y Inde
+686    $a 390 $c Ethnologie, anthropologie, folklore $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20221025
+810    $a Grand Larousse universel $a Petit Robert 1, 1993
+822 12 $a East Indians $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85040566 $d 2022-10-25
+822 12 $a Indiens (Habitants de l'Inde) $2 RVMLaval $d 2022-10-25
+999    $a FRBNF119342392 $b 11934239
+
+03317cx  a2200649   4500
+001 65597
+003 http://catalogue.bnf.fr/ark:/12148/cb11964891d
+005 20240511031634.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11964891d
+035    $a FRBNF119648916
+039    $o OPL $a 001965979
+100    $a 19840821afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Cuisine (poisson)
+450    $7 ba0yba0y $8 fre    $9     $a Cuisine (poissons d'eau douce)
+450    $7 ba0yba0y $8 fre    $9     $a Cuisine (poissons de mer)
+450    $7 ba0yba0y $8 fre    $9     $a Cuisine (produits de la pêche)
+450    $7 ba0yba0y $8 fre    $9     $a Poisson $x Recettes
+550    $5 z $0 Voir aussi $3 11973486 $7 ba0yba0y $8 fre    $9     $a Cuisine $x fruits de mer
+550    $5 z $0 Voir aussi $3 11977125 $7 ba0yba0y $8 fre    $9     $a Découpage $x cuisine
+550    $5 z $0 Voir aussi $3 11975896 $7 ba0yba0y $8 fre    $9     $a Poisson
+550    $5 h $3 14584676 $7 ba0yba0y $8 fre    $9     $a Bouillabaisse
+550    $5 h $3 15027070 $7 ba0yba0y $8 fre    $9     $a Boulettes (cuisine)
+550    $5 h $3 17828582 $7 ba0yba0y $8 frespa $9     $a Ceviche
+550    $5 h $3 14503854 $7 ba0yba0y $8 fre    $9     $a Cuisine (anchois)
+550    $5 h $3 15015003 $7 ba0yba0y $8 fre    $9     $a Cuisine (anguilles)
+550    $5 h $3 12526905 $7 ba0yba0y $8 fre    $9     $a Cuisine (bar européen)
+550    $5 h $3 15927637 $7 ba0yba0y $8 fre    $9     $a Cuisine (carpe)
+550    $5 h $3 14598618 $7 ba0yba0y $8 fre    $9     $a Cuisine (caviar)
+550    $5 h $3 12370434 $7 ba0yba0y $8 fre    $9     $a Cuisine (grenadiers ; poissons)
+550    $5 h $3 15040529 $7 ba0yba0y $8 fre    $9     $a Cuisine (hareng)
+550    $5 h $3 12526902 $7 ba0yba0y $8 fre    $9     $a Cuisine (lote)
+550    $5 h $3 14462464 $7 ba0yba0y $8 fre    $9     $a Cuisine (maquereau)
+550    $5 h $3 13542040 $7 ba0yba0y $8 fre    $9     $a Cuisine (morue)
+550    $5 h $3 16926376 $7 ba0yba0y $8 fre    $9     $a Cuisine (pâtés)
+550    $5 h $3 11964892 $7 ba0yba0y $8 fre    $9     $a Cuisine (quenelles)
+550    $5 h $3 17055252 $7 ba0yba0y $8 fre    $9     $a Cuisine (rillettes)
+550    $5 h $3 11946043 $7 ba0yba0y $8 fre    $9     $a Cuisine (sardines)
+550    $5 h $3 12098571 $7 ba0yba0y $8 fre    $9     $a Cuisine (saumons)
+550    $5 h $3 16917184 $7 ba0yba0y $8 fre    $9     $a Cuisine (soles ; poissons)
+550    $5 h $3 15558966 $7 ba0yba0y $8 fre    $9     $a Cuisine (surimi)
+550    $5 h $3 13572696 $7 ba0yba0y $8 fre    $9     $a Cuisine (tarama)
+550    $5 h $3 12549928 $7 ba0yba0y $8 fre    $9     $a Cuisine (thons)
+550    $5 h $3 14492700 $7 ba0yba0y $8 fre    $9     $a Cuisine (truites)
+550    $5 h $3 14631768 $7 ba0yba0y $8 fre    $9     $a Hachis
+550    $5 h $3 13751239 $7 ba0yba0y $8 fre    $9     $a Sashimi
+550    $5 h $3 14568998 $7 ba0yba0y $8 fre    $9     $a Tartare (cuisine)
+550    $5 h $3 11952982 $7 ba0yba0y $8 fre    $9     $a Terrines (cuisine)
+686    $a 640 $c Economie domestique, hôtellerie $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20190806
+810    $a Grand Robert de la langue française, 2001
+810    $a La cuisine française / A. Gogué, 1876 $a 100 recettes de poissons en fiches techniques / D. Weber, 1989
+822 12 $a Cooking (Fish) $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85032009 $d 2019-08-06
+822 12 $a Cuisine (poisson) $2 RVMLaval $d 2019-08-06
+999    $a FRBNF119648916 $b 11964891
+
+01043cx  a2200313   4500
+001 67398
+003 http://catalogue.bnf.fr/ark:/12148/cb11024982b
+005 20240508075107.0
+010    $a 0000000083595521 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11024982b
+035    $a FRBNF110249823
+039    $o OPP $a 14913829 $d 20111226
+039    $o OPP $a 16484634 $d 20190102
+100    $a 19970701afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19200908  19860318 
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Maurois $b Gérald $f 1920-1986
+300 0  $a Photographe. - Fils d'André Maurois (1885-1967)
+301    $a Neuilly-sur-Seine $b Neuilly-sur-Seine
+801    $a FR $b FR-751131015 $c 20190102
+810    $a Languedoc méditerranéen / présentation de André Chamson ; photographies de Gérald Maurois, 1956
+810    $a ABF: article : Maurois (André)
+810    $a BN Cat. gén. suppl. $a BN Cat. gén. 1960-1969
+999    $a FRBNF110249823 $b 11024982
+152    $b NP
+
+01332cx  a2200337   4500
+001 69467
+003 http://catalogue.bnf.fr/ark:/12148/cb14442340s
+005 20240509063029.0
+010    $a 0000000120727280 $2 ISNI $d 20150313
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14442340s
+035    $a FRBNF144423405
+100    $a 20021216afrey50      ba0
+101    $a cze $t cze
+102    $a CZ
+103    $a  19..      ....     
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Allendes-Říhová $b Hana
+400    $5 j $7 ba0yba0y $8 fre    $9     $a Říhová-Allendes $b Hana
+400    $5 j $7 ba0yba0y $8 fre    $9     $a Říhová $b Hana Allendes-
+400    $5 j $7 ba0yba0y $8 fre    $9     $a Allendes $b Hana Říhová-
+400    $7 ba0yba0y $8 fre    $9     $a Říhová $b Hana
+801    $a FR $b FR-751131015 $c 20061017
+810    $a Contes tchèques / contes trad. par Arnault Maréchal, Hana Říhová-Allendes et Aurélie Rougé-Garma, 2002
+810    $a Bibliothèque nationale, République tchèque - http://www.nkp.cz (2006-10-17)
+810    $a BnF Service tchèque
+815    $a Malá česk. encykl.. - Česk. biogr. slovník. - Kdo je kdo 1991-1992. - LC Authorities : http://authorities.loc.gov (2006-10-17)
+856    $u http://www.nkp.cz $e 2006-10-17
+999    $a FRBNF144423405 $b 14442340
+
+01193cx  a2200289   4500
+001 71545
+003 http://catalogue.bnf.fr/ark:/12148/cb12990326c
+005 20240507032354.0
+010    $a 0000000076903717 $2 VIAF $d 20130730
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12990326c
+035    $a FRBNF129903265
+039    $o OPL $a 010703196
+100    $a 19941205afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Zazzo $b Anne
+300 0  $a Conservatrice du patrimoine. - En poste au Musée Galliéra (en 2006)
+801    $a FR $b FR-751131015 $c 20060609
+810    $a Showtime : [exposition, Paris], Musée Galliéra, 3 mars-30 juillet 2006 / [commissaire, Anne Zazzo], impr. 2006
+810    $a Université Paris 1 - http://www.univ-paris1.fr/recherche/e-publications/mardi_sorbonne/mardis_de_l_iup_metiers_des_arts_et_de_la_culture/article3210.html (2006-06-09)
+856    $u http://www.univ-paris1.fr/recherche/e-publications/mardi_sorbonne/mardis_de_l_iup_metiers_des_arts_et_de_la_culture/article3210.html $e 2006-06-09
+999    $a FRBNF129903265 $b 12990326
+152    $b NP
+
+00832cx  a2200277   4500
+001 73488
+003 http://catalogue.bnf.fr/ark:/12148/cb14546991g
+005 20240510063442.0
+010    $a 0000000066571990 $2 VIAF $d 20130802
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14546991g
+035    $a FRBNF145469918
+100    $a 20040527afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..      ....     
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Verdié-Petibon $b Danielle
+300 0  $a Médecin rhumatologue
+400    $7 ba0yba0y $8 fre    $9     $a Petibon $b Danielle Verdié-
+801    $a FR $b FR-751131015 $c 20040528
+810    $a L'arthrose / Laurent Chevallier, Danielle Verdié-Petibon, 2004
+815    $a Rosenwald, 2002
+999    $a FRBNF145469918 $b 14546991
+152    $b NP
+
+00862nx  a2200277   4500
+001 75232
+003 http://catalogue.bnf.fr/ark:/12148/cb145686968
+005 20240518021747.0
+010    $a 0000000083545348 $2 VIAF $d 20130802
+033    $a http://catalogue.bnf.fr/ark:/12148/cb145686968
+035    $a FRBNF145686964
+100    $a 20040920afrey50      ba0
+101    $a chi
+102    $a TW
+103    $a  1975      ....     
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0a $8 fre    $9  0  $a Chen $b Zhiyuan $f 1975-....
+300 0  $a Auteur de livres pour enfants
+400    $7 ba0yba0y $8 fre    $9     $a Chen $b Chih-Yuan $f 1975-....
+400    $7 ba0yba0y $8 fre    $9     $a Chen $b Zhi yuan $f 1975-....
+801    $a FR $b FR-751131015 $c 20040920
+810    $a En allant acheter des oeufs / Chen Chih-Yuan, 2004
+999    $a FRBNF145686964 $b 14568696
+
+00998cx  a2200277   4500
+001 77019
+003 http://catalogue.bnf.fr/ark:/12148/cb12126388j
+005 20240518030455.0
+010    $a 000000011440870X $2 VIAF $d 20130725
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12126388j
+035    $a FRBNF121263888
+039    $o OPL $a 004756041
+100    $a 19891004afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Delitte $b Jean-Yves
+300 0  $a Auteur de bandes dessinées. - Architecte-designer de formation, peintre officiel de la Marine, membre de l'Académie des arts & sciences de la mer.
+400    $7 ba0yba0y $8 fre    $9     $a Delitte
+801    $a FR $b FR-751131015 $c 20220113
+810    $a Donnington / texte de Richelle ; dessins de Delitte, 1989 $a À bord des galères / Jean-Yves Delitte, Jean-Benoît Héron, DL 2021
+999    $a FRBNF121263888 $b 12126388
+152    $b NP
+
+01191cx  a2200325   4500
+001 79123
+003 http://catalogue.bnf.fr/ark:/12148/cb13883485n
+005 20240518063550.0
+010    $a 0000000121631520 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13883485n
+035    $a FRBNF138834850
+039    $o OPL $a 004565310
+100    $a 19890601afrey50      ba0
+101    $a fre
+102    $a BE
+103    $a  19771212           
+105    $a a $c a $c d $c s $d g $d h $d r $c p
+106    $a 010
+150    $a z $b b6  
+152    $c 2 $b CO
+210    $7 ba0yba0y $8 fre    $9  0  $a Radio-télévision belge de la Communauté française
+300    $a Par D. du 12-12-1977, succède à la Radio-télévision belge (RTB)
+303    $a 52 bd Reyers, 1040 Bruxelles
+410    $7 ba0yba0y $8 fre    $9     $a RTBF
+410    $7 ba0yba0y $8 fre    $9     $a Radio-télévision belge francophone
+540    $5 h $3 16658487 $t Magazine de l'homme (émission radiophonique)
+801    $a FR $b FR-751131015 $c 20210408
+810    $a Dossier pour Wallonie 2000, 1982 $a Annu. adm. et judiciaire de Belgique 1987-1988, pp. 438 et ss.
+856    $u http://www4.rtbf.be/ $e 2004-03-01
+999    $a FRBNF138834850 $b 13883485
+
+01624cx  a2200349   4500
+001 80835
+003 http://catalogue.bnf.fr/ark:/12148/cb122513764
+005 20240517071931.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb122513764
+035    $a FRBNF122513768
+039    $o OPL $a 008201927
+100    $a 19920610afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Siréniens
+300 1  $a Rang taxonomique : ordre
+450    $7 ba0yba0y $8 fre    $9  0  $a Sirenia
+450    $7 ba0yba0y $8 fre    $9     $a Vaches de mer
+450    $7 ba0yba0y $8 fre    $9     $a Vaches marines
+550    $5 h $3 14430560 $7 ba0yba0y $8 fre    $9     $a Dugongidés
+550    $5 h $3 12251377 $7 ba0yba0y $8 fre    $9     $a Lamantins
+550    $5 g $3 17799913 $7 ba0yba0y $8 fre    $9     $a Afrothériens
+550    $5 g $3 12011636 $7 ba0yba0y $8 fre    $9   2 $a Ongulés
+686    $a 590 $c Zoologie $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20100504
+810    $a Grand dict. encyclopédique Larousse
+810    $a Traité de zoologie. Tome XVII, Mammifères. Fascicule 1 / P.-P. Grassé, 1955 $a Le Monde animal en 13 volumes. 12, Mammifères. 3 / M. Fontaine, 1974 $a ITIS : Sirenia - http://www.itis.gov (2009-08-27) $a Grzimek's animal life encycl.. Volume 15, Mammals IV, 2003 : Sirenia $a Mammal species of the world : a taxonomic and geographic reference, 2005 : Sirenia
+822 12 $a Siréniens $2 RVMLaval $d 2010-05-04
+822 1  $a Sirenia $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85122967 $d 2017-02-09
+856    $u http://www.itis.gov $e 2009-08-27
+999    $a FRBNF122513768 $b 12251376
+
+00806cx  a2200241   4500
+001 82423
+003 http://catalogue.bnf.fr/ark:/12148/cb14532470z
+005 20240514064141.0
+010    $a 0000000001086652 $2 ISNI $d 20160216
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14532470z
+035    $a FRBNF145324709
+100    $a 20040319afrey50      ba0
+101    $a fre $t cat $t eng
+102    $a FR
+103    $a  19..      ....     
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Bour $b Marie
+801    $a FR $b FR-751131015 $c 20070109
+810    $a La nuit de la Saint-Jean / conte de Xavier Carrasco ; [trad. par Marie Bour], 2003 $a Graine de génie / écrit et illustré par Peta Coplans ; [traduit par Marie Bour], cop. 2006
+999    $a FRBNF145324709 $b 14532470
+152    $b NP
+
+00918cx  a2200277   4500
+001 84174
+003 http://catalogue.bnf.fr/ark:/12148/cb14644405c
+005 20240514071606.0
+010    $a 0000000001094556 $2 ISNI $d 20150312
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14644405c
+035    $a FRBNF146444056
+100    $a 20050712afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Vasco $f 19..-.... $c journaliste
+300 0  $a Journaliste. - Auteur d'ouvrages de loisirs
+801    $a FR $b FR-751131015 $c 20050805
+810    $a Petits jeux en voyage / [Vasco], DL 2005
+810    $a Casterman - http://jeunesse.casterman.com/bio/castVasco/?r=castacti (2005-07-19)
+856    $u http://jeunesse.casterman.com/bio/castVasco/?r=castacti $e 2005-07-19
+999    $a FRBNF146444056 $b 14644405
+152    $b NP
+
+01293cx  a2200409   4500
+001 86187
+003 http://catalogue.bnf.fr/ark:/12148/cb134789395
+005 20240509033505.0
+010    $a 0000000081692678 $2 VIAF $d 20130730
+033    $a http://catalogue.bnf.fr/ark:/12148/cb134789395
+035    $a FRBNF134789393
+039    $o OPL $a 013609300
+039    $o OPL $a 003877022
+039    $o OPL $a 001194704
+039    $o OPP $a 12061301 $d 20081229
+039    $o OPP $a 13807345 $d 20081229
+039    $o OPP $a 13835733 $d 20081229
+039    $o OPP $a 14694337 $d 20081229
+039    $o OPP $a 11476644 $d 20081229
+039    $o OPP $a 13938275 $d 20081229
+039    $o OPP $a 12629993 $d 20081229
+039    $o OPP $a 14772028 $d 20081229
+100    $a 19971217afrey50      ba0
+101    $a spa
+102    $a CL
+103    $a  19171004  19670205 
+105    $a a $a i
+106    $a 010
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Parra $b Violeta $f 1917-1967
+300    $a Poétesse, peintre et musicienne
+301    $a San Carlos (Chili)
+801    $a FR $b FR-751131015 $c 20081229
+810    $a Violeta del pueblo / Violeta Parra ; pról., selección y notas Javier Martínez Reverte, 1996
+810    $a Dicc. de la lit. chilena / E. Szmulewicz, 1984
+999    $a FRBNF134789393 $b 13478939
+
+01065cx  a2200277   4500
+001 87866
+003 http://catalogue.bnf.fr/ark:/12148/cb11914772t
+005 20240517063451.0
+010    $a 000000000655251X $2 ISNI $d 20150312
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11914772t
+035    $a FRBNF119147727
+039    $o OPL $a 001087848
+100    $a 19771108afrey50      ba0
+101    $a fre
+102    $a XX
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Martin-Cunnington $b Carmen
+300 0  $a Traduit de l'anglais en français
+400    $7 ba0yba0y $8 fre    $9     $a Cunnington $b Carmen Martin-
+400    $7 ba0yba0y $8 fre    $9     $a Cunnington-Martin $b Carmen
+400    $7 ba0yba0y $8 fre    $9     $a Martin $b Carmen Cunnington-
+801    $a FR $b FR-751131015 $c 19960617
+810    $a Fleurs séchées / Moyna McWilliam et Dorothy Shipman ; [trad. par Carmen Cunnington-Martin], cop. 1977 $a Poupées de chiffon / Petra Boase ; [trad. par Marie-Christine Rodier et Carmen Martin-Cunnington], 1996
+999    $a FRBNF119147727 $b 11914772
+152    $b NP
+
+00927cx  a2200289   4500
+001 89437
+003 http://catalogue.bnf.fr/ark:/12148/cb12445686c
+005 20240518032803.0
+010    $a 000000010921517X $2 VIAF $d 20130726
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12445686c
+035    $a FRBNF124456860
+039    $o OPL $a 010912096
+039    $o OPP $a 14025240 $d 20060413
+100    $a 19950131afrey50      ba0
+101    $a eng
+102    $a GB
+103    $a  1963               
+105    $a a
+106    $a 1  
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Freud $b Esther $f 1963-....
+300 0  $a Romancière. - Comédienne. - Fille du peintre Lucian Freud et arrière-petite fille de Sigmund Freud
+801    $a FR $b FR-751131015 $c 20060413
+810    $a Hideous kinky / Esther Freud, 1993
+810    $a BLNA, 1997-12 : Freud, Esther, 1963-
+810    $a Point, 1999-01-23
+999    $a FRBNF124456860 $b 12445686
+
+01553cx  a2200361   4500
+001 90971
+003 http://catalogue.bnf.fr/ark:/12148/cb13894321k
+005 20240512052004.0
+010    $a 000000012124976X $2 ISNI $d 20160215
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13894321k
+035    $a FRBNF138943216
+039    $o OPP $a 14680592 $d 20060921
+039    $o OPP $a 13796271 $d 20060921
+039    $o OPP $a 16355688 $d 20140929
+100    $a 19890601afrey50      ba0
+101    $a fre $a arm
+102    $a FR
+103    $a  19320401  19930319 
+105    $a a $a i
+106    $a 010
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Garvarentz $b Georges $f 1932-1993
+300    $a Compositeur de musique de films et d'operette et chef d'orchestre. - Compositeur des chansons de Charles Aznavour. - Connu aussi sous les pseudonymes : Diran Wem ou Diran Vem
+301    $a Athènes (Grèce) $b Aubagne (France)
+400    $7 ba0yba0y $8 fre    $9     $a Garvarentz $b Diran Georges $f 1932-1993
+400    $7 ba0yba0y $8 fre    $9     $a Garvarents $b Diran Georges $f 1932-1993
+400    $7 ba0yba0y $8 fre    $9     $a Garwarentz $b Diran $f 1932-1993
+500    $5 e $0 Voir le pseudonyme $3 17743669 $7 ba0yba0y $8 fre    $9  0  $a Wem $b Diran $f 1932-1993
+801    $a FR $b FR-751131015 $c 20220414
+810    $a Donne tes 16 ans / Aznavour et Garvarentz G. In : Le grand récital de Charles Aznavour [Enregistrement sonore]. Barclay CO1
+810    $a Cent ans de chanson française / Chantal Brunschwig, Louis-Jean Calvet, Jean-Claude Klein
+999    $a FRBNF138943216 $b 13894321
+152    $b NP
+
+01706cx  a2200397   4500
+001 92570
+003 http://catalogue.bnf.fr/ark:/12148/cb140173620
+005 20240512025349.0
+010    $a 0000000114545739 $2 VIAF $d 20130801
+033    $a http://catalogue.bnf.fr/ark:/12148/cb140173620
+035    $a FRBNF140173623
+100    $a 19981223afrey50      ba0
+102    $a JP
+103    $a  19120428  20120529 
+105    $a a
+106    $a 010
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0f $8 fre    $9  0  $a Shindō $b Kaneto $f 1912-2012
+300    $a Cinéaste japonais. - Scénariste. - Producteur et co-fondateur de la compagnie de cinéma indépendante "Kindai kyōkai eiga" (= Société de cinéma moderne)
+301    $a Hiroshima (Japon)
+400    $7 ba0yba0f $8 frejpn $9     $a Shindō Kaneto $f 1912-2012
+400    $7 ba0yea0y $8 frejpn $9     $a 新藤 兼人 $f 1912-2012
+400    $7 ba0yba0y $8 fre    $9     $a Kaneto Shindō $f 1912-2012
+400    $7 ba0yba0y $8 fre    $9     $a Shindo Kaneto $f 1912-2012
+400    $7 ba0yba0y $8 fre    $9     $a Kaneto Shindo $f 1912-2012
+530    $5 z $0 Réalisateur de :  $3 16461148 $a Onibaba (film)
+530    $5 z $0 Réalisateur de :  $3 16460709 $a Yabu no naka no kuroneko (film)
+530    $5 z $0 Réalisateur de :  $3 16460598 $a Hadaka no shima (film)
+700    $7 ba0yea0y $8 frejpn $9  0  $a 新藤 $b 兼人 $f 1912-2012
+801    $a FR $b FR-751131015 $c 20131125
+810    $a Kiru [Images animées] / Kenji Misumi, réal. ; Shindô Kaneto, scénario. Wild side video, [2005]
+810    $a NDL Authority File, 2013 $a IMDB - http://us.imdb.com (2012-06-01)
+810    $a BnF Service japonais, 2013-01-23
+856    $u http://us.imdb.com $e 2012-06-01
+999    $a FRBNF140173623 $b 14017362
+
+00778nx  a2200253   4500
+001 94165
+003 http://catalogue.bnf.fr/ark:/12148/cb13524045s
+005 20240508030325.0
+010    $a 0000000001234344 $2 VIAF $d 20130730
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13524045s
+035    $a FRBNF135240458
+039    $o OPL $a 014414716
+100    $a 19990517afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19660926           
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Picquet $b Marie-Cécile $f 1966-....
+300 0  $a Attachée de presse en agence, spécialisée. - Romancière
+801    $a FR $b FR-751131015 $c 19990517
+810    $a Neuf mois marathon / Marie-Cécile Picquet, 1997
+999    $a FRBNF135240458 $b 13524045
+152    $b NP
+
+00994cx  a2200265   4500
+001 95822
+003 http://catalogue.bnf.fr/ark:/12148/cb13773670s
+005 20240519032431.0
+010    $a 0000000071422236 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13773670s
+035    $a FRBNF137736702
+039    $o OPL $a 015891439
+100    $a 20020130afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  1974               
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Snégaroff $b Thomas $f 1974-....
+300 0  $a Agrégé d'histoire. - Spécialiste des États-Unis. - Enseignant à Sciences-Po (en 2015)
+801    $a FR $b FR-751131015 $c 20160107
+810    $a Préparer les épreuves, le CAPES d'histoire-géographie et l'agrégation d'histoire / E. Huertas et T. Snégaroff, 2001 $a Je suis ton père : la saga "Star wars", l'Amérique et ses démons / Thomas Snégaroff , DL 2015
+999    $a FRBNF137736702 $b 13773670
+152    $b NP
+
+00903cx  a2200301   4500
+001 97579
+003 http://catalogue.bnf.fr/ark:/12148/cb13763537g
+005 20240512042103.0
+010    $a 0000000121417129 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13763537g
+035    $a FRBNF137635379
+039    $o OPL $a 015843113
+100    $a 20011220afrey50      ba0
+101    $a hun
+102    $a HU
+103    $a  19671205           
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Tóth $b Krisztina $f 1967-....
+300 0  $a Poétesse. - Traductrice
+301    $a Budapest
+801    $a FR $b FR-751131015 $c 20071004
+810    $a Le rêve du Minotaure / Krisztina Tóth . trad. et préf. de Lionel Ray, 2001
+810    $a Biográf ki kicsoda, 2004
+810    $a BnF Service finno-ougrien, balte
+999    $a FRBNF137635379 $b 13763537
+
+02272cx  a2200349   4500
+001 99239
+003 http://catalogue.bnf.fr/ark:/12148/cb15957573q
+005 20240518054920.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb15957573q
+035    $a FRBNF159575739
+100    $a 20090302afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Crise économique (2008)
+300 1  $a 15 septembre 2008 : la faillite de Lehman Brothers déclenche une crise financière et économique mondiale
+450    $7 ba0yba0y $8 fre    $9     $a Crise boursière (2008)
+450    $7 ba0yba0y $8 fre    $9     $a Crise de 2008
+450    $7 ba0yba0y $8 fre    $9     $a Crise économique (2007-2009)
+450    $7 ba0yba0y $8 fre    $9     $a Crise financière (2008)
+450    $7 ba0yba0y $8 fre    $9     $a Krach boursier (2008)
+550    $5 z $0 Voir aussi $3 15955494 $7 ba0yba0y $8 fre    $9     $a Prêts hypothécaires à risque
+550    $5 g $3 11941830 $7 ba0yba0y $8 fre    $9     $a Crises économiques
+550    $5 g $3 16543251 $7 ba0yba0y $8 fre    $9     $a Histoire économique $z 2008-....
+686    $a 330 $c Economie $2 Note de regroupement par domaine
+686    $a 900 $c Histoire et géographie (généralités) $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20120511
+810    $a Encycl. universalis : Économie mondiale 2008 : de la crise financière à la crise économique - http://www.universalis-edu.com (2010-08-17) $a Wikipédia : Crise économique dite de la Grande Récession (2008 et après) - http://fr.wikipedia.org (2012-05-10)
+810    $a La crise économique et financière de 2008-2009 : l'entrée dans le 21e siècle ?, 2010 $a La crise financière en 40 concepts clés / C. Karyotis, 2009 $a Les 100 mots de crise financière / B. Jacquillat, V. Lévy-Garboua, 2009 $a Crise financière et économique internationale : analyses théoriques et empiriques et implications pour le continent africain, 2010 $a En attendant d'y voir plus clair / M. Turin [in] Les Échos, 2008, 20168
+822 1  $a Global Financial Crisis, 2008-2009 $2 LCSH $u http://id.loc.gov/authorities/subjects/sh2009003683 $d 2017-02-09
+856    $u http://www.universalis-edu.com $e 2010-08-17 $u http://fr.wikipedia.org $e 2012-05-10
+999    $a FRBNF159575739 $b 15957573
+
+00936cx  a2200253   4500
+001 100793
+003 http://catalogue.bnf.fr/ark:/12148/cb16248180v
+005 20240513060622.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb16248180v
+035    $a FRBNF162481805
+100    $a 20101203afrey50      ba0
+102    $a FR
+103    $a  200.               
+105    $a i
+106    $a 1  
+150    $a y $b v9  
+210    $7 ba0yba0y $8 fre    $9 20  $a La Grande perezade
+300 0  $a Big-band de jazz
+801    $a FR $b FR-751131015 $c 20101203
+810    $a Urban bush [Enregistrement sonore]. Circum-disc CIDI 803
+810    $a Circum-disc - http://www.circum-music.com/label/label-GP.htm (2010-11-03) $a My space - http://www.myspace.com/lagrandeperezade (2010-11-13)
+856    $u http://www.circum-music.com/label/label-GP.htm $e 2010-11-03 $u http://www.myspace.com/lagrandeperezade $e 2010-11-13
+999    $a FRBNF162481805 $b 16248180
+152    $b CO
+
+01292cx  a2200313   4500
+001 102418
+003 http://catalogue.bnf.fr/ark:/12148/cb16173015c
+005 20240512053238.0
+010    $a 0000000076905851 $2 VIAF $d 20130807
+033    $a http://catalogue.bnf.fr/ark:/12148/cb16173015c
+035    $a FRBNF161730157
+039    $o OPP $a 14458044 $d 20100202
+100    $a 20100120afrey50      ba0
+101    $a eng
+102    $a CA
+103    $a  1964               
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Moore $b Lisa Lynne $f 1964-....
+300 0  $a Romancière, nouvelliste et artiste
+400    $7 ba0yba0y $8 fre    $9     $a Moore $b Lisa L. $f 1964-....
+400    $7 ba0yba0y $8 fre    $9     $a Moore $b Lisa $f 1964-....
+801    $a FR $b FR-751131015 $c 20140108
+810    $a Alligator / Lisa Moore, 2005 $a Dangerous intimacies : toward a sapphic history of British novel / Lisa L. Moore, 1997
+810    $a Bibliothèque nationale, Canada - http://amicus.collectionscanada.gc.ca (2010-01-21) $a Contemporary authors, 2010-01 $a LC authorities : Moore, Lisa, 1964- - http://authorities.loc.gov (2013-12-19)
+856    $u http://amicus.collectionscanada.gc.ca $e 2010-01-21 $u http://authorities.loc.gov $e 2013-12-19
+999    $a FRBNF161730157 $b 16173015
+
+00785nx  a2200253   4500
+001 104242
+003 http://catalogue.bnf.fr/ark:/12148/cb162293880
+005 20240515022108.0
+010    $a 0000000081586111 $2 VIAF $d 20130807
+033    $a http://catalogue.bnf.fr/ark:/12148/cb162293880
+035    $a FRBNF162293881
+100    $a 20100909afrey50      ba0
+101    $a swe
+102    $a SE
+103    $a  1971               
+105    $a a
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Nilsson $b Henrik B. $f 1971-....
+300 0  $a Titulaire d'une licence d'économie et d'un master de creative writting. - Romancier
+801    $a FR $b FR-751131015 $c 20100909
+810    $a Le faux ami / Henrik B. Nilsson, impr. 2010
+999    $a FRBNF162293881 $b 16229388
+
+00766nx  a2200253   4500
+001 105961
+003 http://catalogue.bnf.fr/ark:/12148/cb16271651k
+005 20240516021949.0
+010    $a 0000000118899112 $2 VIAF $d 20130807
+033    $a http://catalogue.bnf.fr/ark:/12148/cb16271651k
+035    $a FRBNF16271651X
+100    $a 20110309afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Marchi $b Catherine
+300 0  $a Psychologue clinicienne, psychothérapeute pour enfants
+801    $a FR $b FR-751131015 $c 20110309
+810    $a Le guide des plus beaux prénoms rétros / Catherine Marchi, DL 2011
+999    $a FRBNF16271651X $b 16271651
+152    $b NP
+
+01173cx  a2200325   4500
+001 107656
+003 http://catalogue.bnf.fr/ark:/12148/cb14049992p
+005 20240517043229.0
+010    $a 0000000121417444 $2 VIAF $d 20130801
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14049992p
+035    $a FRBNF140499925
+100    $a 20020304afrey50      ba0
+101    $a spa
+102    $a MX
+103    $a  19630815           
+105    $a a
+106    $a 010
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a González Iñárritu $b Alejandro $f 1963-....
+300    $a Cinéaste
+400    $7 ba0yba0y $8 fre    $9     $a Iñárritu $b Alejandro González $f 1963-....
+530    $5 z $0 Réalisateur de :  $3 15124201 $a Babel (film)
+530    $5 z $0 Réalisateur de :  $3 14527264 $a Amores perros (film)
+686    $a 791 $c Audiovisuel $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20120105
+810    $a Alejandro González Iñárritu / Celestino Deleyto and María del Mar Azcona, 2010
+810    $a IMDB, Internet movie database - http://www.imdb.com (2004-02-24)
+856    $u http://www.imdb.com/ $e 2004-02-24
+999    $a FRBNF140499925 $b 14049992
+
+00814nx  a2200253   4500
+001 109210
+003 http://catalogue.bnf.fr/ark:/12148/cb16570861q
+005 20240518021840.0
+010    $a 0000000367593667 $2 VIAF $d 20130808
+033    $a http://catalogue.bnf.fr/ark:/12148/cb16570861q
+035    $a FRBNF165708610
+100    $a 20120206afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Chupin $b Christian
+300 0  $a Juriste. - Directeur générale de la Chambre de commerce et d'industrie territoriale d'Elbeuf (en 2011)
+801    $a FR $b FR-751131015 $c 20120206
+810    $a Les chambres de commerce et d'industrie / Christian Chupin, DL 2011
+999    $a FRBNF165708610 $b 16570861
+152    $b NP
+
+01054cx  a2200289   4500
+001 110686
+003 http://catalogue.bnf.fr/ark:/12148/cb11891394s
+005 20240519075335.0
+010    $a 0000000121192046 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11891394s
+035    $a FRBNF118913945
+039    $o OPL $a 000466966
+100    $a 19741209afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19461128           
+105    $a a $a p
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Berger $b Maurice $f 1946-....
+300 0  $a Docteur en médecine (Lyon 1, 1972). - Psychanalyste et médecin psychiatre, chef de service en psychiatrie de l'enfant et de l'adolescent, CHU de Saint-Etienne, Loire (en 1995)
+801    $a FR $b FR-751131015 $c 20151106
+810    $a Pratique des entretiens familiaux / Maurice Berger, 1987 $a Le travail thérapeutique avec la famille / Maurice Berger, 1995
+810    $a Rosenwald, 1991
+815    $a WW, France 1988-1989
+999    $a FRBNF118913945 $b 11891394
+152    $b NP
+
+01276cx  a2200337   4500
+001 112227
+003 http://catalogue.bnf.fr/ark:/12148/cb11888332q
+005 20240517051027.0
+010    $a 0000000117709487 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11888332q
+035    $a FRBNF118883320
+039    $o OPL $a 000387255
+039    $o OPP $a 11466128 $d 20170927
+039    $o OPP $a 10930828 $d 20181106
+039    $o OPP $a 15445982 $d 20181106
+100    $a 19750123afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19200928  19740719 
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Albouy $b Pierre $f 1920-1974
+300 0  $a Professeur de lettres à la Faculté des lettres et sciences humaines de Paris
+301    $a Paris, 13e arrondissement (France) $b Paris, 5e arrondissement (France)
+801    $a FR $b FR-751131015 $c 20181106
+810    $a Oeuvres poétiques / Victor Hugo ; éd. établie par Pierre Albouy, 1993
+810    $a Encycl. universalis, 1989 : article Victor Hugo $a Archives de Paris. Etat-civil du 5e arrondissement. Décès. 1974. Acte n° 389 - http://archives.paris.fr (2018-11-06)
+856    $u http://archives.paris.fr $e 2018-11-06
+999    $a FRBNF118883320 $b 11888332
+152    $b NP
+
+00906cx  a2200253   4500
+001 113775
+003 http://catalogue.bnf.fr/ark:/12148/cb16667075v
+005 20240507044931.0
+010    $a 0000000102011940 $2 VIAF $d 20130808
+033    $a http://catalogue.bnf.fr/ark:/12148/cb16667075v
+035    $a FRBNF166670753
+100    $a 20130301afrey50      ba0
+101    $a ger
+102    $a DE
+103    $a  1960               
+105    $a a
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Beiser $b Rudi $f 1960-....
+300 0  $a Cultivateur de plantes médicinales et de plantes sauvages pour tisanes (en 2014)
+801    $a FR $b FR-751131015 $c 20140321
+810    $a Créer un jardin de plantes médicinales / Rudi Beiser ; [traduit de l'allemand par Pierre Bertrand], DL 2013 $a Fleurs et fruits sauvages pour tisanes / Rudi Beiser,  DL 2013
+999    $a FRBNF166670753 $b 16667075
+
+00786nx  a2200241   4500
+001 115401
+003 http://catalogue.bnf.fr/ark:/12148/cb167179922
+005 20240507041701.0
+010    $a 0000000038414656 $2 ISNI $d 20150312
+033    $a http://catalogue.bnf.fr/ark:/12148/cb167179922
+035    $a FRBNF167179928
+100    $a 20131021afrey50      ba0
+101    $a eng
+102    $a US
+103    $a  1968               
+105    $a a
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Sayrafiezadeh $b Saïd $f 1968-....
+801    $a FR $b FR-751131015 $c 20131021
+810    $a Le jour où les skateboards seront gratuis : récit / Saïd Sayrafiezadeh ; traduit de l'anglais (États-Unis) par Fabrice Pointeau, impe. 2013
+999    $a FRBNF167179928 $b 16717992
+
+00882cx  a2200277   4500
+001 116975
+003 http://catalogue.bnf.fr/ark:/12148/cb16636131n
+005 20240518061719.0
+010    $a 0000000123405586 $2 VIAF $d 20130808
+033    $a http://catalogue.bnf.fr/ark:/12148/cb16636131n
+035    $a FRBNF166361319
+100    $a 20121023afrey50      ba0
+101    $a eng
+102    $a US
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Mafi $b Tahereh
+300 0  $a Romancière
+801    $a FR $b FR-751131015 $c 20121106
+810    $a Ne me touche pas / Tahereh Mafi ; traduit de l'anglais (États-Unis) par Jean-Noël Chatain, DL 2012
+810    $a LC authorities - http://authorities.loc.gov (2012-11-06)
+856    $u http://authorities.loc.gov/ $e 2012-11-06
+999    $a FRBNF166361319 $b 16636131
+
+02376cx  a2200433   4500
+001 118482
+003 http://catalogue.bnf.fr/ark:/12148/cb13334941r
+005 20240517044802.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13334941r
+035    $a FRBNF133349416
+039    $o OPL $a 014150953
+100    $a 19981127afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Drones
+450    $7 ba0yba0y $8 fre    $9     $a Avions automatiques
+450    $7 ba0yba0y $8 fre    $9     $a Avions de reconnaissance sans pilotes
+450    $7 ba0yba0y $8 fre    $9     $a Avions légers télépilotés
+450    $7 ba0yba0y $8 fre    $9     $a Avions sans pilotes
+450    $7 ba0yba0y $8 fre    $9     $a Gnoptères
+450    $7 ba0yba0y $8 fre    $9     $a Objets volants miniatures
+450    $7 ba0yba0y $8 fre    $9     $a Robots volants
+550    $5 z $0 Voir aussi $3 13565423 $7 ba0yba0y $8 fre    $9     $a Aéronefs à décollage vertical
+550    $5 z $0 Voir aussi $3 17702311 $7 ba0yba0y $8 fre    $9     $a Drones terrestres
+550    $5 z $0 Voir aussi $3 11982982 $7 ba0yba0y $8 fre    $9   2 $a Avions de reconnaissance
+550    $5 h $3 18024386 $7 ba0yba0y $8 fre    $9     $a Drones sous-marins
+550    $5 h $3 17122932 $7 ba0yba0y $8 fre    $9     $a Drones militaires
+550    $5 h $3 16219240 $7 ba0yba0y $8 fre    $9     $a Microdrones à ailes battantes
+550    $5 g $3 11931002 $7 ba0yba0y $8 fre    $9   2 $a Avions
+550    $5 g $3 13335019 $7 ba0yba0y $8 fre    $9     $a Véhicules télécommandés
+686    $a 600 $c Sciences appliquées $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20080317
+810    $a Grand dict. encyclopédique Larousse $a Encycl. universalis - http://www.universalis-edu.com (2008-03-17)
+810    $a Rapport d'information fait au nom de la Commission des affaires étrangères, de la défense et des forces armées à la suite d'une mission sur le rôle des drones dans les armées / Commission des affaires étrangères, de la défense et des forces armées, 2006 $a Quel avenir pour les drones ? / P. Pascallon, 1998 $a Objets volants miniatures : modélisation et commande embarquée / R. Lozano, 2007
+822 12 $a Drones $2 RVMLaval $d 2008-03-17
+822 1  $a Drone aircraft $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85039623 $d 2017-02-09
+856    $u http://www.universalis-edu.com $e 2008-03-17
+999    $a FRBNF133349416 $b 13334941
+
+00831cx  a2200241   4500
+001 119977
+003 http://catalogue.bnf.fr/ark:/12148/cb15013385t
+005 20240512055324.0
+010    $a 0000000002194962 $2 ISNI $d 20150312
+033    $a http://catalogue.bnf.fr/ark:/12148/cb15013385t
+035    $a FRBNF150133851
+100    $a 20051019afrey50      ba0
+101    $a fre $t eng
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Magne $b Adeline
+801    $a FR $b FR-751131015 $c 20051025
+810    $a La conduite de l'entretien psychiatrique / Shawn Christopher Shea ; coordination scientifique de l'édition française, Jean-Louis Terra, Monique Séguin ; traduit de l'anglais par Adeline Magne, DL 2005
+999    $a FRBNF150133851 $b 15013385
+152    $b NP
+
+02183cx  a2200337   4500
+001 121356
+003 http://catalogue.bnf.fr/ark:/12148/cb12463377h
+005 20240514023914.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12463377h
+035    $a FRBNF124633773
+039    $o OPL $a 011427320
+100    $a 19950512afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Virus Ebola
+300 1  $a Rang taxonomique : genre
+450    $7 ba0yba0y $8 fre    $9     $a Ebola virus
+450    $7 ba0yba0y $8 fre    $9  0  $a Ebolavirus
+450    $7 ba0yba0y $8 fre    $9     $a Virus de la fièvre Ebola
+550    $5 z $0 Voir aussi $3 12463382 $7 ba0yba0y $8 fre    $9     $a Maladie à virus Ebola
+550    $5 g $3 12463356 $7 ba0yba0y $8 fre    $9     $a Filoviridés
+686    $a 579 $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20121119
+810    $a Encycl. Larousse - http://www.larousse.fr/encyclopedie (2012-11-19) $a Encycl. universalis (art. : Fièvres hémorragiques virales) - http://www.universalis-edu.com (2012-11-19)
+810    $a Dict. de biologie / J. Berthet, 2007 (art. : Filoviridés) $a Dict. illustré des termes de médecine, 2008 $a Dict. des sciences animales / C. Meyer (art. : Filoviridés) - http://dico-sciences-animales.cirad.fr (2012-11-19) $a TermSciences (art. : Ebolavirus) - http://www.termsciences.fr (2012-11-19) $a NCBI : Ebolavirus - http://www.ncbi.nlm.nih.gov/Taxonomy (2012-11-19) $a Dict. de médecine Flammarion, 2008 : Ebola virus $a Dict. de l'Académie de médecine : Ebola (virus) - http://dictionnaire.academie-medecine.fr (2012-11-19) $a International Committee on Taxonomy of Viruses : Ebolavirus - http://ictvonline.org (2012-11-12)
+822 12 $a Virus Ebola $2 RVMLaval $d 2012-11-19
+822 11 $2 LCSH $d 2012-11-19
+856    $u http://www.larousse.fr/encyclopedie $e 2012-11-19 $u http://www.universalis-edu.com $e 2012-11-19
+856    $u http://dico-sciences-animales.cirad.fr $e 2012-11-19 $u http://www.termsciences.fr $e 2012-11-19 $u http://www.ncbi.nlm.nih.gov/Taxonomy $e 2012-11-19 $u http://dictionnaire.academie-medecine.fr $e 2012-11-19 $u http://ictvonline.org $e 2012-11-12
+999    $a FRBNF124633773 $b 12463377
+
+00194    a2200085   4500
+001 123045
+005 20160124235004.0
+210    $a Confrérie du Puy Notre Dame $c Amiens, Somme
+100    $a 20160124afrey50      ba0
+152    $b CO
+
+00173    a2200085   4500
+001 126179
+005 20160124235247.0
+210    $a Nord nature Saint-Omer
+100    $a 20160124afrey50      ba0
+152    $b CO
+
+00210    a2200085   4500
+001 130052
+005 20160124235636.0
+210    $a Théâtre de marionnettes Espiral $c Mexico $x Représentations
+100    $a 20160124afrey50      ba0
+152    $b CO
+
+00178    a2200085   4500
+001 132827
+005 20160125000105.0
+210    $a Fluide glacial-Audie $c Paris
+100    $a 20160125afrey50      ba0
+152    $b CO
+
+00167    a2200085   4500
+001 140981
+005 20160125003203.0
+220    $a Murat (famille)
+100    $a 20160125afrey50      ba0
+152    $b FAM
+
+00194    a2200085   4500
+001 142582
+005 20160125004832.0
+215    $a Espagne $z 14e siècle $x Pièces de théâtre
+100    $a 20160125afrey50      ba0
+152    $b SNG
+
+00168    a2200085   4500
+001 148466
+005 20160125010748.0
+200    $a Buriez $b Stéphane
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00168    a2200085   4500
+001 152684
+005 20160125010906.0
+200    $a Fasquelle $b Daniel
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00194    a2200085   4500
+001 158434
+005 20160125011107.0
+200    $a Carlson $b Carolyn $f 1942-.... $x Bandes vidéos
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00166    a2200085   4500
+001 164730
+005 20160125011409.0
+200    $a Levasseur $b Eric
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00171    a2200085   4500
+001 167731
+005 20160125011513.0
+200    $a Bonnet-Rochaix $b Nade
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00165    a2200085   4500
+001 171976
+005 20160125011704.0
+200    $a Bazin $b Charley
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00166    a2200085   4500
+001 175117
+005 20160125011817.0
+200    $a De Lugg $b Milton
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00163    a2200085   4500
+001 177918
+005 20160125011928.0
+200    $a Herlin $b Anne
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00164    a2200085   4500
+001 183782
+005 20160125012208.0
+200    $a Jalade $b M.-A.
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00163    a2200085   4500
+001 189664
+005 20160125012452.0
+200    $a Pennel $b Jean
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00165    a2200085   4500
+001 195521
+005 20160125012806.0
+200    $a Pasdoc $b André
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00174    a2200085   4500
+001 200506
+005 20160125013043.0
+200    $a Schlichting Neto $b José
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00178    a2200085   4500
+001 204528
+005 20160125013245.0
+200    $a Bedford $b Francis $f 1816-1894
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00163    a2200085   4500
+001 215384
+005 20160125013936.0
+200    $a Lumet $b Louis
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00169    a2200085   4500
+001 235492
+005 20160125015018.0
+200    $a Prouvost $b Amédée
+100    $a 20160125afrey50      ba0
+152    $b NP
+
+00210    a2200085   4500
+001 238145
+005 20160125015305.0
+250    $a Littérature française $z 20e siècle $x Histoire et critique
+100    $a 20160125afrey50      ba0
+152    $b SNC
+
+00185    a2200085   4500
+001 240380
+005 20160125015505.0
+250    $a Fruits $x Bibliographie $x Catalogues
+100    $a 20160125afrey50      ba0
+152    $b SNC
+
+00204    a2200085   4500
+001 242444
+005 20160125015704.0
+250    $a Technologie de l'information $y France $y Roubaix (Nord)
+100    $a 20160125afrey50      ba0
+152    $b SNC
+
+00191    a2200085   4500
+001 244963
+005 20160125015857.0
+250    $a Violon et piano, Musique de $x Partitions
+100    $a 20160125afrey50      ba0
+152    $b SNC
+
+00219    a2200085   4500
+001 247213
+005 20160125020050.0
+250    $a Livres et lecture $y France $y Nord (France) $x Bibliographie $x Catalogues
+100    $a 20160125afrey50      ba0
+152    $b SNC
+
+00168    a2200085   4500
+001 249857
+005 20160125020344.0
+250    $a Jours (broderie)
+100    $a 20160125afrey50      ba0
+152    $b SNC
+
+00237    a2200085   4500
+001 254478
+005 20160125020720.0
+250    $a Adolescents $y France $y Lille (Nord ; agglomération) $x Conditions sociales $x Périodiques
+100    $a 20160125afrey50      ba0
+152    $b SNC
+
+00217    a2200085   4500
+001 257083
+005 20160125020941.0
+250    $a Rock (musique) $y France $y Nord-Pas-de-Calais (France) $x Périodiques
+100    $a 20160125afrey50      ba0
+152    $b SNC
+
+00243    a2200085   4500
+001 263214
+005 20160125021754.0
+250    $a Pilotes militaires (aéronautique) $y France $y Nord-Pas-de-Calais (France) $x Récits personnels
+100    $a 20160125afrey50      ba0
+152    $b SNC
+
+00749cx  a2200253   4500
+001 265528
+003 http://catalogue.bnf.fr/ark:/12148/cb12173075p
+005 20240516034445.0
+010    $a 0000000119339782 $2 VIAF $d 20130725
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12173075p
+035    $a FRBNF121730758
+039    $o OPL $a 005679523
+100    $a 19901129afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19710728           
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Richard $b Benoît $f 1971-....
+300 0  $a Journaliste
+801    $a FR $b FR-751131015 $c 19941230
+810    $a Leur silence est un cri / Marie-Christine Choquet, Benoît Richard, 1990
+999    $a FRBNF121730758 $b 12173075
+152    $b NP
+
+03182cx  a2200565   4500
+001 266731
+003 http://catalogue.bnf.fr/ark:/12148/cb119600630
+005 20240519075308.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb119600630
+035    $a FRBNF11960063X
+039    $o OPL $a 001899237
+100    $a 19840124afrey50      ba0
+106    $a 201
+152    $b GENRE/FORM $c 2
+159    $a rameau
+180    $a b
+280  0 $7 ba0yba0y $8 fre    $9     $a Autobiographie
+305 1  $a Voir aussi les vedettes du type Autobiographie [adjectif de civilisation, ethnique, de langue, de nationalité ou géographique, ou de religion]
+305 1  $a Voir aussi la subdivision de forme Biographies à tous sujets noms communs et noms propres
+305 1  $a Voir aussi la subdivision de forme Récits personnels aux collectivités, guerres, lieux (en subdivision de subdivision) et sujets noms communs appropriés (événements historiques, situations et expériences particulières, etc.)
+330    $a S'emploie également en subdivision
+480  0 $7 ba0yba0y $8 fre    $9     $a Autobiographies
+480  0 $7 ba0yba0y $8 fre    $9     $a Écrits autobiographiques
+480  0 $7 ba0yba0y $8 fre    $9     $a Littérature autobiographique
+480  0 $7 ba0yba0y $8 fre    $9     $a Récits autobiographiques
+550    $5 z $0 Voir aussi $3 18095547 $7 ba0yba0y $8 fre    $9     $a Ego-histoire
+550    $5 z $0 Voir aussi $3 11932514 $7 ba0yba0y $8 fre    $9     $a Égotisme
+580  0 $5 z $0 Voir aussi $3 11935764 $7 ba0yba0y $8 fre    $9     $a Biographie
+580  0 $5 z $0 Voir aussi $3 11932166 $7 ba0yba0y $8 fre    $9     $a Journaux intimes
+580  0 $5 z $0 Voir aussi $3 16764775 $7 ba0yba0y $8 fre    $9     $a Mémoires $x genre littéraire
+580  0 $5 z $0 Voir aussi $3 11976851 $7 ba0yba0y $8 fre    $9     $a Récits personnels
+580  0 $5 h $3 16945288 $7 ba0yba0y $8 fre    $9     $a Autobiographie antique
+580  0 $5 h $3 16945326 $7 ba0yba0y $8 fre    $9     $a Autobiographie de la Renaissance
+580  0 $5 h $3 16945291 $7 ba0yba0y $8 fre    $9     $a Autobiographie médiévale
+580  0 $5 h $3 16948837 $7 ba0yba0y $8 fre    $9     $a Autobiographie spirituelle
+580  0 $5 h $3 16741791 $7 ba0yba0y $8 fre    $9     $a Bandes dessinées autobiographiques
+580  0 $5 h $3 16959031 $7 ba0yba0y $8 fre    $9     $a Photobiographie
+580  0 $5 h $3 16912838 $7 ba0yba0y $8 fre    $9     $a Poésie autobiographique
+580  0 $5 h $3 11932786 $7 ba0yba0y $8 fre    $9     $a Roman autobiographique
+580  0 $5 h $3 15115001 $7 ba0yba0y $8 fre    $9     $a Théâtre autobiographique
+580  0 $5 g $3 11939456 $7 ba0yba0y $8 fre    $9     $a Littérature
+686    $a 801 $c Poésie $2 Note de regroupement par domaine
+686    $a 900 $c Histoire et géographie (généralités) $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20230804
+810    $a Grand Larousse universel
+810    $a Dict. des termes littéraires, 2002 $a Dict. du littéraire / P. Aron, D. Saint-Jacques, A. Viala, 2010
+822 12 $a Autobiographies $2 LCGFT $u http://id.loc.gov/authorities/genreForms/gf2014026047 $d 2023-08-04
+822 12 $a Autobiographies $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85010049 $d 2023-08-04
+822 12 $a Autobiographies $2 RVMLaval $d 2023-08-04
+999    $a FRBNF11960063X $b 11960063
+
+02083cx  a2200409   4500
+001 268049
+003 http://catalogue.bnf.fr/ark:/12148/cb125056841
+005 20240519070914.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb125056841
+035    $a FRBNF125056844
+039    $o OPL $a 012322863
+100    $a 19960315afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Domination
+450    $7 ba0yba0y $8 fre    $9     $a Domination politique
+450    $7 ba0yba0y $8 fre    $9     $a Domination sociale
+450    $7 ba0yba0y $8 fre    $9     $a Intersectionnalité
+550    $5 z $0 Voir aussi $3 16123892 $7 ba0yba0y $8 fre    $9     $a Womanisme
+550    $5 z $0 Voir aussi $3 13318762 $7 ba0yba0y $8 fre    $9     $a Autoritarisme
+550    $5 z $0 Voir aussi $3 11934065 $7 ba0yba0y $8 fre    $9     $a Autorité
+550    $5 z $0 Voir aussi $3 16978781 $7 ba0yba0y $8 fre    $9     $a Discrimination multiple
+550    $5 z $0 Voir aussi $3 12571870 $7 ba0yba0y $8 fre    $9     $a Émancipation
+550    $5 z $0 Voir aussi $3 11932875 $7 ba0yba0y $8 fre    $9     $a Obéissance
+550    $5 z $0 Voir aussi $3 11976503 $7 ba0yba0y $8 fre    $9     $a Oppression
+550    $5 z $0 Voir aussi $3 11936578 $7 ba0yba0y $8 fre    $9     $a Pouvoir $x philosophie
+550    $5 g $3 11933106 $7 ba0yba0y $8 fre    $9     $a Philosophie politique
+550    $5 g $3 11956919 $7 ba0yba0y $8 fre    $9     $a Philosophie sociale
+686    $a 100 $c Philosophie $2 Note de regroupement par domaine
+686    $a 300 $c Sciences sociales $2 Note de regroupement par domaine
+686    $a 320 $c Sciences politiques $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20210909
+810    $a Les notions philosophiques / S. Auroux, 1990 $a Lexique des sciences sociales / M. Grawitz, 1994 $a Grand dict. de la philosophie / M. Blay, 2003 $a Philosophical perspectives on power and domination / L. D. Kaplan, L. F. Bove, 1997
+822 15 $a Intersectionnalité $2 RVMLaval $d 2021-09-09
+822 15 $a Intersectionality (Sociology) $2 LCSH $u http://id.loc.gov/authorities/subjects/sh2017003056 $d 2021-09-09
+999    $a FRBNF125056844 $b 12505684
+
+00943cx  a2200253   4500
+001 269400
+003 http://catalogue.bnf.fr/ark:/12148/cb139432723
+005 20240518075455.0
+010    $a 0000000001368086 $2 ISNI $d 20161107
+033    $a http://catalogue.bnf.fr/ark:/12148/cb139432723
+035    $a FRBNF13943272X
+100    $a 19911021afrey50      ba0
+102    $a FR
+103    $a  19..               
+105    $a i
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Delille $b Marie-Laurence
+300 0  $a Chanteuse dans un orchestre de bal dès 1973, sous le pseudonyme :  Mallory
+801    $a FR $b FR-751131015 $c 20160426
+810    $a Païs tropical [Enregistrement sonore] (3 min 40 s) ; La Maison de mes souvenirs (3 min 55 s) / Marie-Laurence Delille, chant... - Reims : Leslie productions ; Reims : distrib. Leslie productions, 1987 (P).
+810    $a Chansons en Nord
+999    $a FRBNF13943272X $b 13943272
+152    $b NP
+
+01118cx  a2200349   4500
+001 270825
+003 http://catalogue.bnf.fr/ark:/12148/cb12060132k
+005 20240509033523.0
+010    $a 0000000108879089 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12060132k
+035    $a FRBNF120601326
+039    $o OPL $a 004844274 $z AMA
+039    $o OPL $a 003837978 $z APP
+039    $o OPP $a 10364224 $d 20170315
+100    $a 19870101afrey50      ba0
+101    $a ger
+102    $a XX
+103    $a  18491122  19230629 
+105    $a a
+106    $a 010
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Mauthner $b Fritz $f 1849-1923
+300    $a Philosophe et romancier
+301    $a Horitz (Empire austro-hongrois) $b Meersburg am Bodensee, Allemagne
+400    $7 ba0yba0y $8 fre    $9     $a Mauthner $b Franz $f 1849-1923
+400    $7 ba0yba0y $8 fre    $9     $a Mautner $b Fritz $f 1849-1923
+801    $a FR $b FR-751131015 $c 20170315
+810    $a Prager Jugendjahre / Fritz Mauthner, 1969
+810    $a Brockhaus, 17 éd. $a Wilpert
+810    $a BN Cat. gén.
+999    $a FRBNF120601326 $b 12060132
+
+00818nx  a2200241   4500
+001 272214
+003 http://catalogue.bnf.fr/ark:/12148/cb171522905
+005 20240519050452.0
+010    $a 0000000420607782 $2 ISNI $d 20170927
+033    $a http://catalogue.bnf.fr/ark:/12148/cb171522905
+035    $a FRBNF171522902
+100    $a 20170921afrey50      ba0
+102    $a XX
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Silas $b Thony
+300 0  $a Dessinateur de bandes dessinées
+801    $a FR $b FR-751131015 $c 20170921
+810    $a L'ère du dragon noir [Texte imprimé] / scénario, Kyle Higgins ; dessin, Thony Silas... Hendry Prasetya... ; couleur, Matt Herms.... - Grenoble : Glénat, DL 2017.
+999    $a FRBNF171522902 $b 17152290
+
+01620cx  a2200301   4500
+001 273803
+003 http://catalogue.bnf.fr/ark:/12148/cb11889162b
+005 20240508054125.0
+010    $a 0000000061316114 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11889162b
+035    $a FRBNF118891623
+039    $o OPL $a 00040875X
+100    $a 19831006afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19460808  20150412 
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Arnauld $b Marie-Paule $f 1946-2015
+300 0  $a Archiviste paléographe (promotion 1971). - Conservatrice à la Direction des Archives de France (1987). - Directrice des Archives départementales de Haute-Vienne (1990). - Directrice du Musée des monuments français (2004). - Présidente de la Société de l'École des chartes (2010)
+301    $a Cognac (Charente) $b Paris, 6e arrondissement (France)
+801    $a FR $b FR-751131015 $c 20240425
+810    $a Le Notaire au siècle des Lumières / M.-P. Arnauld, 1988 $a Manufacture de porcelaines Haviland / Archives départementales de la Haute-Vienne ; [réd.] par Hélène Taillemite ; sous la dir. de Marie-Paule Arnauld, 1993
+810    $a Livret de l'École des chartes, 1967-2007 / [sous la direction de Bernard Barbiche], 2010 $a Bibliothèque de l'École des chartes, t. 173, p. 573-577 (notice nécrologique) $a Match ID : Cancel, Marie-Paule Jeanne Emma - https://deces.matchid.io/id/wXE_PEreUvcf (2024-04-25)
+856    $u https://deces.matchid.io/id/wXE_PEreUvcf $e 2024-04-25
+999    $a FRBNF118891623 $b 11889162
+152    $b NP
+
+00779cx  a2200241   4500
+001 275721
+003 http://catalogue.bnf.fr/ark:/12148/cb14591970b
+005 20240516032702.0
+010    $a 0000000001352455 $2 VIAF $d 20130802
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14591970b
+035    $a FRBNF145919703
+100    $a 20041221afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19630224           
+105    $a a $a p
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Brisac $b Nathalie $f 1963-....
+801    $a FR $b FR-751131015 $c 20230202
+810    $a Thésée contre le Minotaure [Multimédia multisupport] / adaptation, Nathalie Brisac. EPM jeunesse, 2004 $a Devine ! / Nathalie Brissac, 2012
+999    $a FRBNF145919703 $b 14591970
+152    $b NP
+
+00906nx  a2200253   4500
+001 277325
+003 http://catalogue.bnf.fr/ark:/12148/cb17111394r
+005 20240518055948.0
+010    $a 0000000449553968 $2 ISNI $d 20170308
+033    $a http://catalogue.bnf.fr/ark:/12148/cb17111394r
+035    $a FRBNF171113948
+100    $a 20170302afrey50      ba0
+101    $a ger
+102    $a DE
+103    $a  1965               
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Kalisa $b Karin $f 1965-....
+300 0  $a Romancière, linguiste, philosophe et spécialiste de la culture classique
+801    $a FR $b FR-751131015 $c 20170302
+810    $a La mélodie familière de la boutique de Sung [Texte imprimé] : roman / Karin Kalisa ; traduit de l'allemand par Rose Labourie. - Paris : Éditions Héloïse d'Ormesson, DL 2016.
+999    $a FRBNF171113948 $b 17111394
+
+00989cx  a2200253   4500
+001 278692
+003 http://catalogue.bnf.fr/ark:/12148/cb16963296x
+005 20240510023305.0
+010    $a 000000045320463X $2 ISNI $d 20171219
+033    $a http://catalogue.bnf.fr/ark:/12148/cb16963296x
+035    $a FRBNF169632964
+100    $a 20150505afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  1956               
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Savoye $b Jean-Marc $f 1956-....
+300 0  $a Éditeur. - Cofondateur du site de critiques littéraires Onlalu.com.
+801    $a FR $b FR-751131015 $c 20170224
+810    $a J'aime pas ma banque ou Pourquoi j'ai quitté la Société Générale [Texte imprimé] / Jean-Marc Savoye ; [postface de Dominique Bourel]. - [Paris] : le Publieur, cop. 2014. $a Les heures claires de la Villa Savoye / Jean-Philippe Delhomme, Jean-Marc Savoye, DL 2015
+999    $a FRBNF169632964 $b 16963296
+152    $b NP
+
+00505nx  a22002053  4500
+001 279974
+003 http://catalogue.bnf.fr/ark:/12148/cb11524386x
+005 20180726124952.0
+100    $a 19970701cfrey50      ba0
+101    $a und
+102    $a XX
+105    $a a
+106    $a 1  
+152    $a AFNOR Z 44-061 $c 2 $b NP
+200    $a Dontenville $b Henri
+801    $a FR $b FR-751131015 $c 19970701
+009 http://catalogue.bnf.fr/ark:/12148/cb11524386x
+035    $a FRBNF115243863
+998    $a 152814
+999    $a 11524386
+
+01790cx  a2200421   4500
+001 281225
+003 http://catalogue.bnf.fr/ark:/12148/cb10634069r
+005 20180726124657.0
+010    $a 0000000122592279 $2 VIAF $d 20130716
+039    $o OPP $a 11032627 $d 20140410
+039    $o OPP $a 11817954 $d 20140410
+039    $o OPP $a 14926377 $d 20140410
+039    $o OPP $a 15482732 $d 20140410
+039    $o OPP $a 14314297 $d 20140410
+039    $o OPP $a 10654576 $d 20180420
+100    $a 19970701afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  18730706  19540727 
+105    $a a
+106    $a 010
+120    $a b
+152    $a AFNOR Z 44-061 $b NP
+200    $a Redier $b Antoine $f 1873-1954
+300    $a Écrivain, essayiste, romancier et éditeur. - A été directeur de "La Revue française". - Lieutenant d'infanterie lors de la Grande guerre
+300    $a Épouse le 19 juillet 1934 Marie-Léonie Vanhoutte (1888-1967)
+301    $a Meudon (Hauts-de-Seine) $b Paris (France)
+400    $7 ba0yba0y $8 fre    $a Redier $b Antoine Jean Louis $f 1873-1954
+686    $a 800 $c Littératures $2 Note de regroupement par domaine
+686    $a 944 $c Histoire de la France $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20140410
+810    $a Ce qu'on appelle le monde / Antoine Redier, 1932
+810    $a Leonore : 6 juillet 1873 - http://www.culture.gouv.fr (2014-04-08) $a World biographical index - http://www.biblio.tu-bs.de (2002-07-15) $a Lorenz, 1916-1918 : donne par erreur 1883 comme année de naissance $a Lorenz, 1922-1925 : donne 1878 comme année de naissance
+810    $a BN Cat. gén. : Redier (Antoine-Jean-Louis) $a BN Cat. gén. suppl.
+009 http://catalogue.bnf.fr/ark:/12148/cb10634069r
+035    $a FRBNF106340690
+998    $a 163007
+999    $a 10634069
+
+02229cx  a2200433   4500
+001 282400
+003 http://catalogue.bnf.fr/ark:/12148/cb124599940
+005 20180726124515.0
+010    $a 0000000120954440 $2 ISNI $d 20170818
+039    $o OPL $a 008092844 $z AMA
+039    $o OPL $a 011252789 $z APP
+039    $o OPP $a 15462650 $d 20110829
+100    $a 19950424afrey50      ba0
+101    $a fre $t lat
+102    $a FR
+103    $a  16401206  17230714 
+105    $a a
+106    $a 010
+120    $a b
+152    $a AFNOR Z 44-061 $b NP
+200    $a Fleury $b Claude $f 1640-1723
+300    $a A aussi écrit en grec et en latin
+300    $a Prêtre. - Précepteur. - Membre de l'Institut, Académie française (élu en 1696)
+301    $a Paris $b Paris
+400    $7 ba0yba0y $8 fre    $a Fleuri $b Claudio $f 1640-1723
+400    $7 ba0yba0y $8 fre    $a Fleurius $b Claudius $f 1640-1723
+400    $7 ba0yba0y $8 fre    $a Fleury $b Claudio $f 1640-1723
+400    $5 e $7 ba0yba0y $8 fre    $a C. F. $f 1640-1723
+400    $5 e $7 ba0yba0y $8 fre    $a Bonel $b Charles $f 1640-1723
+400    $7 ba0yba0y $8 fre    $a Fleury $b Abbé $f 1640-1723
+400    $7 ba0yba0y $8 fre    $a Fleury $b C.-M. $f 1640-1723
+801    $a FR $b FR-751131015 $c 20130525
+810    $a Catéchisme historique, contenant en abrégé l'histoire sainte et la doctrine chrétienne / par M. Claude Fleury, 1683 $a Bibliotheca claromontana patrum Societatis Jesu carmine descripta / a C. F. [Claudio Fleury], 1661 $a Institution du droit ecclésiastique de France / composé par feu Me Charles Bonel [Cl. Fleury] et revu avec soin par M. de Massac, 1677 $a Catéchisme historique / par C.-M. Fleury ; nouvelle édition augmentée des répons de la messe, etc. [des prières du matin et du soir, d'une prière pour le roi et de l'amende honorable au T. S. Sacrement], [s. d.]
+810    $a DBF $a Institut de France, Paris. Académie française. Les immortels : Claude Fleury - http://www.academie-francaise.fr/les-immortels/claude-fleury?fauteuil=36&election=02-07-1696 (2013-05-25) $a Larousse 19e s. : Fleury (l'abbé Claude)
+810    $a BN Cat. gén. : Fleury (Abbé Claude)
+009 http://catalogue.bnf.fr/ark:/12148/cb124599940
+035    $a FRBNF124599940
+998    $a 168511
+999    $a 12459994
+
+00924cx  a2200253   4500
+001 283997
+003 http://catalogue.bnf.fr/ark:/12148/cb12206450w
+005 20240514050210.0
+010    $a 0000000000782648 $2 ISNI $d 20150312
+033    $a http://catalogue.bnf.fr/ark:/12148/cb12206450w
+035    $a FRBNF122064501
+039    $o OPL $a 00719973X
+100    $a 19910627afrey50      ba0
+101    $a fre
+102    $a FR
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Pellegrin $b Jacques
+300 0  $a Membre de la Direction de l'audit et de l'inspection générale à la SNCF (en 1992)
+801    $a FR $b FR-751131015 $c 19920311
+810    $a La Concurrence entre le rail et la route : évolution et perspectives : promotion "Condorcet" / École nationale d'administration, Direction des études ; groupe animé par Jacques Pellegrin, 1991
+810    $a BA 1992
+999    $a FRBNF122064501 $b 12206450
+152    $b NP
+
+00928nx  a2200265   4500
+001 285723
+003 http://catalogue.bnf.fr/ark:/12148/cb13477689n
+005 20180726124330.0
+010    $a 0000000381545063 $2 ISNI $d 20150313
+039    $o OPL $a 013551320
+100    $a 19971110afrey50      ba0
+101    $a fre
+102    $a BE
+105    $a a
+106    $a 1  
+152    $a AFNOR Z 44-061 $c 2 $b NP
+200    $a Lauwers-Derveaux $b Elisabeth
+400    $7 ba0yba0y $8 fre    $a Derveaux $b Elisabeth Lauwers-
+801    $a FR $b FR-751131015 $c 19971110
+810    $a L'empire de flore  / Christian Coppens, Saskia de Bodt, René De Herdt... [et al.] ; sous la dir. de Sabine van Sprang ; avec la collab. de Gerda De Brabandere ; recherche iconographique Elisabeth Lauwers-Derveaux, 1996
+815    $a LCNA (CD), 1996-06
+009 http://catalogue.bnf.fr/ark:/12148/cb13477689n
+035    $a FRBNF134776894
+998    $a 171161
+999    $a 13477689
+
+00520nx  a22001933  4500
+001 287123
+003 http://catalogue.bnf.fr/ark:/12148/cb11567498r
+005 20240516064332.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11567498r
+035    $a FRBNF115674988
+100    $a 19970701cfrey50      ba0
+101    $a und
+102    $a XX
+105    $a a
+106    $a 1  
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9     $a La Thébeaudière $b Josette de
+801    $a FR $b FR-751131015 $c 19970701
+999    $a FRBNF115674988 $b 11567498
+
+00849cx  a2200241   4500
+001 288625
+003 http://catalogue.bnf.fr/ark:/12148/cb120766151
+005 20180726124150.0
+010    $a 0000000116617732 $2 VIAF $d 20130724
+039    $o OPL $a 00404037X
+100    $a 20180724 frey50      
+101    $a eng $t fre
+102    $a NZ
+105    $a a
+106    $a 1  
+152    $a AFNOR Z 44-061 $c 2 $b NP
+200    $a Ollivier $b Isabel
+801    $a FR $b FR-751131015 $c 20040210
+810    $a Extracts from journals relating to the visit to New Zealand in May-July 1772 of the French ships "Mascarin" and "Marquis de Castries" under the command of M.-J. Marion du Fresne / transcription by Isabel Ollivier ; appendix by Jeremy Spencer, 1985
+009 http://catalogue.bnf.fr/ark:/12148/cb120766151
+035    $a FRBNF120766153
+998    $a 193847
+999    $a 12076615
+
+01332cx  a2200289   4500
+001 290201
+003 http://catalogue.bnf.fr/ark:/12148/cb144689211
+005 20180726123514.0
+010    $a 0000000072448075 $2 VIAF $d 20130801
+100    $a 20180724 frey50      
+101    $a fre
+102    $a CH
+103    $a  19..      ....     
+105    $a a
+106    $a 1  
+120    $a a
+152    $a AFNOR Z 44-061 $c 2 $b NP
+200    $a Hochuli Dubuis $b Paule
+300 0  $a Licenciée en histoire de l'Université de Genève et diplômée de l'École des chartes de Paris. - Assistante conservatrice au Département des manuscrits de la Bibliothèque de Genève depuis 2003 (en 2006)
+400    $7 ba0yba0y $8 fre    $a Dubuis $b Paule Hochuli
+801    $a FR $b FR-751131015 $c 20070718
+810    $a Registres du Conseil de Genève à l'époque de Calvin. Tome I, Du 1er mai au 31 décembre 1536 (volume 30, f. 1-139) / publiés sous la direction des Archives d'État de Genève ; texte établi par Paule Hochuli Dubuis, 2003 $a Une histoire du manuscrit médiéval illustrée par les chefs-d'oeuvre de la Bibliothèque de Genève / Paule Hochuli-Dubuis, 2006
+810    $a Helveticat - http://www.helveticat.ch (2006-10-05)
+009 http://catalogue.bnf.fr/ark:/12148/cb144689211
+035    $a FRBNF144689217
+998    $a 207458
+999    $a 14468921
+
+00742cx  a2200241   4500
+001 292328
+003 http://catalogue.bnf.fr/ark:/12148/cb15062590r
+005 20240507035317.0
+010    $a 0000000005418546 $2 ISNI $d 20150312
+033    $a http://catalogue.bnf.fr/ark:/12148/cb15062590r
+035    $a FRBNF150625906
+100    $a 20060504afrey50      ba0
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Pinson $b Sylvain
+300 0  $a Réalisateur
+801    $a FR $b FR-751131015 $c 20140312
+810    $a Les Bodin's grandeur nature [Images animées] / Sylvain Pinson, réal. M6 vidéo ; Lancosme multimédia, 2006
+999    $a FRBNF150625906 $b 15062590
+152    $b NP
+
+01115cx  a2200277   4500
+001 294069
+003 http://catalogue.bnf.fr/ark:/12148/cb17757822k
+005 20240519072914.0
+010    $a 0000000502682110 $2 ISNI $d 20210616
+033    $a http://catalogue.bnf.fr/ark:/12148/cb17757822k
+035    $a FRBNF177578224
+100    $a 20180829afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19551012           
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Petit $b Bernard $f 1955-.... $c commissaire
+300 0  $a Commissaire de police à la retraite devenu romancier
+801    $a FR $b FR-751131015 $c 20210611
+810    $a Secrets de flic / Bernard Petit, DL 2018 $a La traque / Bernard Petit, DL 2021
+810    $a Le Monde - https://www.lemonde.fr/societe/article/2015/02/05/l-ascension-contrariee-de-bernard-petit-policier-ambitieux_4570426_3224.html (2018-08-29)
+856    $u https://www.lemonde.fr/societe/article/2015/02/05/l-ascension-contrariee-de-bernard-petit-policier-ambitieux_4570426_3224.html $e 2018-08-29
+999    $a FRBNF177578224 $b 17757822
+152    $b NP
+
+01147cx  a2200313   4500
+001 296294
+003 http://catalogue.bnf.fr/ark:/12148/cb124716203
+005 20240508073402.0
+010    $a 0000000449184875 $2 ISNI $d 20161108
+010    $y 0000000049443815 $2 VIAF $d 20130729
+033    $a http://catalogue.bnf.fr/ark:/12148/cb124716203
+035    $a FRBNF124716201
+039    $o OPL $a 011566003
+100    $a 19950626afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  1898      1973     
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Leproux $b Marc $f 1898-1973
+300 0  $a Ethnologue du pays charentais
+301    $a Saint-Maurice-des-lions (Charente) $b Angoulême (Charente)
+801    $a FR $b FR-751131015 $c 20150109
+810    $a Médecine, magie et sorcellerie / Marc Leproux ; préf. de Arnold Van Gennep, 1994 [Reprod de l'éd. de 1954]
+810    $a Dictionnaire biographique des Charentais et de ceux qui ont illustré les Charentes / coordination par François Julien-Labruyère, 2005
+810    $a BN Cat. gén. $a BN Cat. gén. suppl.
+999    $a FRBNF124716201 $b 12471620
+152    $b NP
+
+01024cx  a2200313   4500
+001 298288
+003 http://catalogue.bnf.fr/ark:/12148/cb11923569b
+005 20240515065415.0
+010    $a 0000000108596951 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11923569b
+035    $a FRBNF11923569X
+039    $o OPL $a 00132708X
+100    $a 19760818afrey50      ba0
+101    $a eng
+102    $a GB
+103    $a  19260803  20041218 
+105    $a a
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Sampson $b Anthony $f 1926-2004
+300 0  $a Journaliste et écrivain
+301    $b Wardour (GB)
+801    $a FR $b FR-751131015 $c 20060913
+810    $a Anatomy of Britain today / Anthony Sampson, 1965
+810    $a BLNA, 2002-11 $a BL Integrated catalogue : Sampson, Anthony Terrell Sewar - http://catalogue.bl.uk (2006-09-13) $a Monde, 2004-12-24
+810    $a BN Cat. gén. 1960-1969
+856    $u http://catalogue.bl.uk $e 2006-09-13
+999    $a FRBNF11923569X $b 11923569
+
+01493cx  a2200349   4500
+001 300197
+003 http://catalogue.bnf.fr/ark:/12148/cb13542060m
+005 20240516042551.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13542060m
+035    $a FRBNF135420602
+039    $o OPL $a 014791560
+100    $a 20000204afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a MP3 (norme de codage audio)
+450    $7 ba0yba0y $8 fre    $9     $a MP3 (fichiers)
+450    $7 ba0yba0y $8 fre    $9     $a MP3 (format)
+450    $7 ba0yba0y $8 fre    $9     $a MP3 (logiciels)
+450    $7 ba0yba0y $8 fre    $9     $a MPEG audio (norme)
+450    $7 ba0yba0y $8 fre    $9     $a MPEG layer 3 (norme)
+450    $7 ba0yba0y $8 fre    $9     $a MPEG-1 audio layer 3 (norme)
+550    $5 z $0 Voir aussi $3 12573610 $7 ba0yba0y $8 fre    $9     $a Musique sur Internet
+550    $5 z $0 Voir aussi $3 13542045 $7 ba0yba0y $8 fre    $9   2 $a Lecteurs MP3
+550    $5 g $3 13506833 $7 ba0yba0y $8 fre    $9   2 $a MPEG (norme de codage vidéo)
+686    $a 621 $2 Note de regroupement par domaine
+686    $a 791 $c Audiovisuel $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20030709
+815    $a Grand dict. Marabout de l'informatique et de l'Internet / Virga, 1996
+822 12 $a MP3 (norme de codage audio) $2 RVMLaval $d 2003-07-09
+822 1  $a MP3 (Audio coding standard) $2 LCSH $u http://id.loc.gov/authorities/subjects/sh00000865 $d 2017-02-09
+999    $a FRBNF135420602 $b 13542060
+
+01369cx  a2200325   4500
+001 301953
+003 http://catalogue.bnf.fr/ark:/12148/cb138954422
+005 20240511073713.0
+010    $a 0000000119373227 $2 ISNI $d 20150312
+010    $y 0000000119365702 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb138954422
+035    $a FRBNF138954426
+039    $o OPP $a 14684235 $d 20070720
+100    $a 19890601afrey50      ba0
+102    $a US
+103    $a  19240810  20140531 
+105    $a i $a a
+106    $a 010
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Hyer $b Martha $f 1924-2014
+300    $a Actrice. - Scénariste
+400    $7 ba0yba0y $8 fre    $9     $a Hyer Wallis $b Martha $f 1924-2014
+400    $7 ba0yba0y $8 fre    $9     $a Julien $b Martin $f 1924-2014
+400    $7 ba0yba0y $8 fre    $9     $a Martin $b Julien $f 1924-2014
+801    $a FR $b FR-751131015 $c 20151109
+810    $a Le crépuscule sanglant [Images animées] / Jack Arnold, réal. ; Robert Bré, adapt. ; Lewis B. Patten, aut. adapté. ; Terry Gilkyson, Hans J. Salter, comp. ; Rory Calhoun, Martha Hyer, Dean Jagger, Robert Middleton... [et al.], act.. - Paris : MPM productions [éd.] ; Paris : MPM productions [distrib.], 1992 (DL).
+810    $a IMDB - http://www.imdb.com (2015-11-09)
+856    $u http://www.imdb.com/ $e 2015-11-09
+999    $a FRBNF138954426 $b 13895442
+
+00886cx  a2200265   4500
+001 303448
+003 http://catalogue.bnf.fr/ark:/12148/cb15548232n
+005 20240513061355.0
+010    $a 0000000118712784 $2 VIAF $d 20130806
+033    $a http://catalogue.bnf.fr/ark:/12148/cb15548232n
+035    $a FRBNF15548232X
+100    $a 20070713afrey50      ba0
+102    $a US
+103    $a  19300103           
+105    $a i
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Corday $b Mara $f 1930-....
+300 0  $a Comédienne
+801    $a FR $b FR-751131015 $c 20070906
+810    $a Tarantula ! [Images animées] / Jack Arnold, réal. ; Robert M. Fresco, idée orig. ; Mara Corday, act. Bach films, [2007]
+810    $a Internet movie database - http://us.imdb.com (2007-07-13)
+856    $u http://us.imdb.com $e 2007-07-13
+999    $a FRBNF15548232X $b 15548232
+
+00777cx  a2200241   4500
+001 304951
+003 http://catalogue.bnf.fr/ark:/12148/cb14016415h
+005 20240519032459.0
+010    $a 0000000042077242 $2 ISNI $d 20150312
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14016415h
+035    $a FRBNF140164154
+100    $a 19981127afrey50      ba0
+102    $a XX
+103    $a  19..               
+105    $a i
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Trovillo $b George
+300 0  $a Pianiste
+801    $a FR $b FR-751131015 $c 20140612
+810    $a Roberta Peters in recital [Enregistrement sonore] / Bach, Handel, Scarlatti... [et al.], comp. ; George Trovillo, p. RCA-Victor-Red seal LSC2379
+999    $a FRBNF140164154 $b 14016415
+
+01023cx  a2200253   4500
+001 306549
+003 http://catalogue.bnf.fr/ark:/12148/cb177603968
+005 20240509044639.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb177603968
+035    $a FRBNF177603962
+100    $a 20180917afrey50      ba0
+102    $a FR
+103    $a  2017               
+105    $a i
+106    $a 1  
+150    $a y $b v8  
+210    $7 ba0yba0y $8 fre    $9 20  $a Les Enfants de l'école "La clef des champs" de la Pellerine
+300 0  $a Choeur d'enfants
+801    $a FR $b FR-751131015 $c 20180917
+810    $a Câlins [Multimédia multisupport] / chants, Les Enfants de l'école "La clef des champs" de la Pellerine. Benjamins media, DL 2017
+810    $a Cartes 2 France - http://www.cartes-2-france.com/activites/531770002/ecole-primaire-la-clef-des-champs.php (2018-09-17)
+856    $u http://www.cartes-2-france.com/activites/531770002/ecole-primaire-la-clef-des-champs.php $e 2018-09-17
+999    $a FRBNF177603962 $b 17760396
+152    $b CO
+
+01177cx  a2200277   4500
+001 308039
+003 http://catalogue.bnf.fr/ark:/12148/cb150570299
+005 20240516045854.0
+010    $a 000000005471478X $2 VIAF $d 20130805
+033    $a http://catalogue.bnf.fr/ark:/12148/cb150570299
+035    $a FRBNF150570299
+100    $a 20060410afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19610928           
+105    $a a
+106    $a 1  
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Consigny $b Thierry $f 1961-....
+300 0  $a Diplômé de l'ENA. - Romancier. - Publicitaire. - Cofondateur de la société de communication "Les ouvriers du paradis"
+801    $a FR $b FR-751131015 $c 20110719
+810    $a La mort de Lara / Thierry Consigny, impr. 2006
+810    $a Comédie du livre - http://comediedulivre.montpellier.fr/UserFiles/File/PROG_DEF.pdf (2007-04-10) $a Faits & documents - http://www.faits-et-documents.com/archives/113.pdf (2007-04-10)
+856    $u http://comediedulivre.montpellier.fr/UserFiles/File/PROG_DEF.pdf $e 2007-04-10 $u http://www.faits-et-documents.com/archives/113.pdf $e 2007-04-10
+999    $a FRBNF150570299 $b 15057029
+152    $b NP
+
+00973cx  a2200277   4500
+001 309934
+003 http://catalogue.bnf.fr/ark:/12148/cb13898726c
+005 20240506025947.0
+010    $a 0000000055132749 $2 VIAF $d 20130731
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13898726c
+035    $a FRBNF138987262
+100    $a 19890601afrey50      ba0
+102    $a US
+103    $a  19390611           
+105    $a i
+106    $a 1  
+120    $a b
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Purdie $b Bernard $f 1939-....
+300 0  $a Musicien de jazz. - Batteur
+400    $7 ba0yba0y $8 fre    $9     $a Purdie $b Pretty $f 1939-....
+801    $a FR $b FR-751131015 $c 20230829
+810    $a Broken windows, empty hallways [Enregistrement sonore] / Bernard Purdie, batt. Prestige 9020492403
+810    $a Grove jazz $a LC authorities - https://lccn.loc.gov/n82113585 (2023-08-29)
+856    $u https://lccn.loc.gov/n82113585 $e 2023-08-29
+999    $a FRBNF138987262 $b 13898726
+
+00569cx  a22002173  4500
+001 314322
+003 http://catalogue.bnf.fr/ark:/12148/cb169105213
+005 20240510075557.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb169105213
+035    $a FRBNF169105218
+100    $a 20140918cfrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19730309           
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Cazier $b Chantal $f 1973-....
+801    $a FR $b FR-751131015 $c 20140918
+999    $a FRBNF169105218 $b 16910521
+152    $b NP
+
+00505nx  a22001933  4500
+001 315858
+003 http://catalogue.bnf.fr/ark:/12148/cb114758256
+005 20240430063624.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb114758256
+035    $a FRBNF114758255
+100    $a 19970701cfrey50      ba0
+101    $a und
+102    $a XX
+105    $a a
+106    $a 1  
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9     $a Morice $b Lucien
+801    $a FR $b FR-751131015 $c 19970701
+999    $a FRBNF114758255 $b 11475825
+
+00504nx  a22001933  4500
+001 317454
+003 http://catalogue.bnf.fr/ark:/12148/cb11457980p
+005 20240515053901.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11457980p
+035    $a FRBNF114579804
+100    $a 19970701cfrey50      ba0
+101    $a und
+102    $a XX
+105    $a a
+106    $a 1  
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9     $a Goerner $b Fred
+801    $a FR $b FR-751131015 $c 19970701
+999    $a FRBNF114579804 $b 11457980
+
+00504nx  a22001933  4500
+001 318923
+003 http://catalogue.bnf.fr/ark:/12148/cb109031132
+005 20240508073400.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb109031132
+035    $a FRBNF109031133
+100    $a 19970701cfrey50      ba0
+101    $a und
+102    $a XX
+105    $a a
+106    $a 1  
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9     $a Hatem $b Simone
+801    $a FR $b FR-751131015 $c 19970701
+999    $a FRBNF109031133 $b 10903113
+
+01010cx  a2200277   4500
+001 320707
+003 http://catalogue.bnf.fr/ark:/12148/cb135112353
+005 20240508053959.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb135112353
+035    $a FRBNF135112355
+039    $o OPL $a 014479087
+100    $a 19990623afrey50      ba0
+101 0  $a fre
+102    $a XX
+103    $a  1997               
+106    $a 010
+152    $c 2 $b SAUTTIT
+154    $a |a
+240    $a Bauchau $b Henry $f 1913-2012 $9  0  $7 ba0yba0y $8 frefre $t Antigone
+300    $a Catégorie de l'oeuvre : Oeuvres textuelles
+300    $a Roman
+686    $a 800 $c Histoire et critique littéraires $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20050118
+810    $a Dictionnaire de littérature française : XXe siècle / préf., Bertrand Poirot-Delpech, 2000 (sous : Bauchau, Henry)
+815    $a Dictionnaire Bordas de littérature française / [sous la dir. de] Henri Lemaître, 2003
+999    $a FRBNF135112355 $b 13511235
+
+00751cx  a2200253   4500
+001 322356
+003 http://catalogue.bnf.fr/ark:/12148/cb14514358w
+005 20240510061732.0
+010    $a 0000000441775072 $2 ISNI $d 20211124
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14514358w
+035    $a FRBNF145143580
+100    $a 20031219afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Le Breton $b Élisabeth
+300 0  $a Historienne de l'art
+801    $a FR $b FR-751131015 $c 20201106
+810    $a Une antiquité moderne / commissaires Elisabeth Le Breton et Jean-Luc Martinez, 2019
+999    $a FRBNF145143580 $b 14514358
+152    $b NP
+
+00750cx  a2200253   4500
+001 323926
+003 http://catalogue.bnf.fr/ark:/12148/cb14550280n
+005 20240515020202.0
+010    $a 0000000001046386 $2 ISNI $d 20210407
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14550280n
+035    $a FRBNF145502802
+039    $o OPP $a 16810731 $d 20210329
+100    $a 20040615afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..      ....     
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Chauvelot $b Raphaëlle
+801    $a FR $b FR-751131015 $c 20210329
+810    $a Les oiseaux / conception et textes, Émilie Beaumont, Raphaëlle Chauvelot, 2004
+999    $a FRBNF145502802 $b 14550280
+152    $b NP
+
+00778cx  a2200253   4500
+001 325543
+003 http://catalogue.bnf.fr/ark:/12148/cb129951261
+005 20240519055727.0
+010    $a 0000000036642559 $2 VIAF $d 20130730
+033    $a http://catalogue.bnf.fr/ark:/12148/cb129951261
+035    $a FRBNF129951267
+039    $o OPL $a 010890454
+100    $a 19950131afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  1958               
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Ulysse $b Louis-Stéphane $f 1958-....
+300 0  $a Romancier
+801    $a FR $b FR-751131015 $c 20100903
+810    $a Toutes les nouvelles de mon quartier intéressent le monde entier / Louis-Stéphane Ulysse, 1997
+999    $a FRBNF129951267 $b 12995126
+152    $b NP
+
+01906cx  a2200325   4500
+001 327317
+003 http://catalogue.bnf.fr/ark:/12148/cb17042313m
+005 20240508041945.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb17042313m
+035    $a FRBNF170423132
+100    $a 20160426afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Discrimination linguistique
+450    $7 ba0yba0y $8 fre    $9     $a Discrimination selon la langue
+450    $7 ba0yba0y $8 fre    $9     $a Glottophobie
+450    $7 ba0yba0y $8 fre    $9     $a Langues $x Discrimination
+550    $5 z $0 Voir aussi $3 12099992 $7 ba0yba0y $8 fre    $9   2 $a Langues $x Droit
+550    $5 z $0 Voir aussi $3 11946264 $7 ba0yba0y $8 fre    $9   2 $a Politique linguistique
+550    $5 g $3 13319080 $7 ba0yba0y $8 fre    $9     $a Discrimination
+550    $5 g $3 11933281 $7 ba0yba0y $8 fre    $9     $a Sociolinguistique
+686    $a 300 $c Sciences sociales $2 Note de regroupement par domaine
+686    $a 401 $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20181123
+810    $a Rapport sur la discrimination linguistique et culturelle à l'égard des personnes appartenant à des groupes ou minorités en France / EBLUL France, Comité français du Bureau européen des langues moins répandues, 2005 - http://gpo.identitat-d-oc.net (2016-04-26) $a Les discriminations linguistiques, un obstacle majeur à l'éducation inclusive, plurilingue et interculturelle : que disent les textes internationaux de protection des droits de l'Homme ? / P. Blanchet, 2014 - http://parents.ecml.at (2016-04-26)
+822 12 $a Discrimination in language $2 LCSH $u http://id.loc.gov/authorities/subjects/sh2014001823 $d 2018-11-23
+822 12 $a Discrimination linguistique $2 RVMLaval $d 2018-11-13
+856    $u http://gpo.identitat-d-oc.net $e 2016-04-26 $u http://parents.ecml.at $e 2016-04-26
+999    $a FRBNF170423132 $b 17042313
+
+00224    a2200097   4500
+001 328775
+005 20210126163233.0
+250    $a Sentiments $x Dans la littérature
+801    $a FR $b 595126101 $c 20210126
+100    $a 20210126afrey50      ba0
+152    $b SNC
+
+00757cx  a2200241   4500
+001 329968
+003 http://catalogue.bnf.fr/ark:/12148/cb170499505
+005 20240510045956.0
+010    $a 0000000459628177 $2 ISNI $d 20170201
+033    $a http://catalogue.bnf.fr/ark:/12148/cb170499505
+035    $a FRBNF170499500
+100    $a 20160531afrey50      ba0
+101    $a pol
+102    $a XX
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Spyrka $b Dorota
+801    $a FR $b FR-751131015 $c 20160531
+810    $a Maroc [document cartographique] : 3 en 1 : guide + atlas + carte / Grazyna Hanaf ; traduction Dorota Spyrka, Joanna Torzewska, 2015
+999    $a FRBNF170499500 $b 17049950
+
+00802cx  a2200229   4500
+001 331232
+003 http://catalogue.bnf.fr/ark:/12148/cb17706801b
+005 20240504071818.0
+010    $a 0000000464292575 $2 ISNI $d 20180117
+033    $a http://catalogue.bnf.fr/ark:/12148/cb17706801b
+035    $a FRBNF177068011
+100    $a 20180111afrey50      ba0
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Plessy $b Valentine
+801    $a FR $b FR-751131015 $c 20180112
+810    $a Écoute l'arbre et la feuille [Texte imprimé] / David George Haskell ; traduit de l'anglais (États-Unis) par Thierry Piélat ; illustrations de Valentine Plessy. - [Paris] : Flammarion, DL 2017.
+999    $a FRBNF177068011 $b 17706801
+152    $b NP
+
+00802nx  a2200241   4500
+001 332597
+003 http://catalogue.bnf.fr/ark:/12148/cb16641781v
+005 20240508041900.0
+010    $a 0000000390681104 $2 ISNI $d 20160216
+033    $a http://catalogue.bnf.fr/ark:/12148/cb16641781v
+035    $a FRBNF166417814
+100    $a 20121115afrey50      ba0
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Laville $b Nathalie
+300 0  $a Réalisatrice
+801    $a FR $b FR-751131015 $c 20121115
+810    $a Deux tombes à char dans l'Oise / Nathalie Laville, réal. In Inrap reportages [Images animées]. Institut national de recherches archéologiques préventives, [2011]
+999    $a FRBNF166417814 $b 16641781
+152    $b NP
+
+00885cx  a2200265   4500
+001 334004
+003 http://catalogue.bnf.fr/ark:/12148/cb17876109s
+005 20240509053011.0
+010    $a 000000050396470X $2 ISNI $d 20211103
+033    $a http://catalogue.bnf.fr/ark:/12148/cb17876109s
+035    $a FRBNF17876109X
+100    $a 20200610afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+200    $7 ba0yba0y $8 fre    $9  0  $a Breuil-Salles $b Marine
+300 0  $a Auteur d'ouvrages pour la jeunesse
+400    $7 ba0yba0y $8 fre    $9     $a Salles $b Marine Breuil-
+801    $a FR $b FR-751131015 $c 20200725
+810    $a La Tour Eiffel : l'histoire de la Dame de fer / [texte, Marine Breuil-Salles]. - Paris : Quelle histoire, DL 2020. - [Texte noté. Image fixe]
+999    $a FRBNF17876109X $b 17876109
+152    $b NP
+
+00904cx  a2200289   4500
+001 335388
+003 http://catalogue.bnf.fr/ark:/12148/cb161792308
+005 20240510052445.0
+010    $a 0000000077213750 $2 VIAF $d 20130807
+033    $a http://catalogue.bnf.fr/ark:/12148/cb161792308
+035    $a FRBNF161792301
+100    $a 20100210afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19750122           
+105    $a a $a c
+106    $a 010
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a Cirotteau $b Thomas $f 1975-....
+300    $a Réalisateur, scénariste et ingénieur du son
+301    $a Paris
+801    $a FR $b FR-751131015 $c 20130702
+810    $a Imdb - http://www.imdb.com (2010-02-10)
+810    $a Din 16538/39 (Paris) [Images animées] / Thomas Cirotteau, comp., cop. 1999
+856    $u http://www.imdb.com $e 2010-02-10
+999    $a FRBNF161792301 $b 16179230
+152    $b NP
+
+00250    a2200097   4500
+001 336499
+005 20220920123559.0
+210    $a Société industrielle de spécialités alimentaires $c Paris
+801    $a FR $b 595126101 $c 20220920
+100    $a 20220920afrey50      ba0
+152    $b CO
+
+00775cx  a2200241   4500
+001 337721
+003 http://catalogue.bnf.fr/ark:/12148/cb119154440
+005 20240513021550.0
+010    $a 0000000025403384 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb119154440
+035    $a FRBNF119154440
+039    $o OPL $a 00110480X
+100    $a 19790312afrey50      ba0
+101    $a fre
+102    $a FR
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Mehl $b Dominique
+300 0  $a Sociologue au Centre d'Étude des mouvements sociaux (CNRS-EHESS) (en 1992)
+801    $a FR $b FR-751131015 $c 19921028
+810    $a La fenêtre et le miroir : la télévision et ses programmes / Dominique Mehl, 1992
+999    $a FRBNF119154440 $b 11915444
+152    $b NP
+
+00672nx  a2200229   4500
+001 338998
+003 http://catalogue.bnf.fr/ark:/12148/cb14401021m
+005 20240510041250.0
+010    $a 0000000002905154 $2 VIAF $d 20130801
+033    $a http://catalogue.bnf.fr/ark:/12148/cb14401021m
+035    $a FRBNF144010214
+100    $a 20020314afrey50      ba0
+101    $a fre
+102    $a FR
+105    $a a
+106    $a 1  
+200    $7 ba0yba0y $8 fre    $9  0  $a Mortagne  $b  Stéphane
+300 0  $a Photographe
+801    $a FR $b FR-751131015 $c 20020314
+810    $a Cambrai / textes, Maurice Leclercq ; photos, Stéphane Mortagne, 2001
+999    $a FRBNF144010214 $b 14401021
+152    $b NP
+
+00728nx  a2200253   4500
+001 340204
+003 http://catalogue.bnf.fr/ark:/12148/cb18058851b
+005 20240514034524.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb18058851b
+035    $a FRBNF180588513
+100    $a 20230120afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  2014               
+105    $a a $c e
+106    $a 1  
+150    $a y $b b5  
+210    $7 ba0yba0y $8 fre    $9 20  $a Conflits $c Périodique
+303    $a 1455 boulevard Pereire, 75017 Paris
+801    $a FR $b FR-751131015 $c 20230120
+810    $a Le déclin d'un monde, 2022
+856    $u https://www.revueconflits.com/ $e 2023-01-20
+999    $a FRBNF180588513 $b 18058851
+152    $b CO
+
+02342cx  a2200493   4500
+001 341491
+003 http://catalogue.bnf.fr/ark:/12148/cb11979547h
+005 20240517053752.0
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11979547h
+035    $a FRBNF119795478
+039    $o OPL $a 002171683
+100    $a 19850707afrey50      ba0
+106    $a 211
+152    $b SNC $c 2
+159    $a rameau
+250    $7 ba0yba0y $8 fre    $9     $a Photons
+450    $7 ba0yba0y $8 fre    $9     $a Grains d'énergie
+450    $7 ba0yba0y $8 fre    $9     $a Quanta de lumière
+550    $5 z $0 Voir aussi $3 11981956 $7 ba0yba0y $8 fre    $9     $a Compton $x Effet
+550    $5 z $0 Voir aussi $3 12285362 $7 ba0yba0y $8 fre    $9     $a Détecteurs de photons
+550    $5 h $3 12285938 $7 ba0yba0y $8 fre    $9     $a Annihilation proton-antiproton
+550    $5 h $3 12274149 $7 ba0yba0y $8 fre    $9     $a Bose-Einstein, Gaz de
+550    $5 h $3 12373711 $7 ba0yba0y $8 fre    $9     $a Échos de photon
+550    $5 h $3 11978665 $7 ba0yba0y $8 fre    $9     $a Excitons
+550    $5 h $3 12110700 $7 ba0yba0y $8 fre    $9     $a Faisceaux de photons
+550    $5 h $3 12260404 $7 ba0yba0y $8 fre    $9     $a Interactions lepton-photon
+550    $5 h $3 12107273 $7 ba0yba0y $8 fre    $9     $a Interactions photon-atome
+550    $5 h $3 12262176 $7 ba0yba0y $8 fre    $9     $a Interactions photon-hadron
+550    $5 h $3 11976823 $7 ba0yba0y $8 fre    $9     $a Interactions photon-photon
+550    $5 h $3 11942829 $7 ba0yba0y $8 fre    $9     $a Lasers
+550    $5 h $3 11979005 $7 ba0yba0y $8 fre    $9     $a Mössbauer, Effet
+550    $5 h $3 11966670 $7 ba0yba0y $8 fre    $9     $a Optique quantique
+550    $5 h $3 12445320 $7 ba0yba0y $8 fre    $9     $a Photoabsorption
+550    $5 h $3 12377837 $7 ba0yba0y $8 fre    $9     $a Photoélectrons
+550    $5 h $3 12266707 $7 ba0yba0y $8 fre    $9     $a Photons $x Émission
+550    $5 h $3 18088733 $7 ba0yba0y $8 fre    $9     $a Photons uniques
+550    $5 h $3 12265873 $7 ba0yba0y $8 fre    $9     $a Polaritons
+550    $5 h $3 12264246 $7 ba0yba0y $8 fre    $9     $a Production de paires
+550    $5 h $3 11966720 $7 ba0yba0y $8 fre    $9     $a Réactions photonucléaires
+550    $5 g $3 11958247 $7 ba0yba0y $8 fre    $9     $a Lumière
+801    $a FR $b FR-751131015 $c 20230629
+822 12 $a Photons $2 LCSH $u http://id.loc.gov/authorities/subjects/sh85101398 $d 2023-06-29
+822 12 $a Photons $2 RVMLaval $d 2023-06-29
+999    $a FRBNF119795478 $b 11979547
+
+01218cx  a2200313   4500
+001 342769
+003 http://catalogue.bnf.fr/ark:/12148/cb11910300w
+005 20240512062915.0
+010    $a 0000000052595457 $2 VIAF $d 20130724
+033    $a http://catalogue.bnf.fr/ark:/12148/cb11910300w
+035    $a FRBNF119103008
+039    $o OPL $a 000967219
+039    $o OPL $a 015587176 $z AMA
+039    $o OPP $a 13737800 $d 20080424
+100    $a 19820913afrey50      ba0
+101    $a fre
+102    $a FR
+103    $a  19570419           
+105    $a a
+106    $a 010
+120    $a b
+200    $7 ba0yba0y $8 fre    $9  0  $a La Mure $b Frédéric de $f 1957-....
+300    $a Photographe. - Photographe officiel du ministère des Affaires étrangères (en 2001)
+686    $a 770 $c Photographie $2 Note de regroupement par domaine
+801    $a FR $b FR-751131015 $c 20230719
+810    $a [Recueil. Photographies originales. Oeuvre de Frédéric de La Mure] [Image fixe] $a Docks / photogr., Frédéric de La Mure, 1995 $a Autour du Quai, autour du monde / photogr. de Frédéric de La Mure, 2001
+815    $a Encyclopédie internationale des photographes / [Michèle et Michel Auer], 1992
+999    $a FRBNF119103008 $b 11910300
+152    $b NP
+
+00968cx  a2200301   4500
+001 343915
+003 http://catalogue.bnf.fr/ark:/12148/cb13026207d
+005 20240511062621.0
+010    $a 0000000121312204 $2 VIAF $d 20130730
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13026207d
+035    $a FRBNF130262073
+039    $o OPL $a 011857546
+100    $a 19951221afrey50      ba0
+101    $a fre
+102    $a LB
+103    $a  19680811           
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0a $8 freara $9  0  $a Ziyādaẗ $b Lamyā $f 1968-....
+300 0  $a Auteur et illustratrice de livres pour enfants
+400    $7 ba0yba0e $8 fre    $9     $a Ziadé $b Lamia
+700    $7 ba0yfa0y $8 freara $9  0  $a زيادة $b لميا $f 1968-....
+801    $a FR $b FR-751131015 $c 20200114
+810    $a Lola cartable / ill., Lamia Ziadé ; texte, Patrick Gloux, 1995
+810    $a BnF Service arabe, 2018-07-30
+999    $a FRBNF130262073 $b 13026207
+
+00784cx  a2200253   4500
+001 344953
+003 http://catalogue.bnf.fr/ark:/12148/cb15042597r
+005 20240511034038.0
+010    $a 0000000124334302 $2 ISNI $d 20161107
+033    $a http://catalogue.bnf.fr/ark:/12148/cb15042597r
+035    $a FRBNF15042597X
+100    $a 20060215afrey50      ba0
+101    $a eng
+102    $a GB
+103    $a  19..               
+105    $a a
+106    $a 1  
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Sleigh $b Charlotte
+300 0  $a Enseignante à la Faculté d'histoire de l'Université du Kent à Canterbury, Grande-Bretagne (en 2005)
+801    $a FR $b FR-751131015 $c 20060215
+810    $a Fourmis / Charlotte Sleigh, DL 2005
+999    $a FRBNF15042597X $b 15042597
+
+01056cx  a2200301   4500
+001 346133
+003 http://catalogue.bnf.fr/ark:/12148/cb122312544
+005 20240514041718.0
+010    $a 000000002956533X $2 VIAF $d 20130725
+033    $a http://catalogue.bnf.fr/ark:/12148/cb122312544
+035    $a FRBNF122312548
+039    $o OPL $a 007918349
+100    $a 19911218afrey50      ba0
+101    $a eng
+102    $a GB
+103    $a  19240830  20010404 
+105    $a a
+106    $a 010
+120    $a a
+152    $c 2 $b NP
+200    $7 ba0yba0y $8 fre    $9  0  $a Gilroy $b Beryl $f 1924-2001
+300    $a Romancière, écrit aussi des livres pour enfants. - Directrice d'école au Royaume-Uni
+301    $a Berbice (Guyana) $b Londres (Royaume-Uni)
+801    $a FR $b FR-751131015 $c 20240111
+810    $a Frangipani house / Beryl Gilroy, 1986 $a Black teacher / Beryl Gilroy. - Paris : Belfond, DL 2023
+810    $a Bibliothèque nationale, Grande-Bretagne - http://www.bl.uk (2008-09-16)
+856    $u http://www.bl.uk $e 2008-09-16
+999    $a FRBNF122312548 $b 12231254
+
+01075cx  a2200277   4500
+001 347324
+003 http://catalogue.bnf.fr/ark:/12148/cb13907081n
+005 20240510054904.0
+010    $a 0000000100266245 $2 ISNI $d 20150313
+033    $a http://catalogue.bnf.fr/ark:/12148/cb13907081n
+035    $a FRBNF139070811
+100    $a 19890601afrey50      ba0
+102    $a US
+103    $a  1935      1952     
+105    $a i
+106    $a 1  
+150    $a y $b v8  
+152    $c 2 $b CO
+210    $7 ba0yba0y $8 fre    $9 20  $a Tommy Dorsey and His Clambake Seven
+300 0  $a Octuor de jazz composé des instruments suivants : trompette, trombone, clarinette, saxophone, piano, guitare, contrebasse, batterie. - Personnel très variable au cours du temps
+410    $7 ba0yba0y $8 fre    $9     $a Tommy Dorsey & His Clambake Seven
+410    $7 ba0yba0y $8 fre    $9     $a Tommy Dorsey and His Clambake 7
+500    $5 z $0 Dirigé par :  $3 13893385 $7 ba0yba0y $8 fre    $9  0  $a Dorsey $b Tommy $f 1905-1956
+801    $a FR $b FR-751131015 $c 20070919
+810    $a Grove jazz
+999    $a FRBNF139070811 $b 13907081
+
