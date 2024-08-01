@@ -1,7 +1,4 @@
 referentiel,cle,valeur
-rbx_vdg_action,0,rien
-rbx_vdg_action,1,aut
-rbx_vdg_action,2,bib & aut
 type_notice_codes,a,texte
 type_notice_codes,b,manuscrit
 type_notice_codes,c,partition
@@ -20,3 +17,1592 @@ niveau_bib_codes,i,ressource intégratrice
 niveau_bib_codes,m,monographie
 niveau_bib_codes,s,périodique
 niveau_bib_codes,c,collection
+agence_cat_codes,FR-751131015,BnF
+agence_cat_codes,595126101,Médiathèque de Roubaix
+agence_cat_codes,Electre,Electre
+agence_cat_codes,COLACO,COLACO
+agence_cat_codes,GAM,GAM
+agence_cat_codes,CDMAIL,CDMAIL
+agence_cat_codes,ADAV,ADAV
+agence_cat_codes,cdmail,CDMAIL
+koha_av_146a,a,Musique vocale a cappella
+koha_av_146a,b,Musique instrumentale
+koha_av_146a,c,Musique vocale et instrumentale
+koha_av_146a,d,Musique électroacoustique
+koha_av_146a,e,Musique mixée
+koha_av_146a,u,Variable indéfinie
+koha_av_146a,z,Autre
+koha_av_181a,a,Jeu de données
+koha_av_181a,b,Image
+koha_av_181a,c,Mouvement
+koha_av_181a,d,Musique
+koha_av_181a,e,Objet
+koha_av_181a,f,Programme
+koha_av_181a,g,Son
+koha_av_181a,h,Mot parlé
+koha_av_181a,i,Texte
+koha_av_181a,m,Multimédia
+koha_av_181a,z,Autre médiation
+koha_av_181c,cod,Données
+koha_av_181c,cop,Programme
+koha_av_181c,crd,Données cartographiques
+koha_av_181c,crf,Globe  carte géographique en relief ou autre objet cartographique
+koha_av_181c,cri,Carte géographique
+koha_av_181c,crm,Carte géographique animée
+koha_av_181c,crn,Carte géographique en relief en braille ou autre
+koha_av_181c,crt,Carte géographique en braille ou autre
+koha_av_181c,ntm,Partition 
+koha_av_181c,ntv,Notation chorégraphique ou scénique
+koha_av_181c,prm,Musique exécutée
+koha_av_181c,snd,Sons enregistrés
+koha_av_181c,spw,Texte enregistré
+koha_av_181c,sti,Image fixe 
+koha_av_181c,tcf,Objet tactile
+koha_av_181c,tci,Image tactile
+koha_av_181c,tcm,Partition en braille ou autre
+koha_av_181c,tcn,Notation chorégraphique ou scénique tactile
+koha_av_181c,tct,Texte en braille ou autre
+koha_av_181c,tdf,Objet
+koha_av_181c,tdi,Images animées
+koha_av_181c,tdm,Images animées en 3D
+koha_av_181c,txt,Texte 
+koha_av_181c,xxx,Non précisé
+koha_av_182a,a,Audio
+koha_av_182a,b,Electronique
+koha_av_182a,c,Microforme
+koha_av_182a,d,Microscopique
+koha_av_182a,e,Projeté
+koha_av_182a,f,Stéréoscopique
+koha_av_182a,g,Vidéo
+koha_av_182a,m,Multimédia
+koha_av_182a,n,Sans médiation
+koha_av_182a,z,Autre médiation
+koha_av_182c,c,informatique
+koha_av_182c,e,stéréoscopique
+koha_av_182c,g,projeté
+koha_av_182c,h,microforme
+koha_av_182c,n,sans médiation
+koha_av_182c,p,microscopique
+koha_av_182c,s,audio
+koha_av_182c,v,vidéo
+koha_av_182c,x,non précisé
+koha_av_183a,caa,Bobine de bande informatique
+koha_av_183a,cab,Cartouche informatique
+koha_av_183a,cac,Cassette de bande informatique
+koha_av_183a,cad,Dispositif électronique autonome
+koha_av_183a,cae,Mémoire USB
+koha_av_183a,caf,Puce RFID
+koha_av_183a,caz,SUPPORT numérique manipulable
+koha_av_183a,cba,Carte mémoire
+koha_av_183a,cbb,Carte mémoire propriétaire
+koha_av_183a,cca,Cartouche de jeu
+koha_av_183a,cda,Blu-ray disc
+koha_av_183a,cdb,Blu-ray disc propriétaire
+koha_av_183a,cdc,CD-I
+koha_av_183a,cdd,CD-Photo
+koha_av_183a,cde,CD-ROM
+koha_av_183a,cdf,CD-ROM propriétaire
+koha_av_183a,cdg,CDTV
+koha_av_183a,cdh,Disque optique hybride
+koha_av_183a,cdi,Disquette
+koha_av_183a,cdj,Disquette propriétaire
+koha_av_183a,cdk,DVD-ROM
+koha_av_183a,cdl,DVD-ROM propriétaire
+koha_av_183a,cea,Clé de licence de produit numérique
+koha_av_183a,ceb,Ressource dématérialisée
+koha_av_183a,czz,Autre SUPPORT électronique
+koha_av_183a,eaa,Carte stéréoscopique
+koha_av_183a,eab,Disque stéréoscopique
+koha_av_183a,eac,Plaque stéréoscopique
+koha_av_183a,ezz,Autre SUPPORT stéréoscopique
+koha_av_183a,gab,Bobine de film
+koha_av_183a,gac,Cartouche de film fixe
+koha_av_183a,gad,Diapositive
+koha_av_183a,gae,Film fixe
+koha_av_183a,gaf,Film fixe court
+koha_av_183a,gag,Rouleau de film
+koha_av_183a,gah,Transparent pour rétroprojecteur
+koha_av_183a,gaz,Film ou transparent générique
+koha_av_183a,gba,Plaque de lanterne magique
+koha_av_183a,gzz,Autre SUPPORT pour les images projetées
+koha_av_183a,haa,Carte à fenêtre
+koha_av_183a,hab,Cassette de microfiches
+koha_av_183a,hac,Micro-opaque
+koha_av_183a,had,Microfiche
+koha_av_183a,haz,Microforme générique
+koha_av_183a,hba,Bande de microfilm
+koha_av_183a,hbb,Bobine de microfilm
+koha_av_183a,hbc,Cartouche de microfilm
+koha_av_183a,hbd,Cassette de microfilm
+koha_av_183a,hbe,Rouleau de microfilm
+koha_av_183a,hbz,Microfilm
+koha_av_183a,hzz,Autre SUPPORT pour les microformes
+koha_av_183a,naa,Carte
+koha_av_183a,nba,Bande de film photographique
+koha_av_183a,nbb,Bobine de film photographique
+koha_av_183a,nbc,Rouleau de film photographique
+koha_av_183a,nbz,Film photographique terme générique
+koha_av_183a,nca,Tableau à feuilles mobiles
+koha_av_183a,nda,Feuille
+koha_av_183a,ndb,Autocollant
+koha_av_183a,ndc,Dépliant
+koha_av_183a,ndd,Transparent
+koha_av_183a,nea,Appareil terme générique
+koha_av_183a,neb,Globe
+koha_av_183a,nec,Kit
+koha_av_183a,ned,Maquette
+koha_av_183a,nef,Matrice
+koha_av_183a,neg,Objet numismatique
+koha_av_183a,neh,Panneau
+koha_av_183a,nei,Panneau dépliant
+koha_av_183a,nej,Plaque
+koha_av_183a,nek,Plaque photographique
+koha_av_183a,nel,Plateau de jeu
+koha_av_183a,nez,Objet
+koha_av_183a,nfa,Rouleau
+koha_av_183a,nga,Volume
+koha_av_183a,ngb,Brochure
+koha_av_183a,ngc,Fascicule
+koha_av_183a,nzz,Autre SUPPORT sans médiation
+koha_av_183a,paa,Lame pour microscope
+koha_av_183a,pzz,Autre SUPPORT microscopique
+koha_av_183a,saa,Bande magnétique audio
+koha_av_183a,sab,Bobine de piste sonore
+koha_av_183a,sac,Bande perforée pour instrument mécanique
+koha_av_183a,saz,SUPPORT audio générique
+koha_av_183a,sba,Cartouche audio
+koha_av_183a,sbb,Bande TEFI
+koha_av_183a,sca,Cassette audio analogique
+koha_av_183a,scb,Cassette audio numérique
+koha_av_183a,sda,Cylindre phonographique
+koha_av_183a,sdb,Fil magnétique
+koha_av_183a,sdc,Ruban métallique magnétique
+koha_av_183a,sea,CD audio
+koha_av_183a,seb,CD-Extra
+koha_av_183a,sec,Disque audio
+koha_av_183a,sed,DVD audio
+koha_av_183a,see,Feuille acoustique
+koha_av_183a,sef,MiniDisc
+koha_av_183a,seg,Blu-ray audio
+koha_av_183a,szz,Autre SUPPORT vidéo
+koha_av_183a,vaa,Bande vidéo
+koha_av_183a,vaz,Vidéo
+koha_av_183a,vba,Cassette vidéo
+koha_av_183a,vbb,Cassette vidéo numérique
+koha_av_183a,vca,Blu-ray vidéo
+koha_av_183a,vcb,Disque vidéo
+koha_av_183a,vcc,DVD vidéo
+koha_av_183a,vcd,HD DVD
+koha_av_183a,vce,Vidéo CD
+koha_av_183a,vzz,Autre SUPPORT vidéo
+koha_av_325h,0,Reproduction incomplète
+koha_av_325h,1,Reproduction complète
+koha_av_acq_attr,COM,Commande
+koha_av_acq_attr,OFF,Office
+koha_av_acq_attr,REP,Représentant
+koha_av_acq_attr2,agnes,Agnès
+koha_av_acq_attr2,alain,Alain
+koha_av_acq_attr2,annes,Anne-Sophie
+koha_av_acq_attr2,celin,Céline
+koha_av_acq_attr2,chant,Chantal
+koha_av_acq_attr2,chris,Christine
+koha_av_acq_attr2,dorot,Dorothée
+koha_av_acq_attr2,herve,Hervé
+koha_av_acq_attr2,laeti,Laëtitia
+koha_av_acq_attr2,mirei,Mireille
+koha_av_acq_attr2,pasca,Pascale
+koha_av_acq_attr2,phili,Philippe
+koha_av_acq_attr2,steph,Stéphanie
+koha_av_action,AM01,Action éducative
+koha_av_action,AM09,Visite de classe
+koha_av_action,AM10,Chut on lit
+koha_av_alignement_bnf,0,Aucun alignement
+koha_av_alignement_bnf,1,Alignement sur la BnF
+koha_av_alignement_bnf,2,Alignements multiples sur la BnF
+koha_av_alignement_bnf,3,Alignement sur le Sudoc
+koha_av_alignement_bnf,4,Alignement approchant BnF
+koha_av_ar_cancellation,DAMAGED,Item was found to be too damaged to fill article request
+koha_av_ar_cancellation,NOT_FOUND,Item could not be located on shelves
+koha_av_ar_cancellation,OPAC,Cancelled from the OPAC user page
+koha_av_aut_lien,g,Terme générique
+koha_av_aut_lien,h,Terme spécifique
+koha_av_aut_lien,z,Terme associé
+koha_av_bor_notes,TP,"Dossier transmis au Trésor Public, ne plus accepter ni retour ni paiement."
+koha_av_bus,B00,Arrêts foyers logements
+koha_av_bus,B01,Arrêt Bus Rue Louis Braille
+koha_av_bus,B03,Arrêt Bus Place du Travail
+koha_av_bus,B07,Arrêt Bus Place Carnot
+koha_av_bus,B08,Arrêt Bus Rue de France
+koha_av_bus,B09,Arrêt Bus Rue de Rome
+koha_av_bus,B13,Arrêt Bus Rue de la Fraternité
+koha_av_bus,B14,Arrêt Bus Rue Jacques Prévert
+koha_av_bus,B17,Arrêt Bus Rue Montgolfier
+koha_av_bus,B19,Arrêt Bus Boulevard de Fourmies
+koha_av_bus,B20,Arrêt Bus Rue d'Alger
+koha_av_bus,B21,Arrêt Bus Rue Léo Lagrange
+koha_av_bus,B22,Arrêt Bus Rue de Beaumont
+koha_av_bus,B23,Arrêt Bus Rue de Philippeville
+koha_av_bus,B24,Arrêt Bus Rue Drouot
+koha_av_bus,B25,Arrêt Bus Avenue Julien Lagache
+koha_av_bus,B26,Arrêt Bus Place de la Citoyenneté
+koha_av_cand,Candidat descripteur,Candidat descripteur
+koha_av_cand,Rejeté,Mot clé abandonné
+koha_av_class_romans,Amour / Amitié,Amour / Amitié
+koha_av_class_romans,Aventures,Aventures
+koha_av_class_romans,Fantastique / fantasy,Fantastique / fantasy
+koha_av_class_romans,Histoires courtes,Histoires courtes
+koha_av_class_romans,Horreur,Horreur
+koha_av_class_romans,Humour,Humour
+koha_av_class_romans,Policier,Policier
+koha_av_class_romans,Romans dont tu es le héros,Romans dont tu es le héros
+koha_av_class_romans,Romans historiques,Romans historiques
+koha_av_class_romans,Science-fiction ,Science-fiction 
+koha_av_class_romans,Vécu,Vécu
+koha_av_collect,COL01,Maternelle
+koha_av_collect,COL02,Elémentaire
+koha_av_collect,COL03,Structure petite enfance
+koha_av_collect,COL04,Centre social
+koha_av_collect,COL05,Accueil spécialisé
+koha_av_collect,COL06,ALSH
+koha_av_collect,COL07,Périscolaire
+koha_av_collect,COL08,secondaire
+koha_av_collection,AAPATAP,AAP - Arts plastiques
+koha_av_collection,AAPATLC,AAP - Loisirs créatifs
+koha_av_collection,AAPBDCM,AAP - Bande dessinée : Comics
+koha_av_collection,AAPBDDC,AAP - Bande dessinée : documentaires
+koha_av_collection,AAPBDER,AAP - Bande dessinée érotique
+koha_av_collection,AAPBDMG,AAP - Bandes dessinées : Mangas
+koha_av_collection,AAPBDSR,AAP - Bande dessinée : Séries
+koha_av_collection,AAPBDZZ,AAP - Bande dessinée
+koha_av_collection,AAPCGDA,AAP - Dessin animé et animation
+koha_av_collection,AAPCGDD,AAP - Dessin animé et animation (documentaires)
+koha_av_collection,AAPCGVI,AAP - Documentaires sur les jeux vidéo et la culture geek
+koha_av_collection,AAPCIDC,AAP - Documentaires sur le cinéma et la télévision
+koha_av_collection,AAPCIFI,AAP - Films
+koha_av_collection,AAPCIMF,AAP - Musique de films
+koha_av_collection,AAPCITV,AAP - Séries TV
+koha_av_collection,AAPPLCB,AAP - PL - Cuisine et bricolage
+koha_av_collection,AAPPLFF,AAP - PL - Faune et flore
+koha_av_collection,AAPPLGO,AAP - PL - Géographie
+koha_av_collection,AAPPLHU,AAP - PL - Humour
+koha_av_collection,AAPPLJE,AAP – PL – Jeux
+koha_av_collection,AAPPLMS,AAP - PL - Médecine et santé
+koha_av_collection,AAPPLPA,AAP - PL - Parentalité
+koha_av_collection,AAPPLPS,AAP - PL - Psychologie
+koha_av_collection,AAPPLSL,AAP - PL - Sports et loisirs
+koha_av_collection,AAPPLZD,AAP - PL - Zéro déchet
+koha_av_collection,AAPPRLD,AAP - Livres précieux (documentaires)
+koha_av_collection,AAPPRLP,AAP - Livres précieux
+koha_av_collection,ACFBPZZ,ACF - Bibliothèque professionnelle
+koha_av_collection,ACFHSZZ,ACF - Histoire
+koha_av_collection,ACFIFZZ,ACF - Informatique
+koha_av_collection,ACFLAFF,ACF - Français et FLE
+koha_av_collection,ACFLALE,ACF - Langues étrangères
+koha_av_collection,ACFPAZZ,ACF - Presse d'actualité
+koha_av_collection,ACFPDZZ,AAP - PL - Presse ados
+koha_av_collection,ACFPHZZ,ACF - Philosophie
+koha_av_collection,ACFPMZZ,AAP - PL - Presse masculine / féminine
+koha_av_collection,ACFREZZ,ACF - Religions
+koha_av_collection,ACFRUZZ,ACF - Réussir
+koha_av_collection,ACFSCZZ,ACF - Sciences et technologies
+koha_av_collection,ACFSSZZ,ACF - Sciences sociales
+koha_av_collection,ACFUEZZ,ACF - Usuels salles d'étude
+koha_av_collection,ALTDCZZ,ALT - Documentaires sur la littérature
+koha_av_collection,ALTFAZZ,ALT - Facile à lire
+koha_av_collection,ALTIGFA,ALT - Fantasy
+koha_av_collection,ALTIGSF,ALT - SF
+koha_av_collection,ALTLSZZ,ALT - Livres audio
+koha_av_collection,ALTLVZZ,ALT - Textes larges visions
+koha_av_collection,ALTPOZZ,ALT - Poésie
+koha_av_collection,ALTROAD,ALT - Romans ado
+koha_av_collection,ALTROAM,ALT - Romans sentimentaux
+koha_av_collection,ALTROBI,ALT - Romans biographiques
+koha_av_collection,ALTROHI,ALT - Romans historiques
+koha_av_collection,ALTROPL,ALT - Romans policiers
+koha_av_collection,ALTROTE,ALT - Romans de terroir
+koha_av_collection,ALTROVG,ALT - Récits de voyage
+koha_av_collection,ALTROZZ,ALT - Romans
+koha_av_collection,ALTTCCN,ALT - Contes
+koha_av_collection,ALTTCNV,ALT - Nouvelles
+koha_av_collection,ALTTLZZ,ALT - Textes littéraires
+koha_av_collection,AMV00MM,AMV - Méthodes de musique
+koha_av_collection,AMV00ZZ,AMV - Musique Généralités
+koha_av_collection,AMV11ZZ,AMV - Blues et Gospel
+koha_av_collection,AMV13ZZ,AMV - Jazz
+koha_av_collection,AMV14ZZ,AMV - Soul
+koha_av_collection,AMV15ZZ,AMV - Rap
+koha_av_collection,AMV16ZZ,AMV - Reggae
+koha_av_collection,AMV20ZZ,AMV - Rock
+koha_av_collection,AMV25ZZ,AMV - Métal
+koha_av_collection,AMV29ZZ,AMV - Variétés
+koha_av_collection,AMV30ZZ,AMV - Musique classique
+koha_av_collection,AMV39ZZ,AMV - Musique contemporaine
+koha_av_collection,AMV40ZZ,AMV - Techno
+koha_av_collection,AMV50ZZ,AMV - Musique fonctionnelle
+koha_av_collection,AMV80ZZ,AMV - Chanson francophone
+koha_av_collection,AMV90ZZ,AMV - World
+koha_av_collection,AMVASCA,AMV - Arts du spectacle (captations)
+koha_av_collection,AMVASDC,AMV - Arts du spectacle (documentaire)
+koha_av_collection,AMVTHCA,AMV - Théâtre (captations)
+koha_av_collection,AMVTHDC,AMV - Théâtre (documentaires)
+koha_av_collection,AMVTHTX,AMV - Théâtre (textes)
+koha_av_collection,AZZMAZZ,AZZ - Livres en magasin
+koha_av_collection,D02,D02 - DC COFFRET
+koha_av_collection,D07,D07 - DISQ 30
+koha_av_collection,JABCTEF,JAB - Contes pour enfants
+koha_av_collection,JABCTPE,JAB - Contes petits enfants
+koha_av_collection,JABEFAE,JAB - Albums pour enfants
+koha_av_collection,JABEFDT,JAB - Albums documentaires
+koha_av_collection,JABHLPE,JAB - Livres sonores Petite enfance
+koha_av_collection,JABHLZZ,JAB - Livres sonores
+koha_av_collection,JABLADT,JAB - Albums en langue étrangère (documentaire)
+koha_av_collection,JABLAFI,JAB - Albums en langue étrangère (fiction)
+koha_av_collection,JABLPZZ,JAB - Livres précieux pour enfants
+koha_av_collection,JABPFAF,JAB - Albums petits enfants
+koha_av_collection,JABPFCO,JAB - Comptines
+koha_av_collection,JABPFEV,JAB - Eveil
+koha_av_collection,JABPFIP,JAB - Imagiers petits enfants
+koha_av_collection,JBDCLZZ,JBD - E BD Classiques
+koha_av_collection,JBDCMZZ,JBD - E BD Comics
+koha_av_collection,JBDMGZZ,JBD - E BD Mangas
+koha_av_collection,JBDPBZZ,JBD - PE BD
+koha_av_collection,JBDPFZZ,JBD - BD petit format
+koha_av_collection,JBDSRZZ,JBD - E BD Séries
+koha_av_collection,JBDZZZZ,JBD - E BD
+koha_av_collection,JCIDTZZ,JCI - Films documentaires enfants
+koha_av_collection,JCIFED1,JCI - Dessins animés - Eveil
+koha_av_collection,JCIFED2,JCI - Dessins animés - Petite enfance
+koha_av_collection,JCIFED3,JCI - Dessins animés - Enfants
+koha_av_collection,JCIFEF1,JCI - Films pour enfants - à partir de 6 ans
+koha_av_collection,JCIFEF2,JCI - Films pour enfants - à partir de 9 ans
+koha_av_collection,JCIFEMG,JCI - Mangas pour enfants en DVD
+koha_av_collection,JDT00ZZ,JDT - 000 Informatique / Culture générale
+koha_av_collection,JDT10ZZ,JDT - 100 Philosophie
+koha_av_collection,JDT20ZZ,JDT - 200 Religions
+koha_av_collection,JDT30ZZ,JDT - 300 Société
+koha_av_collection,JDT40ZZ,JDT - 400 Langues
+koha_av_collection,JDT50ZZ,JDT - 500 Sciences / Animaux
+koha_av_collection,JDT60ZZ,JDT - 600 Santé / Cuisine / Jeux et sports
+koha_av_collection,JDT70ZZ,JDT - 700 Activités manuelles / Arts
+koha_av_collection,JDT80ZZ,JDT - 800 Littérature
+koha_av_collection,JDT90ZZ,JDT - 900 Géographie / Histoire
+koha_av_collection,JDTCPZZ,JDT - CLASSPAT
+koha_av_collection,JDTDYZZ,JDT - Fonds DYS
+koha_av_collection,JDTFDZZ,JDT - Fonds didactique
+koha_av_collection,JDTPFZZ,JDT - Premier documentaire enfants
+koha_av_collection,JMUEFZZ,JMU - Musique pour enfants
+koha_av_collection,JPOZZZZ,JPO - Poésie
+koha_av_collection,JROHLZZ,JRO - Histoires lues (romans)
+koha_av_collection,JROILZZ,JRO - Romans illustrés pour enfants
+koha_av_collection,JROPLZZ,JRO - Romans policiers pour enfants
+koha_av_collection,JRORMZZ,JRO - Premiers romans
+koha_av_collection,JROROZZ,JRO - Romans pour enfants
+koha_av_collection,JROSFZZ,JRO - Romans science-fiction pour enfants
+koha_av_collection,JTHZZZZ,JTH - Théâtre (enfants)
+koha_av_collection,MAT,Matériel
+koha_av_collection,P17,P17 - PERIODIQUE
+koha_av_collection,PENACZZ,PEN - Fonds Alfonso Cata
+koha_av_collection,PENCVZZ,PEN - Fonds Charles Verstraete
+koha_av_collection,PENDEZZ,PEN - Fonds Desette
+koha_av_collection,PENHPZZ,PEN - Fonds Heath et Payant - enregistrements
+koha_av_collection,PENPDZZ,PEN - Collection Patrice Desdoit
+koha_av_collection,PENRSZZ,PEN - FLRS
+koha_av_collection,PPAFIZZ,PPA - Fonds local image
+koha_av_collection,PPEFGZZ,PPE - Patrimoine écrit - fonds général
+koha_av_collection,PPELGZZ,PPE - Patrimoine écrit - legs Destombes
+koha_av_collection,PPEPMZZ,PPE - Patrimoine musical imprimé
+koha_av_collection,PPEPRZZ,PPE - Périodiques patrimonaiux
+koha_av_collection,PPIPIZZ,PPI - Patrimoine iconographique
+koha_av_collection,PRRFIZZ,PRR - Films autour de Roubaix et sa région
+koha_av_collection,PRRMEZZ,PRR - FLRS de prêt
+koha_av_collection,PRRRGZZ,PRR - Région
+koha_av_collection,PRRRXZZ,PRR - Roubaix
+koha_av_country,AD,Andorre
+koha_av_country,AE,Émirats arabes unis
+koha_av_country,AF,Afghanistan
+koha_av_country,AG,Antigua-et-Barbuda
+koha_av_country,AI,Anguilla (Royaume-Uni)
+koha_av_country,AL,Albanie
+koha_av_country,AM,Arménie
+koha_av_country,AN,Antilles Néerlandaises
+koha_av_country,AO,Angola
+koha_av_country,AQ,Antarctique
+koha_av_country,AR,Argentine
+koha_av_country,AS,Samoa américaines
+koha_av_country,AT,Autriche
+koha_av_country,AU,Australie
+koha_av_country,AW,Aruba
+koha_av_country,AX,"Aland, îles d'"
+koha_av_country,AZ,Azerbaïdjan
+koha_av_country,BA,Bosnie-Herzégovine
+koha_av_country,BB,Barbade
+koha_av_country,BD,Bangladesh
+koha_av_country,BE,Belgique
+koha_av_country,BF,Burkina Faso
+koha_av_country,BG,Bulgarie
+koha_av_country,BH,Bahreïn
+koha_av_country,BI,Burundi
+koha_av_country,BJ,Bénin
+koha_av_country,BL,Saint Barthélémy (France)
+koha_av_country,BM,Bermudes
+koha_av_country,BN,Brunei
+koha_av_country,BO,Bolivie
+koha_av_country,BR,Brésil
+koha_av_country,BS,Bahamas
+koha_av_country,BT,Bhoutan
+koha_av_country,BV,"Bouvet, île"
+koha_av_country,BW,Botswana
+koha_av_country,BY,Biélorussie
+koha_av_country,BZ,Belize
+koha_av_country,CA,Canada
+koha_av_country,CC,"Cocos (Keeling), île des"
+koha_av_country,CD,"Congo, Répubublique Démocratique"
+koha_av_country,CF,"Centrafricaine, République"
+koha_av_country,CG,Congo
+koha_av_country,CH,Suisse
+koha_av_country,CI,Côte d'Ivoire
+koha_av_country,CK,"Cook, îles"
+koha_av_country,CL,Chili
+koha_av_country,CM,Cameroun
+koha_av_country,CN,Chine
+koha_av_country,CR,Costa Rica
+koha_av_country,CS,Serbie-et-Monténégro
+koha_av_country,CU,Cuba
+koha_av_country,CV,CapVert
+koha_av_country,CX,"Christmas, île"
+koha_av_country,CY,Chypre
+koha_av_country,CZ,"Tchèque, République"
+koha_av_country,DE,Allemagne
+koha_av_country,DJ,Djibouti
+koha_av_country,DK,Danemark
+koha_av_country,DM,Dominique
+koha_av_country,DO,"Dominicaine, République"
+koha_av_country,DZ,Algérie
+koha_av_country,EC,Équateur
+koha_av_country,EE,Estonie
+koha_av_country,EG,Égypte
+koha_av_country,EH,Sahara occidental
+koha_av_country,ER,Érythrée
+koha_av_country,ES,Espagne
+koha_av_country,FI,Finlande
+koha_av_country,FJ,Fidji
+koha_av_country,FK,"Falkland, îles"
+koha_av_country,FM,Micronésie
+koha_av_country,FO,"Féroé, îles"
+koha_av_country,FR,France
+koha_av_country,GA,Gabon
+koha_av_country,GB,Grande-Bretagne
+koha_av_country,GD,Grenade
+koha_av_country,GE,Géorgie
+koha_av_country,GF,Guyane française
+koha_av_country,GH,Ghana
+koha_av_country,GI,Gibraltar
+koha_av_country,GL,Groenland
+koha_av_country,GM,Gambie
+koha_av_country,GN,Guinée
+koha_av_country,GP,Guadeloupe (France)
+koha_av_country,GQ,Guinée équatoriale
+koha_av_country,GR,Grèce
+koha_av_country,GS,Géorgie du sud et les îles sandwich du Sud
+koha_av_country,GT,Guatemala
+koha_av_country,GU,Guam
+koha_av_country,GW,Guinée-Bissau
+koha_av_country,GY,Guyana
+koha_av_country,HK,Hong-Kong
+koha_av_country,HM,"Heard et îles McDonald, île"
+koha_av_country,HN,Honduras
+koha_av_country,HR,Croatie
+koha_av_country,HT,Haïti
+koha_av_country,HU,Hongrie
+koha_av_country,ID,Indonésie
+koha_av_country,IE,Irlande
+koha_av_country,II,intergouvernemental
+koha_av_country,IL,Israël
+koha_av_country,IN,Inde
+koha_av_country,IQ,Irak
+koha_av_country,IR,Iran
+koha_av_country,IS,Islande
+koha_av_country,IT,Italie
+koha_av_country,JM,Jamaïque
+koha_av_country,JO,Jordanie
+koha_av_country,JP,Japon
+koha_av_country,KE,Kenya
+koha_av_country,KG,Kirghizistan
+koha_av_country,KH,Cambodge
+koha_av_country,KI,Kiribati
+koha_av_country,KM,Comores
+koha_av_country,KN,Saint-Kitts-et-Nevis
+koha_av_country,KP,Corée du Nord
+koha_av_country,KR,Corée du Sud
+koha_av_country,KW,Koweït
+koha_av_country,KY,"Caïmanes, îles"
+koha_av_country,KZ,Kazakhstan
+koha_av_country,LA,Laos
+koha_av_country,LB,Liban
+koha_av_country,LC,Sainte-Lucie
+koha_av_country,LI,Liechtenstein
+koha_av_country,LK,Sri Lanka
+koha_av_country,LR,Libéria
+koha_av_country,LS,Lesotho
+koha_av_country,LT,Lituanie
+koha_av_country,LU,Luxembourg
+koha_av_country,LV,Lettonie
+koha_av_country,LY,Libye
+koha_av_country,MA,Maroc
+koha_av_country,MC,Monaco
+koha_av_country,MD,Moldavie
+koha_av_country,ME,Monténégro
+koha_av_country,MF,Saint Martin (partie française)
+koha_av_country,MG,Madagascar
+koha_av_country,MH,"Marshall, îles"
+koha_av_country,MK,Macédoine
+koha_av_country,ML,Mali
+koha_av_country,MM,Myanmar
+koha_av_country,MN,Mongolie
+koha_av_country,MO,Macao
+koha_av_country,MP,"Mariannes du Nord, îles"
+koha_av_country,MQ,Martinique (France)
+koha_av_country,MR,Mauritanie
+koha_av_country,MS,Montserrat
+koha_av_country,MT,Malte
+koha_av_country,MU,Maurice
+koha_av_country,MV,Maldives
+koha_av_country,MW,Malawi
+koha_av_country,MX,Mexique
+koha_av_country,MY,Malaisie
+koha_av_country,MZ,Mozambique
+koha_av_country,,Namibie
+koha_av_country,NC,Nouvelle-Calédonie
+koha_av_country,NE,Niger
+koha_av_country,NF,Norfolk
+koha_av_country,NI,Nicaragua
+koha_av_country,NL,Pays-Bas
+koha_av_country,NO,Norvège
+koha_av_country,NP,Népal
+koha_av_country,NR,Nauru
+koha_av_country,NU,Nioué
+koha_av_country,NZ,Nouvelle-Zélande
+koha_av_country,OM,Oman
+koha_av_country,PA,Panama
+koha_av_country,PE,Pérou
+koha_av_country,PF,Polynésie française
+koha_av_country,PG,Papouasie Nouvelle-Guinée
+koha_av_country,PH,Philippines
+koha_av_country,PK,Pakistan
+koha_av_country,PL,Pologne
+koha_av_country,PM,Saint-Pierre-et-Miquelon (France)
+koha_av_country,PN,Pitcairn
+koha_av_country,PR,Porto Rico
+koha_av_country,PS,Palestine
+koha_av_country,PT,Portugal
+koha_av_country,PW,Palau
+koha_av_country,PY,Paraguay
+koha_av_country,QA,Qatar
+koha_av_country,RE,Réunion (France)
+koha_av_country,RO,Roumanie
+koha_av_country,RS,Serbie
+koha_av_country,RU,Russie
+koha_av_country,RW,Rwanda
+koha_av_country,SA,Arabie saoudite
+koha_av_country,SB,"Salomon, îles"
+koha_av_country,SC,Seychelles
+koha_av_country,SD,Soudan
+koha_av_country,SE,Suède
+koha_av_country,SG,Singapour
+koha_av_country,SH,Sainte-Hélène
+koha_av_country,SI,Slovénie
+koha_av_country,SJ,Svalbard et île Jan Mayen
+koha_av_country,SK,Slovaquie
+koha_av_country,SL,Sierra Leone
+koha_av_country,SM,Saint-Marin
+koha_av_country,SN,Sénégal
+koha_av_country,SO,Somalie
+koha_av_country,SR,Suriname
+koha_av_country,SS,Soudan du Sud
+koha_av_country,ST,Sao Tomé-et-Principe
+koha_av_country,SU,URSS
+koha_av_country,SV,Salvador
+koha_av_country,SX,Saint Martin (partie néerlandaise)
+koha_av_country,SY,Syrie
+koha_av_country,SZ,Swaziland
+koha_av_country,TC,"Turks et Caïques, îles"
+koha_av_country,TD,Tchad
+koha_av_country,TG,Togo
+koha_av_country,TH,Thaïlande
+koha_av_country,TJ,Tadjikistan
+koha_av_country,TK,Tokélau
+koha_av_country,TL,Timor oriental
+koha_av_country,TM,Turkménistan
+koha_av_country,TN,Tunisie
+koha_av_country,TO,Tonga
+koha_av_country,TR,Turquie
+koha_av_country,TT,Trinité-et-Tobago
+koha_av_country,TV,Tuvalu
+koha_av_country,TW,Taïwan
+koha_av_country,TZ,Tanzanie
+koha_av_country,UA,Ukraine
+koha_av_country,UG,Ouganda
+koha_av_country,UM,Îles mineures éloignées des États-Unis
+koha_av_country,US,États-Unis
+koha_av_country,UY,Uruguay
+koha_av_country,UZ,Ouzbékistan
+koha_av_country,VA,Vatican
+koha_av_country,VC,Saint-Vincent-et-les Grenadines
+koha_av_country,VE,Venezuela
+koha_av_country,VG,Îles Vierges britanniques
+koha_av_country,VI,Îles Vierges (États-Unis)
+koha_av_country,VN,Viêt Nam
+koha_av_country,VU,Vanuatu
+koha_av_country,WF,"Wallis et Futuna, îles (France)"
+koha_av_country,WS,Samoa
+koha_av_country,XC,Tchécoslovaquie
+koha_av_country,XD,Allemagne avant 1945
+koha_av_country,XE,Europe
+koha_av_country,XK,Corée avant 1948
+koha_av_country,YD,Yémen
+koha_av_country,YT,Mayotte (France)
+koha_av_country,YU,Yougoslavie
+koha_av_country,ZA,Afrique du Sud
+koha_av_country,ZM,Zambie
+koha_av_country,ZW,Zimbabwe
+koha_av_country,ZZ,multiple
+koha_av_damaged,0,Non
+koha_av_damaged,1,Abimé
+koha_av_damaged,2,Prétendu rendu
+koha_av_dons,0,Non
+koha_av_dons,1,Oui
+koha_av_etat,-1,1 - En commande
+koha_av_etat,-2,2 - En traitement
+koha_av_etat,-3,6 -  En retrait
+koha_av_etat,-4,5 - En réparation
+koha_av_etat,0,3 - Empruntable
+koha_av_etat,2,4 - Réservé à la consultation sur place
+koha_av_etat,4,8 - Sorti des collections
+koha_av_etat,5,7 - En reliure
+koha_av_hsbnd_freq,EW,Every week
+koha_av_lang,aar,afar
+koha_av_lang,abk,abkhaze
+koha_av_lang,ace,achinese
+koha_av_lang,ach,acoli
+koha_av_lang,ada,adan
+koha_av_lang,ady,adyghé
+koha_av_lang,afa,afro-asiatiques (diverses langues)
+koha_av_lang,afh,afrihili
+koha_av_lang,afr,afrikaans
+koha_av_lang,ajm,aljamia
+koha_av_lang,aka,akan
+koha_av_lang,akk,akkadien
+koha_av_lang,alb,albanais
+koha_av_lang,alg,algonquin
+koha_av_lang,amh,amharique
+koha_av_lang,ang,anglo-saxon (ca. 450-1100)
+koha_av_lang,ara,arabe
+koha_av_lang,arc,araméen
+koha_av_lang,arm,arménien
+koha_av_lang,art,artificielles (diverses langues)
+koha_av_lang,asm,assamais
+koha_av_lang,ava,avar
+koha_av_lang,ave,avestique
+koha_av_lang,awa,awadhi
+koha_av_lang,aym,aymará
+koha_av_lang,aze,azéri
+koha_av_lang,bak,bachkir
+koha_av_lang,bam,bambara
+koha_av_lang,ban,balinais
+koha_av_lang,baq,basque
+koha_av_lang,bel,biélorusse
+koha_av_lang,ben,bengali
+koha_av_lang,ber,berbères (autres langues)
+koha_av_lang,bnt,bantoues (autres langues)
+koha_av_lang,bos,bosnian
+koha_av_lang,bra,braj
+koha_av_lang,bre,breton
+koha_av_lang,btk,batak
+koha_av_lang,bua,bouriate
+koha_av_lang,bug,bugi
+koha_av_lang,bul,bulgare
+koha_av_lang,bur,birman
+koha_av_lang,cai,indiennes (langues amérique centrale)
+koha_av_lang,cam,cambodgien
+koha_av_lang,cat,catalan
+koha_av_lang,cau,caucasiennes (autres langues)
+koha_av_lang,cel,celtiques (autre langues)
+koha_av_lang,chi,chinois
+koha_av_lang,chm,mari
+koha_av_lang,chu,slavon d'église
+koha_av_lang,chv,tchouvache
+koha_av_lang,cop,copte
+koha_av_lang,cor,cornique
+koha_av_lang,cos,corse
+koha_av_lang,cpe,créoles et pidgins (anglais)
+koha_av_lang,cpf,créoles et pidgins (français)
+koha_av_lang,cpp,créoles et pidgins (portugais)
+koha_av_lang,cre,cree
+koha_av_lang,crp,créoles et pidgins (diverses)
+koha_av_lang,cze,tchèque
+koha_av_lang,dan,danois
+koha_av_lang,den,esclave (athapascan)
+koha_av_lang,deu,hollandais
+koha_av_lang,dra,dravidien
+koha_av_lang,dum,"néerlandais, moyen (ca. 1050-1350)"
+koha_av_lang,dut,néerlandais
+koha_av_lang,efi,efik
+koha_av_lang,egy,égyptien
+koha_av_lang,eng,anglais
+koha_av_lang,enm,"anglais, moyen (1100-1500)"
+koha_av_lang,epo,esperanto
+koha_av_lang,esk,esquimau
+koha_av_lang,est,estonien
+koha_av_lang,ewe,éwé
+koha_av_lang,fan,fang
+koha_av_lang,fao,féroien
+koha_av_lang,fin,finnois
+koha_av_lang,fiu,finno-ougriennes (autres langues)
+koha_av_lang,fon,fon
+koha_av_lang,frd,"français, dialectes"
+koha_av_lang,fre,français
+koha_av_lang,frm,"français, moyen (ca. 1400-1600)"
+koha_av_lang,fro,"français, ancien (842-ca. 1400)"
+koha_av_lang,fry,frison occidental
+koha_av_lang,ful,fula
+koha_av_lang,gaa,ga
+koha_av_lang,gag,galicien
+koha_av_lang,gem,germaniques (diverses langues)
+koha_av_lang,geo,géorgien
+koha_av_lang,ger,allemand
+koha_av_lang,gez,guèze
+koha_av_lang,gla,gaëlique
+koha_av_lang,gle,irlandais
+koha_av_lang,glg,galicien
+koha_av_lang,glv,manx
+koha_av_lang,gmh,"allemand, moyen haut (ca. 1050-1500)"
+koha_av_lang,goh,"allemand, vieux haut (ca. 750-1050)"
+koha_av_lang,got,gothique
+koha_av_lang,grc,grec ancien (jusqu'à 1453)
+koha_av_lang,gre,grec moderne (après 1453)
+koha_av_lang,grn,guarani
+koha_av_lang,guj,gujarati
+koha_av_lang,hau,haoussa
+koha_av_lang,haw,hawaïen
+koha_av_lang,heb,hébreu
+koha_av_lang,hin,hindi
+koha_av_lang,hit,hittite
+koha_av_lang,hrv,croate
+koha_av_lang,hun,hongrois
+koha_av_lang,ibo,igbo
+koha_av_lang,ice,islandais
+koha_av_lang,iku,inuktitut
+koha_av_lang,inc,indo-aryen (groupe)
+koha_av_lang,ind,indonésien
+koha_av_lang,ine,indo-européen (groupe)
+koha_av_lang,ira,iraniennes (diverses langues)
+koha_av_lang,ita,italien
+koha_av_lang,jav,javanais
+koha_av_lang,jpn,japonais
+koha_av_lang,jrb,judéo-arabe
+koha_av_lang,kab,kabyle
+koha_av_lang,kan,kanara
+koha_av_lang,kas,kasmiri
+koha_av_lang,kaw,kawi
+koha_av_lang,kaz,kazakh
+koha_av_lang,khm,khmer central
+koha_av_lang,kik,kikuyu
+koha_av_lang,kin,kinyarwanda
+koha_av_lang,kir,kirghiz
+koha_av_lang,kmb,kimbundu
+koha_av_lang,kon,kongo
+koha_av_lang,kor,coréen
+koha_av_lang,kur,kurde
+koha_av_lang,lad,ladino
+koha_av_lang,lan,occitan (post 1500)
+koha_av_lang,lao,lao
+koha_av_lang,lap,lapon
+koha_av_lang,lat,latin
+koha_av_lang,lav,lette
+koha_av_lang,lin,lingala
+koha_av_lang,lit,lituanien
+koha_av_lang,lug,louganda
+koha_av_lang,mac,macédonien
+koha_av_lang,mal,malayalam
+koha_av_lang,man,mande
+koha_av_lang,mao,maori
+koha_av_lang,map,malayo-polynésien
+koha_av_lang,mar,marathi
+koha_av_lang,may,malais
+koha_av_lang,mga,"irlandais, moyen (900-1200)"
+koha_av_lang,min,minangkabao
+koha_av_lang,mis,langues diverses
+koha_av_lang,mkh,môn khmer (diverses langues)
+koha_av_lang,mla,malgache
+koha_av_lang,mlg,malgache
+koha_av_lang,mlt,maltais
+koha_av_lang,mol,moldave
+koha_av_lang,mon,mongol
+koha_av_lang,mos,mossi
+koha_av_lang,mul,multilingue
+koha_av_lang,myn,maya
+koha_av_lang,myv,erza
+koha_av_lang,nah,nahuatl
+koha_av_lang,nai,amérindien
+koha_av_lang,ndo,ndongo
+koha_av_lang,nds,bas allemand
+koha_av_lang,nep,népalais
+koha_av_lang,nic,nigéro-congolais
+koha_av_lang,nno,norvégien nynorsk
+koha_av_lang,nob,norvégien bokmål
+koha_av_lang,non,norvégien ancien
+koha_av_lang,nor,norvégien
+koha_av_lang,nya,nyanja
+koha_av_lang,oci,occitan et provençal (après 1500)
+koha_av_lang,ori,oriya
+koha_av_lang,oss,ossète
+koha_av_lang,ota,turc ottoman (écriture arabe)
+koha_av_lang,paa,papou
+koha_av_lang,pal,pahlavi
+koha_av_lang,pan,penjabi
+koha_av_lang,peo,perse ancien (600-400 av. j.c.)
+koha_av_lang,per,persan moderne
+koha_av_lang,pli,pali
+koha_av_lang,pol,polonais
+koha_av_lang,por,portugais
+koha_av_lang,pra,prâkrit
+koha_av_lang,pro,occitan et provençal ancien (jusqu'à 1500)
+koha_av_lang,pus,pachto
+koha_av_lang,que,quechua
+koha_av_lang,raj,rajasthani
+koha_av_lang,roa,romanes (diverses langues)
+koha_av_lang,roh,rhétoroman (groupe)
+koha_av_lang,rom,romani
+koha_av_lang,rum,roumain
+koha_av_lang,run,rundi
+koha_av_lang,rus,russe
+koha_av_lang,sah,iakoute
+koha_av_lang,sai,indiennes (langues amérique du sud)
+koha_av_lang,sam,samaritain
+koha_av_lang,san,sanskrit
+koha_av_lang,scc,serbe (cyrillique)
+koha_av_lang,sco,écossais
+koha_av_lang,scr,croate (alphabet latin)
+koha_av_lang,sem,sémitiques (diverses langues)
+koha_av_lang,sga,"irlandais, ancien (jusqu'à 900)"
+koha_av_lang,sgn,langues des signes
+koha_av_lang,sin,singhalais
+koha_av_lang,sit,sino-tibétaines (langues)
+koha_av_lang,sla,slaves (diverses langues)
+koha_av_lang,slo,slovaque
+koha_av_lang,slv,slovène
+koha_av_lang,smi,"sames, langues"
+koha_av_lang,sna,shona
+koha_av_lang,snh,singhalais
+koha_av_lang,snk,soninké
+koha_av_lang,som,somali
+koha_av_lang,son,songhai
+koha_av_lang,spa,espagnol
+koha_av_lang,srp,serbe
+koha_av_lang,ssa,nilo-saharien (groupe)
+koha_av_lang,sun,soundanais
+koha_av_lang,sux,sumérien
+koha_av_lang,swa,swahili
+koha_av_lang,swe,suédois
+koha_av_lang,syr,syriaque
+koha_av_lang,tah,tahitien
+koha_av_lang,tai,thaï langues (autres)
+koha_av_lang,tam,tamoul
+koha_av_lang,tat,tatar
+koha_av_lang,tel,télougou
+koha_av_lang,tgk,tadjik
+koha_av_lang,tgl,tagalog
+koha_av_lang,tha,thaï
+koha_av_lang,tib,tibétain
+koha_av_lang,tir,tigrina
+koha_av_lang,tuk,turkmène
+koha_av_lang,tur,turc
+koha_av_lang,tut,turco-tatar
+koha_av_lang,twi,twi
+koha_av_lang,uga,ougaritique
+koha_av_lang,uig,ouïgour
+koha_av_lang,ukr,ukrainien
+koha_av_lang,und,inconnue
+koha_av_lang,urd,ourdou
+koha_av_lang,uzb,ouzbek
+koha_av_lang,vie,vietnamien
+koha_av_lang,wel,gallois
+koha_av_lang,wen,wende
+koha_av_lang,wln,wallon
+koha_av_lang,wol,wolof
+koha_av_lang,xal,kalmouk
+koha_av_lang,xho,xhosa
+koha_av_lang,xxx,autres langues
+koha_av_lang,yid,yiddish
+koha_av_lang,yor,yoruba
+koha_av_lang,zul,zoulou
+koha_av_lang,zxx,pas de contenu linguistique
+koha_av_loc,BUS1A,Zèbre
+koha_av_loc,CART,Quarantaine
+koha_av_loc,MED0A,Magasin collectivités
+koha_av_loc,MED0B,Espace Périodiques
+koha_av_loc,MED0C,Rez-de-chaussée
+koha_av_loc,MED1A,1er étage
+koha_av_loc,MED2A,2e étage -  Jeunesse
+koha_av_loc,MED2B,2e étage - Salle d'étude
+koha_av_loc,MED2C,Magasin jeunesse
+koha_av_loc,MED2D,Magasin disco 2e étage
+koha_av_loc,MED3A,3e étage
+koha_av_loc,MED3B,Espace Multimédia
+koha_av_loc,MED3C,Magasin disco 3e étage
+koha_av_loc,MED3D,Mag Bibliothèque professionnelle
+koha_av_loc,MED3E,Mag Pôle adultes °8
+koha_av_loc,MED3F,Mag Pôle adultes °4
+koha_av_loc,MED3G,Mag Pôle adultes fol
+koha_av_loc,MED3H,Mag Pôle adultes BD
+koha_av_loc,MED3I,Mag Patrimoine °8
+koha_av_loc,MED3J,Mag Patrimoine °4
+koha_av_loc,MED3K,Mag Patrimoine fol.
+koha_av_loc,MED3L,Mag Patrimoine Plan
+koha_av_loc,MED3M,Mag Patrimoine BR 8
+koha_av_loc,MED3N,Mag Patrimoine BR 4
+koha_av_loc,MED3O,Mag Patrimoine RES 8
+koha_av_loc,MED3P,Mag Patrimoine RES 4
+koha_av_loc,MED3Q,Mag Patrimoine RES Fol
+koha_av_loc,MED3R,Mag Patrimoine RES Plano
+koha_av_loc,MED3S,Mag Patrimoine RES
+koha_av_loc,MED3T,Mag Patrimoine
+koha_av_loc,MUS1A,Musée La Piscine
+koha_av_lost,0,Non
+koha_av_lost,1,Non restitué
+koha_av_lost,2,Perdu
+koha_av_malle,K001,Kamishibaï 1 - Miam !
+koha_av_malle,K002,Kamishibaï 2 - Au fil de l'eau
+koha_av_malle,K003,Kamishibaï 3 - Il était une fois !
+koha_av_malle,K004,Kamishibaï 4 - Sortilèges
+koha_av_malle,K005,Kamishibaï 5 - Historiettes
+koha_av_malle,K006,Kamishibaï 6 - Laissez-vous conter !
+koha_av_malle,K007,Kamishibaï 7 - Saisons en fêtes
+koha_av_malle,K008,Kamishibaï 8 - Raconte-nous des histoires !
+koha_av_malle,MA001,MALLE 01 -FRANCE ET EUROPE
+koha_av_malle,MA002,MALLE 02 -CITOYENNETE
+koha_av_malle,MA003,MALLE 03 - MONDE NUMÉRIQUE
+koha_av_malle,MA004,MALLE 04 - MYTHOLOGIE
+koha_av_malle,MA005,MALLE 05 - EMOTIONS ET SENTIMENTS
+koha_av_malle,MA006A,MALLE 06 -ENVIRONNEMENT
+koha_av_malle,MA006B,MALLE 6 BIS -ENVIRONNEMENT
+koha_av_malle,MA007,MALLE 7 - ZERO DECHET
+koha_av_malle,MA008,MALLE 08 -ECRITURE ET HISTOIRE DU LIVRE
+koha_av_malle,MA009,MALLE 09 -DROITS DE L'HOMME ET DE L'ENFANT
+koha_av_malle,MA010,MALLE 10 - FILLES ET GARCONS
+koha_av_malle,MA011,MALLE 11 -MUSIQUE
+koha_av_malle,MA012,MALLE 12 -HUMOUR
+koha_av_malle,MA013,MALLE 13 -JEUX DE MOTS
+koha_av_malle,MA014,MALLE 14 -FANTASTIQUE
+koha_av_malle,MA014B,Malle 14 BIS - FANTASTIQUE
+koha_av_malle,MA015,MALLE 15 -FORET
+koha_av_malle,MA016,MALLE 16 - CONTES CYCLE 2
+koha_av_malle,MA017,MALLE 17 -BANDE DESSINEE
+koha_av_malle,MA017B,MALLE 17 BIS -BANDE DESSINEE
+koha_av_malle,MA018A,MALLE 18 A -CONTES EUROPEENS
+koha_av_malle,MA018B,MALLE 18 B -CONTES EUROPEENS
+koha_av_malle,MA018C,MALLE 18 BIS -CONTES DU MONDE ENTIER
+koha_av_malle,MA019A,MALLE 19 -ABECEDAIRE
+koha_av_malle,MA019B,MALLE 19 BIS -ABECEDAIRE
+koha_av_malle,MA019C,MALLE 19 TER -ABECEDAIRE
+koha_av_malle,MA020,MALLE 20 -CORPS HUMAIN
+koha_av_malle,MA021,MALLE 21 -ZOOLOGIE
+koha_av_malle,MA022A,MALLE 22 A - EMI Primaire
+koha_av_malle,MA022B, 	MALLE 22 B - EMI Secondaire
+koha_av_malle,MA023,MALLE 23 -INITIATION A L'ANGLAIS
+koha_av_malle,MA024 ,MALLE 24 - FANTASTIQUE CYCLE 2
+koha_av_malle,MA025,MALLE 25 - CITOYENNETE CYCLE 2
+koha_av_malle,MA026,MALLE 26 -ROMANS // CE
+koha_av_malle,MA026B,MALLE 26 -ROMANS // CE BIS
+koha_av_malle,MA027,MALLE 27 -POESIE
+koha_av_malle,MA028,MALLE 28 -CINEMA
+koha_av_malle,MA029,MALLE 29 -SYSTEME SOLAIRE
+koha_av_malle,MA030A,MALLE 30 -MOYEN AGE
+koha_av_malle,MA031,MALLE 31 - ECOLOGIE CYCLE 2
+koha_av_malle,MA032A,MALLE 32 A -NOEL
+koha_av_malle,MA032B,MALLE 32 B -NOEL
+koha_av_malle,MA032C,MALLE 32 C -NOEL
+koha_av_malle,MA032D,MALLE 32 D -NOEL
+koha_av_malle,MA033,MALLE 33 - HUMOUR CYCLE 2
+koha_av_malle,MA034,MALLE 34 - EMOTIONS ET SENTIMENTS CYCLE 2
+koha_av_malle,MA035,MALLE 35 - ROMANS POLICIERS CE
+koha_av_malle,MA035B,MALLE 35 BIS - ROMANS POLICIERS CE
+koha_av_malle,MA036A,MALLE 36 -CIRQUE
+koha_av_malle,MA037,MALLE 37 -ROMANS POLICIERS
+koha_av_malle,MA037B,MALLE 37 -ROMANS POLICIERS BIS
+koha_av_malle,MA038A,MALLE 38 -THEATRE
+koha_av_malle,MA038B,MALLE 38 BIS -THEATRE
+koha_av_malle,MA039,MALLE 39 -TINTIN
+koha_av_malle,MA040,MALLE 40 - BD CYCLE 2
+koha_av_malle,MA041,MALLE 41 -ROUBAIX AU FIL DU TEMPS ET NORD
+koha_av_malle,MA042,MALLE 42 -LA VILLE
+koha_av_malle,MA044,MALLE 44 -LA MER
+koha_av_malle,MA045,MALLE 45 -ROMANS // CP
+koha_av_malle,MA045B,MALLE 45 BIS -ROMANS // CP
+koha_av_malle,MA046,MALLE 46 -LA MONTAGNE
+koha_av_malle,MA047,MALLE 47 -ANIMAUX DE LA FERME
+koha_av_malle,MA048,MALLE 48 - ANIMAUX CYCLE 2
+koha_av_malle,MA049,MALLE 49 - ANIMAUX DE LA FERME CYCLE 2
+koha_av_malle,MA053A,MALLE 53 -SORCIERES
+koha_av_malle,MA053B,MALLE 53 BIS -SORCIERES
+koha_av_malle,MA054,MALLE 54 -ARCHITECTURES ET HABITATS DU MONDE
+koha_av_malle,MA055,MALLE 55 -FABRIQUER ET JOUER
+koha_av_malle,MA057,MALLE 57 -ALIMENTATION
+koha_av_malle,MA059,MALLE 59 -PREHISTOIRE
+koha_av_malle,MA060,MALLE 60 -GRECS ET ROMAINS
+koha_av_malle,MA064,MALLE 64 -LES SAISONS
+koha_av_malle,MA065,MALLE 65 - JAPON
+koha_av_malle,MA066,MALLE 66 - AMÉRIQUE
+koha_av_malle,MA067,MALLE 67 - OCÉANIE
+koha_av_malle,MA068,MALLE 68 -AFRIQUE
+koha_av_malle,MA070,MALLE 70 -LES MONSTRES
+koha_av_malle,MA071,MALLE 71 -LES LOUPS
+koha_av_malle,MA072A,MALLE 72 -LIRE C'EST POSSIBLE
+koha_av_malle,MA072B,MALLE 72 BIS -LIRE C'EST POSSIBLE
+koha_av_malle,MA072C,MALLE 72 TER -LIRE C'EST POSSIBLE
+koha_av_malle,MA072D,MALLE 72 QUATER -LIRE C'EST POSSIBLE
+koha_av_malle,MA073,MALLE 73 -ASIE
+koha_av_malle,MA074,MALLE 74 - MARIE DORLEANS / MAGALI LE HUCHE
+koha_av_malle,MA075,MALLE 75 -DRAGONS ET DINOSAURES
+koha_av_malle,MA076,MALLE 76 -PLANTES ET JARDINS
+koha_av_malle,MA077,MALLE 77- BEATRICE ALEMAGNA
+koha_av_malle,MA078,MALLE 78 -ANNE HERBAUTS
+koha_av_malle,MA079,MALLE 79 -CLAUDE PONTI
+koha_av_malle,MA080,MALLE 80 - Christian Voltz 
+koha_av_malle,MA081,MALLE 81 - Michaël Escoffier
+koha_av_malle,MA082,MALLE 82 -TOMI UNGERER
+koha_av_malle,MA083,MALLE 83 - Evasion nordique
+koha_av_malle,MA085,MALLE 85 -YVAN POMMAUX
+koha_av_malle,MA086,MALLE 86 -ANTHONY BROWNE
+koha_av_malle,MA086B,MALLE 86 BIS - ANTHONY BROWNE
+koha_av_malle,MA0A1,MALLE A1 -IMAGIERS
+koha_av_malle,MA0A2A,MALLE A2 -LIVRES SANS TEXTE
+koha_av_malle,MA0A2B,MALLE A2 BIS -LIVRES SANS TEXTE
+koha_av_malle,MA0A3A,MALLE A3 -LIVRES JEUX
+koha_av_malle,MA0A3B,MALLE A3 BIS -LIVRES JEUX
+koha_av_malle,MA0A4A,MALLE A4 -CHANSONS ET COMPTINES
+koha_av_malle,MA0A4B,MALLE A4 BIS -CHANSONS ET COMPTINES
+koha_av_malle,MA0A5A,MALLE A5 -CHAPERON ROUGE & CIE
+koha_av_malle,MA0A6,MALLE A6 - BOUCLE D'OR ET COMPAGNIE
+koha_av_malle,MA0A7,MALLE A7 - CONTES
+koha_av_malle,MA0B10A,MALLE B10 -LA NOURRITURE ET LE GO
+koha_av_malle,MA0B10B,MALLE B10 BIS -LA NOURRITURE ET LE GOUT
+koha_av_malle,MA0B11A,MALLE B11 -LES CINQ SENS EN EVEIL
+koha_av_malle,MA0B12,MALLE B12 -SEMONS PLANTONS ARROSONS : LA MAIN VERTE
+koha_av_malle,MA0B12B,MALLE B12 BIS -SEMONS PLANTONS ARROSONS : LA MAIN VERTE
+koha_av_malle,MA0B13,MALLE B13 -HUMOUR
+koha_av_malle,MA0B14,MALLE B14 -L'ENFANCE DE L'ART
+koha_av_malle,MA0B15,MALLE B15 -ANIMAUX ET ACTIVITES DE LA FERME
+koha_av_malle,MA0B16,MALLE B16 -ECOLOGIE ET ENVIRONNEMENT
+koha_av_malle,MA0B17,MALLE B17 -LA MAISON SOUS TOUS SES ANGLES
+koha_av_malle,MA0B18,MALLE B18 -QUAND LES MOTS S'EN MELENT
+koha_av_malle,MA0B19,MALLE B19 -LE TEMPS
+koha_av_malle,MA0B2A,MALLE B2 -FORMES ET COULEURS
+koha_av_malle,MA0B2B,MALLE B2 BIS -FORMES ET COULEURS
+koha_av_malle,MA0B3A,MALLE B3 -CHIFFRES ET LETTRES
+koha_av_malle,MA0B3B,MALLE B3 BIS -CHIFFRES ET LETTRES
+koha_av_malle,MA0B4A,MALLE B4 -SONS ET MUSIQUE
+koha_av_malle,MA0B4B,MALLE B4 BIS -SONS ET MUSIQUE
+koha_av_malle,MA0B5,MALLE B5 -L'EAU ET LA MER
+koha_av_malle,MA0B5B,MALLE B5 BIS  -L'EAU ET LA MER
+koha_av_malle,MA0B6,MALLE B6 -LES MILIEUX NATURELS... AU FIL DES SAISONS
+koha_av_malle,MA0B7,MALLE B7 -ANIMAUX DANS LEUR REALITE
+koha_av_malle,MA0B8,MALLE B8 -ANIMAUX EN FOLIE
+koha_av_malle,MA0B9,MALLE B9 -L'OBSERVATION / REGARDE BIEN
+koha_av_malle,MA0C01,MALLE C1 -DE LA NAISSANCE VERS L'AUTONOMIE : LES PREMIERES ANNEES
+koha_av_malle,MA0C02,MALLE C2 -VIVRE DANS SON CORPS ...
+koha_av_malle,MA0C04,MALLE C4 -LES DOUDOUS
+koha_av_malle,MA0C05,"MALLE C5 -PEUR, PAS PEUR !"
+koha_av_malle,MA0C06,MALLE C6 -EMOTIONS ET SENTIMENTS
+koha_av_malle,MA0C07,"MALLE C7 -AVOIR DES AMIS , QUEL BONHEUR !"
+koha_av_malle,MA0C08,MALLE C8 -LA NUIT ET SES MYSTERES
+koha_av_malle,MA0C09,MALLE C9 -POURQUOI ? PARLONS-EN
+koha_av_malle,MA0C10,MALLE C10 -VIVRE EN FAMILLE
+koha_av_malle,MA0C11,MALLE C11 -DANGERS // SECURITE
+koha_av_malle,MA0C12,MALLE C12 -RELATIONS PARENTS/ENFANTS
+koha_av_malle,MA0C13,MALLE C13 -SCHEMA CORPOREL
+koha_av_malle,MA0D02A,MALLE D2 -LES LOUPS
+koha_av_malle,MA0D02B,MALLE D2 BIS -LES LOUPS
+koha_av_malle,MA0D03,"MALLE D3 -DES OURS, TOUJOURS DES OURS"
+koha_av_malle,MA0D05,"MALLE D5 -MONSTRES, OGRES, SORCIERES…"
+koha_av_malle,MA0E01,MALLE E1 -DECOUVRIR LA COLLECTIVITE :  HORS DE LA MAISON
+koha_av_malle,MA0E02,MALLE E2 -AUTOUR DU MONDE
+koha_av_malle,MA0E03A,MALLE E3 -TOUS DIFFERENTS : AVOIR SA PLACE PARMI LES AUTRES
+koha_av_malle,MA0E04,MALLE E4 -ASIE
+koha_av_malle,MA0E05,MALLE E5 Amérique
+koha_av_malle,MA0E06,MALLE E6 Afrique 
+koha_av_malle,MA0E08A, MALLE E8- VIVRE ENSEMBLE
+koha_av_malle,MA0F02A,MALLE F2 -SPECTACLES ET CIRQUE
+koha_av_malle,MA0F02B,MALLE F2 BIS -SPECTACLES ET CIRQUE
+koha_av_malle,MA0F03,MALLE F3 -FETES ET ANNIVERSAIRES
+koha_av_malle,MA0F04A,MALLE F4 A -NOEL
+koha_av_malle,MA0F04B,MALLE F4   B -NOEL
+koha_av_malle,MA0F04C,MALLE F4   C -NOEL
+koha_av_malle,MA0F04D,MALLE F4   D -NOEL
+koha_av_malle,MA0FALAD,MALLE FAL - ADOS
+koha_av_malle,MA0FALDE,MALLE FAL - DEBUTANT
+koha_av_malle,MA0FALEM,MALLE FAL - EMOTIONS
+koha_av_malle,MA0FALFE,MALLE FAL - FEMMES
+koha_av_malle,MA0FALI1,MALLE FAL - INTERMEDIAIRE 1
+koha_av_malle,MA0FALI2,MALLE FAL - INTERMEDIAIRE 2
+koha_av_malle,MA0FALVQ,MALLE FAL - VIE QUOTIDIENNE
+koha_av_malle,MA0G01,Classpat 1
+koha_av_malle,MA0G02,Classpat 2
+koha_av_malle,MA0G03,Classpat 3
+koha_av_malle,MA0G04,Classpat 4
+koha_av_malle,MA0G05,Classpat 5
+koha_av_malle,MA0L01,MALLE  LISETTE PAS SI BETE
+koha_av_malle,MA0L02,MALLE LISETTE BOUCLETTE
+koha_av_malle,MA0L03,MALLE  LISETTE ECOLE CARREMENT CHOUETTE
+koha_av_malle,MA0L04,MALLE LISETTE GOUTTELETTE
+koha_av_malle,MA0L05,MALLE LISETTE PIROUETTE
+koha_av_malle,MA0L06,MALLE LISETTE SILHOUETTE
+koha_av_malle,MA0L07,MALLE LISETTE CALINETTE
+koha_av_malle,MA0M05,MALLE LECTURE ANNABELLA
+koha_av_malle,MA0M06,MALLE LECTURE BUSTER
+koha_av_malle,MA0M07,MALLE LECTURE CHAÏM
+koha_av_malle,MA0M08,MALLE LECTURE DIANE
+koha_av_malle,MA0M09,MALLE LECTURE ENRIQUETTA
+koha_av_malle,MA0M10,MALLE LECTURE FATOUMATA
+koha_av_malle,MA0M11,MALLE LECTURE GARY
+koha_av_malle,MA0M12,MALLE LECTURE GLORIA
+koha_av_malle,MA0M13,MALLE LECTURE GWENDOLINE
+koha_av_malle,MA0M14,MALLE LECTURE LEA
+koha_av_malle,MA0M15,MALLE LECTURE OLIVE
+koha_av_malle,MA0M16,MALLE LECTURE PAOLO
+koha_av_malle,MA0M17,MALLE LECTURE PHILIPPE
+koha_av_malle,MA0M18,MALLE LECTURE RACHID
+koha_av_malle,MA0M19,MALLE LECTURE SYLVIE
+koha_av_malle,MA0M20,MALLE LECTURE YOKO
+koha_av_malle,MA0M21,MALLE LECTURE GAETAN
+koha_av_malle,MA0PMCH,MALLE PM CHOUCOU
+koha_av_malle,MA0PMCO,MALLE PM COCOTTE
+koha_av_malle,MA0PMGE,MALLE PM GEORGE
+koha_av_malle,MA0PMKA,MALLE PM KAKI
+koha_av_malle,MA0PMMI,MALLE PM MICHA
+koha_av_malle,MA0PMNI,MALLE PM NINA
+koha_av_malle,MA0PMNO,MALLE PM NONO
+koha_av_malle,MA0PMOM,MALLE PM OMAR
+koha_av_malle,MA0PMPE,MALLE PM PEDRO
+koha_av_malle,MA0PMPO,MALLE PM POPOV
+koha_av_malle,MA0PMZA,MALLE PM ZAZA
+koha_av_malle,MAE0E08B, MALLE E8 BIS- VIVRE ENSEMBLE
+koha_av_order_cancellation_reason,0,No reason provided
+koha_av_order_cancellation_reason,1,Out of stock
+koha_av_order_cancellation_reason,2,Restocking
+koha_av_payment_type,CASH,Espèces
+koha_av_payment_type,CB,Carte bancaire
+koha_av_payment_type,CHQ,Chèque
+koha_av_payment_type,SIP00,Cash via SIP2
+koha_av_payment_type,SIP01,VISA via SIP2
+koha_av_payment_type,SIP02,Creditcard via SIP2
+koha_av_pcs,PCS01,Agriculteurs exploitants
+koha_av_pcs,PCS02,"Artisans, commerçants et chefs d'entreprise"
+koha_av_pcs,PCS03,Cadres et professions intellectuelles supérieures
+koha_av_pcs,PCS04,Professions Intermédiaires
+koha_av_pcs,PCS05,Employés
+koha_av_pcs,PCS06,Ouvriers
+koha_av_pcs,PCS07,Retraités
+koha_av_pcs,PCS08,Lycéens
+koha_av_pcs,PCS09,Etudiants
+koha_av_pcs,PCS10,Autres personnes sans activité professionnelle
+koha_av_publicc,a,Jeune public
+koha_av_publicc,m,Public adulte
+koha_av_qualif,0,Fonction indéterminée
+koha_av_qualif,5,Acteur
+koha_av_qualif,10,Adaptateur
+koha_av_qualif,18,Auteur de l'animation
+koha_av_qualif,20,Annotateur
+koha_av_qualif,30,"Arrangeur, auteur d'une réduction. "
+koha_av_qualif,40,Artiste
+koha_av_qualif,50,Nouveau détenteur du privilège
+koha_av_qualif,60,Nom associé à l'exemplaire
+koha_av_qualif,65,Commissaire-priseur
+koha_av_qualif,70,Auteur
+koha_av_qualif,72,Auteur d'une citation ou d'extrait
+koha_av_qualif,75,Postfacier
+koha_av_qualif,80,"Préfacier, auteur d'introduction"
+koha_av_qualif,90,Auteur des dialogues ou des commentaires
+koha_av_qualif,100,Auteur de l'oeuvre adaptée
+koha_av_qualif,110,Relieur
+koha_av_qualif,120,Décorateur ou dessinateur de la reliure
+koha_av_qualif,130,Maquettiste
+koha_av_qualif,140,Dessinateur de la jaquette
+koha_av_qualif,150,Dessinateur de l'ex-libris
+koha_av_qualif,160,Libraire
+koha_av_qualif,170,Calligraphe
+koha_av_qualif,180,Cartographe
+koha_av_qualif,190,Censeur
+koha_av_qualif,195,Chef de choeur
+koha_av_qualif,200,Chorégraphe
+koha_av_qualif,202,Artiste de cirque
+koha_av_qualif,205,Collaborateur
+koha_av_qualif,206,Collecteur
+koha_av_qualif,207,Humoriste
+koha_av_qualif,210,Commentateur (audiovisuel)
+koha_av_qualif,212,Commentateur de texte écrit
+koha_av_qualif,220,Compilateur
+koha_av_qualif,230,Compositeur
+koha_av_qualif,233,Compositeur de l'oeuvre adaptée
+koha_av_qualif,236,Compositeur de l'oeuvre principale
+koha_av_qualif,240,Compositeur typographe
+koha_av_qualif,245,Concepteur
+koha_av_qualif,250,Chef d'orchestre
+koha_av_qualif,255,Consultant de projet
+koha_av_qualif,257,Continuateur
+koha_av_qualif,260,Détenteur du copyright
+koha_av_qualif,270,Correcteur (manuscrits)
+koha_av_qualif,273,Commissaire d'exposition
+koha_av_qualif,275,Danseur
+koha_av_qualif,280,Dédicataire
+koha_av_qualif,290,Auteur d'une dédicace
+koha_av_qualif,295,Organisme de soutenance
+koha_av_qualif,300,Metteur en scène ou Réalisateur
+koha_av_qualif,303,Disc jockey
+koha_av_qualif,305,Doctorant
+koha_av_qualif,310,Distributeur
+koha_av_qualif,320,Donateur
+koha_av_qualif,330,Auteur présumé
+koha_av_qualif,340,Éditeur scientifique
+koha_av_qualif,350,Graveur
+koha_av_qualif,360,Aquafortiste
+koha_av_qualif,365,Expert (catalogue de vente)
+koha_av_qualif,370,Réalisateur
+koha_av_qualif,380,Faussaire
+koha_av_qualif,390,Ancien possesseur
+koha_av_qualif,395,Fondateur (publication en série)
+koha_av_qualif,400,Mécène
+koha_av_qualif,410,Technicien graphique
+koha_av_qualif,420,Personne honorée
+koha_av_qualif,430,Enlumineur
+koha_av_qualif,440,Illustrateur
+koha_av_qualif,445,Imprésario
+koha_av_qualif,450,Auteur de l'envoi
+koha_av_qualif,460,Personne interviewée
+koha_av_qualif,470,Interviewer
+koha_av_qualif,475,Collectivité éditrice
+koha_av_qualif,480,Librettiste
+koha_av_qualif,490,Détenteur de la licence
+koha_av_qualif,500,Concédant de licence
+koha_av_qualif,510,Lithographe
+koha_av_qualif,520,Parolier
+koha_av_qualif,530,Graveur sur métal
+koha_av_qualif,535,Mime
+koha_av_qualif,540,Moniteur
+koha_av_qualif,545,Musicien
+koha_av_qualif,555,Membre du jury
+koha_av_qualif,557,Organisateur de congrès
+koha_av_qualif,560,Instigateur
+koha_av_qualif,570,Autres
+koha_av_qualif,571,Coordinateur
+koha_av_qualif,573,Diffuseur
+koha_av_qualif,574,Présentateur
+koha_av_qualif,575,Responsable
+koha_av_qualif,580,Fabriquant du papier
+koha_av_qualif,582,Demandeur du brevet
+koha_av_qualif,584,Inventeur
+koha_av_qualif,587,Titulaire du brevet
+koha_av_qualif,590,Interprète
+koha_av_qualif,595,Directeur de la recherche
+koha_av_qualif,600,Photographe
+koha_av_qualif,605,Présentateur
+koha_av_qualif,610,Imprimeur
+koha_av_qualif,620,Imprimeur de gravures
+koha_av_qualif,630,Producteur
+koha_av_qualif,632,"Directeur artistique, scénographe"
+koha_av_qualif,633,Membre de l’équipe de production
+koha_av_qualif,635,Programmeur
+koha_av_qualif,637,Chef de projet
+koha_av_qualif,640,Correcteur sur épreuves
+koha_av_qualif,650,Éditeur commercial
+koha_av_qualif,651,Directeur de la publication
+koha_av_qualif,655,Marionnettiste
+koha_av_qualif,660,Destinataire de lettres
+koha_av_qualif,670,Ingénieur du son
+koha_av_qualif,672,Remixeur
+koha_av_qualif,673,Directeur de recherches
+koha_av_qualif,675,Critique
+koha_av_qualif,677,Chercheur
+koha_av_qualif,680,Rubricateur
+koha_av_qualif,690,Scénariste
+koha_av_qualif,695,Conseiller scientifique
+koha_av_qualif,700,Copiste
+koha_av_qualif,705,Sculpteur
+koha_av_qualif,710,Rédacteur
+koha_av_qualif,720,Signataire
+koha_av_qualif,721,Chanteur
+koha_av_qualif,723,Commanditaire
+koha_av_qualif,725,Organisme de normalisation
+koha_av_qualif,726,Cascadeur
+koha_av_qualif,727,Directeur de thèse
+koha_av_qualif,730,Traducteur
+koha_av_qualif,740,Concepteur de caractères
+koha_av_qualif,750,Typographe
+koha_av_qualif,753,Vendeur
+koha_av_qualif,755,Exécutant vocal
+koha_av_qualif,760,Graveur sur bois
+koha_av_qualif,770,Auteur du matériel d'accompagnement
+koha_av_report_group,adh,Adhérents
+koha_av_report_group,adm,Pôle administratif
+koha_av_report_group,BUS,Zèbre
+koha_av_report_group,cat,Catalogue
+koha_av_report_group,CDOC,Circuit du document
+koha_av_report_group,col,Collectivités
+koha_av_report_group,crc,Prêts
+koha_av_report_group,data,Data
+koha_av_report_group,REC,Récolement
+koha_av_report_group,resa,Réservations
+koha_av_report_group,RPT_ADM,Administration
+koha_av_report_group,SER,Serials
+koha_av_report_subgroup,aut,Autorités
+koha_av_report_subgroup,bib,Notices Bib
+koha_av_report_subgroup,biblio,biblio
+koha_av_report_subgroup,data_bib,Bilio
+koha_av_report_subgroup,ex,Exemplaires
+koha_av_report_subgroup,per,Périodiques
+koha_av_report_subgroup,QA,Qualité fichier
+koha_av_report_subgroup,ven,Vendangeur
+koha_av_report_subgroup,WS_CDOC,Webservice
+koha_av_report_subgroup,WS_RESA,Webservice
+koha_av_restriction,Age 12,Interdit moins de 12 ans
+koha_av_restriction,Age 16,Interdit moins de 16 ans
+koha_av_restriction,Age 18,Interdit moins de 18 ans
+koha_av_retirecoll,0,Non
+koha_av_retirecoll,1,Désherbé
+koha_av_retirecoll,2,Non consultable
+koha_av_retirecoll,3,Retard > 90 jours
+koha_av_return_claim_resolution,FOUND_IN_LIB,Found in library
+koha_av_return_claim_resolution,RET_BY_PATRON,Returned by patron
+koha_av_roadtype,1,Avenue
+koha_av_roadtype,2,Boulevard
+koha_av_roadtype,3,Rue
+koha_av_roadtype,4,Chemin
+koha_av_roadtype,5,Impasse
+koha_av_roadtype,6,Faubourg
+koha_av_roadtype,7,Route
+koha_av_sip_media_type,0,Other
+koha_av_sip_media_type,1,Book
+koha_av_sip_media_type,2,Magazine
+koha_av_sip_media_type,3,Bound journal
+koha_av_sip_media_type,4,Audio tape
+koha_av_sip_media_type,5,Video tape
+koha_av_sip_media_type,6,CD/CDROM
+koha_av_sip_media_type,7,Diskette
+koha_av_sip_media_type,8,Book with diskette
+koha_av_sip_media_type,9,Book with CD
+koha_av_sip_media_type,10,Book with audio tape
+koha_av_suggest,1,Ce document est déjà présent dans nos collections. Une réservation a été effectuée à votre nom.
+koha_av_suggest,2,"Ce document n’est pas disponible chez notre fournisseur, nous ne pouvons pas nous le procurer."
+koha_av_suggest,3,Ce document n’est pas encore paru. Merci de renouveler votre suggestion ultérieurement.
+koha_av_suggest,4,Ce document est actuellement indisponible. Merci de renouveler votre suggestion ultérieurement.
+koha_av_suggest,5,Ce titre est introuvable. Pourriez-vous vérifier vos références s'il vous plaît ?
+koha_av_suggest,6,"En raison d’un grand nombre de suggestions, nous privilégions l’achat de nouveautés."
+koha_av_suggest,7,Il y a peu de retours critiques sur ce document et / ou ils sont mitigés.
+koha_av_suggest,8,Le coût de ce document est trop élevé.
+koha_av_suggest,9,"Ce document s’adresse à un public restreint, son contenu est trop spécialisé pour notre établissement."
+koha_av_suggest,10,La Médiathèque possède déjà plusieurs titres sur le même sujet / du même auteur.
+koha_av_suggest_format,PRETBD,Prêt de bandes dessinées
+koha_av_suggest_format,PRETCAR,Prêt de cartes routières
+koha_av_suggest_format,PRETDVD,Prêt de DVD
+koha_av_suggest_format,PRETLIV,Prêt d'imprimés
+koha_av_suggest_format,PRETLS,Prêt de livres audio
+koha_av_suggest_format,PRETMAT,"Prêt de matériel (casque audio, clé USB, ...)"
+koha_av_suggest_format,PRETMUL,Prêt de documents multimédia
+koha_av_suggest_format,PRETPAR,Prêt de partitions
+koha_av_suggest_format,PRETPER,Prêt de périodiques
+koha_av_suggest_format,PRETSON,Prêt de documents sonores
+koha_av_typedoc,AP,Périodique - article
+koha_av_typedoc,CA,Carte routière
+koha_av_typedoc,CR,CD-ROM
+koha_av_typedoc,DC,Disque compact
+koha_av_typedoc,DG,Disque gomme-laque
+koha_av_typedoc,DV,Disque microsillon
+koha_av_typedoc,IC,Document iconographique
+koha_av_typedoc,JE,Jeu
+koha_av_typedoc,K7,Cassette audio
+koha_av_typedoc,LG,Livre en gros caractères
+koha_av_typedoc,LI,Livre
+koha_av_typedoc,LN,Livre numérique
+koha_av_typedoc,LS,Livre audio
+koha_av_typedoc,ML,Méthode de langue
+koha_av_typedoc,MT,Matériel
+koha_av_typedoc,PA,Partition
+koha_av_typedoc,PE,Périodique
+koha_av_typedoc,VD,DVD
+koha_av_typedoc,VI,"VHS, UMATIC ou film"
+koha_av_unimarc_181c,cod,données informatiques
+koha_av_unimarc_181c,cop,programme informatique
+koha_av_unimarc_181c,crd,données cartographiques
+koha_av_unimarc_181c,crf,forme cartographique tridimensionnelle
+koha_av_unimarc_181c,cri,image cartographique
+koha_av_unimarc_181c,crm,image cartographique animée
+koha_av_unimarc_181c,crn,forme cartographique tridimensionnelle tactile
+koha_av_unimarc_181c,crt,image cartographique tactile
+koha_av_unimarc_181c,ntm,musique notée
+koha_av_unimarc_181c,ntv,mouvement noté
+koha_av_unimarc_181c,prm,musique exécutée
+koha_av_unimarc_181c,snd,sons
+koha_av_unimarc_181c,spw,parole énoncée
+koha_av_unimarc_181c,sti,image fixe
+koha_av_unimarc_181c,tcf,forme tridimensionnelle tactile
+koha_av_unimarc_181c,tci,image tactile
+koha_av_unimarc_181c,tcm,musique notée tactile
+koha_av_unimarc_181c,tcn,mouvement noté tactile
+koha_av_unimarc_181c,tct,texte tactile
+koha_av_unimarc_181c,tdf,forme tridimensionnelle
+koha_av_unimarc_181c,tdi,image animée bidimensionnelle
+koha_av_unimarc_181c,tdm,image animée tridimensionnelle
+koha_av_unimarc_181c,txt,texte
+koha_av_unimarc_181c,xxx,autre
+koha_av_unimarc_182a,a,audio
+koha_av_unimarc_182a,b,électronique
+koha_av_unimarc_182a,c,microforme
+koha_av_unimarc_182a,d,microscopique
+koha_av_unimarc_182a,e,projeté
+koha_av_unimarc_182a,f,stéréographique
+koha_av_unimarc_182a,g,video
+koha_av_unimarc_182a,m,multisupport
+koha_av_unimarc_182a,n,sans médiation
+koha_av_unimarc_182a,z,autre
+koha_av_unimarc_182c,cod,données informatiques
+koha_av_unimarc_182c,cop,programme informatique
+koha_av_unimarc_182c,crd,données cartographiques
+koha_av_unimarc_182c,crf,forme cartographique tridimensionnelle
+koha_av_unimarc_182c,cri,image cartographique
+koha_av_unimarc_182c,crm,image cartographique animée
+koha_av_unimarc_182c,crn,forme cartographique tridimensionnelle tactile
+koha_av_unimarc_182c,crt,image cartographique tactile
+koha_av_unimarc_182c,ntm,musique notée
+koha_av_unimarc_182c,ntv,mouvement noté
+koha_av_unimarc_182c,prm,musique exécutée
+koha_av_unimarc_182c,snd,sons
+koha_av_unimarc_182c,spw,parole énoncée
+koha_av_unimarc_182c,sti,image fixe
+koha_av_unimarc_182c,tcf,forme tridimensionnelle tactile
+koha_av_unimarc_182c,tci,image tactile
+koha_av_unimarc_182c,tcm,musique notée tactile
+koha_av_unimarc_182c,tcn,mouvement noté tactile
+koha_av_unimarc_182c,tct,texte tactile
+koha_av_unimarc_182c,tdf,forme tridimensionnelle
+koha_av_unimarc_182c,tdi,image animée bidimensionnelle
+koha_av_unimarc_182c,tdm,image animée tridimensionnelle
+koha_av_unimarc_182c,txt,texte
+koha_av_unimarc_182c,xxx,autre
+koha_av_unimarc_183a,caa,Supports électroniques (c) : Bobine de bande informatique
+koha_av_unimarc_183a,cab,Supports électroniques (c) : Cartouche informatique
+koha_av_unimarc_183a,cac,Supports électroniques (c) : Cassette de bande informatique
+koha_av_unimarc_183a,cad,Supports électroniques (c) : Dispositif électronique autonome
+koha_av_unimarc_183a,cae,Supports électroniques (c) : Mémoire USB
+koha_av_unimarc_183a,caf,Supports électroniques (c) : Puce RFID
+koha_av_unimarc_183a,caz,Supports électroniques (c) : Support numérique manipulable (générique)
+koha_av_unimarc_183a,cba,Supports électroniques (c) : Carte mémoire
+koha_av_unimarc_183a,cbb,Supports électroniques (c) : Carte mémoire propriétaire
+koha_av_unimarc_183a,cca,Supports électroniques (c) : Cartouche de jeu
+koha_av_unimarc_183a,cda,Supports électroniques (c) : Blu-ray disc
+koha_av_unimarc_183a,cdb,Supports électroniques (c) : Blu-ray disc propriétaire
+koha_av_unimarc_183a,cdc,Supports électroniques (c) : CD-I
+koha_av_unimarc_183a,cdd,Supports électroniques (c) : CD-Photo
+koha_av_unimarc_183a,cde,Supports électroniques (c) : CD-ROM
+koha_av_unimarc_183a,cdf,Supports électroniques (c) : CD-ROM propriétaire
+koha_av_unimarc_183a,cdg,Supports électroniques (c) : CDTV
+koha_av_unimarc_183a,cdh,Supports électroniques (c) : Disque optique hybride
+koha_av_unimarc_183a,cdi,Supports électroniques (c) : Disquette
+koha_av_unimarc_183a,cdj,Supports électroniques (c) : Disquette propriétaire
+koha_av_unimarc_183a,cdk,Supports électroniques (c) : DVD-ROM
+koha_av_unimarc_183a,cdl,Supports électroniques (c) : DVD-ROM propriétaire
+koha_av_unimarc_183a,cea,Supports électroniques (c) : Clé de licence de produit numérique
+koha_av_unimarc_183a,ceb,Supports électroniques (c) : Ressource dématérialisée
+koha_av_unimarc_183a,czz,Supports électroniques (c) : Autre support électronique
+koha_av_unimarc_183a,eaa,Supports matériels stéréoscopiques (e) : Carte stéréoscopique
+koha_av_unimarc_183a,eab,Supports matériels stéréoscopiques (e) : Disque stéréoscopique
+koha_av_unimarc_183a,eac,Supports matériels stéréoscopiques (e) : Plaque stéréoscopique
+koha_av_unimarc_183a,ezz,Supports matériels stéréoscopiques (e) : Autre support stéréoscopique
+koha_av_unimarc_183a,gab,Supports pour les images projetées (g) : Bobine de film
+koha_av_unimarc_183a,gac,Supports pour les images projetées (g) : Cartouche de film fixe
+koha_av_unimarc_183a,gad,Supports pour les images projetées (g) : Diapositive
+koha_av_unimarc_183a,gae,Supports pour les images projetées (g) : Film fixe
+koha_av_unimarc_183a,gaf,Supports pour les images projetées (g) : Film fixe court
+koha_av_unimarc_183a,gag,Supports pour les images projetées (g) : Rouleau de film
+koha_av_unimarc_183a,gah,Supports pour les images projetées (g) : Transparent pour rétroprojecteur
+koha_av_unimarc_183a,gaz,Supports pour les images projetées (g) : Film ou transparent (générique)
+koha_av_unimarc_183a,gba,Supports pour les images projetées (g) : Plaque de lanterne magique
+koha_av_unimarc_183a,gzz,Supports pour les images projetées (g) : Autre support pour les images projetées
+koha_av_unimarc_183a,haa,Supports matériels pour les microformes (h) : Carte à fenêtre
+koha_av_unimarc_183a,hab,Supports matériels pour les microformes (h) : Cassette de microfiches
+koha_av_unimarc_183a,hac,Supports matériels pour les microformes (h) : Micro-opaque
+koha_av_unimarc_183a,had,Supports matériels pour les microformes (h) : Microfiche
+koha_av_unimarc_183a,haz,Supports matériels pour les microformes (h) : Microforme (générique)
+koha_av_unimarc_183a,hba,Supports matériels pour les microformes (h) : Bande de microfilm
+koha_av_unimarc_183a,hbb,Supports matériels pour les microformes (h) : Bobine de microfilm
+koha_av_unimarc_183a,hbc,Supports matériels pour les microformes (h) : Cartouche de microfilm
+koha_av_unimarc_183a,hbd,Supports matériels pour les microformes (h) : Cassette de microfilm
+koha_av_unimarc_183a,hbe,Supports matériels pour les microformes (h) : Rouleau de microfilm
+koha_av_unimarc_183a,hbz,Supports matériels pour les microformes (h) : Microfilm
+koha_av_unimarc_183a,hzz,Supports matériels pour les microformes (h) : Autre support pour les microformes
+koha_av_unimarc_183a,naa,Supports sans médiation (n) : Carte
+koha_av_unimarc_183a,nba,Supports sans médiation (n) : Bande de film photographique
+koha_av_unimarc_183a,nbb,Supports sans médiation (n) : Bobine de film photographique
+koha_av_unimarc_183a,nbc,Supports sans médiation (n) : Rouleau de film photographique
+koha_av_unimarc_183a,nbz,Supports sans médiation (n) : Film photographique (terme générique)
+koha_av_unimarc_183a,nca,Supports sans médiation (n) : Tableau à feuilles mobiles
+koha_av_unimarc_183a,nda,Supports sans médiation (n) : Feuille
+koha_av_unimarc_183a,ndb,Supports sans médiation (n) : Autocollant
+koha_av_unimarc_183a,ndc,Supports sans médiation (n) : Dépliant
+koha_av_unimarc_183a,ndd,Supports sans médiation (n) : Transparent
+koha_av_unimarc_183a,nea,Supports sans médiation (n) : Appareil (terme générique)
+koha_av_unimarc_183a,neb,Supports sans médiation (n) : Globe
+koha_av_unimarc_183a,nec,Supports sans médiation (n) : Kit
+koha_av_unimarc_183a,ned,Supports sans médiation (n) : Maquette
+koha_av_unimarc_183a,nef,Supports sans médiation (n) : Matrice
+koha_av_unimarc_183a,neg,Supports sans médiation (n) : Objet numismatique
+koha_av_unimarc_183a,neh,Supports sans médiation (n) : Panneau
+koha_av_unimarc_183a,nei,Supports sans médiation (n) : Panneau dépliant
+koha_av_unimarc_183a,nej,Supports sans médiation (n) : Plaque
+koha_av_unimarc_183a,nek,Supports sans médiation (n) : Plaque photographique
+koha_av_unimarc_183a,nel,Supports sans médiation (n) : Plateau de jeu
+koha_av_unimarc_183a,nez,Supports sans médiation (n) : Objet
+koha_av_unimarc_183a,nfa,Supports sans médiation (n) : Rouleau
+koha_av_unimarc_183a,nga,Supports sans médiation (n) : Volume
+koha_av_unimarc_183a,ngb,Supports sans médiation (n) : Brochure
+koha_av_unimarc_183a,ngc,Supports sans médiation (n) : Fascicule
+koha_av_unimarc_183a,nzz,Supports sans médiation (n) : Autre support sans médiation
+koha_av_unimarc_183a,paa,Supports matériels microscopiques (p) : Lame pour microscope
+koha_av_unimarc_183a,pzz,Supports matériels microscopiques (p) : Autre support microscopique
+koha_av_unimarc_183a,saa,Supports audio (s) : Bande magnétique audio
+koha_av_unimarc_183a,sab,Supports audio (s) : Bobine de piste sonore
+koha_av_unimarc_183a,sac,Supports audio (s) : Bande perforée pour instrument mécanique
+koha_av_unimarc_183a,saz,Supports audio (s) : Support audio (générique)
+koha_av_unimarc_183a,sba,Supports audio (s) : Cartouche audio
+koha_av_unimarc_183a,sbb,Supports audio (s) : Bande TEFI
+koha_av_unimarc_183a,sca,Supports audio (s) : Cassette audio analogique
+koha_av_unimarc_183a,scb,Supports audio (s) : Cassette audio numérique
+koha_av_unimarc_183a,sda,Supports audio (s) : Cylindre phonographique
+koha_av_unimarc_183a,sdb,Supports audio (s) : Fil magnétique
+koha_av_unimarc_183a,sdc,Supports audio (s) : Ruban métallique magnétique
+koha_av_unimarc_183a,sea,Supports audio (s) : CD audio
+koha_av_unimarc_183a,seb,Supports audio (s) : CD-Extra
+koha_av_unimarc_183a,sec,Supports audio (s) : Disque audio
+koha_av_unimarc_183a,sed,Supports audio (s) : DVD audio
+koha_av_unimarc_183a,see,Supports audio (s) : Feuille acoustique
+koha_av_unimarc_183a,sef,Supports audio (s) : MiniDisc
+koha_av_unimarc_183a,seg,Supports audio (s) : Blu-ray audio
+koha_av_unimarc_183a,szz,Supports audio (s) : Autre support vidéo
+koha_av_unimarc_183a,vaa,Supports vidéo (v) : Bande vidéo
+koha_av_unimarc_183a,vaz,Supports vidéo (v) : Vidéo (Terme générique)
+koha_av_unimarc_183a,vba,Supports vidéo (v) : Cassette vidéo
+koha_av_unimarc_183a,vbb,Supports vidéo (v) : Cassette vidéo numérique
+koha_av_unimarc_183a,vca,Supports vidéo (v) : Blu-ray vidéo
+koha_av_unimarc_183a,vcb,Supports vidéo (v) : Disque vidéo
+koha_av_unimarc_183a,vcc,Supports vidéo (v) : DVD vidéo
+koha_av_unimarc_183a,vcd,Supports vidéo (v) : HD DVD
+koha_av_unimarc_183a,vce,Supports vidéo (v) : Vidéo CD
+koha_av_unimarc_183a,vzz,Supports vidéo (v) : Autre support vidéo
+koha_av_unimarc_systemes_indexation,rameau,Rameau
+koha_av_unimarc_systemes_indexation,rbxRomJ,Romans jeunesse (Roubaix)
+koha_av_v091a,0,aucune action
+koha_av_v091a,1,autorités seulement
+koha_av_v091a,2,notice bibliographique et autorités
+koha_av_v091c,0,notice non remplacée
+koha_av_v091c,1,notice remplacée
+koha_av_yes_no,0,Non
+koha_av_yes_no,1,Oui

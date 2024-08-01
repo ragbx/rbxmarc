@@ -16,7 +16,7 @@ class Rbxbib2dict():
     Classe qui permet de transformer une notice bibliographique MARC en dictionnaire
     En entrée :
     - obligatoirement, un objet Pymarc record
-    - optionnellement, sous forme de dictionnaire, un référentiel de codes /
+    - optionnellement, sous forme de fichier csv, un référentiel de codes /
     valeurs correspondantes
 
     En sortie, on obtient un dictionnaire
@@ -122,19 +122,22 @@ class Rbxbib2dict():
         """
         # liste des codes collections décrivant une collection patrimoniale
         pat_ccodes = [
-            'PENPDZZ', # Patrimoine sonore : Desdoit -> statut à clarifier
-            'PENRSZZ', # Patrimoine sonore : FLRS
-            'PENACZZ', # Patrimoine sonore :  Cata
-            'PENCVZZ', # Patrimoine sonore :  Verstraete
-            'PENDEZZ', # Patrimoine sonore :  Desette
-            'PENHPZZ', # Patrimoine sonore :  Health Payant audio
-            'PPAFIZZ',
-            'PPEFGZZ', # Patrimoine écrit et graphique : fonds général
-            'PPELGZZ', # Patrimoine écrit et graphique : Destombes
-            'PPEPMZZ',
-            'PPEPRZZ',
-            'PPIPIZZ',
-            'PRRFIZZ'
+            'PENACZZ', # Patrimoine sonore - Fonds Alfonso Cata
+            'PENCVZZ', # Patrimoine sonore - Fonds Charles Verstraete
+            'PENDEZZ', # Patrimoine sonore - Fonds Desette
+            'PENHPZZ', # Patrimoine sonore - Fonds Heath et Payant - enregistrements
+            'PENPDZZ', # Collection Patrice Desdoit # à vérifier
+            'PENRSZZ', # Patrimoine sonore - FLRS
+            'PPAFIZZ', # Patrimoine audiovisuel - Fonds local image
+            'PPEFGZZ', # Patrimoine écrit - fonds général
+            'PPELGZZ', # Patrimoine écrit - legs Destombes
+            'PPEPMZZ', # Patrimoine musical imprimé
+            'PPEPRZZ', # Périodiques patrimonaiux
+            'PPIPIZZ' # Patrimoine iconographique
+            # 'PRRFIZZ', # Films autour de Roubaix et sa région  # non : collections de prêts
+            # 'PRRMEZZ', # FLRS de prêt # non : collections de prêts
+            # 'PRRRGZZ', # Région # non : collections de prêts
+            # 'PRRRXZZ'  # Roubaix # non : collections de prêts
         ]
 
         result = False
@@ -147,10 +150,17 @@ class Rbxbib2dict():
         self.metadatas['pat'] = result
 
     def get_nb_items(self):
+        """
+        Renvoie le nb d'exemplaires (le nb de champs B995) à une notice bib
+        """
         fields = self.record.get_fields('995')
         self.metadatas['nb_items'] = len(fields)
 
     def get_links(self):
+        """
+        Renvoie les identifiants des notices autorités liées à une notice bib.
+        Identifiants interne ($9) et BnF ($3).
+        """
         bnf_authnumbers = []
         koha_authnumbers = []
 
@@ -175,6 +185,9 @@ class Rbxbib2dict():
 
     # Extraction de champs
     def get_record_id(self):
+        """
+        Renvoie le numéro de la notice (champs B001)
+        """
         self.metadatas['record_id'] = self._get_marc_values(["001"])
 
     def get_type_notice(self):
@@ -261,7 +274,7 @@ class Rbxbib2dict():
 
     def get_rbx_vdg_action(self):
         """
-        On récupère en B091$a l'action à mener par le vendangeur Koha
+        On récupère en B091a l'action à mener par le vendangeur Koha
         et on la remplace par son libellé.
         Trois actions  possibles :
         - aucune action (valeur 0)
@@ -269,7 +282,7 @@ class Rbxbib2dict():
         - notices bibliographiques et autorités (valeur 2)
         """
         result = self._get_marc_values(["091a"])
-        vdg_codes = self.referentiels['rbx_vdg_action']
+        vdg_codes = self.referentiels['koha_av_v091a']
         if result in vdg_codes.keys():
             result = vdg_codes[result]
         self.metadatas['rbx_vdg_action'] = result
@@ -283,31 +296,11 @@ class Rbxbib2dict():
 
     def get_rbx_support(self):
         """
-        On récupère en 099$t le code du support dans Koha
+        On récupère en B099t le code du support dans Koha
         et on le remplace par son libellé.
         """
         result = self._get_marc_values(["099t"])
-        support_codes = {
-                'AP': 'périodique - article',
-                'CA': 'carte routière',
-                'CR': 'cd-rom',
-                'DC': 'disque compact',
-                'DG': 'disque gomme-laque',
-                'DV': 'disque microsillon',
-                'IC': 'document iconographique',
-                'JE': 'jeu',
-                'K7': 'cassette audio',
-                'LG': 'livre en gros caractères',
-                'LI': 'livre',
-                'LN': 'livre numérique',
-                'LS': 'livre audio',
-                'ML': 'méthode de langue',
-                'MT': 'matériel',
-                'PA': 'partition',
-                'PE': 'périodique',
-                'VD': 'dvd',
-                'VI': 'vhs, umatic ou film'
-            }
+        support_codes = self.referentiels['koha_av_typedoc']
         if result in support_codes.keys():
             result = support_codes[result]
         self.metadatas['rbx_support'] = result
@@ -540,6 +533,12 @@ class Rbxbib2dict():
         Extraction de l'agence catalographique, en B801b.
         """
         result = self._get_marc_values(["801b"])
+        agence_cat_codes = self.referentiels['agence_cat_codes']
+        if result in agence_cat_codes.keys():
+            result = agence_cat_codes[result]
+        else:
+            if result:
+                result = 'autre'
         self.metadatas['agence_cat'] = result
 
     # def get_pat(self):
