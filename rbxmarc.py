@@ -81,7 +81,8 @@ class Rbxbib2dict():
     # Extractions récurrentes
     def rbx_qual(self):
         """
-        Piur étude de la qualité des notices
+        Pour étude de la qualité des notices
+        (à compléter)
         """
         self.get_record_id()
         self.get_type_notice()
@@ -89,6 +90,9 @@ class Rbxbib2dict():
 
 
     def rbx_vdg(self):
+        """
+        Pour étude du processus de vendange
+        """
         self.get_record_id()
         self.get_alignement_bnf()
         self.get_rbx_date_creation_notice()
@@ -112,13 +116,32 @@ class Rbxbib2dict():
         self.metadatas['alignement_bnf'] = result
 
     def get_pat(self):
+        """
+        Indique si une notice décrit au moins un exemplaire relevant du patrimoine
+        (selon les codes de collection).
+        """
+        # liste des codes collections décrivant une collection patrimoniale
+        pat_ccodes = [
+            'PENPDZZ', # Patrimoine sonore : Desdoit -> statut à clarifier
+            'PENRSZZ', # Patrimoine sonore : FLRS
+            'PENACZZ', # Patrimoine sonore :  Cata
+            'PENCVZZ', # Patrimoine sonore :  Verstraete
+            'PENDEZZ', # Patrimoine sonore :  Desette
+            'PENHPZZ', # Patrimoine sonore :  Health Payant audio
+            'PPAFIZZ',
+            'PPEFGZZ', # Patrimoine écrit et graphique : fonds général
+            'PPELGZZ', # Patrimoine écrit et graphique : Destombes
+            'PPEPMZZ',
+            'PPEPRZZ',
+            'PPIPIZZ',
+            'PRRFIZZ'
+        ]
+
         result = False
         ccodes = self._get_marc_values(["995h"])
         ccodes = ccodes.split(" ; ")
         for ccode in ccodes:
-            if ccode in ['PENPDZZ', 'PENRSZZ', 'PENACZZ', 'PENCVZZ',
-                         'PENDEZZ', 'PENHPZZ', 'PPAFIZZ', 'PPEFGZZ',
-                         'PPELGZZ', 'PPEPMZZ', 'PPEPRZZ', 'PPIPIZZ', 'PRRFIZZ']:
+            if ccode in pat_ccodes:
                 result = True
                 break
         self.metadatas['pat'] = result
