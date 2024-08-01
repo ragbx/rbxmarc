@@ -1,5 +1,5 @@
-results/*
-!results/.gitkeep
+extractions/*
+!extractions/.gitkeep
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
