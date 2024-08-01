@@ -12,6 +12,15 @@ def get_referentiels():
     return referentiels
 
 class Rbxbib2dict():
+    """
+    Classe qui permet de transformer une notice bibliographique MARC en dictionnaire
+    En entrée :
+    - obligatoirement, un objet Pymarc record
+    - optionnellement, sous forme de dictionnaire, un référentiel de codes /
+    valeurs correspondantes
+
+    En sortie, on obtient un dictionnaire
+    """
     def __init__(self, record, **kwargs):
         self.record = record
         if 'referentiels' in kwargs:
@@ -21,6 +30,9 @@ class Rbxbib2dict():
         self.metadatas = {}
 
     def analyse_complete(self):
+        """
+        Rassemble toutes les fonctions d'extraction existantes
+        """
         self.get_record_id()
         self.get_type_notice()
         self.get_niveau_bib()
@@ -36,8 +48,8 @@ class Rbxbib2dict():
         self.get_rbx_support()
         self.get_rbx_date_creation_notice()
         self.get_rbx_date_modification_notice()
-        self.get_date_creation_notice_f100()
-        self.get_publication_date_f100()
+        self.get_date_creation_notice_B100()
+        self.get_publication_date_B100()
         self.get_langue()
         self.get_langue_originale()
         self.get_pays()
@@ -49,17 +61,17 @@ class Rbxbib2dict():
         self.get_numero_tome()
         self.get_responsability()
         self.get_subject()
-        self.get_publication_date_f210()
-        self.get_publication_date_f214()
-        self.get_publication_date_f219()
+        self.get_publication_date_B210()
+        self.get_publication_date_B214()
+        self.get_publication_date_B219()
         self.get_publication_date()
-        self.get_publisher_f210()
-        self.get_publisher_f214()
-        self.get_publisher_f219()
+        self.get_publisher_B210()
+        self.get_publisher_B214()
+        self.get_publisher_B219()
         self.get_publisher()
-        self.get_publication_place_f210()
-        self.get_publication_place_f214()
-        self.get_publication_place_f219()
+        self.get_publication_place_B210()
+        self.get_publication_place_B214()
+        self.get_publication_place_B219()
         self.get_publication_place()
         self.get_agence_cat()
         self.get_pat()
@@ -68,7 +80,9 @@ class Rbxbib2dict():
 
     # Extractions récurrentes
     def rbx_qual(self):
-        """ On regarde la qualité des notices"""
+        """
+        Piur étude de la qualité des notices
+        """
         self.get_record_id()
         self.get_type_notice()
         self.get_niveau_bib()
@@ -290,23 +304,23 @@ class Rbxbib2dict():
         result = self._get_marc_values(["099c"])
         self.metadatas['rbx_date_modification_notice'] = result
 
-    def get_date_creation_notice_f100(self):
+    def get_date_creation_notice_B100(self):
         """
         On récupère en 100$a positions 0-7 la date de création de la notice dans
         le système d'origine.
         """
         result = self._get_marc_values(["100a"])
         result = result[0:8]
-        self.metadatas['date_creation_notice_f100'] = result
+        self.metadatas['date_creation_notice_B100'] = result
 
-    def get_publication_date_f100(self):
+    def get_publication_date_B100(self):
         """
         On récupère en 100$a positions 9-12 la première date de publication du
         document.
         """
         result = self._get_marc_values(["100a"])
         result = result[9:13]
-        self.metadatas['publication_date_f100'] = result
+        self.metadatas['publication_date_B100'] = result
 
     def get_langue(self):
         """
@@ -396,109 +410,112 @@ class Rbxbib2dict():
                                         "609abcdefghijklmnopqrstuvwxyz"])
         self.metadatas['subject'] = result
 
-    def get_publication_date_f210(self):
+    def get_publication_date_B210(self):
         result = self._get_marc_values(["210d"])
-        self.metadatas['publication_date_f210'] = result
+        self.metadatas['publication_date_B210'] = result
 
-    def get_publication_date_f214(self):
+    def get_publication_date_B214(self):
         result = self._get_marc_values(["214d"])
-        self.metadatas['publication_date_f214'] = result
+        self.metadatas['publication_date_B214'] = result
 
-    def get_publication_date_f219(self):
+    def get_publication_date_B219(self):
         result = self._get_marc_values(["219d"])
-        self.metadatas['publication_date_f219'] = result
+        self.metadatas['publication_date_B219'] = result
 
     def get_publication_date(self):
-        if 'publication_date_f100' in self.metadatas:
-            result = self.metadatas['publication_date_f100']
+        if 'publication_date_B100' in self.metadatas:
+            result = self.metadatas['publication_date_B100']
         else :
-            result = self.get_publication_date_f100()
+            result = self.get_publication_date_B100()
 
         if result == '':
-            if 'publication_date_f214' in self.metadatas:
-                result = self.metadatas['publication_date_f214']
+            if 'publication_date_B214' in self.metadatas:
+                result = self.metadatas['publication_date_B214']
             else :
-                result = self.get_publication_date_f214()
+                result = self.get_publication_date_B214()
 
         if result == '':
-            if 'publication_date_f210' in self.metadatas:
-                result = self.metadatas['publication_date_f210']
+            if 'publication_date_B210' in self.metadatas:
+                result = self.metadatas['publication_date_B210']
             else :
-                result = self.get_publication_date_f210()
+                result = self.get_publication_date_B210()
 
         if result == '':
-            if 'publication_date_f219' in self.metadatas:
-                result = self.metadatas['publication_date_f219']
+            if 'publication_date_B219' in self.metadatas:
+                result = self.metadatas['publication_date_B219']
             else :
-                result = self.get_publication_date_f219()
+                result = self.get_publication_date_B219()
 
         self.metadatas['publication_date'] = result
 
-    def get_publisher_f210(self):
+    def get_publisher_B210(self):
         result = self._get_marc_values(["210c"])
-        self.metadatas['publisher_f210'] = result
+        self.metadatas['publisher_B210'] = result
 
-    def get_publisher_f214(self):
+    def get_publisher_B214(self):
         result = self._get_marc_values(["214c"])
-        self.metadatas['publisher_f214'] = result
+        self.metadatas['publisher_B214'] = result
 
-    def get_publisher_f219(self):
+    def get_publisher_B219(self):
         result = self._get_marc_values(["219c"])
-        self.metadatas['publisher_f219'] = result
+        self.metadatas['publisher_B219'] = result
 
     def get_publisher(self):
-        if 'publisher_f214' in self.metadatas:
-            result = self.metadatas['publisher_f214']
+        if 'publisher_B214' in self.metadatas:
+            result = self.metadatas['publisher_B214']
         else :
-            result = self.get_publisher_f214()
+            result = self.get_publisher_B214()
 
         if result == '':
-            if 'publisher_f210' in self.metadatas:
-                result = self.metadatas['publisher_f210']
+            if 'publisher_B210' in self.metadatas:
+                result = self.metadatas['publisher_B210']
             else :
-                result = self.get_publisher_f210()
+                result = self.get_publisher_B210()
 
         if result == '':
-            if 'publisher_f219' in self.metadatas:
-                result = self.metadatas['publisher_f219']
+            if 'publisher_B219' in self.metadatas:
+                result = self.metadatas['publisher_B219']
             else :
-                result = self.get_publisher_f219()
+                result = self.get_publisher_B219()
 
         self.metadatas['publisher'] = result
 
-    def get_publication_place_f210(self):
+    def get_publication_place_B210(self):
         result = self._get_marc_values(["210a"])
-        self.metadatas['publication_place_f210'] = result
+        self.metadatas['publication_place_B210'] = result
 
-    def get_publication_place_f214(self):
+    def get_publication_place_B214(self):
         result = self._get_marc_values(["214a"])
-        self.metadatas['publication_place_f214'] = result
+        self.metadatas['publication_place_B214'] = result
 
-    def get_publication_place_f219(self):
+    def get_publication_place_B219(self):
         result = self._get_marc_values(["219a"])
-        self.metadatas['publication_place_f219'] = result
+        self.metadatas['publication_place_B219'] = result
 
     def get_publication_place(self):
-        if 'publication_place_f214' in self.metadatas:
-            result = self.metadatas['publication_place_f214']
+        if 'publication_place_B214' in self.metadatas:
+            result = self.metadatas['publication_place_B214']
         else :
-            result = self.get_publication_place_f214()
+            result = self.get_publication_place_B214()
 
         if result == '':
-            if 'publication_place_f210' in self.metadatas:
-                result = self.metadatas['publication_place_f210']
+            if 'publication_place_B210' in self.metadatas:
+                result = self.metadatas['publication_place_B210']
             else :
-                result = self.get_publication_place_f210()
+                result = self.get_publication_place_B210()
 
         if result == '':
-            if 'publication_place_f219' in self.metadatas:
-                result = self.metadatas['publication_place_f219']
+            if 'publication_place_B219' in self.metadatas:
+                result = self.metadatas['publication_place_B219']
             else :
-                result = self.get_publication_place_f219()
+                result = self.get_publication_place_B219()
 
         self.metadatas['publication_place'] = result
 
     def get_agence_cat(self):
+        """
+        Extraction de l'agence catalographique, en B801b.
+        """
         result = self._get_marc_values(["801b"])
         self.metadatas['agence_cat'] = result
 
@@ -543,6 +560,15 @@ class Rbxbib2dict():
     # Fonctions de base
 
     def _get_marc_values(self, tags, aslist=False):
+        """
+        Permet d'extraire la valeur d'un ou plusieurs champs/sous-champs.
+        Les champs ("tags") sont saisis sous forme de list.
+        Par exemple, ["7OOab", "701ab"]
+
+        Le résultat de base est une liste. Par défaut, il retourné sous forme de
+        chaîne de caractères avec comme séparateur d'élements " ; ". On peut annuler
+        ce comportement grâce à l'argument "aslist=True".
+        """
         result = []
         for tag in tags:
             # cas du label
