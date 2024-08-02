@@ -2,19 +2,19 @@ from os.path import join
 import pandas as pd
 
 from pymarc import MARCReader
-from rbxmarc import get_referentiels, Rbxauth2dict
+from rbxmarc import Rbxmrc, Rbxbib2dict
 
-referentiels = get_referentiels()
+rbxmrc = Rbxmrc()
+referentiels = rbxmrc.referentiels
 
-marc_file =  "sample_data/marc_sample_auth_20240519_158.mrc"
+marc_file =  "sample_data/marc_sample_biblio_20240519_238.mrc"
 with open(marc_file, 'rb') as fh:
     metadatas = []
     reader = MARCReader(fh, to_unicode=True, force_utf8=True)
     for record in reader:
-        auth2dict = Rbxauth2dict(record, referentiels=referentiels)
-        metadatas['LDR'] = auth2dict._get_marc_values(['LDR'])
-        metadatas.append(auth2dict.metadatas)
+        bib2dict = Rbxbib2dict(record, referentiels=referentiels)
+        bib2dict.extraction_complete()
+        metadatas.append(bib2dict.metadatas)
 
 df = pd.DataFrame(metadatas)
 print(df)
-#df.to_csv(join("extractions", f"rbx_bib_qual_{date_export2}.csv.gz"), index=False)

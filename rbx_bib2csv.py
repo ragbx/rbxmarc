@@ -12,7 +12,7 @@ with open(marc_file, 'rb') as fh:
     reader = MARCReader(fh, to_unicode=True, force_utf8=True)
     for record in reader:
         bib2dict = Rbxbib2dict(record, referentiels=referentiels)
-        bib2dict.analyse_complete()
+        bib2dict.extraction_complete()
         metadatas.append(bib2dict.metadatas)
 
 df = pd.DataFrame(metadatas)
