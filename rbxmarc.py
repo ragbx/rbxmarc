@@ -13,6 +13,40 @@ def get_referentiels():
         zip_result = zip(referentiel_df['cle'].to_list(), referentiel_df['valeur'].to_list())
         referentiels[referentiel] = dict(zip_result)
     return referentiels
+ 
+def get_marc_values(record, tags, aslist=False):
+    """
+    Permet d'extraire la valeur d'un ou plusieurs champs/sous-champs.
+    Les champs ("tags") sont saisis sous forme de list.
+    Par exemple, ["7OOab", "701ab"]
+
+    Le résultat de base est une liste. Par défaut, il retourné sous forme de
+    chaîne de caractères avec comme séparateur d'élements " ; ". On peut annuler
+    ce comportement grâce à l'argument "aslist=True".
+    """
+    result = []
+    for tag in tags:
+        # cas du label
+        if tag == 'LDR':
+            result.append(record.leader.leader)
+        else:
+            fields = record.get_fields(tag[:3])
+            for field in fields:
+                field_value = []
+                # cas du controlfield
+                if tag[:2] == '00':
+                    field_value.append(field.data)
+                # cas du datafield
+                else:
+                    if hasattr(field, "subfields"):
+                        for subfield in field.subfields:
+                            if subfield.code in tag[3:]:
+                                field_value.append(subfield.value)
+                result.append(" ".join(field_value))
+    if aslist:
+        return result
+    else:
+        return " ; ".join(result)
 
 class Rbxbib2dict():
     """
@@ -154,7 +188,7 @@ class Rbxbib2dict():
         ]
 
         result = False
-        ccodes = self._get_marc_values(["995h"])
+        ccodes = get_marc_values(self.record, ["995h"])
         ccodes = ccodes.split(" ; ")
         for ccode in ccodes:
             if ccode in pat_ccodes:
@@ -201,14 +235,14 @@ class Rbxbib2dict():
         """
         Renvoie le numéro de la notice (champs B001)
         """
-        self.metadatas['record_id'] = self._get_marc_values(["001"])
+        self.metadatas['record_id'] = get_marc_values(self.record, ["001"])
 
     def get_type_notice(self):
         """
         On récupère la position 6 (type de notice) du label
         et on la remplace par son libellé.
         """
-        result = self._get_marc_values(["LDR"])
+        result = get_marc_values(self.record, ["LDR"])
         result = result[6]
         type_notice_bib_codes = self.referentiels['bib_type_notice_codes']
         if result in type_notice_bib_codes.keys():
@@ -220,7 +254,7 @@ class Rbxbib2dict():
         On récupère la position 7 (niveau bibliographique) du label
         et on la remplace par son libellé.
         """
-        result = self._get_marc_values(["LDR"])
+        result = get_marc_values(self.record, ["LDR"])
         result = result[7]
         niveau_bib_codes = self.referentiels['bib_niveau_codes']
         if result in niveau_bib_codes.keys():
@@ -231,21 +265,21 @@ class Rbxbib2dict():
         """
         On récupère l'isbn en B010$a.
         """
-        result = self._get_marc_values(["010a"])
+        result = get_marc_values(self.record, ["010a"])
         self.metadatas['isbn'] = result
 
     def get_issn(self):
         """
         On récupère l'issn en B011$a.
         """
-        result = self._get_marc_values(["011a"])
+        result = get_marc_values(self.record, ["011a"])
         self.metadatas['issn'] = result
 
     def get_ark_bnf(self):
         """
         On récupère l'ark bnf en B033$a.
         """
-        result = self._get_marc_values(["033a"])
+        result = get_marc_values(self.record, ["033a"])
         result = result.replace("http://catalogue.bnf.fr/", "")
         result = result.replace("https://catalogue.bnf.fr/", "")
         self.metadatas['ark_bnf'] = result
@@ -266,7 +300,7 @@ class Rbxbib2dict():
         On récupère le numéro FRBNF en B035$a.
         """
         result = ''
-        data = self._get_marc_values(["035a"])
+        data = get_marc_values(self.record, ["035a"])
         if 'FRBNF' in data:
             result = data
         self.metadatas['frbnf'] = result
@@ -275,14 +309,14 @@ class Rbxbib2dict():
         """
         On récupère la référence commerciale en B071$ba.
         """
-        result = self._get_marc_values(["071ba"])
+        result = get_marc_values(self.record, ["071ba"])
         self.metadatas['refcom'] = result
 
     def get_ean(self):
         """
         On récupère l'ean en B073$a.
         """
-        result = self._get_marc_values(["073a"])
+        result = get_marc_values(self.record, ["073a"])
         self.metadatas['ean'] = result
 
     def get_rbx_vdg_action(self):
@@ -294,7 +328,7 @@ class Rbxbib2dict():
         - autorités uniquement (valeur 1)
         - notices bibliographiques et autorités (valeur 2)
         """
-        result = self._get_marc_values(["091a"])
+        result = get_marc_values(self.record, ["091a"])
         vdg_codes = self.referentiels['koha_av_v091a']
         if result in vdg_codes.keys():
             result = vdg_codes[result]
@@ -304,7 +338,7 @@ class Rbxbib2dict():
         """
         On récupère la date de dernière vendange en 091b
         """
-        result = self._get_marc_values(["091b"])
+        result = get_marc_values(self.record, ["091b"])
         self.metadatas['rbx_vdg_date'] = result
 
     def get_rbx_support(self):
@@ -312,7 +346,7 @@ class Rbxbib2dict():
         On récupère en B099t le code du support dans Koha
         et on le remplace par son libellé.
         """
-        result = self._get_marc_values(["099t"])
+        result = get_marc_values(self.record, ["099t"])
         support_codes = self.referentiels['koha_av_typedoc']
         if result in support_codes.keys():
             result = support_codes[result]
@@ -322,7 +356,7 @@ class Rbxbib2dict():
         """
         On récupère en 099$c la date de création de la notice biblio dans Koha.
         """
-        result = self._get_marc_values(["099c"])
+        result = get_marc_values(self.record, ["099c"])
         self.metadatas['rbx_date_creation_notice'] = result
 
     def get_rbx_date_modification_notice(self):
@@ -330,7 +364,7 @@ class Rbxbib2dict():
         On récupère en 099$d la date de dernière modification de la notice biblio
         dans Koha.
         """
-        result = self._get_marc_values(["099c"])
+        result = get_marc_values(self.record, ["099c"])
         self.metadatas['rbx_date_modification_notice'] = result
 
     def get_date_creation_notice_B100(self):
@@ -338,7 +372,7 @@ class Rbxbib2dict():
         On récupère en 100$a positions 0-7 la date de création de la notice dans
         le système d'origine.
         """
-        result = self._get_marc_values(["100a"])
+        result = get_marc_values(self.record, ["100a"])
         result = result[0:8]
         self.metadatas['date_creation_notice_B100'] = result
 
@@ -347,7 +381,7 @@ class Rbxbib2dict():
         On récupère en 100$a positions 9-12 la première date de publication du
         document.
         """
-        result = self._get_marc_values(["100a"])
+        result = get_marc_values(self.record, ["100a"])
         result = result[9:13]
         self.metadatas['publication_date_B100'] = result
 
@@ -355,21 +389,21 @@ class Rbxbib2dict():
         """
         On récupère en 101$a la langue du document.
         """
-        result = self._get_marc_values(["101a"])
+        result = get_marc_values(self.record, ["101a"])
         self.metadatas['langue_document'] = result
 
     def get_langue_originale(self):
         """
         On récupère en 101$c la langue originale du document.
         """
-        result = self._get_marc_values(["101c"])
+        result = get_marc_values(self.record, ["101c"])
         self.metadatas['langue_originale_document'] = result
 
     def get_pays(self):
         """
         On récupère en 102$a le pays de parution ou de production.
         """
-        result = self._get_marc_values(["102a"])
+        result = get_marc_values(self.record, ["102a"])
         self.metadatas['pays'] = result
 
     def get_scale(self):
@@ -377,16 +411,16 @@ class Rbxbib2dict():
         Pour les documents cartographiques, on récupère l'échelle prioritairement
         en B123$b, sinon en B206$b.
         """
-        result = self._get_marc_values(["123b"])
+        result = get_marc_values(self.record, ["123b"])
         if result == '':
-            result = self._get_marc_values(["206b"])
+            result = get_marc_values(self.record, ["206b"])
         self.metadatas['scale'] = result
 
     def get_title(self):
         """
         On récupère le titre en B200$ae.
         """
-        result = self._get_marc_values(["200ae"])
+        result = get_marc_values(self.record, ["200ae"])
         self.metadatas['title'] = result
 
     def get_key_title(self):
@@ -394,9 +428,9 @@ class Rbxbib2dict():
         On récupère le titre clé (périodiques) en B530$a.
         Si absent, on va chercher en B200$ae.
         """
-        result = self._get_marc_values(["530a"])
+        result = get_marc_values(self.record, ["530a"])
         if result == '':
-            result = self._get_marc_values(["200ae"])
+            result = get_marc_values(self.record, ["200ae"])
         self.metadatas['key_title'] = result
 
     def get_global_title(self):
@@ -404,31 +438,31 @@ class Rbxbib2dict():
         On récupère le titre de collection en B225$a.
         Si absent, on va chercher en B200$ae.
         """
-        result = self._get_marc_values(["225a"])
+        result = get_marc_values(self.record, ["225a"])
         if result == '':
-            result = self._get_marc_values(["200ae"])
+            result = get_marc_values(self.record, ["200ae"])
         self.metadatas['global_title'] = result
 
     def get_part_title(self):
-        result = self._get_marc_values(["464t"])
+        result = get_marc_values(self.record, ["464t"])
         if result == '':
-            result = self._get_marc_values(["200ae"])
+            result = get_marc_values(self.record, ["200ae"])
         self.metadatas['part_title'] = result
 
     def get_numero_tome(self):
-        result = self._get_marc_values(["200h"])
+        result = get_marc_values(self.record, ["200h"])
         if result == '':
-            result = self._get_marc_values(["461v"])
+            result = get_marc_values(self.record, ["461v"])
         self.metadatas['numero_tome'] = result
 
     def get_responsability(self):
-        result = self._get_marc_values(["700ab", "710ab", "701ab", "711ab", "702ab", "712ab"])
+        result = get_marc_values(self.record, ["700ab", "710ab", "701ab", "711ab", "702ab", "712ab"])
         if result == '':
-            self._get_marc_values(["200f"])
+            get_marc_values(self.record, ["200f"])
         self.metadatas['responsability'] = result
 
     def get_subject(self):
-        result = self._get_marc_values(["600abcdefghijklmnopqrstuvwxyz",
+        result = get_marc_values(self.record, ["600abcdefghijklmnopqrstuvwxyz",
                                         "601abcdefghijklmnopqrstuvwxyz",
                                         "602abcdefghijklmnopqrstuvwxyz",
                                         "604abcdefghijklmnopqrstuvwxyz",
@@ -440,15 +474,15 @@ class Rbxbib2dict():
         self.metadatas['subject'] = result
 
     def get_publication_date_B210(self):
-        result = self._get_marc_values(["210d"])
+        result = get_marc_values(self.record, ["210d"])
         self.metadatas['publication_date_B210'] = result
 
     def get_publication_date_B214(self):
-        result = self._get_marc_values(["214d"])
+        result = get_marc_values(self.record, ["214d"])
         self.metadatas['publication_date_B214'] = result
 
     def get_publication_date_B219(self):
-        result = self._get_marc_values(["219d"])
+        result = get_marc_values(self.record, ["219d"])
         self.metadatas['publication_date_B219'] = result
 
     def get_publication_date(self):
@@ -478,15 +512,15 @@ class Rbxbib2dict():
         self.metadatas['publication_date'] = result
 
     def get_publisher_B210(self):
-        result = self._get_marc_values(["210c"])
+        result = get_marc_values(self.record, ["210c"])
         self.metadatas['publisher_B210'] = result
 
     def get_publisher_B214(self):
-        result = self._get_marc_values(["214c"])
+        result = get_marc_values(self.record, ["214c"])
         self.metadatas['publisher_B214'] = result
 
     def get_publisher_B219(self):
-        result = self._get_marc_values(["219c"])
+        result = get_marc_values(self.record, ["219c"])
         self.metadatas['publisher_B219'] = result
 
     def get_publisher(self):
@@ -510,15 +544,15 @@ class Rbxbib2dict():
         self.metadatas['publisher'] = result
 
     def get_publication_place_B210(self):
-        result = self._get_marc_values(["210a"])
+        result = get_marc_values(self.record, ["210a"])
         self.metadatas['publication_place_B210'] = result
 
     def get_publication_place_B214(self):
-        result = self._get_marc_values(["214a"])
+        result = get_marc_values(self.record, ["214a"])
         self.metadatas['publication_place_B214'] = result
 
     def get_publication_place_B219(self):
-        result = self._get_marc_values(["219a"])
+        result = get_marc_values(self.record, ["219a"])
         self.metadatas['publication_place_B219'] = result
 
     def get_publication_place(self):
@@ -546,7 +580,7 @@ class Rbxbib2dict():
         Extraction du public cible.
         Champs spécifique à Roubaix.
         """
-        result = self._get_marc_values(["339a"])
+        result = get_marc_values(self.record, ["339a"])
         koha_av_publicc = self.referentiels['koha_av_publicc']
         if result in koha_av_publicc.keys():
             result = koha_av_publicc[result]
@@ -556,7 +590,7 @@ class Rbxbib2dict():
         """
         Extraction de l'agence catalographique, en B801b.
         """
-        result = self._get_marc_values(["801b"])
+        result = get_marc_values(self.record, ["801b"])
         agence_cat_codes = self.referentiels['agence_cat_codes']
         if result in agence_cat_codes.keys():
             result = agence_cat_codes[result]
@@ -565,42 +599,6 @@ class Rbxbib2dict():
                 result = 'autre'
         self.metadatas['agence_cat'] = result
 
-
-    # Fonction de base
-
-    def _get_marc_values(self, tags, aslist=False):
-        """
-        Permet d'extraire la valeur d'un ou plusieurs champs/sous-champs.
-        Les champs ("tags") sont saisis sous forme de list.
-        Par exemple, ["7OOab", "701ab"]
-
-        Le résultat de base est une liste. Par défaut, il retourné sous forme de
-        chaîne de caractères avec comme séparateur d'élements " ; ". On peut annuler
-        ce comportement grâce à l'argument "aslist=True".
-        """
-        result = []
-        for tag in tags:
-            # cas du label
-            if tag == 'LDR':
-                result.append(self.record.leader)
-            else:
-                fields = self.record.get_fields(tag[:3])
-                for field in fields:
-                    field_value = []
-                    # cas du controlfield
-                    if tag[:2] == '00':
-                        field_value.append(field.data)
-                    # cas du datafield
-                    else:
-                        if hasattr(field, "subfields"):
-                            for subfield in field.subfields:
-                                if subfield.code in tag[3:]:
-                                    field_value.append(subfield.value)
-                    result.append(" ".join(field_value))
-        if aslist:
-            return result
-        else:
-            return " ; ".join(result)
 
 class Rbxauth2dict():
     """
@@ -632,52 +630,16 @@ class Rbxauth2dict():
         """
         Renvoie le numéro de la notice (champs B001)
         """
-        self.metadatas['record_id'] = self._get_marc_values(["001"])
+        self.metadatas['record_id'] = get_marc_values(self.record, ["001"])
 
     def get_type_entite(self):
         """
         On récupère la position 9 (type d'entité) du label
         et on la remplace par son libellé.
         """
-        result = self._get_marc_values(["LDR"])
+        result = get_marc_values(self.record, ["LDR"])
         result = result[9]
         auth_type_entite = self.referentiels['auth_type_entite']
         if result in auth_type_entite.keys():
             result = auth_type_entite[result]
         self.metadatas['type_entite'] = result
-        
-    # Fonction de base
-
-    def _get_marc_values(self, tags, aslist=False):
-        """
-        Permet d'extraire la valeur d'un ou plusieurs champs/sous-champs.
-        Les champs ("tags") sont saisis sous forme de list.
-        Par exemple, ["7OOab", "701ab"]
-
-        Le résultat de base est une liste. Par défaut, il retourné sous forme de
-        chaîne de caractères avec comme séparateur d'élements " ; ". On peut annuler
-        ce comportement grâce à l'argument "aslist=True".
-        """
-        result = []
-        for tag in tags:
-            # cas du label
-            if tag == 'LDR':
-                result.append(self.record.leader.leader)
-            else:
-                fields = self.record.get_fields(tag[:3])
-                for field in fields:
-                    field_value = []
-                    # cas du controlfield
-                    if tag[:2] == '00':
-                        field_value.append(field.data)
-                    # cas du datafield
-                    else:
-                        if hasattr(field, "subfields"):
-                            for subfield in field.subfields:
-                                if subfield.code in tag[3:]:
-                                    field_value.append(subfield.value)
-                    result.append(" ".join(field_value))
-        if aslist:
-            return result
-        else:
-            return " ; ".join(result)
