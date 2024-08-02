@@ -25,3 +25,15 @@ agence_cat_codes,GAM,GAM
 agence_cat_codes,CDMAIL,CDMAIL
 agence_cat_codes,ADAV,ADAV
 agence_cat_codes,cdmail,CDMAIL
+auth_type_entite,a ,personne
+auth_type_entite,b ,collectivité
+auth_type_entite,c ,lieu
+auth_type_entite,d ,marque
+auth_type_entite,e ,famille
+auth_type_entite,f ,titre uniforme
+auth_type_entite,g ,rubrique de classement
+auth_type_entite,h ,auteur / titre
+auth_type_entite,i ,auteur / rubrique de classement
+auth_type_entite,j ,matière nom commun
+auth_type_entite,k ,lieu d’édition
+auth_type_entite,l ,"forme, genre"

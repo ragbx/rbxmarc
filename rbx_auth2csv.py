@@ -12,9 +12,8 @@ with open(marc_file, 'rb') as fh:
     reader = MARCReader(fh, to_unicode=True, force_utf8=True)
     for record in reader:
         auth2dict = Rbxauth2dict(record, referentiels=referentiels)
-        metadatas['LDR'] = auth2dict._get_marc_values(['LDR'])
+        auth2dict.analyse_complete()
         metadatas.append(auth2dict.metadatas)
 
 df = pd.DataFrame(metadatas)
 print(df)
-#df.to_csv(join("extractions", f"rbx_bib_qual_{date_export2}.csv.gz"), index=False)

@@ -1,22 +1,22 @@
 referentiel,cle,valeur
-type_notice_bib_codes,a,texte
-type_notice_bib_codes,b,manuscrit
-type_notice_bib_codes,c,partition
-type_notice_bib_codes,d,partition manuscrite
-type_notice_bib_codes,e,carte
-type_notice_bib_codes,f,carte manuscrite
-type_notice_bib_codes,g,video
-type_notice_bib_codes,i,son - non musical
-type_notice_bib_codes,j,son – musique
-type_notice_bib_codes,k,"image, dessin"
-type_notice_bib_codes,l,ressource électronique
-type_notice_bib_codes,m,multimedia
-type_notice_bib_codes,r,objet
-niveau_bib_codes,a,analytique
-niveau_bib_codes,i,ressource intégratrice
-niveau_bib_codes,m,monographie
-niveau_bib_codes,s,périodique
-niveau_bib_codes,c,collection
+bib_type_notice_codes,a,texte
+bib_type_notice_codes,b,manuscrit
+bib_type_notice_codes,c,partition
+bib_type_notice_codes,d,partition manuscrite
+bib_type_notice_codes,e,carte
+bib_type_notice_codes,f,carte manuscrite
+bib_type_notice_codes,g,video
+bib_type_notice_codes,i,son - non musical
+bib_type_notice_codes,j,son - musique
+bib_type_notice_codes,k,"image, dessin"
+bib_type_notice_codes,l,ressource électronique
+bib_type_notice_codes,m,multimedia
+bib_type_notice_codes,r,objet
+bib_niveau_codes,a,analytique
+bib_niveau_codes,i,ressource intégratrice
+bib_niveau_codes,m,monographie
+bib_niveau_codes,s,périodique
+bib_niveau_codes,c,collection
 agence_cat_codes,FR-751131015,BnF
 agence_cat_codes,595126101,Médiathèque de Roubaix
 agence_cat_codes,Electre,Electre
@@ -25,6 +25,18 @@ agence_cat_codes,GAM,GAM
 agence_cat_codes,CDMAIL,CDMAIL
 agence_cat_codes,ADAV,ADAV
 agence_cat_codes,cdmail,CDMAIL
+auth_type_entite,a ,personne
+auth_type_entite,b ,collectivité
+auth_type_entite,c ,lieu
+auth_type_entite,d ,marque
+auth_type_entite,e ,famille
+auth_type_entite,f ,titre uniforme
+auth_type_entite,g ,rubrique de classement
+auth_type_entite,h ,auteur / titre
+auth_type_entite,i ,auteur / rubrique de classement
+auth_type_entite,j ,matière nom commun
+auth_type_entite,k ,lieu d’édition
+auth_type_entite,l ,"forme, genre"
 koha_av_146a,a,Musique vocale a cappella
 koha_av_146a,b,Musique instrumentale
 koha_av_146a,c,Musique vocale et instrumentale
@@ -51,12 +63,12 @@ koha_av_181c,cri,Carte géographique
 koha_av_181c,crm,Carte géographique animée
 koha_av_181c,crn,Carte géographique en relief en braille ou autre
 koha_av_181c,crt,Carte géographique en braille ou autre
-koha_av_181c,ntm,Partition
+koha_av_181c,ntm,Partition 
 koha_av_181c,ntv,Notation chorégraphique ou scénique
 koha_av_181c,prm,Musique exécutée
 koha_av_181c,snd,Sons enregistrés
 koha_av_181c,spw,Texte enregistré
-koha_av_181c,sti,Image fixe
+koha_av_181c,sti,Image fixe 
 koha_av_181c,tcf,Objet tactile
 koha_av_181c,tci,Image tactile
 koha_av_181c,tcm,Partition en braille ou autre
@@ -65,7 +77,7 @@ koha_av_181c,tct,Texte en braille ou autre
 koha_av_181c,tdf,Objet
 koha_av_181c,tdi,Images animées
 koha_av_181c,tdm,Images animées en 3D
-koha_av_181c,txt,Texte
+koha_av_181c,txt,Texte 
 koha_av_181c,xxx,Non précisé
 koha_av_182a,a,Audio
 koha_av_182a,b,Electronique
@@ -256,7 +268,7 @@ koha_av_class_romans,Humour,Humour
 koha_av_class_romans,Policier,Policier
 koha_av_class_romans,Romans dont tu es le héros,Romans dont tu es le héros
 koha_av_class_romans,Romans historiques,Romans historiques
-koha_av_class_romans,Science-fiction ,Science-fiction
+koha_av_class_romans,Science-fiction ,Science-fiction 
 koha_av_class_romans,Vécu,Vécu
 koha_av_collect,COL01,Maternelle
 koha_av_collect,COL02,Elémentaire
@@ -1068,7 +1080,7 @@ koha_av_malle,MA076,MALLE 76 -PLANTES ET JARDINS
 koha_av_malle,MA077,MALLE 77- BEATRICE ALEMAGNA
 koha_av_malle,MA078,MALLE 78 -ANNE HERBAUTS
 koha_av_malle,MA079,MALLE 79 -CLAUDE PONTI
-koha_av_malle,MA080,MALLE 80 - Christian Voltz
+koha_av_malle,MA080,MALLE 80 - Christian Voltz 
 koha_av_malle,MA081,MALLE 81 - Michaël Escoffier
 koha_av_malle,MA082,MALLE 82 -TOMI UNGERER
 koha_av_malle,MA083,MALLE 83 - Evasion nordique
@@ -1130,7 +1142,7 @@ koha_av_malle,MA0E02,MALLE E2 -AUTOUR DU MONDE
 koha_av_malle,MA0E03A,MALLE E3 -TOUS DIFFERENTS : AVOIR SA PLACE PARMI LES AUTRES
 koha_av_malle,MA0E04,MALLE E4 -ASIE
 koha_av_malle,MA0E05,MALLE E5 Amérique
-koha_av_malle,MA0E06,MALLE E6 Afrique
+koha_av_malle,MA0E06,MALLE E6 Afrique 
 koha_av_malle,MA0E08A, MALLE E8- VIVRE ENSEMBLE
 koha_av_malle,MA0F02A,MALLE F2 -SPECTACLES ET CIRQUE
 koha_av_malle,MA0F02B,MALLE F2 BIS -SPECTACLES ET CIRQUE

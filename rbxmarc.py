@@ -566,7 +566,7 @@ class Rbxbib2dict():
         self.metadatas['agence_cat'] = result
 
 
-    # Fonctions de base
+    # Fonction de base
 
     def _get_marc_values(self, tags, aslist=False):
         """
@@ -602,14 +602,82 @@ class Rbxbib2dict():
         else:
             return " ; ".join(result)
 
-    # def get_subfield_values(field, subfield_tag, values = None):
-    #     result = None
-    #     if hasattr(field, "subfields"):
-    #         for subfield in field.subfields:
-    #             if subfield.code == subfield_tag:
-    #                 if values:
-    #                     if subfield.value in values:
-    #                         result = subfield.value
-    #                 else:
-    #                     result = subfield.value
-    #     return result
+class Rbxauth2dict():
+    """
+    Classe qui permet de transformer une notice autorité MARC en dictionnaire
+    En entrée :
+    - obligatoirement, un objet Pymarc record
+    - optionnellement, sous forme de fichier csv, un référentiel de codes /
+    valeurs correspondantes
+
+    En sortie, on obtient un dictionnaire
+    """
+    def __init__(self, record, **kwargs):
+        self.record = record
+        if 'referentiels' in kwargs:
+            self.referentiels = kwargs.get('referentiels')
+        else:
+            self.referentiels = get_referentiels()
+        self.metadatas = {}
+        
+    def analyse_complete(self):
+        """
+        Rassemble toutes les fonctions d'extraction existantes
+        """
+        self.get_record_id()
+        self.get_type_entite()
+        
+    # Extraction de champs
+    def get_record_id(self):
+        """
+        Renvoie le numéro de la notice (champs B001)
+        """
+        self.metadatas['record_id'] = self._get_marc_values(["001"])
+
+    def get_type_entite(self):
+        """
+        On récupère la position 9 (type d'entité) du label
+        et on la remplace par son libellé.
+        """
+        result = self._get_marc_values(["LDR"])
+        result = result[9]
+        auth_type_entite = self.referentiels['auth_type_entite']
+        if result in auth_type_entite.keys():
+            result = auth_type_entite[result]
+        self.metadatas['type_entite'] = result
+        
+    # Fonction de base
+
+    def _get_marc_values(self, tags, aslist=False):
+        """
+        Permet d'extraire la valeur d'un ou plusieurs champs/sous-champs.
+        Les champs ("tags") sont saisis sous forme de list.
+        Par exemple, ["7OOab", "701ab"]
+
+        Le résultat de base est une liste. Par défaut, il retourné sous forme de
+        chaîne de caractères avec comme séparateur d'élements " ; ". On peut annuler
+        ce comportement grâce à l'argument "aslist=True".
+        """
+        result = []
+        for tag in tags:
+            # cas du label
+            if tag == 'LDR':
+                result.append(self.record.leader.leader)
+            else:
+                fields = self.record.get_fields(tag[:3])
+                for field in fields:
+                    field_value = []
+                    # cas du controlfield
+                    if tag[:2] == '00':
+                        field_value.append(field.data)
+                    # cas du datafield
+                    else:
+                        if hasattr(field, "subfields"):
+                            for subfield in field.subfields:
+                                if subfield.code in tag[3:]:
+                                    field_value.append(subfield.value)
+                    result.append(" ".join(field_value))
+        if aslist:
+            return result
+        else:
+            return " ; ".join(result)
