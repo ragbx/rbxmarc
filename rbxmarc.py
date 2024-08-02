@@ -66,7 +66,7 @@ class Rbxbib2dict():
             self.referentiels = get_referentiels()
         self.metadatas = {}
 
-    def analyse_complete(self):
+    def extraction_complete(self):
         """
         Rassemble toutes les fonctions d'extraction existantes
         """
@@ -618,7 +618,7 @@ class Rbxauth2dict():
             self.referentiels = get_referentiels()
         self.metadatas = {}
         
-    def analyse_complete(self):
+    def extraction_complete(self):
         """
         Rassemble toutes les fonctions d'extraction existantes
         """
