@@ -37,3 +37,14 @@ auth_type_entite,i,auteur / rubrique de classement
 auth_type_entite,j,matière nom commun
 auth_type_entite,k,lieu d’édition
 auth_type_entite,l,"forme, genre"
+auth_type_notice,x,notice_autorité
+auth_type_notice,y,notice_renvoi
+auth_type_notice,z,notice_explicative
+bib_statut_notice_codes,c,notice_corrigée
+bib_statut_notice_codes,d,notice_détruite
+bib_statut_notice_codes,n,nouvelle_notice
+bib_statut_notice_codes,o,notice_fille
+bib_statut_notice_codes,p,notice_deja_fournie
+auth_statut_notice_codes,c,notice_corrigée
+auth_statut_notice_codes,d,notice_détruite
+auth_statut_notice_codes,n,nouvelle_notice

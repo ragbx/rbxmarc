@@ -80,6 +80,7 @@ class Rbxbib2dict(Rbxmrc):
         Rassemble toutes les fonctions d'extraction existantes
         """
         self.get_bib_record_id()
+        self.get_bib_statut_notice()
         self.get_bib_type_notice()
         self.get_bib_niveau_bib()
         self.get_bib_isbn()
@@ -245,6 +246,18 @@ class Rbxbib2dict(Rbxmrc):
         Renvoie le numéro de la notice (champs B001)
         """
         self.metadatas['bib_record_id'] = self.get_marc_values(["001"])
+
+    def get_bib_statut_notice(self):
+        """
+        On récupère la position 5 (statut de notice) du label
+        et on la remplace par son libellé.
+        """
+        result = self.get_marc_values(["LDR"])
+        result = result[5]
+        bib_statut_notice_codes = self.referentiels['bib_statut_notice_codes']
+        if result in bib_statut_notice_codes.keys():
+            result = bib_statut_notice_codes[result]
+        self.metadatas['bib_statut_notice'] = result
 
     def get_bib_type_notice(self):
         """
@@ -629,7 +642,9 @@ class Rbxauth2dict(Rbxmrc):
         Rassemble toutes les fonctions d'extraction existantes
         """
         self.get_auth_record_id()
+        self.get_auth_statut_notice()
         self.get_auth_type_entite()
+        self.get_auth_type_notice()
         
     # Extraction de champs
     def get_auth_record_id(self):
@@ -638,17 +653,29 @@ class Rbxauth2dict(Rbxmrc):
         """
         self.metadatas['auth_record_id'] = self.get_marc_values(["001"])
 
-    def get_auth_type_notice(self):
+    def get_auth_statut_notice(self):
         """
-        On récupère la position 9 (type d'entité) du label
+        On récupère la position 5 (statut de notice) du label
         et on la remplace par son libellé.
         """
         result = self.get_marc_values(["LDR"])
-        result = result[9]
-        auth_type_entite = self.referentiels['auth_type_entite']
-        if result in auth_type_entite.keys():
-            result = auth_type_entite[result]
-        self.metadatas['auth_type_entite'] = result
+        result = result[5]
+        auth_statut_notice_codes = self.referentiels['auth_statut_notice_codes']
+        if result in auth_statut_notice_codes.keys():
+            result = auth_statut_notice_codes[result]
+        self.metadatas['auth_statut_notice'] = result
+
+    def get_auth_type_notice(self):
+        """
+        On récupère la position 6 (type de notice) du label
+        et on la remplace par son libellé.
+        """
+        result = self.get_marc_values(["LDR"])
+        result = result[6]
+        auth_type_notice = self.referentiels['auth_type_notice']
+        if result in auth_type_notice.keys():
+            result = auth_type_notice[result]
+        self.metadatas['auth_type_notice'] = result
 
     def get_auth_type_entite(self):
         """
