@@ -2,9 +2,10 @@ from os.path import join
 import pandas as pd
 
 from pymarc import MARCReader
-from rbxmarc import get_referentiels, Rbxauth2dict
+from rbxmarc import Rbxmrc, Rbxauth2dict
 
-referentiels = get_referentiels()
+rbxmrc = Rbxmrc()
+referentiels = rbxmrc.referentiels
 
 marc_file =  "sample_data/marc_sample_auth_20240519_158.mrc"
 with open(marc_file, 'rb') as fh:

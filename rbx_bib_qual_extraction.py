@@ -8,13 +8,14 @@ import pandas as pd
 from sys import argv
 
 from pymarc import MARCReader
-from rbxmarc import get_referentiels, Rbxbib2dict
+from rbxmarc import Rbxmrc, Rbxbib2dict
 
 date_export = "2024-07-28"
 date_export2 = date_export.replace("-", "")
 marc_file =  f"../../data/{date_export}-notices_total.mrc"
 
-referentiels = get_referentiels()
+rbxmrc = Rbxmrc()
+referentiels = rbxmrc.referentiels
 
 with open(marc_file, 'rb') as fh:
     metadatas = []

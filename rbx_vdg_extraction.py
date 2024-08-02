@@ -2,13 +2,14 @@ from os.path import join
 import pandas as pd
 
 from pymarc import MARCReader
-from rbxmarc import get_referentiels, Rbxbib2dict
+from rbxmarc import Rbxmrc, Rbxbib2dict
 
 date_export = "2024-07-28"
 date_export2 = date_export.replace("-", "")
 marc_file =  f"../../data/{date_export}-notices_total.mrc"
 
-referentiels = get_referentiels()
+rbxmrc = Rbxmrc()
+referentiels = rbxmrc.referentiels
 
 with open(marc_file, 'rb') as fh:
     metadatas = []
@@ -24,8 +25,9 @@ with open(marc_file, 'rb') as fh:
 
 
 df = pd.DataFrame(metadatas)
-df = df[['record_id', 'alignement_bnf', 'rbx_date_creation_notice',
-       'rbx_vdg_action', 'rbx_vdg_date', 'rbx_support', 'agence_cat',
-       'pat']]
+df = df[['bib_record_id', 'bib_alignement_bnf', 'bib_rbx_date_creation_notice',
+       'bib_rbx_vdg_action', 'bib_rbx_vdg_date', 'bib_rbx_support', 'bib_agence_cat',
+       'bib_pat']]
 
-df.to_csv(join("extractions", f"rbx_vdg_{date_export2}.csv.gz"), index=False)
+#df.to_csv(join("extractions", f"rbx_vdg_{date_export2}.csv.gz"), index=False)
+print(df)
