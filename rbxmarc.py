@@ -2,6 +2,11 @@ import pandas as pd
 import json
        
 class Rbxmrc():
+    """
+    Classe mère permettant de récupérer les réferentiles et une
+    fonction d'extraction des champs marc
+    """
+
     def __init__(self, **kwargs):
         if 'referentiels' in kwargs:
             self.referentiels = kwargs.get('referentiels')
