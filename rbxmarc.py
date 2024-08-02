@@ -2,8 +2,11 @@ import pandas as pd
 import json
 
 def get_referentiels():
+    """
+    Fonction qui permet de transformer le fichier referentiel en dictionnaire.
+    """
     referentiels = {}
-    referentiels_df = pd.read_csv("referentiels.csv")
+    referentiels_df = pd.read_csv("utils/referentiels/referentiels.csv")
     for referentiel, referentiel_df in referentiels_df.groupby(['referentiel']):
         referentiel = referentiel[0]
         referentiels[referentiel] = {}
@@ -73,6 +76,7 @@ class Rbxbib2dict():
         self.get_publication_place_B214()
         self.get_publication_place_B219()
         self.get_publication_place()
+        self.get_public()
         self.get_agence_cat()
         self.get_pat()
         self.get_nb_items()
@@ -82,11 +86,20 @@ class Rbxbib2dict():
     def rbx_qual(self):
         """
         Pour étude de la qualité des notices
-        (à compléter)
         """
         self.get_record_id()
         self.get_type_notice()
         self.get_niveau_bib()
+        self.get_rbx_vdg_action()
+        self.get_rbx_support()
+        self.get_title()
+        self.get_publication_date_B100()
+        self.get_publication_date_B210()
+        self.get_publication_date_B214()
+        self.get_publication_date_B219()
+        self.get_public()
+        self.get_agence_cat()
+        self.get_nb_items()
 
 
     def rbx_vdg(self):
@@ -197,9 +210,9 @@ class Rbxbib2dict():
         """
         result = self._get_marc_values(["LDR"])
         result = result[6]
-        type_notice_codes = self.referentiels['type_notice_codes']
-        if result in type_notice_codes.keys():
-            result = type_notice_codes[result]
+        type_notice_bib_codes = self.referentiels['bib_type_notice_codes']
+        if result in type_notice_bib_codes.keys():
+            result = type_notice_bib_codes[result]
         self.metadatas['type_notice'] = result
 
     def get_niveau_bib(self):
@@ -209,7 +222,7 @@ class Rbxbib2dict():
         """
         result = self._get_marc_values(["LDR"])
         result = result[7]
-        niveau_bib_codes = self.referentiels['niveau_bib_codes']
+        niveau_bib_codes = self.referentiels['bib_niveau_codes']
         if result in niveau_bib_codes.keys():
             result = niveau_bib_codes[result]
         self.metadatas['niveau_bib'] = result
@@ -528,6 +541,17 @@ class Rbxbib2dict():
 
         self.metadatas['publication_place'] = result
 
+    def get_public(self):
+        """
+        Extraction du public cible.
+        Champs spécifique à Roubaix.
+        """
+        result = self._get_marc_values(["339a"])
+        koha_av_publicc = self.referentiels['koha_av_publicc']
+        if result in koha_av_publicc.keys():
+            result = koha_av_publicc[result]
+        self.metadatas['rbx_public'] = result
+
     def get_agence_cat(self):
         """
         Extraction de l'agence catalographique, en B801b.
@@ -541,43 +565,6 @@ class Rbxbib2dict():
                 result = 'autre'
         self.metadatas['agence_cat'] = result
 
-    # def get_pat(self):
-    #     result = False
-    #     ccodes = self._get_marc_values(["995h"])
-    #     ccodes = ccodes.split(" ; ")
-    #     for ccode in ccodes:
-    #         if ccode in ['PENPDZZ', 'PENRSZZ', 'PENACZZ', 'PENCVZZ',
-    #                      'PENDEZZ', 'PENHPZZ', 'PPAFIZZ', 'PPEFGZZ',
-    #                      'PPELGZZ', 'PPEPMZZ', 'PPEPRZZ', 'PPIPIZZ', 'PRRFIZZ']:
-    #             result = True
-    #             break
-    #     return result
-    #
-    # def get_nb_items(self):
-    #     fields = record.get_fields('995')
-    #     return len(fields)
-    #
-    # def get_links(self):
-    #     bnf_authnumbers = []
-    #     koha_authnumbers = []
-    #
-    #     tags = [tag for tag in range(600, 610)]
-    #     for tag in range(700, 704):
-    #         tags.append(tag)
-    #     for tag in range(710, 714):
-    #         tags.append(tag)
-    #
-    #     for tag in tags:
-    #         tag = str(tag)
-    #         fields = record.get_fields(tag)
-    #         for field in fields:
-    #             numbers = field.get_subfields('3')
-    #             for number in numbers:
-    #                 bnf_authnumbers.append(number)
-    #             numbers = field.get_subfields('9')
-    #             for number in numbers:
-    #                 koha_authnumbers.append(number)
-    #     return [";".join(bnf_authnumbers), ";".join(koha_authnumbers)]
 
     # Fonctions de base
 

@@ -7,9 +7,9 @@ from pymarc import MARCReader
 date_export = "2024-05-19"
 date_export2 = date_export.replace("-", "")
 
-#marc_file =  f"../../data/{date_export}-notices_total.mrc"
-#marc_file =  f"../../data/{date_export}-auths_total.mrc"
-marc_file = "/home/fpichenot/dev/ccfr/data/ccfr24/595126101-Roubaix-BM-20240526-Patrimoine_musical.mrc"
+#marc_file =  f"../../../data/{date_export}-notices_total.mrc"
+#marc_file =  f"../../../data/{date_export}-auths_total.mrc"
+marc_file = "../../ccfr/data/ccfr24/595126101-Roubaix-BM-20240526-Patrimoine_musical.mrc"
 record_type = "bib"
 
 with open(marc_file, 'rb') as fh:

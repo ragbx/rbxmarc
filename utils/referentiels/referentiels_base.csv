@@ -1,0 +1,27 @@
+referentiel,cle,valeur
+bib_type_notice_codes,a,texte
+bib_type_notice_codes,b,manuscrit
+bib_type_notice_codes,c,partition
+bib_type_notice_codes,d,partition manuscrite
+bib_type_notice_codes,e,carte
+bib_type_notice_codes,f,carte manuscrite
+bib_type_notice_codes,g,video
+bib_type_notice_codes,i,son - non musical
+bib_type_notice_codes,j,son - musique
+bib_type_notice_codes,k,"image, dessin"
+bib_type_notice_codes,l,ressource électronique
+bib_type_notice_codes,m,multimedia
+bib_type_notice_codes,r,objet
+bib_niveau_codes,a,analytique
+bib_niveau_codes,i,ressource intégratrice
+bib_niveau_codes,m,monographie
+bib_niveau_codes,s,périodique
+bib_niveau_codes,c,collection
+agence_cat_codes,FR-751131015,BnF
+agence_cat_codes,595126101,Médiathèque de Roubaix
+agence_cat_codes,Electre,Electre
+agence_cat_codes,COLACO,COLACO
+agence_cat_codes,GAM,GAM
+agence_cat_codes,CDMAIL,CDMAIL
+agence_cat_codes,ADAV,ADAV
+agence_cat_codes,cdmail,CDMAIL
