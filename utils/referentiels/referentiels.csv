@@ -48,6 +48,11 @@ bib_statut_notice_codes,p,notice_deja_fournie
 auth_statut_notice_codes,c,notice_corrigée
 auth_statut_notice_codes,d,notice_détruite
 auth_statut_notice_codes,n,nouvelle_notice
+bib_relation_hierarch_codes,#,non_définie
+bib_relation_hierarch_codes,-,non_définie
+bib_relation_hierarch_codes,0,pas_de_relation_hiérarchique
+bib_relation_hierarch_codes,1,notice_mère
+bib_relation_hierarch_codes,2,notice_fille
 koha_av_146a,a,Musique vocale a cappella
 koha_av_146a,b,Musique instrumentale
 koha_av_146a,c,Musique vocale et instrumentale

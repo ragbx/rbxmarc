@@ -2,7 +2,6 @@ from os.path import join
 import subprocess
 
 from pymarc import MARCReader
-# from rbxmarc import Rbxbib2dict
 
 date_export = "2024-05-19"
 date_export2 = date_export.replace("-", "")

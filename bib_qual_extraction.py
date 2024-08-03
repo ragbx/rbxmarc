@@ -30,4 +30,5 @@ with open(marc_file, 'rb') as fh:
         metadatas.append(bib2dict.metadatas)
 
 df = pd.DataFrame(metadatas)
-df.to_csv(join("extractions", f"rbx_bib_qual_{date_export2}.csv.gz"), index=False)
+print(df)
+df.to_csv(join("extractions", f"bib_qual_{date_export2}.csv.gz"), index=False)

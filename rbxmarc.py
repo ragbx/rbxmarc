@@ -1,5 +1,30 @@
 import pandas as pd
 import json
+from os.path import join
+
+from pymarc import MARCReader
+
+def extract_records(marc_file_in, record_ids_file, marc_file_out, export2txt=False):
+    """
+    Fonction qui permet d'extraire des notices marc depuis un fichier iso2709
+    et un fichier csv contenant les identifiants de notice (le nom de colonne
+    doit être "record_id").
+    """
+    record_ids_df = pd.read_csv(record_ids_file)
+    record_ids2export = record_ids_df['record_id'].astype(str).to_list()
+    
+    with open(marc_file_in, 'rb') as fh:
+        records2export = []
+        reader = MARCReader(fh, to_unicode=True, force_utf8=True)
+        for record in reader:
+            record_id = record.get_fields('001')
+            record_id = record_id[0].data
+            if record_id in record_ids2export:
+                records2export.append(record)
+    
+    with open(marc_file_out, 'wb') as out:
+        for record in records2export:
+            out.write(record.as_marc())
        
 class Rbxmrc():
     """
@@ -83,6 +108,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_statut_notice()
         self.get_bib_type_notice()
         self.get_bib_niveau_bib()
+        self.get_bib_relation_hierarchique()
         self.get_bib_isbn()
         self.get_bib_issn()
         self.get_bib_ark_bnf()
@@ -132,17 +158,24 @@ class Rbxbib2dict(Rbxmrc):
         Pour étude de la qualité des notices
         """
         self.get_bib_record_id()
+        self.get_bib_statut_notice()
         self.get_bib_type_notice()
         self.get_bib_niveau_bib()
+        self.get_bib_relation_hierarchique()
+        self.get_bib_alignement_bnf()
+        self.get_bib_rbx_date_creation_notice()
         self.get_bib_rbx_vdg_action()
+        self.get_bib_rbx_vdg_date()
         self.get_bib_rbx_support()
         self.get_bib_title()
         self.get_bib_publication_date_B100()
         self.get_bib_publication_date_B210()
         self.get_bib_publication_date_B214()
         self.get_bib_publication_date_B219()
+        self.get_bib_publication_date()        
         self.get_bib_public()
         self.get_bib_agence_cat()
+        self.get_bib_pat()
         self.get_bib_nb_items()
 
 
@@ -282,6 +315,18 @@ class Rbxbib2dict(Rbxmrc):
         if result in niveau_bib_codes.keys():
             result = niveau_bib_codes[result]
         self.metadatas['bib_niveau_bib'] = result
+        
+    def get_bib_relation_hierarchique(self):
+        """
+        On récupère la position 8 (relation hiérarchique) du label
+        et on la remplace par son libellé.
+        """
+        result = self.get_marc_values(["LDR"])
+        result = result[8]
+        bib_relation_hierarch_codes = self.referentiels['bib_relation_hierarch_codes']
+        if result in bib_relation_hierarch_codes.keys():
+            result = bib_relation_hierarch_codes[result]
+        self.metadatas['bib_relation_hierarchique'] = result
 
     def get_bib_isbn(self):
         """
