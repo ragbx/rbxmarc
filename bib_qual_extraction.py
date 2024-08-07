@@ -10,7 +10,7 @@ from sys import argv
 from pymarc import MARCReader
 from rbxmarc import Rbxmrc, Rbxbib2dict
 
-date_export = "2024-07-28"
+date_export = "2024-08-04"
 date_export2 = date_export.replace("-", "")
 marc_file =  f"../../data/{date_export}-notices_total.mrc"
 

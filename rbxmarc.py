@@ -4,27 +4,34 @@ from os.path import join
 
 from pymarc import MARCReader
 
-def extract_records(marc_file_in, record_ids_file, marc_file_out, export2txt=False):
+def extract_records(marc_file_in, record_ids2export, marc_file_out=None, export2txt=False):
     """
     Fonction qui permet d'extraire des notices marc depuis un fichier iso2709
-    et un fichier csv contenant les identifiants de notice (le nom de colonne
+    et une liste d'identifiants contenant les identifiants de notice (le nom de colonne
     doit être "record_id").
     """
-    record_ids_df = pd.read_csv(record_ids_file)
-    record_ids2export = record_ids_df['record_id'].astype(str).to_list()
+    #record_ids_df = pd.read_csv(record_ids_file)
+    #record_ids2export = record_ids_df['record_id'].astype(str).to_list()
     
     with open(marc_file_in, 'rb') as fh:
         records2export = []
         reader = MARCReader(fh, to_unicode=True, force_utf8=True)
+        i = 0
         for record in reader:
+            i += 1
+            if i % 10000 == 0:
+                print(i)
             record_id = record.get_fields('001')
             record_id = record_id[0].data
+            record_id = str(record_id)
             if record_id in record_ids2export:
                 records2export.append(record)
+    if marc_file_out:
+        with open(marc_file_out, 'wb') as out:
+            for record in records2export:
+                out.write(record.as_marc())
     
-    with open(marc_file_out, 'wb') as out:
-        for record in records2export:
-            out.write(record.as_marc())
+    return records2export
        
 class Rbxmrc():
     """
