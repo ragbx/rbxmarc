@@ -8,9 +8,9 @@
 100    $a 20031121afrey50      ba0
 101    $a fre $t eng
 102    $a FR
-103    $a  19..      ....     
+103    $a  19..      ....
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Bouchony $b Étienne de
 300 0  $a Traducteur d'ouvrages pour la jeunesse
@@ -30,7 +30,7 @@
 100    $a 19921223afrey50      ba0
 101    $a pol
 102    $a PL
-103    $a  19520426  20240119 
+103    $a  19520426  20240119
 105    $a i
 106    $a 010
 120    $a a
@@ -60,7 +60,7 @@
 101    $a fre
 102    $a FR
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Righi $b Dominique
 300 0  $a Documentaliste
 801    $a FR $b FR-751131015 $c 19940103
@@ -79,9 +79,9 @@
 100    $a 19770606afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  1944               
+103    $a  1944
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Cattan $b Geneviève $f 1944-....
 300 0  $a Traduit aussi de l'italien en français
 300 0  $a Journaliste
@@ -102,7 +102,7 @@
 100    $a 19940614afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19450209           
+103    $a  19450209
 105    $a a $a i $c s $d g
 106    $a 010
 120    $a b
@@ -125,9 +125,9 @@
 035    $a FRBNF139623169
 100    $a 19940304afrey50      ba0
 102    $a AR
-103    $a  19501115           
+103    $a  19501115
 105    $a i $a p
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Garrido $b Gabriel $f 1950-....
@@ -154,7 +154,7 @@
 100    $a 19761123afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  18940420  19780412 
+103    $a  18940420  19780412
 105    $a a $a p
 106    $a 010
 120    $a b
@@ -180,9 +180,9 @@
 035    $a FRBNF142357732
 100    $a 20030310afrey50      ba0
 102    $a AR
-103    $a  19520509           
+103    $a  19520509
 105    $a i
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Varela $b Adriana $f 1952-....
@@ -203,9 +203,9 @@
 035    $a FRBNF139005728
 100    $a 19890601afrey50      ba0
 102    $a GB
-103    $a  19450309           
+103    $a  19450309
 105    $a i
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Trower $b Robin $f 1945-....
@@ -231,9 +231,9 @@
 100    $a 19800321afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  1950               
+103    $a  1950
 105    $a a $a p
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Bihr $b Alain $f 1950-....
 300 0  $a Docteur en sociologie. - Il enseigne la philosophie dans un lycée strasbourgeois (en 1991). - Professeur de sociologie, membre du Laboratoire de sociologie et d'anthropologie de l'Université de Franche-Comté (en 2004)
@@ -261,7 +261,7 @@
 100    $a 19890601afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19120523  19970925 
+103    $a  19120523  19970925
 105    $a a $a i $a p
 106    $a 010
 120    $a b
@@ -289,9 +289,9 @@
 100    $a 19790216afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19410101           
+103    $a  19410101
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Fierro $b Alfred $f 1941-....
 300 0  $a Archiviste-paléographe et docteur en histoire. - Conservateur en chef honoraire de la Bibliothèque nationale de France et de la Bibliothèque historique de la ville de Paris (en 2005)
@@ -311,10 +311,10 @@
 035    $a FRBNF139592357
 100    $a 19931029afrey50      ba0
 102    $a GB
-103    $a  1988               
+103    $a  1988
 105    $a i $a a $a p $c s $d g
 106    $a 010
-150    $a y $b v8  
+150    $a y $b v8
 152    $c 2 $b CO
 210    $7 ba0yba0y $8 fre    $9 20  $a Paradise lost
 300    $a Groupe de rock heavy metal. - À choisi son nom en hommage au poème épique le Paradis perdu de l'auteur John Milton (1562-1647)
@@ -396,9 +396,9 @@
 100    $a 19930326afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19510623  200706   
+103    $a  19510623  200706
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Nicoloyannis $b Nicolas $f 1951-2007
 300 0  $a Professeur des Universités et directeur du laboratoire ERIC, Équipe de recherche en ingénierie des connaissances de l'Université Lyon II. - Docteur en informatique et analyse des données (Lyon I, 1988)
@@ -441,9 +441,9 @@
 100    $a 19880712afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19220502  20220524 
+103    $a  19220502  20220524
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Aftalion $b Fred $f 1922-2022
 300 0  $a Ingénieur-chimiste
@@ -472,7 +472,7 @@
 100    $a 19770905afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19241022  20191119 
+103    $a  19241022  20191119
 105    $a a
 106    $a 010
 120    $a a
@@ -498,7 +498,7 @@
 100    $a 19810522afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19150910           
+103    $a  19150910
 106    $a 210
 152    $b TU $c 2
 159    $a rameau
@@ -526,7 +526,7 @@
 100    $a 19750813afrey50      ba0
 101    $a eng
 102    $a GB
-103    $a  19031028  19660410 
+103    $a  19031028  19660410
 105    $a a $a i $a p
 106    $a 010
 120    $a b
@@ -553,7 +553,7 @@
 101    $a fre
 102    $a FR
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Loiseaux $b Gérard
 300 0  $a Docteur en littérature française. - Attaché culturel adjoint à Los Angeles (en 1995)
 801    $a FR $b FR-751131015 $c 19960222
@@ -572,9 +572,9 @@
 100    $a 19751127afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Petitjean $b Roger $f 19..-.... $c éditeur scientifique
 801    $a FR $b FR-751131015 $c 20110126
@@ -595,7 +595,7 @@
 100    $a 19980219afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19041206  20071022 
+103    $a  19041206  20071022
 105    $a a $a p
 106    $a 010
 120    $a a
@@ -619,9 +619,9 @@
 039    $o OPP $a 14775149 $d 20070223
 100    $a 19890601afrey50      ba0
 102    $a US
-103    $a  19551010           
+103    $a  19551010
 105    $a a $a i
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Roth $b David Lee $f 1955-....
@@ -644,9 +644,9 @@
 100    $a 20040730afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19700401  ....     
+103    $a  19700401  ....
 105    $a g $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Oiry $b Stéphane $f 1970-....
 300 0  $a Dessinateur et coloriste de bandes dessinées. - Illustrateur d'ouvrages pour la jeunesse
@@ -670,7 +670,7 @@
 100    $a 19910923afrey50      ba0
 101    $a eng
 102    $a US
-103    $a  18780703  19421105 
+103    $a  18780703  19421105
 105    $a a
 106    $a 010
 120    $a b
@@ -693,9 +693,9 @@
 100    $a 20130228afrey50      ba0
 101    $a kor
 102    $a KR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  1  $a Yi $b Eun-jin
@@ -720,9 +720,9 @@
 100    $a 20011218afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Loux $b Nathalie
 300 0  $a Maître en droit et en sciences politiques, titulaire d'un 3e cycle d'administration des entreprises. - Dirigeante d'une société internationale spécialisée en management. Anime des formations sur les relations publiques et le protocole des collectivités locales pour le Centre national de la fonction publique territoriale (en 2001). - Formée aux États-Unis par le groupe Franklin Covey, le n° 1 de la gestion du temps et des priorités, consultante auprès de chefs d'entreprise (en 2005)
@@ -743,7 +743,7 @@
 101    $a fre
 102    $a FR
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Rouèche $b Arnauld
 300 0  $a Illustrateur
 801    $a FR $b FR-751131015 $c 19980715
@@ -763,7 +763,7 @@
 101    $a dut
 102    $a NL
 105    $a a
-106    $a 1  
+106    $a 1
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Meersman $b Min de
 300 0  $a Coordinatrice d'exposition
@@ -783,9 +783,9 @@
 100    $a 19991028afrey50      ba0
 101    $a eng
 102    $a GB
-103    $a  19650220           
+103    $a  19650220
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Hensher $b Philip $f 1965-....
@@ -805,9 +805,9 @@
 035    $a FRBNF139769195
 100    $a 19950531afrey50      ba0
 102    $a FR
-103    $a  1967               
+103    $a  1967
 105    $a i $a p
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Ophèle $b Emmanuelle $f 1967-....
 300 0  $a Flûtiste. - Membre de l'Ensemble InterContemporain à partir de 1987
@@ -829,7 +829,7 @@
 100    $a 19970701afrey50      ba0
 101    $a eng
 102    $a GB
-103    $a  1887      1978     
+103    $a  1887      1978
 105    $a a
 106    $a 010
 120    $a a
@@ -856,9 +856,9 @@
 100    $a 19880602afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19180919  19790203 
+103    $a  19180919  19790203
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Barnier $b Lucien $f 1918-1979
 300 0  $a Journaliste scientifique. Rédacteur en chef de la revue "Futur". - Écrivain. - A utilisé également le pseudonyme : Lucien Néret
@@ -884,7 +884,7 @@
 100    $a 19840315afrey50      ba0
 101    $a fre
 102    $a CH
-103    $a  19270421  20170115 
+103    $a  19270421  20170115
 105    $a a
 106    $a 010
 120    $a b
@@ -943,9 +943,9 @@
 100    $a 19960514afrey50      ba0
 101    $a fre $t ger
 102    $a FR
-103    $a  19330905  20030103 
+103    $a  19330905  20030103
 105    $a a $a p
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Coumet $b Ernest $f 1933-2003
 300 0  $a Membre du séminaire d'histoire du calcul des probabilitées et de la statistique à l'École des hautes études en sciences sociales
@@ -1097,9 +1097,9 @@
 100    $a 19970701afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19200908  19860318 
+103    $a  19200908  19860318
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Maurois $b Gérald $f 1920-1986
 300 0  $a Photographe. - Fils d'André Maurois (1885-1967)
@@ -1121,9 +1121,9 @@
 100    $a 20021216afrey50      ba0
 101    $a cze $t cze
 102    $a CZ
-103    $a  19..      ....     
+103    $a  19..      ....
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Allendes-Říhová $b Hana
@@ -1150,9 +1150,9 @@
 100    $a 19941205afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Zazzo $b Anne
 300 0  $a Conservatrice du patrimoine. - En poste au Musée Galliéra (en 2006)
@@ -1173,9 +1173,9 @@
 100    $a 20040527afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..      ....     
+103    $a  19..      ....
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Verdié-Petibon $b Danielle
 300 0  $a Médecin rhumatologue
@@ -1196,9 +1196,9 @@
 100    $a 20040920afrey50      ba0
 101    $a chi
 102    $a TW
-103    $a  1975      ....     
+103    $a  1975      ....
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0a $8 fre    $9  0  $a Chen $b Zhiyuan $f 1975-....
@@ -1220,9 +1220,9 @@
 100    $a 19891004afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Delitte $b Jean-Yves
 300 0  $a Auteur de bandes dessinées. - Architecte-designer de formation, peintre officiel de la Marine, membre de l'Académie des arts & sciences de la mer.
@@ -1243,10 +1243,10 @@
 100    $a 19890601afrey50      ba0
 101    $a fre
 102    $a BE
-103    $a  19771212           
+103    $a  19771212
 105    $a a $c a $c d $c s $d g $d h $d r $c p
 106    $a 010
-150    $a z $b b6  
+150    $a z $b b6
 152    $c 2 $b CO
 210    $7 ba0yba0y $8 fre    $9  0  $a Radio-télévision belge de la Communauté française
 300    $a Par D. du 12-12-1977, succède à la Radio-télévision belge (RTB)
@@ -1298,9 +1298,9 @@
 100    $a 20040319afrey50      ba0
 101    $a fre $t cat $t eng
 102    $a FR
-103    $a  19..      ....     
+103    $a  19..      ....
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Bour $b Marie
 801    $a FR $b FR-751131015 $c 20070109
@@ -1318,9 +1318,9 @@
 100    $a 20050712afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Vasco $f 19..-.... $c journaliste
 300 0  $a Journaliste. - Auteur d'ouvrages de loisirs
@@ -1352,7 +1352,7 @@
 100    $a 19971217afrey50      ba0
 101    $a spa
 102    $a CL
-103    $a  19171004  19670205 
+103    $a  19171004  19670205
 105    $a a $a i
 106    $a 010
 120    $a a
@@ -1377,7 +1377,7 @@
 101    $a fre
 102    $a XX
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Martin-Cunnington $b Carmen
 300 0  $a Traduit de l'anglais en français
 400    $7 ba0yba0y $8 fre    $9     $a Cunnington $b Carmen Martin-
@@ -1400,9 +1400,9 @@
 100    $a 19950131afrey50      ba0
 101    $a eng
 102    $a GB
-103    $a  1963               
+103    $a  1963
 105    $a a
-106    $a 1  
+106    $a 1
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Freud $b Esther $f 1963-....
 300 0  $a Romancière. - Comédienne. - Fille du peintre Lucian Freud et arrière-petite fille de Sigmund Freud
@@ -1425,7 +1425,7 @@
 100    $a 19890601afrey50      ba0
 101    $a fre $a arm
 102    $a FR
-103    $a  19320401  19930319 
+103    $a  19320401  19930319
 105    $a a $a i
 106    $a 010
 120    $a b
@@ -1451,7 +1451,7 @@
 035    $a FRBNF140173623
 100    $a 19981223afrey50      ba0
 102    $a JP
-103    $a  19120428  20120529 
+103    $a  19120428  20120529
 105    $a a
 106    $a 010
 120    $a b
@@ -1486,9 +1486,9 @@
 100    $a 19990517afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19660926           
+103    $a  19660926
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Picquet $b Marie-Cécile $f 1966-....
 300 0  $a Attachée de presse en agence, spécialisée. - Romancière
 801    $a FR $b FR-751131015 $c 19990517
@@ -1507,9 +1507,9 @@
 100    $a 20020130afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  1974               
+103    $a  1974
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Snégaroff $b Thomas $f 1974-....
 300 0  $a Agrégé d'histoire. - Spécialiste des États-Unis. - Enseignant à Sciences-Po (en 2015)
@@ -1529,9 +1529,9 @@
 100    $a 20011220afrey50      ba0
 101    $a hun
 102    $a HU
-103    $a  19671205           
+103    $a  19671205
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Tóth $b Krisztina $f 1967-....
@@ -1580,10 +1580,10 @@
 035    $a FRBNF162481805
 100    $a 20101203afrey50      ba0
 102    $a FR
-103    $a  200.               
+103    $a  200.
 105    $a i
-106    $a 1  
-150    $a y $b v9  
+106    $a 1
+150    $a y $b v9
 210    $7 ba0yba0y $8 fre    $9 20  $a La Grande perezade
 300 0  $a Big-band de jazz
 801    $a FR $b FR-751131015 $c 20101203
@@ -1604,9 +1604,9 @@
 100    $a 20100120afrey50      ba0
 101    $a eng
 102    $a CA
-103    $a  1964               
+103    $a  1964
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Moore $b Lisa Lynne $f 1964-....
@@ -1629,9 +1629,9 @@
 100    $a 20100909afrey50      ba0
 101    $a swe
 102    $a SE
-103    $a  1971               
+103    $a  1971
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Nilsson $b Henrik B. $f 1971-....
@@ -1650,9 +1650,9 @@
 100    $a 20110309afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Marchi $b Catherine
 300 0  $a Psychologue clinicienne, psychothérapeute pour enfants
@@ -1671,7 +1671,7 @@
 100    $a 20020304afrey50      ba0
 101    $a spa
 102    $a MX
-103    $a  19630815           
+103    $a  19630815
 105    $a a
 106    $a 010
 120    $a b
@@ -1698,9 +1698,9 @@
 100    $a 20120206afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Chupin $b Christian
 300 0  $a Juriste. - Directeur générale de la Chambre de commerce et d'industrie territoriale d'Elbeuf (en 2011)
@@ -1720,9 +1720,9 @@
 100    $a 19741209afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19461128           
+103    $a  19461128
 105    $a a $a p
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Berger $b Maurice $f 1946-....
 300 0  $a Docteur en médecine (Lyon 1, 1972). - Psychanalyste et médecin psychiatre, chef de service en psychiatrie de l'enfant et de l'adolescent, CHU de Saint-Etienne, Loire (en 1995)
@@ -1747,9 +1747,9 @@
 100    $a 19750123afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19200928  19740719 
+103    $a  19200928  19740719
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Albouy $b Pierre $f 1920-1974
 300 0  $a Professeur de lettres à la Faculté des lettres et sciences humaines de Paris
@@ -1771,9 +1771,9 @@
 100    $a 20130301afrey50      ba0
 101    $a ger
 102    $a DE
-103    $a  1960               
+103    $a  1960
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Beiser $b Rudi $f 1960-....
@@ -1792,9 +1792,9 @@
 100    $a 20131021afrey50      ba0
 101    $a eng
 102    $a US
-103    $a  1968               
+103    $a  1968
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Sayrafiezadeh $b Saïd $f 1968-....
@@ -1812,9 +1812,9 @@
 100    $a 20121023afrey50      ba0
 101    $a eng
 102    $a US
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Mafi $b Tahereh
@@ -1871,9 +1871,9 @@
 100    $a 20051019afrey50      ba0
 101    $a fre $t eng
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Magne $b Adeline
 801    $a FR $b FR-751131015 $c 20051025
@@ -2130,9 +2130,9 @@
 100    $a 19901129afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19710728           
+103    $a  19710728
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Richard $b Benoît $f 1971-....
 300 0  $a Journaliste
 801    $a FR $b FR-751131015 $c 19941230
@@ -2230,9 +2230,9 @@
 035    $a FRBNF13943272X
 100    $a 19911021afrey50      ba0
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a i
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Delille $b Marie-Laurence
 300 0  $a Chanteuse dans un orchestre de bal dès 1973, sous le pseudonyme :  Mallory
@@ -2255,7 +2255,7 @@
 100    $a 19870101afrey50      ba0
 101    $a ger
 102    $a XX
-103    $a  18491122  19230629 
+103    $a  18491122  19230629
 105    $a a
 106    $a 010
 120    $a b
@@ -2280,9 +2280,9 @@
 035    $a FRBNF171522902
 100    $a 20170921afrey50      ba0
 102    $a XX
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Silas $b Thony
@@ -2302,9 +2302,9 @@
 100    $a 19831006afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19460808  20150412 
+103    $a  19460808  20150412
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Arnauld $b Marie-Paule $f 1946-2015
 300 0  $a Archiviste paléographe (promotion 1971). - Conservatrice à la Direction des Archives de France (1987). - Directrice des Archives départementales de Haute-Vienne (1990). - Directrice du Musée des monuments français (2004). - Présidente de la Société de l'École des chartes (2010)
@@ -2326,9 +2326,9 @@
 100    $a 20041221afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19630224           
+103    $a  19630224
 105    $a a $a p
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Brisac $b Nathalie $f 1963-....
 801    $a FR $b FR-751131015 $c 20230202
@@ -2346,9 +2346,9 @@
 100    $a 20170302afrey50      ba0
 101    $a ger
 102    $a DE
-103    $a  1965               
+103    $a  1965
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Kalisa $b Karin $f 1965-....
@@ -2367,9 +2367,9 @@
 100    $a 20150505afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  1956               
+103    $a  1956
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Savoye $b Jean-Marc $f 1956-....
 300 0  $a Éditeur. - Cofondateur du site de critiques littéraires Onlalu.com.
@@ -2386,7 +2386,7 @@
 101    $a und
 102    $a XX
 105    $a a
-106    $a 1  
+106    $a 1
 152    $a AFNOR Z 44-061 $c 2 $b NP
 200    $a Dontenville $b Henri
 801    $a FR $b FR-751131015 $c 19970701
@@ -2409,7 +2409,7 @@
 100    $a 19970701afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  18730706  19540727 
+103    $a  18730706  19540727
 105    $a a
 106    $a 010
 120    $a b
@@ -2441,7 +2441,7 @@
 100    $a 19950424afrey50      ba0
 101    $a fre $t lat
 102    $a FR
-103    $a  16401206  17230714 
+103    $a  16401206  17230714
 105    $a a
 106    $a 010
 120    $a b
@@ -2478,7 +2478,7 @@
 101    $a fre
 102    $a FR
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Pellegrin $b Jacques
 300 0  $a Membre de la Direction de l'audit et de l'inspection générale à la SNCF (en 1992)
 801    $a FR $b FR-751131015 $c 19920311
@@ -2497,7 +2497,7 @@
 101    $a fre
 102    $a BE
 105    $a a
-106    $a 1  
+106    $a 1
 152    $a AFNOR Z 44-061 $c 2 $b NP
 200    $a Lauwers-Derveaux $b Elisabeth
 400    $7 ba0yba0y $8 fre    $a Derveaux $b Elisabeth Lauwers-
@@ -2519,7 +2519,7 @@
 101    $a und
 102    $a XX
 105    $a a
-106    $a 1  
+106    $a 1
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9     $a La Thébeaudière $b Josette de
 801    $a FR $b FR-751131015 $c 19970701
@@ -2531,11 +2531,11 @@
 005 20180726124150.0
 010    $a 0000000116617732 $2 VIAF $d 20130724
 039    $o OPL $a 00404037X
-100    $a 20180724 frey50      
+100    $a 20180724 frey50
 101    $a eng $t fre
 102    $a NZ
 105    $a a
-106    $a 1  
+106    $a 1
 152    $a AFNOR Z 44-061 $c 2 $b NP
 200    $a Ollivier $b Isabel
 801    $a FR $b FR-751131015 $c 20040210
@@ -2550,12 +2550,12 @@
 003 http://catalogue.bnf.fr/ark:/12148/cb144689211
 005 20180726123514.0
 010    $a 0000000072448075 $2 VIAF $d 20130801
-100    $a 20180724 frey50      
+100    $a 20180724 frey50
 101    $a fre
 102    $a CH
-103    $a  19..      ....     
+103    $a  19..      ....
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $a AFNOR Z 44-061 $c 2 $b NP
 200    $a Hochuli Dubuis $b Paule
@@ -2578,9 +2578,9 @@
 035    $a FRBNF150625906
 100    $a 20060504afrey50      ba0
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Pinson $b Sylvain
 300 0  $a Réalisateur
@@ -2599,9 +2599,9 @@
 100    $a 20180829afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19551012           
+103    $a  19551012
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Petit $b Bernard $f 1955-.... $c commissaire
 300 0  $a Commissaire de police à la retraite devenu romancier
@@ -2624,9 +2624,9 @@
 100    $a 19950626afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  1898      1973     
+103    $a  1898      1973
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Leproux $b Marc $f 1898-1973
 300 0  $a Ethnologue du pays charentais
@@ -2649,9 +2649,9 @@
 100    $a 19760818afrey50      ba0
 101    $a eng
 102    $a GB
-103    $a  19260803  20041218 
+103    $a  19260803  20041218
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Sampson $b Anthony $f 1926-2004
@@ -2704,7 +2704,7 @@
 039    $o OPP $a 14684235 $d 20070720
 100    $a 19890601afrey50      ba0
 102    $a US
-103    $a  19240810  20140531 
+103    $a  19240810  20140531
 105    $a i $a a
 106    $a 010
 120    $a a
@@ -2729,9 +2729,9 @@
 035    $a FRBNF15548232X
 100    $a 20070713afrey50      ba0
 102    $a US
-103    $a  19300103           
+103    $a  19300103
 105    $a i
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Corday $b Mara $f 1930-....
@@ -2751,9 +2751,9 @@
 035    $a FRBNF140164154
 100    $a 19981127afrey50      ba0
 102    $a XX
-103    $a  19..               
+103    $a  19..
 105    $a i
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Trovillo $b George
@@ -2770,10 +2770,10 @@
 035    $a FRBNF177603962
 100    $a 20180917afrey50      ba0
 102    $a FR
-103    $a  2017               
+103    $a  2017
 105    $a i
-106    $a 1  
-150    $a y $b v8  
+106    $a 1
+150    $a y $b v8
 210    $7 ba0yba0y $8 fre    $9 20  $a Les Enfants de l'école "La clef des champs" de la Pellerine
 300 0  $a Choeur d'enfants
 801    $a FR $b FR-751131015 $c 20180917
@@ -2793,9 +2793,9 @@
 100    $a 20060410afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19610928           
+103    $a  19610928
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a b
 200    $7 ba0yba0y $8 fre    $9  0  $a Consigny $b Thierry $f 1961-....
 300 0  $a Diplômé de l'ENA. - Romancier. - Publicitaire. - Cofondateur de la société de communication "Les ouvriers du paradis"
@@ -2815,9 +2815,9 @@
 035    $a FRBNF138987262
 100    $a 19890601afrey50      ba0
 102    $a US
-103    $a  19390611           
+103    $a  19390611
 105    $a i
-106    $a 1  
+106    $a 1
 120    $a b
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Purdie $b Bernard $f 1939-....
@@ -2838,9 +2838,9 @@
 100    $a 20140918cfrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19730309           
+103    $a  19730309
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Cazier $b Chantal $f 1973-....
 801    $a FR $b FR-751131015 $c 20140918
@@ -2857,7 +2857,7 @@
 101    $a und
 102    $a XX
 105    $a a
-106    $a 1  
+106    $a 1
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9     $a Morice $b Lucien
 801    $a FR $b FR-751131015 $c 19970701
@@ -2873,7 +2873,7 @@
 101    $a und
 102    $a XX
 105    $a a
-106    $a 1  
+106    $a 1
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9     $a Goerner $b Fred
 801    $a FR $b FR-751131015 $c 19970701
@@ -2889,7 +2889,7 @@
 101    $a und
 102    $a XX
 105    $a a
-106    $a 1  
+106    $a 1
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9     $a Hatem $b Simone
 801    $a FR $b FR-751131015 $c 19970701
@@ -2905,7 +2905,7 @@
 100    $a 19990623afrey50      ba0
 101 0  $a fre
 102    $a XX
-103    $a  1997               
+103    $a  1997
 106    $a 010
 152    $c 2 $b SAUTTIT
 154    $a |a
@@ -2928,9 +2928,9 @@
 100    $a 20031219afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Le Breton $b Élisabeth
 300 0  $a Historienne de l'art
@@ -2950,9 +2950,9 @@
 100    $a 20040615afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..      ....     
+103    $a  19..      ....
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Chauvelot $b Raphaëlle
 801    $a FR $b FR-751131015 $c 20210329
@@ -2971,9 +2971,9 @@
 100    $a 19950131afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  1958               
+103    $a  1958
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Ulysse $b Louis-Stéphane $f 1958-....
 300 0  $a Romancier
 801    $a FR $b FR-751131015 $c 20100903
@@ -3026,9 +3026,9 @@
 100    $a 20160531afrey50      ba0
 101    $a pol
 102    $a XX
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Spyrka $b Dorota
@@ -3045,9 +3045,9 @@
 035    $a FRBNF177068011
 100    $a 20180111afrey50      ba0
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Plessy $b Valentine
 801    $a FR $b FR-751131015 $c 20180112
@@ -3064,9 +3064,9 @@
 035    $a FRBNF166417814
 100    $a 20121115afrey50      ba0
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Laville $b Nathalie
 300 0  $a Réalisatrice
@@ -3085,9 +3085,9 @@
 100    $a 20200610afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 200    $7 ba0yba0y $8 fre    $9  0  $a Breuil-Salles $b Marine
 300 0  $a Auteur d'ouvrages pour la jeunesse
@@ -3107,7 +3107,7 @@
 100    $a 20100210afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19750122           
+103    $a  19750122
 105    $a a $a c
 106    $a 010
 120    $a b
@@ -3141,7 +3141,7 @@
 101    $a fre
 102    $a FR
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Mehl $b Dominique
 300 0  $a Sociologue au Centre d'Étude des mouvements sociaux (CNRS-EHESS) (en 1992)
 801    $a FR $b FR-751131015 $c 19921028
@@ -3160,7 +3160,7 @@
 101    $a fre
 102    $a FR
 105    $a a
-106    $a 1  
+106    $a 1
 200    $7 ba0yba0y $8 fre    $9  0  $a Mortagne  $b  Stéphane
 300 0  $a Photographe
 801    $a FR $b FR-751131015 $c 20020314
@@ -3177,10 +3177,10 @@
 100    $a 20230120afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  2014               
+103    $a  2014
 105    $a a $c e
-106    $a 1  
-150    $a y $b b5  
+106    $a 1
+150    $a y $b b5
 210    $7 ba0yba0y $8 fre    $9 20  $a Conflits $c Périodique
 303    $a 1455 boulevard Pereire, 75017 Paris
 801    $a FR $b FR-751131015 $c 20230120
@@ -3243,7 +3243,7 @@
 100    $a 19820913afrey50      ba0
 101    $a fre
 102    $a FR
-103    $a  19570419           
+103    $a  19570419
 105    $a a
 106    $a 010
 120    $a b
@@ -3267,9 +3267,9 @@
 100    $a 19951221afrey50      ba0
 101    $a fre
 102    $a LB
-103    $a  19680811           
+103    $a  19680811
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0a $8 freara $9  0  $a Ziyādaẗ $b Lamyā $f 1968-....
@@ -3291,9 +3291,9 @@
 100    $a 20060215afrey50      ba0
 101    $a eng
 102    $a GB
-103    $a  19..               
+103    $a  19..
 105    $a a
-106    $a 1  
+106    $a 1
 120    $a a
 152    $c 2 $b NP
 200    $7 ba0yba0y $8 fre    $9  0  $a Sleigh $b Charlotte
@@ -3313,7 +3313,7 @@
 100    $a 19911218afrey50      ba0
 101    $a eng
 102    $a GB
-103    $a  19240830  20010404 
+103    $a  19240830  20010404
 105    $a a
 106    $a 010
 120    $a a
@@ -3336,10 +3336,10 @@
 035    $a FRBNF139070811
 100    $a 19890601afrey50      ba0
 102    $a US
-103    $a  1935      1952     
+103    $a  1935      1952
 105    $a i
-106    $a 1  
-150    $a y $b v8  
+106    $a 1
+150    $a y $b v8
 152    $c 2 $b CO
 210    $7 ba0yba0y $8 fre    $9 20  $a Tommy Dorsey and His Clambake Seven
 300 0  $a Octuor de jazz composé des instruments suivants : trompette, trombone, clarinette, saxophone, piano, guitare, contrebasse, batterie. - Personnel très variable au cours du temps
@@ -3349,4 +3349,3 @@
 801    $a FR $b FR-751131015 $c 20070919
 810    $a Grove jazz
 999    $a FRBNF139070811 $b 13907081
-

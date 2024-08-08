@@ -697,6 +697,15 @@ class Rbxauth2dict(Rbxmrc):
         self.get_auth_statut_notice()
         self.get_auth_type_entite()
         self.get_auth_type_notice()
+        self.get_auth_date_modification()
+        self.get_auth_point_acces()
+        self.get_auth_isni()
+        self.get_auth_ark_bnf_A003()
+        self.get_auth_ark_bnf_A009()
+        self.get_auth_ark_bnf_A033()
+        self.get_auth_frbnf_A035()
+        self.get_auth_frbnf_A999a()
+        self.get_auth_frbnf_A999b()
 
     # Extraction de champs
     def get_auth_record_id(self):
@@ -740,3 +749,73 @@ class Rbxauth2dict(Rbxmrc):
         if result in auth_type_entite.keys():
             result = auth_type_entite[result]
         self.metadatas['auth_type_entite'] = result
+
+    def get_auth_date_modification(self):
+        result = self.get_marc_values(["005"])
+        self.metadatas['auth_date_modifcation'] = result
+
+    def get_auth_point_acces(self):
+        """
+        On récupère le point d'accès.
+        On renseigne un type de point d'accès (en principe, on obtient même
+        résultat que pour le type d'entité.)
+        """
+        pa_tags = [
+            # présents à Rbx, dans ordre fréquence
+            ["200abcdefghijklmnpqrstuvwxy", "personne"],
+            ["250abcdefghijklmnpqrstuvwxyz", "nom_commun"],
+            ["210abcdefghijklmnpqrstuvwxyz", "collectivite"],
+            ["215abcdefghijklmnpqrstuvwxyz", "nom_geographique"],
+            ["240abcdefghijklmnpqrstuvwxyz", "auteur_titre"],
+            ["280abcdefghijklmnpqrstuvwxyz", "genre_forme"],
+            ["230abcdefghijklmnpqrstuvwxyz", "titre_uniforme"],
+            ["220abcdefghijklmnpqrstuvwxyz", "famille"],
+            ["260abcdefghijklmnpqrstuvwxyz", "lieu_edition"],
+
+            # pas encore (?) utilisé à Rbx
+            ["216abcdefghijklmnpqrstuvwxyz", "marque"],
+            ["217abcdefghijklmnpqrstuvwxyz", "imprimeur-libraire"],
+            ["223abcdefghijklmnpqrstuvwxyz", "personnage_fictif"],
+            ["231abcdefghijklmnpqrstuvwxyz", "titre_oeuvre"],
+            ["232abcdefghijklmnpqrstuvwxyz", "titre_expression"],
+            ["235abcdefghijklmnpqrstuvwxyz", "rubrique_classement"],
+            ["241abcdefghijklmnpqrstuvwxyz", "auteur_titre_oeuvre"],
+            ["242abcdefghijklmnpqrstuvwxyz", "auteur_titre_expression"],
+            ["243abcdefghijklmnpqrstuvwxyz", "auteur_titre_juridique_religieux"],
+            ["245abcdefghijklmnpqrstuvwxyz", "auteur_rubrique_classement"]
+        ]
+
+        for pa_tag in pa_tags:
+            result = self.get_marc_values([ pa_tag[0] ])
+            if result != '':
+                break
+        self.metadatas['auth_point_acces'] = result
+        self.metadatas['auth_point_acces_type'] = pa_tag[1]
+
+    def get_auth_isni(self):
+        result = self.get_marc_values(["010a"])
+        self.metadatas['auth_isni'] = result
+
+    def get_auth_ark_bnf_A003(self):
+        result = self.get_marc_values(["003"])
+        self.metadatas['auth_ark_bnf_A003'] = result
+
+    def get_auth_ark_bnf_A009(self):
+        result = self.get_marc_values(["009"])
+        self.metadatas['auth_ark_bnf_A009'] = result
+
+    def get_auth_ark_bnf_A033(self):
+        result = self.get_marc_values(["033a"])
+        self.metadatas['auth_ark_bnf_A033'] = result
+
+    def get_auth_frbnf_A035(self):
+        result = self.get_marc_values(["035a"])
+        self.metadatas['auth_frbnf_A035'] = result
+
+    def get_auth_frbnf_A999a(self):
+        result = self.get_marc_values(["999a"])
+        self.metadatas['auth_frbnf_A999a'] = result
+
+    def get_auth_frbnf_A999b(self):
+        result = self.get_marc_values(["999b"])
+        self.metadatas['auth_frbnf_A999b'] = result
