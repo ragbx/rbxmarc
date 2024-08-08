@@ -4,7 +4,7 @@ import pandas as pd
 from pymarc import MARCReader
 from rbxmarc import Rbxmrc, Rbxauth2dict
 
-date_export = "2024-07-28"
+date_export = "2024-08-04"
 date_export2 = date_export.replace("-", "")
 marc_file =  f"../../data/{date_export}-auths_total.mrc"
 #marc_file =  f"sample_data/marc_sample_auth_20240519_1585.mrc"
@@ -25,5 +25,5 @@ with open(marc_file, 'rb') as fh:
         metadatas.append(auth2dict.metadatas)
 
 df = pd.DataFrame(metadatas)
-df.to_csv("extractions/test_auth.csv.gz", index=False)
-df
+print(df)
+df.to_csv(join("extractions", f"auth_qual_{date_export2}.csv.gz"), index=False)
