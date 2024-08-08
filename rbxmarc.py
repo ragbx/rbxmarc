@@ -12,7 +12,7 @@ def extract_records(marc_file_in, record_ids2export, marc_file_out=None, export2
     """
     #record_ids_df = pd.read_csv(record_ids_file)
     #record_ids2export = record_ids_df['record_id'].astype(str).to_list()
-    
+
     with open(marc_file_in, 'rb') as fh:
         records2export = []
         reader = MARCReader(fh, to_unicode=True, force_utf8=True)
@@ -30,12 +30,12 @@ def extract_records(marc_file_in, record_ids2export, marc_file_out=None, export2
         with open(marc_file_out, 'wb') as out:
             for record in records2export:
                 out.write(record.as_marc())
-    
+
     return records2export
-       
+
 class Rbxmrc():
     """
-    Classe mère permettant de récupérer les réferentiles et une
+    Classe mère permettant de récupérer les réferentiels et une
     fonction d'extraction des champs marc
     """
 
@@ -44,7 +44,7 @@ class Rbxmrc():
             self.referentiels = kwargs.get('referentiels')
         else:
             self.get_referentiels()
-    
+
     def get_referentiels(self):
         """
         Fonction qui permet de transformer le fichier referentiel en dictionnaire.
@@ -57,7 +57,7 @@ class Rbxmrc():
             zip_result = zip(referentiel_df['cle'].to_list(), referentiel_df['valeur'].to_list())
             referentiels[referentiel] = dict(zip_result)
         self.referentiels = referentiels
-        
+
     def get_marc_values(self, tags, aslist=False):
         """
         Permet d'extraire la valeur d'un ou plusieurs champs/sous-champs.
@@ -179,7 +179,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_publication_date_B210()
         self.get_bib_publication_date_B214()
         self.get_bib_publication_date_B219()
-        self.get_bib_publication_date()        
+        self.get_bib_publication_date()
         self.get_bib_public()
         self.get_bib_agence_cat()
         self.get_bib_pat()
@@ -322,7 +322,7 @@ class Rbxbib2dict(Rbxmrc):
         if result in niveau_bib_codes.keys():
             result = niveau_bib_codes[result]
         self.metadatas['bib_niveau_bib'] = result
-        
+
     def get_bib_relation_hierarchique(self):
         """
         On récupère la position 8 (relation hiérarchique) du label
@@ -688,7 +688,7 @@ class Rbxauth2dict(Rbxmrc):
         super().__init__(**kwargs)
         self.record = record
         self.metadatas = {}
-        
+
     def extraction_complete(self):
         """
         Rassemble toutes les fonctions d'extraction existantes
@@ -697,7 +697,7 @@ class Rbxauth2dict(Rbxmrc):
         self.get_auth_statut_notice()
         self.get_auth_type_entite()
         self.get_auth_type_notice()
-        
+
     # Extraction de champs
     def get_auth_record_id(self):
         """
