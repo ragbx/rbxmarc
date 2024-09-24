@@ -199,6 +199,20 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_agence_cat()
         self.get_bib_pat()
 
+    def rbx_bibliographie(self):
+        """
+        Permet de réaliser une liste bibliographique
+        """
+        self.get_bib_record_id()
+        self.get_bib_rbx_support()
+        self.get_bib_title()
+        self.get_bib_publisher()
+        self.get_bib_publication_date()
+        self.get_bib_responsability()
+        self.get_bib_subject()
+        self.get_bib_publication_place()
+        self.get_itemcallnumbers()
+
 
     # Fonctions d'analyse
     def get_bib_alignement_bnf(self):
@@ -673,6 +687,12 @@ class Rbxbib2dict(Rbxmrc):
                 result = 'autre'
         self.metadatas['bib_agence_cat'] = result
 
+    def get_itemcallnumbers(self):
+        """
+        Extraction des cotes en 995k
+        """
+        result = self.get_marc_values(["995k"])
+        self.metadatas['cote'] = result
 
 class Rbxauth2dict(Rbxmrc):
     """
