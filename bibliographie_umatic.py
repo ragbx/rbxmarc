@@ -7,7 +7,7 @@ from rbxmarc import Rbxmrc, Rbxbib2dict
 rbxmrc = Rbxmrc()
 referentiels = rbxmrc.referentiels
 
-marc_file =  "../../data/2024-05-12-notices_total.mrc"
+marc_file =  "extractions/umatic.mrc"
 with open(marc_file, 'rb') as fh:
     metadatas = []
     reader = MARCReader(fh, to_unicode=True, force_utf8=True)
@@ -17,4 +17,9 @@ with open(marc_file, 'rb') as fh:
         metadatas.append(bib2dict.metadatas)
 
 df = pd.DataFrame(metadatas)
-df.to_csv("bibliographie_20240512.csv.gz", index=False)
+df.columns = ['biblionumber', 'support', 'titre',
+       'lieu_publication', 'éditeur', 'date_publication',
+       'description_matérielle', 'responsabilités', 'sujets', 'cote']
+df['lien_koha'] = 'http://koha.ntrbx.local/cgi-bin/koha/catalogue/detail.pl?biblionumber=' + df['biblionumber'].astype(str)
+df.to_excel("extractions/umatic_bibliographie_20240512_v2.xlsx", index=False)
+print(df.columns)

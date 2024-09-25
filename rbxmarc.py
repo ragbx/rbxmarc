@@ -90,7 +90,10 @@ class Rbxmrc():
         if aslist:
             return result
         else:
-            return " ; ".join(result)
+            if len(result) > 0:
+                return " ; ".join(result)
+            else:
+                return None
 
 class Rbxbib2dict(Rbxmrc):
     """
@@ -153,10 +156,12 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_publication_place_B214()
         self.get_bib_publication_place_B219()
         self.get_bib_publication_place()
+        self.get_bib_descmat()
         self.get_bib_public()
         self.get_bib_agence_cat()
         self.get_bib_pat()
         self.get_bib_nb_items()
+        self.get_itemcallnumbers()
         self.get_bib_links()
 
     # Extractions récurrentes
@@ -206,11 +211,12 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_record_id()
         self.get_bib_rbx_support()
         self.get_bib_title()
+        self.get_bib_publication_place()
         self.get_bib_publisher()
         self.get_bib_publication_date()
+        self.get_bib_descmat()
         self.get_bib_responsability()
         self.get_bib_subject()
-        self.get_bib_publication_place()
         self.get_itemcallnumbers()
 
 
@@ -464,14 +470,16 @@ class Rbxbib2dict(Rbxmrc):
         result = result[0:8]
         self.metadatas['bib_date_creation_notice_B100'] = result
 
-    def get_bib_publication_date_B100(self):
+    def get_bib_publication_date_B100(self, return2metadatas=True):
         """
         On récupère en 100$a positions 9-12 la première date de publication du
         document.
         """
         result = self.get_marc_values(["100a"])
         result = result[9:13]
-        self.metadatas['bib_publication_date_B100'] = result
+        if return2metadatas:
+            self.metadatas['bib_publication_date_B100'] = result
+        return result
 
     def get_bib_langue(self):
         """
@@ -500,7 +508,7 @@ class Rbxbib2dict(Rbxmrc):
         en B123$b, sinon en B206$b.
         """
         result = self.get_marc_values(["123b"])
-        if result == '':
+        if result is None:
             result = self.get_marc_values(["206b"])
         self.metadatas['bib_scale'] = result
 
@@ -517,7 +525,7 @@ class Rbxbib2dict(Rbxmrc):
         Si absent, on va chercher en B200$ae.
         """
         result = self.get_marc_values(["530a"])
-        if result == '':
+        if result is None:
             result = self.get_marc_values(["200ae"])
         self.metadatas['bib_key_title'] = result
 
@@ -527,25 +535,25 @@ class Rbxbib2dict(Rbxmrc):
         Si absent, on va chercher en B200$ae.
         """
         result = self.get_marc_values(["225a"])
-        if result == '':
+        if result is None:
             result = self.get_marc_values(["200ae"])
         self.metadatas['bib_global_title'] = result
 
     def get_bib_part_title(self):
         result = self.get_marc_values(["464t"])
-        if result == '':
+        if result is None:
             result = self.get_marc_values(["200ae"])
         self.metadatas['bib_part_title'] = result
 
     def get_bib_numero_tome(self):
         result = self.get_marc_values(["200h"])
-        if result == '':
+        if result is None:
             result = self.get_marc_values(["461v"])
         self.metadatas['bib_numero_tome'] = result
 
     def get_bib_responsability(self):
         result = self.get_marc_values(["700ab", "710ab", "701ab", "711ab", "702ab", "712ab"])
-        if result == '':
+        if result is None:
             self.get_marc_values(["200f"])
         self.metadatas['bib_responsability'] = result
 
@@ -561,107 +569,129 @@ class Rbxbib2dict(Rbxmrc):
                                         "609abcdefghijklmnopqrstuvwxyz"])
         self.metadatas['bib_subject'] = result
 
-    def get_bib_publication_date_B210(self):
+    def get_bib_publication_date_B210(self, return2metadatas=True):
         result = self.get_marc_values(["210d"])
-        self.metadatas['bib_publication_date_B210'] = result
+        if return2metadatas:
+            self.metadatas['bib_publication_date_B210'] = result
+        return result
 
-    def get_bib_publication_date_B214(self):
+    def get_bib_publication_date_B214(self, return2metadatas=True):
         result = self.get_marc_values(["214d"])
-        self.metadatas['bib_publication_date_B214'] = result
+        if return2metadatas:
+            self.metadatas['bib_publication_date_B214'] = result
+        return result
 
-    def get_bib_publication_date_B219(self):
+    def get_bib_publication_date_B219(self, return2metadatas=True):
         result = self.get_marc_values(["219d"])
-        self.metadatas['bib_publication_date_B219'] = result
+        if return2metadatas:
+            self.metadatas['bib_publication_date_B219'] = result
+        return result
 
     def get_bib_publication_date(self):
         if 'publication_date_B100' in self.metadatas:
             result = self.metadatas['bib_publication_date_B100']
         else :
-            result = self.get_bib_publication_date_B100()
+            result = self.get_bib_publication_date_B100(return2metadatas=False)
 
-        if result == '':
+        if result is None:
             if 'publication_date_B214' in self.metadatas:
                 result = self.metadatas['bib_publication_date_B214']
             else :
-                result = self.get_bib_publication_date_B214()
+                result = self.get_bib_publication_date_B214(return2metadatas=False)
 
-        if result == '':
+        if result is None:
             if 'publication_date_B210' in self.metadatas:
                 result = self.metadatas['bib_publication_date_B210']
             else :
-                result = self.get_bib_publication_date_B210()
+                result = self.get_bib_publication_date_B210(return2metadatas=False)
 
-        if result == '':
+        if result is None:
             if 'publication_date_B219' in self.metadatas:
                 result = self.metadatas['bib_publication_date_B219']
             else :
-                result = self.get_bib_publication_date_B219()
+                result = self.get_bib_publication_date_B219(return2metadatas=False)
 
         self.metadatas['bib_publication_date'] = result
 
-    def get_bib_publisher_B210(self):
+    def get_bib_publisher_B210(self, return2metadatas=True):
         result = self.get_marc_values(["210c"])
-        self.metadatas['bib_publisher_B210'] = result
+        if return2metadatas:
+            self.metadatas['bib_publisher_B210'] = result
+        return result
 
-    def get_bib_publisher_B214(self):
+    def get_bib_publisher_B214(self, return2metadatas=True):
         result = self.get_marc_values(["214c"])
-        self.metadatas['bib_publisher_B214'] = result
+        if return2metadatas:
+            self.metadatas['bib_publisher_B214'] = result
+        return result
 
-    def get_bib_publisher_B219(self):
+    def get_bib_publisher_B219(self, return2metadatas=True):
         result = self.get_marc_values(["219c"])
-        self.metadatas['bib_publisher_B219'] = result
+        if return2metadatas:
+            self.metadatas['bib_publisher_B219'] = result
+        return result
 
     def get_bib_publisher(self):
         if 'publisher_B214' in self.metadatas:
             result = self.metadatas['bib_publisher_B214']
         else :
-            result = self.get_bib_publisher_B214()
+            result = self.get_bib_publisher_B214(return2metadatas=False)
 
-        if result == '':
+        if result is None:
             if 'publisher_B210' in self.metadatas:
                 result = self.metadatas['bib_publisher_B210']
             else :
-                result = self.get_bib_publisher_B210()
+                result = self.get_bib_publisher_B210(return2metadatas=False)
 
-        if result == '':
+        if result is None:
             if 'publisher_B219' in self.metadatas:
                 result = self.metadatas['bib_publisher_B219']
             else :
-                result = self.get_bib_publisher_B219()
+                result = self.get_bib_publisher_B219(return2metadatas=False)
 
         self.metadatas['bib_publisher'] = result
 
-    def get_bib_publication_place_B210(self):
+    def get_bib_publication_place_B210(self, return2metadatas=True):
         result = self.get_marc_values(["210a"])
-        self.metadatas['bib_publication_place_B210'] = result
+        if return2metadatas:
+            self.metadatas['bib_publication_place_B210'] = result
+        return result
 
-    def get_bib_publication_place_B214(self):
+    def get_bib_publication_place_B214(self, return2metadatas=True):
         result = self.get_marc_values(["214a"])
-        self.metadatas['bib_publication_place_B214'] = result
+        if return2metadatas:
+            self.metadatas['bib_publication_place_B214'] = result
+        return result
 
-    def get_bib_publication_place_B219(self):
+    def get_bib_publication_place_B219(self, return2metadatas=True):
         result = self.get_marc_values(["219a"])
-        self.metadatas['bib_publication_place_B219'] = result
+        if return2metadatas:
+            self.metadatas['bib_publication_place_B219'] = result
+        return result
 
     def get_bib_publication_place(self):
         if 'publication_place_B214' in self.metadatas:
             result = self.metadatas['bib_publication_place_B214']
         else :
-            result = self.get_bib_publication_place_B214()
+            result = self.get_bib_publication_place_B214(return2metadatas=False)
 
-        if result == '':
+        if result is None:
             if 'publication_place_B210' in self.metadatas:
                 result = self.metadatas['bib_publication_place_B210']
             else :
-                result = self.get_bib_publication_place_B210()
+                result = self.get_bib_publication_place_B210(return2metadatas=False)
 
-        if result == '':
+        if result is None:
             if 'publication_place_B219' in self.metadatas:
                 result = self.metadatas['bib_publication_place_B219']
             else :
-                result = self.get_bib_publication_place_B219()
+                result = self.get_bib_publication_place_B219(return2metadatas=False)
 
         self.metadatas['bib_publication_place'] = result
+
+    def get_bib_descmat(self):
+        result = self.get_marc_values(["215a"])
+        self.metadatas['bib_descmat'] = result
 
     def get_bib_public(self):
         """
