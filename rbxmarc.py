@@ -158,6 +158,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_publication_place()
         self.get_bib_descmat()
         self.get_bib_public()
+        self.get_bib_adresse_electronique()
         self.get_bib_agence_cat()
         self.get_bib_pat()
         self.get_bib_nb_items()
@@ -174,7 +175,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_type_notice()
         self.get_bib_niveau_bib()
         self.get_bib_relation_hierarchique()
-        self.get_bib_alignement_bnf()
+        #self.get_bib_alignement_bnf()
         self.get_bib_rbx_date_creation_notice()
         self.get_bib_rbx_vdg_action()
         self.get_bib_rbx_vdg_date()
@@ -187,8 +188,18 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_publication_date()
         self.get_bib_public()
         self.get_bib_agence_cat()
-        self.get_bib_pat()
+        #self.get_bib_pat()
         self.get_bib_nb_items()
+        
+    def rbx_vignettes(self):
+        """
+        Pour étude de la présence des liens vers vignettes CD et DVD
+        """
+        self.get_bib_record_id()
+        self.get_bib_rbx_date_creation_notice()
+        self.get_bib_rbx_support()
+        self.get_bib_adresse_electronique()
+        self.get_bib_agence_cat()
 
 
     def rbx_vdg(self):
@@ -703,6 +714,10 @@ class Rbxbib2dict(Rbxmrc):
         if result in koha_av_publicc.keys():
             result = koha_av_publicc[result]
         self.metadatas['bib_rbx_public'] = result
+
+    def get_bib_adresse_electronique(self):
+        result = self.get_marc_values(["856u"])
+        self.metadatas['bib_adresse_electronique'] = result 
 
     def get_bib_agence_cat(self):
         """
