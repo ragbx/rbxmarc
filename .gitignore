@@ -2,6 +2,8 @@ extractions/*
 !extractions/.gitkeep
 data/*
 !data/.gitkeep
+resultats/*
+!resultats/.gitkeep
 
 
 # Byte-compiled / optimized / DLL files
