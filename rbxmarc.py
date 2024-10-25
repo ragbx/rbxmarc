@@ -274,11 +274,12 @@ class Rbxbib2dict(Rbxmrc):
 
         result = False
         ccodes = self.get_marc_values(["995h"])
-        ccodes = ccodes.split(" ; ")
-        for ccode in ccodes:
-            if ccode in pat_ccodes:
-                result = True
-                break
+        if ccodes:
+            ccodes = ccodes.split(" ; ")
+            for ccode in ccodes:
+                if ccode in pat_ccodes:
+                    result = True
+                    break
         self.metadatas['bib_pat'] = result
 
     def get_bib_nb_items(self):
@@ -389,8 +390,9 @@ class Rbxbib2dict(Rbxmrc):
         On récupère l'ark bnf en B033$a.
         """
         result = self.get_marc_values(["033a"])
-        result = result.replace("http://catalogue.bnf.fr/", "")
-        result = result.replace("https://catalogue.bnf.fr/", "")
+        if result:
+            result = result.replace("http://catalogue.bnf.fr/", "")
+            result = result.replace("https://catalogue.bnf.fr/", "")
         self.metadatas['bib_ark_bnf'] = result
 
     def get_bib_alignement_bnf(self):
@@ -400,7 +402,7 @@ class Rbxbib2dict(Rbxmrc):
         result = False
         if 'ark_bnf' not in self.metadatas:
             self.get_bib_ark_bnf()
-        if 'ark:/12148' in self.metadatas['bib_ark_bnf']:
+        elif 'ark:/12148' in self.metadatas['bib_ark_bnf']:
             result = True
         self.metadatas['bib_alignement_bnf'] = result
 
@@ -410,8 +412,9 @@ class Rbxbib2dict(Rbxmrc):
         """
         result = ''
         data = self.get_marc_values(["035a"])
-        if 'FRBNF' in data:
-            result = data
+        if data:
+            if 'FRBNF' in data:
+                result = data
         self.metadatas['bib_frbnf'] = result
 
     def get_bib_refcom(self):
