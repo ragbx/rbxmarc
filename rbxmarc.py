@@ -20,18 +20,19 @@ def extract_records(marc_file_in, record_ids2export, marc_file_out=None, export2
         for record in reader:
             i += 1
             if i % 10000 == 0:
-                print(i)
+                print(f"{len(records2export)} / {i}")
             record_id = record.get_fields('001')
             record_id = record_id[0].data
             record_id = str(record_id)
             if record_id in record_ids2export:
                 records2export.append(record)
+        print(f"{len(records2export)} / {i}")
     if marc_file_out:
         with open(marc_file_out, 'wb') as out:
             for record in records2export:
                 out.write(record.as_marc())
 
-    return records2export
+    #return records2export
 
 class Rbxmrc():
     """
@@ -203,6 +204,20 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_rbx_support()
         self.get_bib_agence_cat()
         self.get_bib_pat()
+        
+    def rbx_lang(self):
+        """
+        Pour étude des documents par langue
+        """
+        self.get_bib_record_id()
+        self.get_bib_rbx_support()
+        self.get_bib_langue()
+        self.get_bib_langue_originale()
+        self.get_bib_pat()
+        self.get_bib_title()
+        self.get_bib_responsability()
+        self.get_bib_publication_date()
+        
 
     def rbx_bibliographie(self):
         """

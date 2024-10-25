@@ -1,3 +1,5 @@
+bbs/*
+!bbs/.gitkeep
 extractions/*
 !extractions/.gitkeep
 
