@@ -10,7 +10,7 @@ rbxmrc = Rbxmrc()
 referentiels = rbxmrc.referentiels
 
 #marc_file =  "sample_data/marc_sample_biblio_20240519_238.mrc"
-marc_file = join("data", "2025-03-02-notices_total.mrc")
+marc_file = "data/2025-03-02-notices_mangas_adultes.mrc"
 
 with open(marc_file, 'rb') as fh:
     metadatas = []
@@ -25,4 +25,4 @@ with open(marc_file, 'rb') as fh:
             print(i)
 
 df = pd.DataFrame(metadatas)
-df.to_csv(join("extractions", "extract_titres_20250302.csv.gz"), index=False)
+df.to_csv(join("extractions", "extract_titres_mangas_adultes_20250302.csv.gz"), index=False)
