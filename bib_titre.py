@@ -18,12 +18,11 @@ with open(marc_file, 'rb') as fh:
     i = 0
     for record in reader:
         bib2dict = Rbxbib2dict(record, referentiels=referentiels)
-        bib2dict.extraction_complete()
+        bib2dict.rbx_titre()
         metadatas.append(bib2dict.metadatas)
         i += 1
         if i % 10000 == 0:
             print(i)
 
 df = pd.DataFrame(metadatas)
-df.to_csv(join("extractions", "extract_complete_20250302.csv.gz"), index=False)
-#print(df)
+df.to_csv(join("extractions", "extract_titres_20250302.csv.gz"), index=False)

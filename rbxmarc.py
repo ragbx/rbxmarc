@@ -4,7 +4,7 @@ from os.path import join
 
 from pymarc import MARCReader
 
-def extract_records(marc_file_in, record_ids2export, marc_file_out=None, export2txt=False):
+def extract_records(marc_file_in, record_ids2export, marc_file_out=None):
     """
     Fonction qui permet d'extraire des notices marc depuis un fichier iso2709
     et une liste d'identifiants contenant les identifiants de notice (le nom de colonne
@@ -73,7 +73,8 @@ class Rbxmrc():
         for tag in tags:
             # cas du label
             if tag == 'LDR':
-                result.append(self.record.leader.leader)
+                if self.record.leader:
+                    result.append(self.record.leader)
             else:
                 fields = self.record.get_fields(tag[:3])
                 for field in fields:
@@ -191,7 +192,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_agence_cat()
         #self.get_bib_pat()
         self.get_bib_nb_items()
-        
+
     def rbx_vignettes(self):
         """
         Pour étude de la présence des liens vers vignettes CD et DVD
@@ -215,7 +216,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_rbx_support()
         self.get_bib_agence_cat()
         self.get_bib_pat()
-        
+
     def rbx_lang(self):
         """
         Pour étude des documents par langue
@@ -228,7 +229,28 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_title()
         self.get_bib_responsability()
         self.get_bib_publication_date()
-        
+
+    def rbx_titre(self):
+        """
+        Pour test titres
+        """
+        self.get_bib_record_id()
+        self.get_bib_ark_bnf()
+        self.get_bib_alignement_bnf()
+        self.get_bib_rbx_date_creation_notice()
+        self.get_bib_rbx_support()
+        self.get_bib_agence_cat()
+        self.get_bib_pat()
+        self.metadatas['B200a'] = self.get_marc_values(["200a"])
+        self.metadatas['B200e'] = self.get_marc_values(["200e"])
+        self.metadatas['B200h'] = self.get_marc_values(["200h"])
+        self.metadatas['B200i'] = self.get_marc_values(["200i"])
+        self.metadatas['B200i'] = self.get_marc_values(["200i"])
+        self.metadatas['B410t'] = self.get_marc_values(["410t"])
+        self.metadatas['B410v'] = self.get_marc_values(["410v"])
+        self.metadatas['B461t'] = self.get_marc_values(["461t"])
+        self.metadatas['B461v'] = self.get_marc_values(["461v"])
+
 
     def rbx_bibliographie(self):
         """
@@ -735,7 +757,7 @@ class Rbxbib2dict(Rbxmrc):
 
     def get_bib_adresse_electronique(self):
         result = self.get_marc_values(["856u"])
-        self.metadatas['bib_adresse_electronique'] = result 
+        self.metadatas['bib_adresse_electronique'] = result
 
     def get_bib_agence_cat(self):
         """
