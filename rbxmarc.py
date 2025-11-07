@@ -59,7 +59,7 @@ class Rbxmrc():
             referentiels[referentiel] = dict(zip_result)
         self.referentiels = referentiels
 
-    def get_marc_values(self, tags, aslist=False):
+    def get_marc_values_old(self, tags, aslist=False):
         """
         Permet d'extraire la valeur d'un ou plusieurs champs/sous-champs.
         Les champs ("tags") sont saisis sous forme de list.
@@ -74,7 +74,7 @@ class Rbxmrc():
             # cas du label
             if tag == 'LDR':
                 if self.record.leader:
-                    result.append(self.record.leader)
+                    result.append(self.record.leader.leader)
             else:
                 fields = self.record.get_fields(tag[:3])
                 for field in fields:
@@ -96,6 +96,87 @@ class Rbxmrc():
                 return " ; ".join(result)
             else:
                 return None
+                
+    def get_marc_values(self, tags, ind=False, aslist=False):
+        """
+        Permet d'extraire la valeur d'un ou plusieurs champs/sous-champs.
+        Prend en compte les indicateurs.
+        Les champs ("tags") sont saisis sous forme de list.
+        Par exemple, ["7OO  ab", "701  ab"]
+
+
+        Pour les indicateurs :
+        - activer l'option ind=True
+        - un espace " " signifie pas de prise en compte
+
+        Le résultat de base est une liste. Par défaut, il retourné sous forme de
+        chaîne de caractères avec comme séparateur d'élements " ; ". On peut annuler
+        ce comportement grâce à l'argument "aslist=True".
+        """
+        result = []
+        for tag in tags:
+            # cas du label
+            if tag == 'LDR':
+                if self.record.leader:
+                    result.append(self.record.leader)
+            else:
+                fields = self.record.get_fields(tag[:3])
+                for field in fields:
+                    field_value = []
+                    # cas du controlfield
+                    if tag[:2] == '00':
+                        field_value.append(field.data)
+                    # cas du datafield
+                    else:
+                        if ind:
+                            indicator1 = tag[3]
+                            indicator2 = tag[4]
+                            if indicator1 != " ":
+                                if indicator2 != " ":
+                                    if (field.indicator1 == indicator1) & (field.indicator2 == indicator2):
+                                        if hasattr(field, "subfields"):
+                                            for subfield in field.subfields:
+                                                if subfield.code in tag[5:]:
+                                                    field_value.append(subfield.value)
+                                else:
+                                    if (field.indicator1 == indicator1):
+                                        if hasattr(field, "subfields"):
+                                            for subfield in field.subfields:
+                                                if subfield.code in tag[5:]:
+                                                    field_value.append(subfield.value)
+                            else:
+                                if indicator2 != " ":
+                                    if (field.indicator2 == indicator2):
+                                        if hasattr(field, "subfields"):
+                                            for subfield in field.subfields:
+                                                if subfield.code in tag[5:]:
+                                                    field_value.append(subfield.value)
+                                else:
+                                    if hasattr(field, "subfields"):
+                                        for subfield in field.subfields:
+                                            if subfield.code in tag[5:]:
+                                                field_value.append(subfield.value)
+                        else:
+                            if hasattr(field, "subfields"):
+                                for subfield in field.subfields:
+                                    if subfield.code in tag[3:]:
+                                        field_value.append(subfield.value)
+
+                    if len(field_value) > 0:
+                        result.append(" ".join(field_value))
+        if aslist:
+            return result
+        else:
+            if len(result) > 0:
+                return " ; ".join(result)
+            else:
+                return None
+                
+    def _get_all_tags(self):
+        self.metadatas['tags'] = []
+        for field in self.record.get_fields():
+            self.metadatas['tags'].append(field.tag)
+
 
 class Rbxbib2dict(Rbxmrc):
     """
@@ -166,6 +247,14 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_nb_items()
         self.get_itemcallnumbers()
         self.get_bib_links()
+        
+    # Obtnetion de tous les utilisés par record_id
+    def get_all_tags(self):
+        self.get_bib_record_id()
+        self.get_bib_rbx_support()
+        self.get_bib_agence_cat()
+        self.get_bib_pat()
+        self._get_all_tags()
 
     # Extractions récurrentes
     def rbx_qual(self):
@@ -786,7 +875,7 @@ class Rbxbib2dict(Rbxmrc):
         """
         result = self.get_marc_values(["995k"])
         self.metadatas['cote'] = result
-
+        
 class Rbxauth2dict(Rbxmrc):
     """
     Classe qui permet de transformer une notice autorité MARC en dictionnaire

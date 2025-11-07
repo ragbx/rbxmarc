@@ -6,6 +6,7 @@ data/*
 !data/.gitkeep
 resultats/*
 !resultats/.gitkeep
+*.csv
 
 
 # Byte-compiled / optimized / DLL files
