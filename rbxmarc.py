@@ -1,8 +1,11 @@
-import pandas as pd
 import json
+from io import StringIO
 from os.path import join
 
-from pymarc import MARCReader
+import pandas as pd
+import requests
+from pymarc import MARCReader, parse_xml_to_array
+
 
 def extract_records(marc_file_in, record_ids2export, marc_file_out=None):
     """
@@ -10,10 +13,10 @@ def extract_records(marc_file_in, record_ids2export, marc_file_out=None):
     et une liste d'identifiants contenant les identifiants de notice (le nom de colonne
     doit être "record_id").
     """
-    #record_ids_df = pd.read_csv(record_ids_file)
-    #record_ids2export = record_ids_df['record_id'].astype(str).to_list()
+    # record_ids_df = pd.read_csv(record_ids_file)
+    # record_ids2export = record_ids_df['record_id'].astype(str).to_list()
 
-    with open(marc_file_in, 'rb') as fh:
+    with open(marc_file_in, "rb") as fh:
         records2export = []
         reader = MARCReader(fh, to_unicode=True, force_utf8=True)
         i = 0
@@ -21,28 +24,29 @@ def extract_records(marc_file_in, record_ids2export, marc_file_out=None):
             i += 1
             if i % 10000 == 0:
                 print(f"{len(records2export)} / {i}")
-            record_id = record.get_fields('001')
+            record_id = record.get_fields("001")
             record_id = record_id[0].data
             record_id = str(record_id)
             if record_id in record_ids2export:
                 records2export.append(record)
         print(f"{len(records2export)} / {i}")
     if marc_file_out:
-        with open(marc_file_out, 'wb') as out:
+        with open(marc_file_out, "wb") as out:
             for record in records2export:
                 out.write(record.as_marc())
 
-    #return records2export
+    # return records2export
 
-class Rbxmrc():
+
+class Rbxmrc:
     """
     Classe mère permettant de récupérer les réferentiels et une
     fonction d'extraction des champs marc
     """
 
     def __init__(self, **kwargs):
-        if 'referentiels' in kwargs:
-            self.referentiels = kwargs.get('referentiels')
+        if "referentiels" in kwargs:
+            self.referentiels = kwargs.get("referentiels")
         else:
             self.get_referentiels()
 
@@ -52,10 +56,12 @@ class Rbxmrc():
         """
         referentiels = {}
         referentiels_df = pd.read_csv("utils/referentiels/referentiels.csv")
-        for referentiel, referentiel_df in referentiels_df.groupby(['referentiel']):
+        for referentiel, referentiel_df in referentiels_df.groupby(["referentiel"]):
             referentiel = referentiel[0]
             referentiels[referentiel] = {}
-            zip_result = zip(referentiel_df['cle'].to_list(), referentiel_df['valeur'].to_list())
+            zip_result = zip(
+                referentiel_df["cle"].to_list(), referentiel_df["valeur"].to_list()
+            )
             referentiels[referentiel] = dict(zip_result)
         self.referentiels = referentiels
 
@@ -72,7 +78,7 @@ class Rbxmrc():
         result = []
         for tag in tags:
             # cas du label
-            if tag == 'LDR':
+            if tag == "LDR":
                 if self.record.leader:
                     result.append(self.record.leader.leader)
             else:
@@ -80,7 +86,7 @@ class Rbxmrc():
                 for field in fields:
                     field_value = []
                     # cas du controlfield
-                    if tag[:2] == '00':
+                    if tag[:2] == "00":
                         field_value.append(field.data)
                     # cas du datafield
                     else:
@@ -96,7 +102,7 @@ class Rbxmrc():
                 return " ; ".join(result)
             else:
                 return None
-                
+
     def get_marc_values(self, tags, ind=False, aslist=False):
         """
         Permet d'extraire la valeur d'un ou plusieurs champs/sous-champs.
@@ -116,7 +122,7 @@ class Rbxmrc():
         result = []
         for tag in tags:
             # cas du label
-            if tag == 'LDR':
+            if tag == "LDR":
                 if self.record.leader:
                     result.append(self.record.leader)
             else:
@@ -124,7 +130,7 @@ class Rbxmrc():
                 for field in fields:
                     field_value = []
                     # cas du controlfield
-                    if tag[:2] == '00':
+                    if tag[:2] == "00":
                         field_value.append(field.data)
                     # cas du datafield
                     else:
@@ -133,20 +139,22 @@ class Rbxmrc():
                             indicator2 = tag[4]
                             if indicator1 != " ":
                                 if indicator2 != " ":
-                                    if (field.indicator1 == indicator1) & (field.indicator2 == indicator2):
+                                    if (field.indicator1 == indicator1) & (
+                                        field.indicator2 == indicator2
+                                    ):
                                         if hasattr(field, "subfields"):
                                             for subfield in field.subfields:
                                                 if subfield.code in tag[5:]:
                                                     field_value.append(subfield.value)
                                 else:
-                                    if (field.indicator1 == indicator1):
+                                    if field.indicator1 == indicator1:
                                         if hasattr(field, "subfields"):
                                             for subfield in field.subfields:
                                                 if subfield.code in tag[5:]:
                                                     field_value.append(subfield.value)
                             else:
                                 if indicator2 != " ":
-                                    if (field.indicator2 == indicator2):
+                                    if field.indicator2 == indicator2:
                                         if hasattr(field, "subfields"):
                                             for subfield in field.subfields:
                                                 if subfield.code in tag[5:]:
@@ -171,11 +179,11 @@ class Rbxmrc():
                 return " ; ".join(result)
             else:
                 return None
-                
+
     def _get_all_tags(self):
-        self.metadatas['tags'] = []
+        self.metadatas["tags"] = []
         for field in self.record.get_fields():
-            self.metadatas['tags'].append(field.tag)
+            self.metadatas["tags"].append(field.tag)
 
 
 class Rbxbib2dict(Rbxmrc):
@@ -188,6 +196,7 @@ class Rbxbib2dict(Rbxmrc):
 
     En sortie, on obtient un dictionnaire
     """
+
     def __init__(self, record, **kwargs):
         super().__init__(**kwargs)
         self.record = record
@@ -202,6 +211,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_type_notice()
         self.get_bib_niveau_bib()
         self.get_bib_relation_hierarchique()
+        self.get_bib_persistentid()
         self.get_bib_isbn()
         self.get_bib_issn()
         self.get_bib_ark_bnf()
@@ -211,6 +221,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_ean()
         self.get_bib_rbx_vdg_action()
         self.get_bib_rbx_vdg_date()
+        self.get_bib_rbx_vdg_resultat()
         self.get_bib_rbx_support()
         self.get_bib_rbx_date_creation_notice()
         self.get_bib_rbx_date_modification_notice()
@@ -247,7 +258,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_nb_items()
         self.get_itemcallnumbers()
         self.get_bib_links()
-        
+
     # Obtnetion de tous les utilisés par record_id
     def get_all_tags(self):
         self.get_bib_record_id()
@@ -266,10 +277,11 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_type_notice()
         self.get_bib_niveau_bib()
         self.get_bib_relation_hierarchique()
-        #self.get_bib_alignement_bnf()
+        # self.get_bib_alignement_bnf()
         self.get_bib_rbx_date_creation_notice()
         self.get_bib_rbx_vdg_action()
         self.get_bib_rbx_vdg_date()
+        self.get_bib_rbx_vdg_resultat()
         self.get_bib_rbx_support()
         self.get_bib_title()
         self.get_bib_publication_date_B100()
@@ -279,7 +291,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_publication_date()
         self.get_bib_public()
         self.get_bib_agence_cat()
-        #self.get_bib_pat()
+        # self.get_bib_pat()
         self.get_bib_nb_items()
 
     def rbx_vignettes(self):
@@ -292,7 +304,6 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_adresse_electronique()
         self.get_bib_agence_cat()
 
-
     def rbx_vdg(self):
         """
         Pour étude du processus de vendange
@@ -302,6 +313,7 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_rbx_date_creation_notice()
         self.get_bib_rbx_vdg_action()
         self.get_bib_rbx_vdg_date()
+        self.get_bib_rbx_vdg_resultat()
         self.get_bib_rbx_support()
         self.get_bib_agence_cat()
         self.get_bib_pat()
@@ -324,30 +336,42 @@ class Rbxbib2dict(Rbxmrc):
         Pour test titres
         """
         self.get_bib_record_id()
+        self.get_bib_persistentid()
         self.get_bib_ark_bnf()
-        self.get_bib_alignement_bnf()
         self.get_bib_rbx_date_creation_notice()
+        self.get_bib_rbx_vdg_action()
+        self.get_bib_rbx_vdg_resultat()
         self.get_bib_rbx_support()
+        self.metadatas["B200ae"] = self.get_marc_values(["200ae"])
+        self.metadatas["B200h"] = self.get_marc_values(["200h"])
+        self.metadatas["B200i"] = self.get_marc_values(["200i"])
+        self.metadatas["B200v"] = self.get_marc_values(["200v"])
+        self.metadatas["B225a"] = self.get_marc_values(["225a"])
+        self.metadatas["B225h"] = self.get_marc_values(["225h"])
+        self.metadatas["B225i"] = self.get_marc_values(["225i"])
+        self.metadatas["B225v"] = self.get_marc_values(["225v"])
+        self.metadatas["B225x"] = self.get_marc_values(["225x"])
+        self.metadatas["B410a"] = self.get_marc_values(["410a"])
+        self.metadatas["B410t"] = self.get_marc_values(["410t"])
+        self.metadatas["B410v"] = self.get_marc_values(["410v"])
+        # self.metadatas["B461a"] = self.get_marc_values(["461a"])
+        self.metadatas["B461t"] = self.get_marc_values(["461t"])
+        self.metadatas["B461v"] = self.get_marc_values(["461v"])
+        self.metadatas["B462t"] = self.get_marc_values(["462t"])
+        self.metadatas["B462v"] = self.get_marc_values(["462v"])
+        self.metadatas["B463t"] = self.get_marc_values(["463t"])
+        self.metadatas["B463v"] = self.get_marc_values(["463v"])
+        self.metadatas["B464t"] = self.get_marc_values(["464t"])
+        self.metadatas["B464v"] = self.get_marc_values(["464v"])
+        # self.metadatas["B500a"] = self.get_marc_values(["500a"])
+        # self.metadatas["B503a"] = self.get_marc_values(["503a"])
+        # self.metadatas["B510a"] = self.get_marc_values(["510a"])
+        # self.metadatas["B515a"] = self.get_marc_values(["515a"])
+        # self.metadatas["B517a"] = self.get_marc_values(["517a"])
         self.get_bib_agence_cat()
         self.get_bib_pat()
-        self.metadatas['B200ae'] = self.get_marc_values(["200ae"])
-        #self.metadatas['B200e'] = self.get_marc_values(["200e"])
-        self.metadatas['B200h'] = self.get_marc_values(["200h"])
-        self.metadatas['B200i'] = self.get_marc_values(["200i"])
-        self.metadatas['B200i'] = self.get_marc_values(["200i"])
-        self.metadatas['B225a'] = self.get_marc_values(["225a"])
-        self.metadatas['B225v'] = self.get_marc_values(["225v"])
-        self.metadatas['B225x'] = self.get_marc_values(["225x"])
-        self.metadatas['B410t'] = self.get_marc_values(["410t"])
-        self.metadatas['B410v'] = self.get_marc_values(["410v"])
-        self.metadatas['B461t'] = self.get_marc_values(["461t"])
-        self.metadatas['B461v'] = self.get_marc_values(["461v"])
-        self.metadatas['B500a'] = self.get_marc_values(["500a"])
-        self.metadatas['B503a'] = self.get_marc_values(["503a"])
-        self.metadatas['B510a'] = self.get_marc_values(["510a"])
-        self.metadatas['B515a'] = self.get_marc_values(["515a"])
-        self.metadatas['B517a'] = self.get_marc_values(["517a"])
-
+        self.metadatas["ccodes"] = self.get_marc_values(["995h"])
+        self.get_bib_nb_items()
 
     def rbx_bibliographie(self):
         """
@@ -364,18 +388,20 @@ class Rbxbib2dict(Rbxmrc):
         self.get_bib_subject()
         self.get_itemcallnumbers()
 
-
     # Fonctions d'analyse
-    def get_bib_alignement_bnf(self):
-        """
-        Si la notice est alignée sur la Bnf, on attribue une valeur vraie.
-        """
-        result = False
-        if 'ark_bnf' not in self.metadatas:
-            self.get_bib_ark_bnf()
-        if 'ark:/12148' in self.metadatas['bib_ark_bnf']:
-            result = True
-        self.metadatas['bib_alignement_bnf'] = result
+    # def get_bib_alignement_bnf(self):
+    #     """
+    #     Si la notice est alignée sur la Bnf, on attribue une valeur vraie.
+    #     """
+    #     result = False
+    #     # print(self.metadatas["bib_ark_bnf"])
+    #     print("toto")
+    #     if "bib_ark_bnf" not in self.metadatas:
+    #         self.get_bib_ark_bnf()
+    #     if "12148" in self.metadatas["bib_ark_bnf"]:
+    #         result = True
+    #         print("toto")
+    #     self.metadatas["bib_alignement_bnf"] = result
 
     def get_bib_pat(self):
         """
@@ -384,18 +410,18 @@ class Rbxbib2dict(Rbxmrc):
         """
         # liste des codes collections décrivant une collection patrimoniale
         pat_ccodes = [
-            'PENACZZ', # Patrimoine sonore - Fonds Alfonso Cata
-            'PENCVZZ', # Patrimoine sonore - Fonds Charles Verstraete
-            'PENDEZZ', # Patrimoine sonore - Fonds Desette
-            'PENHPZZ', # Patrimoine sonore - Fonds Heath et Payant - enregistrements
-            'PENPDZZ', # Collection Patrice Desdoit # à vérifier
-            'PENRSZZ', # Patrimoine sonore - FLRS
-            'PPAFIZZ', # Patrimoine audiovisuel - Fonds local image
-            'PPEFGZZ', # Patrimoine écrit - fonds général
-            'PPELGZZ', # Patrimoine écrit - legs Destombes
-            'PPEPMZZ', # Patrimoine musical imprimé
-            'PPEPRZZ', # Périodiques patrimonaiux
-            'PPIPIZZ' # Patrimoine iconographique
+            "PENACZZ",  # Patrimoine sonore - Fonds Alfonso Cata
+            "PENCVZZ",  # Patrimoine sonore - Fonds Charles Verstraete
+            "PENDEZZ",  # Patrimoine sonore - Fonds Desette
+            "PENHPZZ",  # Patrimoine sonore - Fonds Heath et Payant - enregistrements
+            "PENPDZZ",  # Collection Patrice Desdoit # à vérifier
+            "PENRSZZ",  # Patrimoine sonore - FLRS
+            "PPAFIZZ",  # Patrimoine audiovisuel - Fonds local image
+            "PPEFGZZ",  # Patrimoine écrit - fonds général
+            "PPELGZZ",  # Patrimoine écrit - legs Destombes
+            "PPEPMZZ",  # Patrimoine musical imprimé
+            "PPEPRZZ",  # Périodiques patrimonaiux
+            "PPIPIZZ",  # Patrimoine iconographique
             # 'PRRFIZZ', # Films autour de Roubaix et sa région  # non : collections de prêts
             # 'PRRMEZZ', # FLRS de prêt # non : collections de prêts
             # 'PRRRGZZ', # Région # non : collections de prêts
@@ -410,14 +436,14 @@ class Rbxbib2dict(Rbxmrc):
                 if ccode in pat_ccodes:
                     result = True
                     break
-        self.metadatas['bib_pat'] = result
+        self.metadatas["bib_pat"] = result
 
     def get_bib_nb_items(self):
         """
         Renvoie le nb d'exemplaires (le nb de champs B995) à une notice bib
         """
-        fields = self.record.get_fields('995')
-        self.metadatas['bib_nb_items'] = len(fields)
+        fields = self.record.get_fields("995")
+        self.metadatas["bib_nb_items"] = len(fields)
 
     def get_bib_links(self):
         """
@@ -437,21 +463,30 @@ class Rbxbib2dict(Rbxmrc):
             tag = str(tag)
             fields = self.record.get_fields(tag)
             for field in fields:
-                numbers = field.get_subfields('3')
+                numbers = field.get_subfields("3")
                 for number in numbers:
                     bnf_authnumbers.append(number)
-                numbers = field.get_subfields('9')
+                numbers = field.get_subfields("9")
                 for number in numbers:
                     koha_authnumbers.append(number)
-        result = {'bnf_authnumbers': bnf_authnumbers, 'koha_authnumbers': koha_authnumbers}
-        self.metadatas['bib_links']  = json.dumps(result)
+        result = {
+            "bnf_authnumbers": bnf_authnumbers,
+            "koha_authnumbers": koha_authnumbers,
+        }
+        self.metadatas["bib_links"] = json.dumps(result)
 
     # Extraction de champs
     def get_bib_record_id(self):
         """
         Renvoie le numéro de la notice (champs B001)
         """
-        self.metadatas['bib_record_id'] = self.get_marc_values(["001"])
+        self.metadatas["bib_record_id"] = self.get_marc_values(["001"])
+
+    def get_bib_persistentid(self):
+        """
+        Renvoie le numéro de l'identifiant pérenne (champs B003)
+        """
+        self.metadatas["bib_persistentid"] = self.get_marc_values(["003"])
 
     def get_bib_statut_notice(self):
         """
@@ -460,10 +495,10 @@ class Rbxbib2dict(Rbxmrc):
         """
         result = self.get_marc_values(["LDR"])
         result = result[5]
-        bib_statut_notice_codes = self.referentiels['bib_statut_notice_codes']
+        bib_statut_notice_codes = self.referentiels["bib_statut_notice_codes"]
         if result in bib_statut_notice_codes.keys():
             result = bib_statut_notice_codes[result]
-        self.metadatas['bib_statut_notice'] = result
+        self.metadatas["bib_statut_notice"] = result
 
     def get_bib_type_notice(self):
         """
@@ -472,10 +507,10 @@ class Rbxbib2dict(Rbxmrc):
         """
         result = self.get_marc_values(["LDR"])
         result = result[6]
-        type_notice_bib_codes = self.referentiels['bib_type_notice_codes']
+        type_notice_bib_codes = self.referentiels["bib_type_notice_codes"]
         if result in type_notice_bib_codes.keys():
             result = type_notice_bib_codes[result]
-        self.metadatas['bib_type_notice'] = result
+        self.metadatas["bib_type_notice"] = result
 
     def get_bib_niveau_bib(self):
         """
@@ -484,10 +519,10 @@ class Rbxbib2dict(Rbxmrc):
         """
         result = self.get_marc_values(["LDR"])
         result = result[7]
-        niveau_bib_codes = self.referentiels['bib_niveau_codes']
+        niveau_bib_codes = self.referentiels["bib_niveau_codes"]
         if result in niveau_bib_codes.keys():
             result = niveau_bib_codes[result]
-        self.metadatas['bib_niveau_bib'] = result
+        self.metadatas["bib_niveau_bib"] = result
 
     def get_bib_relation_hierarchique(self):
         """
@@ -496,24 +531,24 @@ class Rbxbib2dict(Rbxmrc):
         """
         result = self.get_marc_values(["LDR"])
         result = result[8]
-        bib_relation_hierarch_codes = self.referentiels['bib_relation_hierarch_codes']
+        bib_relation_hierarch_codes = self.referentiels["bib_relation_hierarch_codes"]
         if result in bib_relation_hierarch_codes.keys():
             result = bib_relation_hierarch_codes[result]
-        self.metadatas['bib_relation_hierarchique'] = result
+        self.metadatas["bib_relation_hierarchique"] = result
 
     def get_bib_isbn(self):
         """
         On récupère l'isbn en B010$a.
         """
         result = self.get_marc_values(["010a"])
-        self.metadatas['bib_isbn'] = result
+        self.metadatas["bib_isbn"] = result
 
     def get_bib_issn(self):
         """
         On récupère l'issn en B011$a.
         """
         result = self.get_marc_values(["011a"])
-        self.metadatas['bib_issn'] = result
+        self.metadatas["bib_issn"] = result
 
     def get_bib_ark_bnf(self):
         """
@@ -523,43 +558,45 @@ class Rbxbib2dict(Rbxmrc):
         if result:
             result = result.replace("http://catalogue.bnf.fr/", "")
             result = result.replace("https://catalogue.bnf.fr/", "")
-        self.metadatas['bib_ark_bnf'] = result
+        self.metadatas["bib_ark_bnf"] = result
 
     def get_bib_alignement_bnf(self):
         """
         Si la notice est alignée sur la Bnf, on attribue une valeur vraie.
         """
         result = False
-        if 'ark_bnf' not in self.metadatas:
+        if "bib_ark_bnf" not in self.metadatas:
             self.get_bib_ark_bnf()
-        elif 'ark:/12148' in self.metadatas['bib_ark_bnf']:
-            result = True
-        self.metadatas['bib_alignement_bnf'] = result
+        v = self.metadatas["bib_ark_bnf"]
+        if v:
+            if "12148" in v:
+                result = True
+        self.metadatas["bib_alignement_bnf"] = result
 
     def get_bib_frbnf(self):
         """
         On récupère le numéro FRBNF en B035$a.
         """
-        result = ''
+        result = ""
         data = self.get_marc_values(["035a"])
         if data:
-            if 'FRBNF' in data:
+            if "FRBNF" in data:
                 result = data
-        self.metadatas['bib_frbnf'] = result
+        self.metadatas["bib_frbnf"] = result
 
     def get_bib_refcom(self):
         """
         On récupère la référence commerciale en B071$ba.
         """
         result = self.get_marc_values(["071ba"])
-        self.metadatas['bib_refcom'] = result
+        self.metadatas["bib_refcom"] = result
 
     def get_bib_ean(self):
         """
         On récupère l'ean en B073$a.
         """
         result = self.get_marc_values(["073a"])
-        self.metadatas['bib_ean'] = result
+        self.metadatas["bib_ean"] = result
 
     def get_bib_rbx_vdg_action(self):
         """
@@ -571,17 +608,27 @@ class Rbxbib2dict(Rbxmrc):
         - notices bibliographiques et autorités (valeur 2)
         """
         result = self.get_marc_values(["091a"])
-        vdg_codes = self.referentiels['koha_av_v091a']
+        vdg_codes = self.referentiels["koha_av_v091a"]
         if result in vdg_codes.keys():
             result = vdg_codes[result]
-        self.metadatas['bib_rbx_vdg_action'] = result
+        self.metadatas["bib_rbx_vdg_action"] = result
 
     def get_bib_rbx_vdg_date(self):
         """
         On récupère la date de dernière vendange en 091b
         """
         result = self.get_marc_values(["091b"])
-        self.metadatas['bib_rbx_vdg_date'] = result
+        self.metadatas["bib_rbx_vdg_date"] = result
+
+    def get_bib_rbx_vdg_resultat(self):
+        """
+        On récupère le résultat de la vendange en 091c
+        """
+        result = self.get_marc_values(["091c"])
+        vdg_codes = self.referentiels["koha_av_v091c"]
+        if result in vdg_codes.keys():
+            result = vdg_codes[result]
+        self.metadatas["bib_rbx_vdg_resultat"] = result
 
     def get_bib_rbx_support(self):
         """
@@ -589,17 +636,17 @@ class Rbxbib2dict(Rbxmrc):
         et on le remplace par son libellé.
         """
         result = self.get_marc_values(["099t"])
-        support_codes = self.referentiels['koha_av_typedoc']
+        support_codes = self.referentiels["koha_av_typedoc"]
         if result in support_codes.keys():
             result = support_codes[result]
-        self.metadatas['bib_rbx_support'] = result
+        self.metadatas["bib_rbx_support"] = result
 
     def get_bib_rbx_date_creation_notice(self):
         """
         On récupère en 099$c la date de création de la notice biblio dans Koha.
         """
         result = self.get_marc_values(["099c"])
-        self.metadatas['bib_rbx_date_creation_notice'] = result
+        self.metadatas["bib_rbx_date_creation_notice"] = result
 
     def get_bib_rbx_date_modification_notice(self):
         """
@@ -607,7 +654,7 @@ class Rbxbib2dict(Rbxmrc):
         dans Koha.
         """
         result = self.get_marc_values(["099c"])
-        self.metadatas['bib_rbx_date_modification_notice'] = result
+        self.metadatas["bib_rbx_date_modification_notice"] = result
 
     def get_bib_date_creation_notice_B100(self):
         """
@@ -616,7 +663,7 @@ class Rbxbib2dict(Rbxmrc):
         """
         result = self.get_marc_values(["100a"])
         result = result[0:8]
-        self.metadatas['bib_date_creation_notice_B100'] = result
+        self.metadatas["bib_date_creation_notice_B100"] = result
 
     def get_bib_publication_date_B100(self, return2metadatas=True):
         """
@@ -626,7 +673,7 @@ class Rbxbib2dict(Rbxmrc):
         result = self.get_marc_values(["100a"])
         result = result[9:13]
         if return2metadatas:
-            self.metadatas['bib_publication_date_B100'] = result
+            self.metadatas["bib_publication_date_B100"] = result
         return result
 
     def get_bib_langue(self):
@@ -634,21 +681,21 @@ class Rbxbib2dict(Rbxmrc):
         On récupère en 101$a la langue du document.
         """
         result = self.get_marc_values(["101a"])
-        self.metadatas['bib_langue_document'] = result
+        self.metadatas["bib_langue_document"] = result
 
     def get_bib_langue_originale(self):
         """
         On récupère en 101$c la langue originale du document.
         """
         result = self.get_marc_values(["101c"])
-        self.metadatas['bib_langue_originale_document'] = result
+        self.metadatas["bib_langue_originale_document"] = result
 
     def get_bib_pays(self):
         """
         On récupère en 102$a le pays de parution ou de production.
         """
         result = self.get_marc_values(["102a"])
-        self.metadatas['bib_pays'] = result
+        self.metadatas["bib_pays"] = result
 
     def get_bib_scale(self):
         """
@@ -658,14 +705,14 @@ class Rbxbib2dict(Rbxmrc):
         result = self.get_marc_values(["123b"])
         if result is None:
             result = self.get_marc_values(["206b"])
-        self.metadatas['bib_scale'] = result
+        self.metadatas["bib_scale"] = result
 
     def get_bib_title(self):
         """
         On récupère le titre en B200$ae.
         """
         result = self.get_marc_values(["200ae"])
-        self.metadatas['bib_title'] = result
+        self.metadatas["bib_title"] = result
 
     def get_bib_key_title(self):
         """
@@ -675,7 +722,7 @@ class Rbxbib2dict(Rbxmrc):
         result = self.get_marc_values(["530a"])
         if result is None:
             result = self.get_marc_values(["200ae"])
-        self.metadatas['bib_key_title'] = result
+        self.metadatas["bib_key_title"] = result
 
     def get_bib_global_title(self):
         """
@@ -685,161 +732,167 @@ class Rbxbib2dict(Rbxmrc):
         result = self.get_marc_values(["225a"])
         if result is None:
             result = self.get_marc_values(["200ae"])
-        self.metadatas['bib_global_title'] = result
+        self.metadatas["bib_global_title"] = result
 
     def get_bib_part_title(self):
         result = self.get_marc_values(["464t"])
         if result is None:
             result = self.get_marc_values(["200ae"])
-        self.metadatas['bib_part_title'] = result
+        self.metadatas["bib_part_title"] = result
 
     def get_bib_numero_tome(self):
         result = self.get_marc_values(["200h"])
         if result is None:
             result = self.get_marc_values(["461v"])
-        self.metadatas['bib_numero_tome'] = result
+        self.metadatas["bib_numero_tome"] = result
 
     def get_bib_responsability(self):
-        result = self.get_marc_values(["700ab", "710ab", "701ab", "711ab", "702ab", "712ab"])
+        result = self.get_marc_values(
+            ["700ab", "710ab", "701ab", "711ab", "702ab", "712ab"]
+        )
         if result is None:
             self.get_marc_values(["200f"])
-        self.metadatas['bib_responsability'] = result
+        self.metadatas["bib_responsability"] = result
 
     def get_bib_subject(self):
-        result = self.get_marc_values(["600abcdefghijklmnopqrstuvwxyz",
-                                        "601abcdefghijklmnopqrstuvwxyz",
-                                        "602abcdefghijklmnopqrstuvwxyz",
-                                        "604abcdefghijklmnopqrstuvwxyz",
-                                        "605abcdefghijklmnopqrstuvwxyz",
-                                        "606abcdefghijklmnopqrstuvwxyz",
-                                        "607abcdefghijklmnopqrstuvwxyz",
-                                        "608abcdefghijklmnopqrstuvwxyz",
-                                        "609abcdefghijklmnopqrstuvwxyz"])
-        self.metadatas['bib_subject'] = result
+        result = self.get_marc_values(
+            [
+                "600abcdefghijklmnopqrstuvwxyz",
+                "601abcdefghijklmnopqrstuvwxyz",
+                "602abcdefghijklmnopqrstuvwxyz",
+                "604abcdefghijklmnopqrstuvwxyz",
+                "605abcdefghijklmnopqrstuvwxyz",
+                "606abcdefghijklmnopqrstuvwxyz",
+                "607abcdefghijklmnopqrstuvwxyz",
+                "608abcdefghijklmnopqrstuvwxyz",
+                "609abcdefghijklmnopqrstuvwxyz",
+            ]
+        )
+        self.metadatas["bib_subject"] = result
 
     def get_bib_publication_date_B210(self, return2metadatas=True):
         result = self.get_marc_values(["210d"])
         if return2metadatas:
-            self.metadatas['bib_publication_date_B210'] = result
+            self.metadatas["bib_publication_date_B210"] = result
         return result
 
     def get_bib_publication_date_B214(self, return2metadatas=True):
         result = self.get_marc_values(["214d"])
         if return2metadatas:
-            self.metadatas['bib_publication_date_B214'] = result
+            self.metadatas["bib_publication_date_B214"] = result
         return result
 
     def get_bib_publication_date_B219(self, return2metadatas=True):
         result = self.get_marc_values(["219d"])
         if return2metadatas:
-            self.metadatas['bib_publication_date_B219'] = result
+            self.metadatas["bib_publication_date_B219"] = result
         return result
 
     def get_bib_publication_date(self):
-        if 'publication_date_B100' in self.metadatas:
-            result = self.metadatas['bib_publication_date_B100']
-        else :
+        if "publication_date_B100" in self.metadatas:
+            result = self.metadatas["bib_publication_date_B100"]
+        else:
             result = self.get_bib_publication_date_B100(return2metadatas=False)
 
         if result is None:
-            if 'publication_date_B214' in self.metadatas:
-                result = self.metadatas['bib_publication_date_B214']
-            else :
+            if "publication_date_B214" in self.metadatas:
+                result = self.metadatas["bib_publication_date_B214"]
+            else:
                 result = self.get_bib_publication_date_B214(return2metadatas=False)
 
         if result is None:
-            if 'publication_date_B210' in self.metadatas:
-                result = self.metadatas['bib_publication_date_B210']
-            else :
+            if "publication_date_B210" in self.metadatas:
+                result = self.metadatas["bib_publication_date_B210"]
+            else:
                 result = self.get_bib_publication_date_B210(return2metadatas=False)
 
         if result is None:
-            if 'publication_date_B219' in self.metadatas:
-                result = self.metadatas['bib_publication_date_B219']
-            else :
+            if "publication_date_B219" in self.metadatas:
+                result = self.metadatas["bib_publication_date_B219"]
+            else:
                 result = self.get_bib_publication_date_B219(return2metadatas=False)
 
-        self.metadatas['bib_publication_date'] = result
+        self.metadatas["bib_publication_date"] = result
 
     def get_bib_publisher_B210(self, return2metadatas=True):
         result = self.get_marc_values(["210c"])
         if return2metadatas:
-            self.metadatas['bib_publisher_B210'] = result
+            self.metadatas["bib_publisher_B210"] = result
         return result
 
     def get_bib_publisher_B214(self, return2metadatas=True):
         result = self.get_marc_values(["214c"])
         if return2metadatas:
-            self.metadatas['bib_publisher_B214'] = result
+            self.metadatas["bib_publisher_B214"] = result
         return result
 
     def get_bib_publisher_B219(self, return2metadatas=True):
         result = self.get_marc_values(["219c"])
         if return2metadatas:
-            self.metadatas['bib_publisher_B219'] = result
+            self.metadatas["bib_publisher_B219"] = result
         return result
 
     def get_bib_publisher(self):
-        if 'publisher_B214' in self.metadatas:
-            result = self.metadatas['bib_publisher_B214']
-        else :
+        if "publisher_B214" in self.metadatas:
+            result = self.metadatas["bib_publisher_B214"]
+        else:
             result = self.get_bib_publisher_B214(return2metadatas=False)
 
         if result is None:
-            if 'publisher_B210' in self.metadatas:
-                result = self.metadatas['bib_publisher_B210']
-            else :
+            if "publisher_B210" in self.metadatas:
+                result = self.metadatas["bib_publisher_B210"]
+            else:
                 result = self.get_bib_publisher_B210(return2metadatas=False)
 
         if result is None:
-            if 'publisher_B219' in self.metadatas:
-                result = self.metadatas['bib_publisher_B219']
-            else :
+            if "publisher_B219" in self.metadatas:
+                result = self.metadatas["bib_publisher_B219"]
+            else:
                 result = self.get_bib_publisher_B219(return2metadatas=False)
 
-        self.metadatas['bib_publisher'] = result
+        self.metadatas["bib_publisher"] = result
 
     def get_bib_publication_place_B210(self, return2metadatas=True):
         result = self.get_marc_values(["210a"])
         if return2metadatas:
-            self.metadatas['bib_publication_place_B210'] = result
+            self.metadatas["bib_publication_place_B210"] = result
         return result
 
     def get_bib_publication_place_B214(self, return2metadatas=True):
         result = self.get_marc_values(["214a"])
         if return2metadatas:
-            self.metadatas['bib_publication_place_B214'] = result
+            self.metadatas["bib_publication_place_B214"] = result
         return result
 
     def get_bib_publication_place_B219(self, return2metadatas=True):
         result = self.get_marc_values(["219a"])
         if return2metadatas:
-            self.metadatas['bib_publication_place_B219'] = result
+            self.metadatas["bib_publication_place_B219"] = result
         return result
 
     def get_bib_publication_place(self):
-        if 'publication_place_B214' in self.metadatas:
-            result = self.metadatas['bib_publication_place_B214']
-        else :
+        if "publication_place_B214" in self.metadatas:
+            result = self.metadatas["bib_publication_place_B214"]
+        else:
             result = self.get_bib_publication_place_B214(return2metadatas=False)
 
         if result is None:
-            if 'publication_place_B210' in self.metadatas:
-                result = self.metadatas['bib_publication_place_B210']
-            else :
+            if "publication_place_B210" in self.metadatas:
+                result = self.metadatas["bib_publication_place_B210"]
+            else:
                 result = self.get_bib_publication_place_B210(return2metadatas=False)
 
         if result is None:
-            if 'publication_place_B219' in self.metadatas:
-                result = self.metadatas['bib_publication_place_B219']
-            else :
+            if "publication_place_B219" in self.metadatas:
+                result = self.metadatas["bib_publication_place_B219"]
+            else:
                 result = self.get_bib_publication_place_B219(return2metadatas=False)
 
-        self.metadatas['bib_publication_place'] = result
+        self.metadatas["bib_publication_place"] = result
 
     def get_bib_descmat(self):
         result = self.get_marc_values(["215a"])
-        self.metadatas['bib_descmat'] = result
+        self.metadatas["bib_descmat"] = result
 
     def get_bib_public(self):
         """
@@ -847,35 +900,36 @@ class Rbxbib2dict(Rbxmrc):
         Champs spécifique à Roubaix.
         """
         result = self.get_marc_values(["339a"])
-        koha_av_publicc = self.referentiels['koha_av_publicc']
+        koha_av_publicc = self.referentiels["koha_av_publicc"]
         if result in koha_av_publicc.keys():
             result = koha_av_publicc[result]
-        self.metadatas['bib_rbx_public'] = result
+        self.metadatas["bib_rbx_public"] = result
 
     def get_bib_adresse_electronique(self):
         result = self.get_marc_values(["856u"])
-        self.metadatas['bib_adresse_electronique'] = result
+        self.metadatas["bib_adresse_electronique"] = result
 
     def get_bib_agence_cat(self):
         """
         Extraction de l'agence catalographique, en B801b.
         """
         result = self.get_marc_values(["801b"])
-        agence_cat_codes = self.referentiels['agence_cat_codes']
+        agence_cat_codes = self.referentiels["agence_cat_codes"]
         if result in agence_cat_codes.keys():
             result = agence_cat_codes[result]
         else:
             if result:
-                result = 'autre'
-        self.metadatas['bib_agence_cat'] = result
+                result = "autre"
+        self.metadatas["bib_agence_cat"] = result
 
     def get_itemcallnumbers(self):
         """
         Extraction des cotes en 995k
         """
         result = self.get_marc_values(["995k"])
-        self.metadatas['cote'] = result
-        
+        self.metadatas["cote"] = result
+
+
 class Rbxauth2dict(Rbxmrc):
     """
     Classe qui permet de transformer une notice autorité MARC en dictionnaire
@@ -886,6 +940,7 @@ class Rbxauth2dict(Rbxmrc):
 
     En sortie, on obtient un dictionnaire
     """
+
     def __init__(self, record, **kwargs):
         super().__init__(**kwargs)
         self.record = record
@@ -914,7 +969,7 @@ class Rbxauth2dict(Rbxmrc):
         """
         Renvoie le numéro de la notice (champs B001)
         """
-        self.metadatas['auth_record_id'] = self.get_marc_values(["001"])
+        self.metadatas["auth_record_id"] = self.get_marc_values(["001"])
 
     def get_auth_statut_notice(self):
         """
@@ -923,10 +978,10 @@ class Rbxauth2dict(Rbxmrc):
         """
         result = self.get_marc_values(["LDR"])
         result = result[5]
-        auth_statut_notice_codes = self.referentiels['auth_statut_notice_codes']
+        auth_statut_notice_codes = self.referentiels["auth_statut_notice_codes"]
         if result in auth_statut_notice_codes.keys():
             result = auth_statut_notice_codes[result]
-        self.metadatas['auth_statut_notice'] = result
+        self.metadatas["auth_statut_notice"] = result
 
     def get_auth_type_notice(self):
         """
@@ -935,10 +990,10 @@ class Rbxauth2dict(Rbxmrc):
         """
         result = self.get_marc_values(["LDR"])
         result = result[6]
-        auth_type_notice = self.referentiels['auth_type_notice']
+        auth_type_notice = self.referentiels["auth_type_notice"]
         if result in auth_type_notice.keys():
             result = auth_type_notice[result]
-        self.metadatas['auth_type_notice'] = result
+        self.metadatas["auth_type_notice"] = result
 
     def get_auth_type_entite(self):
         """
@@ -947,14 +1002,14 @@ class Rbxauth2dict(Rbxmrc):
         """
         result = self.get_marc_values(["LDR"])
         result = result[9]
-        auth_type_entite = self.referentiels['auth_type_entite']
+        auth_type_entite = self.referentiels["auth_type_entite"]
         if result in auth_type_entite.keys():
             result = auth_type_entite[result]
-        self.metadatas['auth_type_entite'] = result
+        self.metadatas["auth_type_entite"] = result
 
     def get_auth_date_modification(self):
         result = self.get_marc_values(["005"])
-        self.metadatas['auth_date_modifcation'] = result
+        self.metadatas["auth_date_modifcation"] = result
 
     def get_auth_point_acces(self):
         """
@@ -973,7 +1028,6 @@ class Rbxauth2dict(Rbxmrc):
             ["230abcdefghijklmnpqrstuvwxyz", "titre_uniforme"],
             ["220abcdefghijklmnpqrstuvwxyz", "famille"],
             ["260abcdefghijklmnpqrstuvwxyz", "lieu_edition"],
-
             # pas encore (?) utilisé à Rbx
             ["216abcdefghijklmnpqrstuvwxyz", "marque"],
             ["217abcdefghijklmnpqrstuvwxyz", "imprimeur-libraire"],
@@ -984,40 +1038,95 @@ class Rbxauth2dict(Rbxmrc):
             ["241abcdefghijklmnpqrstuvwxyz", "auteur_titre_oeuvre"],
             ["242abcdefghijklmnpqrstuvwxyz", "auteur_titre_expression"],
             ["243abcdefghijklmnpqrstuvwxyz", "auteur_titre_juridique_religieux"],
-            ["245abcdefghijklmnpqrstuvwxyz", "auteur_rubrique_classement"]
+            ["245abcdefghijklmnpqrstuvwxyz", "auteur_rubrique_classement"],
         ]
 
         for pa_tag in pa_tags:
-            result = self.get_marc_values([ pa_tag[0] ])
-            if result != '':
+            result = self.get_marc_values([pa_tag[0]])
+            if result != "":
                 break
-        self.metadatas['auth_point_acces'] = result
-        self.metadatas['auth_point_acces_type'] = pa_tag[1]
+        self.metadatas["auth_point_acces"] = result
+        self.metadatas["auth_point_acces_type"] = pa_tag[1]
 
     def get_auth_isni(self):
         result = self.get_marc_values(["010a"])
-        self.metadatas['auth_isni'] = result
+        self.metadatas["auth_isni"] = result
 
     def get_auth_ark_bnf_A003(self):
         result = self.get_marc_values(["003"])
-        self.metadatas['auth_ark_bnf_A003'] = result
+        self.metadatas["auth_ark_bnf_A003"] = result
 
     def get_auth_ark_bnf_A009(self):
         result = self.get_marc_values(["009"])
-        self.metadatas['auth_ark_bnf_A009'] = result
+        self.metadatas["auth_ark_bnf_A009"] = result
 
     def get_auth_ark_bnf_A033(self):
         result = self.get_marc_values(["033a"])
-        self.metadatas['auth_ark_bnf_A033'] = result
+        self.metadatas["auth_ark_bnf_A033"] = result
 
     def get_auth_frbnf_A035(self):
         result = self.get_marc_values(["035a"])
-        self.metadatas['auth_frbnf_A035'] = result
+        self.metadatas["auth_frbnf_A035"] = result
 
     def get_auth_frbnf_A999a(self):
         result = self.get_marc_values(["999a"])
-        self.metadatas['auth_frbnf_A999a'] = result
+        self.metadatas["auth_frbnf_A999a"] = result
 
     def get_auth_frbnf_A999b(self):
         result = self.get_marc_values(["999b"])
-        self.metadatas['auth_frbnf_A999b'] = result
+        self.metadatas["auth_frbnf_A999b"] = result
+
+
+class Sru2iso:
+    def __init__(self, **kwargs):
+        if "ark_file" in kwargs:
+            self.ark_file = kwargs.get("ark_file")
+        if "file_out" in kwargs:
+            self.file_out = kwargs.get("file_out")
+        self.records = []
+
+    def ark_file2array(self):
+        ark_df = pd.read_csv(self.ark_file)
+        self.ark_array = ark_df["ark"].to_list()
+
+    def get_records_from_sru(self):
+        self.records = []
+        if hasattr(self, "ark_array"):
+            for ark in self.ark_array:
+                query = f'bib.persistentid all "{ark}"'
+                sru_url = "http://catalogue.bnf.fr/api/SRU"
+                params = {
+                    "version": "1.2",
+                    "operation": "searchRetrieve",
+                    "query": query,
+                    "recordSchema": "unimarcxchange",  # Format de la notice
+                    "maximumRecords": 5,  # Nombre de notices à retourner
+                    "startRecord": 1,  # Première notice à retourner
+                }
+                srw_xml = None
+                try:
+                    response = requests.get(sru_url, params=params)
+                    if response.status_code == 200:
+                        srw_xml = response.text
+                    else:
+                        print(
+                            f"Pb sur {ark} : Erreur {response.status_code}: {response.text}"
+                        )
+                except:
+                    print(f"Pb sur {ark}")
+
+                if srw_xml:
+                    for record in parse_xml_to_array(StringIO(srw_xml)):
+                        if record:
+                            self.records.append(record)
+
+                if len(self.records) == 100:
+                    print("write")
+                    self.write_records()
+                    self.records = []
+            self.write_records()
+
+    def write_records(self):
+        with open(self.file_out, "ab") as out:
+            for record in self.records:
+                out.write(record.as_marc())
